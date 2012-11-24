@@ -1,0 +1,168 @@
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(handout)$handout,$endif$$if(beamer)$ignorenonframetext,$endif$]{$documentclass$}
+$if(theme)$
+\usetheme{$theme$}
+$else$
+\usetheme{Berlin}
+$endif$
+$if(colortheme)$
+\usecolortheme{$colortheme$}
+$else$
+\usecolortheme{bee}
+$endif$
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+
+  \ifxetex
+    \usepackage{fontspec,xunicode}
+  \else
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+  \fi
+
+\ifxetex
+  \usepackage{polyglossia}
+  \setmainlanguage{german}
+  \setotherlanguages{english,french}
+\else
+  \usepackage[english,french,german]{babel}
+\fi
+\usepackage[babel,german=quotes]{csquotes}
+\usefonttheme{unigraz}
+$if(natbib)$
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+$endif$
+$if(biblatex)$
+\usepackage{biblatex}
+$if(biblio-files)$
+\bibliography{$biblio-files$}
+$endif$
+$endif$
+$if(listings)$
+\usepackage{listings}
+$endif$
+$if(lhs)$
+\lstnewenvironment{code}{\lstset{language=Haskell,basicstyle=\small\ttfamily}}{}
+$endif$
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+$if(verbatim-in-note)$
+\usepackage{fancyvrb}
+$endif$
+$if(fancy-enums)$
+\usepackage{enumerate}
+$endif$
+
+\usepackage{ctable}
+\usepackage{float} % provides the H option for float placement
+%\usepackage{dcolumn}   % Ermöglicht das Ausrichten von Tabellen am Dezimalpunkt
+\usepackage{% 
+  ellipsis,   % Korrigiert den Weißraum um Auslassungspunkte
+% ragged2e,   % Ermöglicht Flattersatz mit Silbentrennung
+  marginnote, % Für bessere Randnotizen mit \marginnote statt marginline
+  microtype,  % Mikrotypografische Feinheiten 
+      % Andere Einstellungen siehe microtype-Handbuch
+  eurosym,  % echte Euro-Symbol
+  xspace,   % ermöglich Lehrzeichen, dass nicht vor Satzzeichen ist
+% wasysym,  % Sammlung von Symbolen
+  blindtext,  % Einfügen von Blindtext
+  lmodern,
+  rotating, % Erlaubt vertikalen Text (Tabellen)
+  dcolumn   % Ermöglicht das Ausrichten von Tabellen am Dezimalpunkt
+}
+
+
+$if(url)$
+\usepackage{url}
+$endif$
+$if(graphics)$
+\usepackage{graphicx}
+$endif$
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+% \AtBeginPart{\frame{\partpage}}
+% \AtBeginSection{\frame{\sectionpage}}
+% \AtBeginSubsection{\frame{\subsectionpage}}
+% \AtBeginSubsubsection{\frame{\subsubsectionpage}}
+$if(strikeout)$
+\usepackage[normalem]{ulem}
+% avoid problems with \sout in headers with hyperref:
+\pdfstringdefDisableCommands{\renewcommand{\sout}{}}
+$endif$
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+$if(numbersections)$
+$else$
+\setcounter{secnumdepth}{0}
+$endif$
+$if(verbatim-in-note)$
+\VerbatimFootnotes % allows verbatim text in footnotes
+$endif$
+% $if(lang)$
+% \usepackage[$lang$]{babel}
+% $else$
+% \usepackage[english, ngerman]{babel}
+% $endif$
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+$if(date)$
+\date{$date$}
+$endif$
+$if(institute)$
+\institute[INSTITUT FÜR $institut$]{INSTITUT FÜR $institut$\\\tiny{KARL-FRANZENS-UNIVERSITÄT GRAZ}}
+$else$
+\institute[INSTITUT FÜR SOZIOLOGIE]{INSTITUT FÜR SOZIOLOGIE\\\tiny{KARL-FRANZENS-UNIVERSITÄT GRAZ}}
+$endif$
+\logo{\pgfimage[width=1.2cm,height=1cm]{/home/peter/.pandoc/templates/logo}}
+
+
+\begin{document}
+$if(title)$
+\frame{\titlepage}
+$endif$
+
+$for(include-before)$
+$include-before$
+
+$endfor$
+$if(toc)$
+\begin{frame}
+\tableofcontents[hideallsubsections]
+\end{frame}
+
+$endif$
+$body$
+
+$if(natbib)$
+$if(biblio-files)$
+$if(biblio-title)$
+$if(book-class)$
+\renewcommand\bibname{$biblio-title$}
+$else$
+\renewcommand\refname{$biblio-title$}
+$endif$
+$endif$
+\bibliography{$biblio-files$}
+
+$endif$
+$endif$
+$if(biblatex)$
+\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
+
+$endif$
+$for(include-after)$
+$include-after$
+
+$endfor$
+\end{document}
