@@ -3,7 +3,7 @@ Mädchenbücher -- Bubenbücher
 ============================
 
   Mädchenbücher -- Bubenbücher ist ein Forschungsprojekt das innerhalb der 
-  Lerhveranstaltung *Forschungspraktikum* im rahmen des Bacelaureat-Studiums
+  Lehrveranstaltung *Forschungspraktikum* im rahmen des Bakkalaureat-Studiums
   *Soziologie* an der *Karl-Franzens-Universität Graz* durchgeführt wird.
 
 
@@ -29,7 +29,7 @@ Umsetzung mit Git und Markdown
 ### Die Text-Dateien
 
   Die Text-Dateien befinden sich im Ordner `texte/`. Jeder Abschnitt ist eine 
-  seperate Datei. Um den Text zu formatieren wird *Pandoc Markdown* verwendet.
+  separat Datei. Um den Text zu formatieren wird *Pandoc Markdown* verwendet.
   Die erste Überschrifts-Ebene entspricht den *Kapiteln*. Die Zweite den Abschnitten.
 
   **Beispiel für die Formatierung**
@@ -38,7 +38,7 @@ Umsetzung mit Git und Markdown
     ============================
 
       Mädchenbücher -- Bubenbücher ist ein Forschungsprojekt das innerhalb der 
-      Lerhveranstaltung *Forschungspraktikum* im rahmen des Bacelaureat-Studiums
+      Lehrveranstaltung *Forschungspraktikum* im rahmen des Bakkalaureat-Studiums
       *Soziologie* an der *Karl-Franzens-Universität Graz* durchgeführt wird.
 
     Umsetzung mit Git
