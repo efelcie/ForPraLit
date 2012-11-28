@@ -30,7 +30,7 @@
 
 pandoc texte/titel.markdown bericht.markdown \
   --output bericht.pdf\
-  --template=vorlagen/default.latex\
+  --template=vorlagen/default.tex\
   --chapters\
   --table-of-contents\
   --bibliography=literatur/primaer.bib\
