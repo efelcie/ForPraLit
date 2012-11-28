@@ -18,20 +18,50 @@
 # Pandoc und LaTeX muss installiert sein.
 
 
+  # pandoc\
+  # texte/theoretischegrundannahmen.tex \
+  # texte/einleitung.markdown \
+  # texte/forschungsdesign.markdown \
+  # texte/fazit.markdown\
+  # --output bericht.markdown\
+  # --table-of-contents\
+  # --bibliography=literatur/primaer.bib;
+
+
+
+# pandoc texte/titel.markdown bericht.markdown \
+#   --output bericht.pdf\
+#   --template=vorlagen/default.tex\
+#   --chapters\
+#   --table-of-contents\
+#   --bibliography=literatur/primaer.bib\
+#   --bibliography=literatur/sekundaer.bib\
+#   --biblatex;
+
+b=bericht
+
   pandoc\
+  texte/titel.markdown \
+  texte/theoretischegrundannahmen.tex \
   texte/einleitung.markdown \
   texte/forschungsdesign.markdown \
   texte/fazit.markdown\
-  --output bericht.markdown\
-  --table-of-contents\
-  --bibliography=literatur/primaer.bib;
-
-
-
-pandoc texte/titel.markdown bericht.markdown \
-  --output bericht.pdf\
+  --output $b.tex\
   --template=vorlagen/default.tex\
   --chapters\
   --table-of-contents\
   --bibliography=literatur/primaer.bib\
-  --biblatex;
+  --bibliography=literatur/sekundaer.bib\
+  --biblatex \
+  --standalone;
+
+
+  pdflatex $b.tex;
+
+  biber $b;
+
+  pdflatex $b.tex;
+
+  rm $b.run.xml $b.out $b.toc $b.tex \
+  $b.log $b.blg $b.bbl $b.bcf $b.aux;
+

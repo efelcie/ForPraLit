@@ -39,7 +39,7 @@ $if(natbib)$
 \bibliographystyle{plainnat}
 $endif$
 $if(biblatex)$
-\usepackage{biblatex}
+\usepackage[backend=biber]{biblatex}
 $if(biblio-files)$
 \bibliography{$biblio-files$}
 $endif$
