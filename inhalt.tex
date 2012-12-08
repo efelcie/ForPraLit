@@ -1,0 +1,147 @@
+\documentclass[]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \usepackage{fontspec}
+  \ifxetex
+    \usepackage{xltxtra,xunicode}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% Redefine labelwidth for lists; otherwise, the enumerate package will cause
+% markers to extend beyond the left margin.
+\makeatletter\AtBeginDocument{%
+  \renewcommand{\@listi}
+    {\setlength{\labelwidth}{4em}}
+}\makeatother
+\usepackage{enumerate}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+
+\usepackage{ctable}
+\usepackage{float} % provides the H option for float placement
+%\usepackage{dcolumn}   % Ermöglicht das Ausrichten von Tabellen am Dezimalpunkt
+\usepackage{% 
+  ellipsis,   % Korrigiert den Weißraum um Auslassungspunkte
+% ragged2e,   % Ermöglicht Flattersatz mit Silbentrennung
+  marginnote, % Für bessere Randnotizen mit \marginnote statt marginline
+  microtype,  % Mikrotypografische Feinheiten 
+      % Andere Einstellungen siehe microtype-Handbuch
+  eurosym,  % echte Euro-Symbol
+  xspace,   % ermöglich Lehrzeichen, dass nicht vor Satzzeichen ist
+% wasysym,  % Sammlung von Symbolen
+  blindtext,  % Einfügen von Blindtext
+  lmodern,
+  rotating, % Erlaubt vertikalen Text (Tabellen)
+  dcolumn   % Ermöglicht das Ausrichten von Tabellen am Dezimalpunkt
+}
+
+
+
+\author{}
+\date{}
+
+\begin{document}
+
+Inhalt ======
+
+\begin{enumerate}[<+->][1.]
+\item
+  Was sind Mädchenbücher?
+\item
+  Welche Merkmals haben Mädchenbücher?
+
+  \begin{enumerate}[<+->][1.]
+  \item
+    Verpackung
+
+    \begin{enumerate}[<+->][1.]
+    \item
+      Kaufentscheidung
+    \item
+      Farbe
+    \item
+      Text
+
+      \begin{enumerate}[<+->][1.]
+      \item
+        Autor\_in
+      \item
+        Hauptfigur
+      \item
+        Titel
+      \item
+        Klappentext
+
+        Genre
+      \end{enumerate}
+    \end{enumerate}
+  \item
+    Inhalt
+
+    \begin{enumerate}[<+->][1.]
+    \item
+      Figur
+
+      \begin{enumerate}[<+->][1.]
+      \item
+        Geschlecht
+      \item
+        Doing Gender
+      \end{enumerate}
+    \item
+      Kommunkationsstile
+    \item
+      Handeln
+
+      Ziel-Orientierung
+    \item
+      Figur
+    \end{enumerate}
+  \item
+    Verbindung zwischen Verpackung und Inhalt
+  \end{enumerate}
+\item
+  Wo entstehen Mädchenbücher?
+
+  \begin{enumerate}[<+->][1.]
+  \item
+    Autor\_innen
+  \item
+    Verlage
+  \item
+    Eltern
+  \item
+    Peers
+  \end{enumerate}
+\end{enumerate}
+
+Text
+
+\end{document}

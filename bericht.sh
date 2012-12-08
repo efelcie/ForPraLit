@@ -41,11 +41,12 @@
 b=bericht
 
   pandoc\
-  texte/titel.markdown \
-  texte/theoretischegrundannahmen.tex \
-  texte/einleitung.markdown \
-  texte/forschungsdesign.markdown \
-  texte/fazit.markdown\
+  texte/titel.md \
+  texte/einleitung.md \
+  texte/leseverhalten.md \
+  texte/handlung.md \
+  texte/merkmale.md \
+  texte/fazit.md\
   --output $b.tex\
   --template=vorlagen/default.tex\
   --chapters\
@@ -56,11 +57,15 @@ b=bericht
   --standalone;
 
 
-  pdflatex $b.tex;
+  pdflatex $b.tex 
 
   biber $b;
 
-  pdflatex $b.tex;
+  pdflatex $b.tex
+
+  echo " "
+  echo "LaTeX-Dateien löschen..."
+  echo " "
 
   rm $b.run.xml $b.out $b.toc $b.tex \
   $b.log $b.blg $b.bbl $b.bcf $b.aux;
