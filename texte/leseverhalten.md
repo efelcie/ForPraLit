@@ -17,6 +17,8 @@ Schulen in Graz, 3.4. Klasse, 300 Fragebögen
 
 mind. 50 Nennungen -> Liste mit 30 Büchern, Bildung des m/b- Faktors, Tabellen, welche Bücher sind eindeutig, welche nicht?
 
+\input{tabellen/top30.tex}
+
 ### Interpretation der Ergebnisse
 
 Bias?( ganze Klasse hat ein Buch gelesen,...) 
