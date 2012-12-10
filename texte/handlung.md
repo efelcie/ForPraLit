@@ -19,10 +19,10 @@ Geschlechterproportionen der Hauptcharaktere
 --------------------------------------------
 
 In diesem Kapitel werden die Geschlechter (Sex bzw. Sex-Categories)
-etwas genauer untersucht und Teilfragen wie „Lesen Mädchen vor allem
-Bücher mit weiblichen HauptprotagonistInnen?“ und „Kann man einen
+etwas genauer untersucht und Teilfragen wie "Lesen Mädchen vor allem
+Bücher mit weiblichen HauptprotagonistInnen?" und "Kann man einen
 Unterschied bei der Wahl eines Geschlechtes in den verschiedenen
-Lesestufen erkennen?“ beantwortet. Der zweiten Frage liegt die Vermutung
+Lesestufen erkennen?" beantwortet. Der zweiten Frage liegt die Vermutung
 zu Grunde, dass menschliche Charaktere verstärkt in Selbstleseliteratur
 zu finden sind, während tierische bzw. fabelhafte Charaktere und damit
 vermehrt geschlechtsneutrale Figuren im Vor- bzw. Erstlesealter zu
@@ -53,7 +53,7 @@ ihrer geförderten und somit  ausgeprägten Kreativität vermehrt Bücher
 wählen, die phantastische Elemente beinhalten. Phantastische Elemente
 sind sämtliche Vorgänge die im realen Leben nicht vorkommen bzw.
 wissenschaftlich widerlegt sind. Beispiele: Zaubern, Drachen, sprechende
-Tiere, … . Das Vorkommen derartiger Elemente wird spezifisch für beide
+Tiere, ... . Das Vorkommen derartiger Elemente wird spezifisch für beide
 Geschlechter analysiert und eventuell mit passenden Textstellen aus
 Kinderbüchern untermauert werden. Weiters soll dieses Merkmal darauf
 geprüft werden ob Erst- bzw. Vorlesebücher im Vergleich mit
@@ -71,7 +71,7 @@ der Besuch einer sagenumwobenen Insel ein Abenteuerbuch und der Besuch
 des Schulunterrichtes ein Beispiel für ein Alltagsbuch. Die im ersten
 Satz dieses Kapitels gestellte Hypothese könnte etwa durch das
 Spielverhalten der Kinder erklärt werden – Da Buben vermehrt draußen (im
-Garten, am Fußballfeld,…) und Mädchen vermehrt im Haus (Puppen, Puzzle
+Garten, am Fußballfeld,...) und Mädchen vermehrt im Haus (Puppen, Puzzle
 bauen,...) spielen. Anbei wird auch untersucht ob ein Unterschied bei den
 Lesestufen festgehalten werden konnte.
 
@@ -80,7 +80,7 @@ Von Ziel, Quest und Rätsel
 
 Verfolgt der Hauptprotagonist ein spezielles Ziel (Quest) und geht es im
 Verlauf des Buches darum dieses zu erreichen? Typische Beispiele dafür
-wären etwa Detektivgeschichten (zB die drei ???) wo das lösen eines
+wären etwa Detektivgeschichten (\zB die drei ???) wo das lösen eines
 Rätsels den Verlauf der Erzählung hauptsächlich bedingt. Es wird
 vermutet, dass Buben vermehrt Bücher lesen die einen derartigen Aufbau
 verfolgen. Ein Gegenbeispiel wären etwa die Mini-Bücher! Ebenfalls mit
@@ -89,20 +89,20 @@ den Lesestufen zu untersuchen.
 Ein Reifeprozess zum nachmachen – Growing-Up
 --------------------------------------------
 
-„Findet in der Geschichte ein Reifungsprozess des Hauptcharakters
-statt?“ Beispiel: Der Regenbogenfisch – Dieser schwimmt zuerst
+"Findet in der Geschichte ein Reifungsprozess des Hauptcharakters
+statt?" Beispiel: Der Regenbogenfisch – Dieser schwimmt zuerst
 egoistisch und hochnäsig durch das Meer, bis er darauf kommt das er
 damit immer stärker vereinsamt und somit beschließt seine Besonderheit
 zu teilen um doch lieber einer von Vielen – dafür mit Freunden – zu sein
 als etwas Besonderes und dafür alleine sein zu müssen. Es wird vermutet,
 dass besonders in Mädchenbüchern ein Reifeprozesse vermehrt stattfinden,
-diese jedoch auch in Vor- und Erstleseliteratur zu finden sind.“
+diese jedoch auch in Vor- und Erstleseliteratur zu finden sind.
 
 Das Tor zu den Gedanken – Innerer Monolog
 -----------------------------------------
 
-„Wie wichtig ist die Gedankenwelt eines Hauptcharakters für den Verlauf
-eines Buches?“ Es gibt Charaktere die besonders aktiv dargestellt
+"Wie wichtig ist die Gedankenwelt eines Hauptcharakters für den Verlauf
+eines Buches?" Es gibt Charaktere die besonders aktiv dargestellt
 werden, dass bedeutet sie sind ständig am handeln und ihre
 Entscheidungen werden nicht hinterfragt, da es geradezu absurd wirken
 würde darüber nachzudenken. Der gegenteilige Typus wäre ein Charakter
@@ -121,14 +121,16 @@ festgehalten. Dieses Kapitel soll dazu dienen eine Momentaufnahme der
 meist gelesensten Hauptcharaktere und deren klischeehafte bzw –arme
 Darstellung wider zu geben. Dazu wurde eine Eigenschaftenliste verwendet
 die jeweils eine dem weiblichen Geschlecht zugeordnete Eigenschaft einer
-männlichen klischeehaften Eigenschaft gegenüberstellt. Bsp: Schwach –
-Stark. 1 = Weiblich; 2= Männlich. Liegt der Durchschnittswert über 1,5
+männlichen klischeehaften Eigenschaft gegenüberstellt. 
+
+Bsp: Schwach –
+Stark. 1 = Weiblich; 2 = Männlich. Liegt der Durchschnittswert über $1{,}5$
 handelt es sich um einen Charakter mit männlich deklarierten
 Verhalten/Wesen – darunter tendiert der Charakter zu weiblichen
 Eigenschaften. Vermutet wird, dass weibliche Charaktere eher mit
 männlichen Eigenschaften dargestellt werden als männliche Charaktere.
-Des Weiteren dient diese Kapitel dazu die Thematik „gender and
-doing-gender“ in die Arbeit einzugliedern.
+Des Weiteren dient diese Kapitel dazu die Thematik "gender and
+doing-gender" in die Arbeit einzugliedern.
 
 Eigenschaftenliste:
 
@@ -143,3 +145,7 @@ Kommunikationsstile der Geschlechter
 ------------------------------------
 
 Peter ausfüllen.
+
+\input{tabellen/kommunikationsstile.tex}
+
+

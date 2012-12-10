@@ -1,6 +1,8 @@
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$]{scrreprt}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
+\usepackage{tabularx}
+\usepackage{multirow}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
@@ -150,6 +152,7 @@ $else$
 \else
   \usepackage[ngerman]{babel}
 \fi
+\usepackage[babel]{csquotes}
 $endif$
 $for(header-includes)$
 $header-includes$
@@ -160,6 +163,28 @@ $if(title)$
 $endif$
 \author{$for(author)$$author$$sep$ \and $endfor$}
 \date{$date$}
+
+\newcommand{\zB}{\mbox{z.\,B.}\xspace}  % Definiert einen Befehl für z.B.
+
+%\renewcommand{\familydefault}{\sfdefault}
+%\renewcommand{\familydefault}{\rmdefault} 
+          %Standardschrift ist Roman (wegen stdpage)
+
+
+\SetCiteCommand{\parencite}   % Notwendig für (Zitieren)
+\renewcommand{\mkccitation}[1]{ #1} %
+
+
+
+
+
+
+
+
+
+
+
+
 
 \begin{document}
 $if(title)$
