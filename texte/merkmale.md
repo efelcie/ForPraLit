@@ -1,7 +1,7 @@
 Was für Unterschiede gibt es abgesehen von der Handlung?
 ========================================================
 
-  Welche Unterschiede außer, der Handlung gibt es noch?
+  Welche Unterschiede außer der Handlung gibt es noch?
 
   * Titel
   * Typ
@@ -13,7 +13,7 @@ Was für Unterschiede gibt es abgesehen von der Handlung?
 Design
 ------
 
-  Oft erkennt man bei einem Buch schon von weiten, ob es sich um ein Mädchen oder ein Bubenbuch handelt. Einfach scheint es bei rosa Büchern. Die scheinen für Mädchen reserviert zu sein. Doch ist das so einfach? In diesem Abschnitt beschäftigen wir uns mit den Zusammenhängen von Design und dem w/m-Faktor.
+  Oft erkennt man bei einem Buch schon von weitem, ob es sich um ein Mädchen oder ein Bubenbuch handelt. Einfach scheint es bei rosa Büchern. Die scheinen für Mädchen reserviert zu sein. Doch ist das so einfach? In diesem Abschnitt beschäftigen wir uns mit den Zusammenhängen von Design und dem w/m-Faktor.
 
   * Helligkeit
   * Buchstaben
@@ -43,7 +43,7 @@ Geschlecht
 
   Unter Geschlecht verstehen wir "sex category" des
 
-  Prinzipiell kann man Unterscheiden zwischen dem Geschlecht der Autorinnen oder Autoren (bzw. der Illustratorinnen oder Illustratoren) des Buchs.
+  Prinzipiell kann man Unterscheiden zwischen dem Geschlecht (und dem durch Sozialisationsfaktoren entstandenem Gender(?)) der Autorinnen oder Autoren (bzw. der Illustratorinnen oder Illustratoren) des Buchs.
   Dieses Geschlecht ist auf jedem Buch leicht erkennbar.
   Der zweiter Unterschied ist das Geschlecht der Hauptfigur, mit der sich die Lesenden identifizieren (sollen). Hier unterscheiden wir zwischen der Figur die über den Titel mit dem Buch verbunden wird, und der "tatsächlichen" Hauptfigur. (Beispiel: Peter Pan)
 
@@ -80,7 +80,7 @@ Setting
 
 ### Abenteuer
 
-  Eine weitere Setting Entscheidung ist. Ob die Figuren in ein Abenteuer, also eine Unternehmung, die Gefährlich ist und sich klar vom Alltag unterscheidet oder bleibt die Hauptfigur mit Problemen des Alltags, die jeder von uns kennt konfrontiert?
+  Eine weitere Setting Entscheidung ist. Ob die Figuren in ein Abenteuer, also eine Unternehmung, die gefährlich ist und sich klar vom Alltag unterscheidet oder bleibt die Hauptfigur mit Problemen des Alltags, die jeder von uns kennt konfrontiert?
 
   (Es ist auch der Alltag in einer Fantasiewelt möglich.)
   
@@ -93,7 +93,7 @@ Setting
   Ein Beispiel dafür der auch in der Kinderliteratur funktioniert ist *Krimi*.
   Hier geht es um das Lösen eines (kriminellen) Falls. Lesender dieses Genres erwarten sich, gewisse Faktoren, die der Krimi zu erfüllen hat.
 
-  Aber Kinderbücher in Genres einzuteilen ist oft nicht möglich.
+  Aber Kinderbücher in Genres einzuteilen ist oft nicht genau möglich.
 
 
 
