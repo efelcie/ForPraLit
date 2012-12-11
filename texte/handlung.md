@@ -1,3 +1,4 @@
+
 Handeln Hauptfiguren in Mädchenbüchern anders als in Bubenbüchern?
 =================================================================
 
@@ -25,7 +26,7 @@ zu wagen, die bestehenden und stereotypen Geschlechterrollen aufzuzeigen, zu ver
 *Geschichten vom Franz* von Christine Nöstlinger. Franz ist eine Figur die
 gerade zu überladen wurde mit weiblichen Klischeeeigenschaften. Es wurde
 zum Geschlecht ein gegenteiliges Gender entworfen. Bei diesem Beispiel
-wird jedoch auch die Problematik dieser „traditionellen“ Annahme
+wird jedoch auch die Problematik dieser "traditionellen" Annahme
 sichtbar: Mädchen lesen die *Geschichten vom Franz* eindeutig häufiger als Burschen. Die Annahme die hier verfolgt wird, muss deshalb eine andere sein: 
 Wir gehen davon aus, dass vor allem das Verhalten und Handeln
 der Sympathiefiguren auf den/die LeserIn abfärben. Liest also ein Kind
@@ -34,8 +35,6 @@ Geschlechtes, sondern vielmehr werden Handlungsweisen der Hauptfiguren als nacha
 bedeutungslos, ob es sich dabei um eine weibliche oder einen männlichen
 SympathieträgerIn handelt.
 
-\
-\
 
 Darstellung der unterschiedlichen Annahmen:
 
@@ -75,8 +74,7 @@ das reine biologische Geschlecht.
 
 Daher: cor(LG, BG) \< cor(LG,Bg)
 
-\
-\
+
 Wir fragen uns nun, welche Handlungsweisen besonders oft in Bubenbüchern
 und welche bevorzugt in Mädchenbüchern vorkommen.
 
@@ -115,8 +113,8 @@ Leser auch zugänglich gemacht werden. Es wird vermutet, dass der innere Monolog
 Bubenbüchern viel seltener und schwächer ausgeprägt ist als in
 Mädchenbüchern.
 
-Du bist ein ...
------------
+Geschlechter Stereotype
+-----------------------
 
 Bei den Recherchen zum Thema Geschlechterstereotype in der Kinderliteratur
 wird oftmals ein Trend in Richtung geschlechterneutrale und klischeearme
@@ -145,11 +143,10 @@ Eigenschaftenliste:
 Untermauert werden alle Ergebnisse mit entsprechenden Beschreibungen und
 Zitaten die direkt aus den Kinderbüchern übernommen werden.
 
-Kommunikationsstile der Geschlechter
-------------------------------------
+<!-- Kommunikationsstile der Geschlechter
 
 Peter ausfüllen.
 
 \input{tabellen/kommunikationsstile.tex}
-
+ -->
 

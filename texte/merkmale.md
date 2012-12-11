@@ -1,7 +1,12 @@
-Was für Unterschiede gibt es abgesehen von der Handlung?
+Wie lässt sich die Bücherauswahl erklären?
 ========================================================
 
-  Welche Unterschiede außer der Handlung gibt es noch?
+ In diesem Abschnitt wird die Bücherauswahl durchleuchtet.
+ (Und mathematisch modelliert)
+
+ Manche Aspekte, die schon weiter oben behandelt wurden, werden hier noch einmal unter dem Aspekt "Wie beeinflusst der Aspekt die geschlechtsspezifische Auswahl der Bücher?"
+
+
 
   * Titel
   * Typ
@@ -41,9 +46,11 @@ Geschlecht
 
   Das es einen Zusammenhang zwischen dem Geschlecht der Lesenden und des Buches gibt ist anzunehmen. Doch was ist das Geschlecht des Buchs?
 
-  Unter Geschlecht verstehen wir "sex category" des
+  Unter Geschlecht verstehen wir "sex category" nach West/Zimmermann.
+  Es entspricht dem, das wir "Frau" und "Mann" zuordnen.
+  Davon unterscheiden lässt sich "sex" das biologische Geschlecht und "gender", das für (stereo) typisches Verhalten steht.
 
-  Prinzipiell kann man Unterscheiden zwischen dem Geschlecht (und dem durch Sozialisationsfaktoren entstandenem Gender(?)) der Autorinnen oder Autoren (bzw. der Illustratorinnen oder Illustratoren) des Buchs.
+  Prinzipiell kann man Unterscheiden zwischen dem Geschlecht  der Autorinnen oder Autoren (bzw. der Illustratorinnen oder Illustratoren) des Buchs feststellen.
   Dieses Geschlecht ist auf jedem Buch leicht erkennbar.
   Der zweiter Unterschied ist das Geschlecht der Hauptfigur, mit der sich die Lesenden identifizieren (sollen). Hier unterscheiden wir zwischen der Figur die über den Titel mit dem Buch verbunden wird, und der "tatsächlichen" Hauptfigur. (Beispiel: Peter Pan)
 
@@ -62,6 +69,7 @@ Geschlecht
 
 ### Hauptfigur
 
+  (Titelfigur korreliert stärke, Indiz für Verpackungs-Theorie)
   Wie hängt das Geschlecht der Hauptfigur mit dem w/m-Faktor zusammen?
 
 
@@ -76,7 +84,7 @@ Setting
 
 ### Phantastische Elemente
 
-  Ein Setting Aspekt sind die *fantastischen Element*. Wird die Hauptfigur mit einer Welt konfrontiert, in der Dinge vorkommen die den Gesetzen der Naturwissenschaft wiedersprechen?
+  Ein Setting Aspekt sind die *fantastischen Element*. Wird die Hauptfigur mit einer Welt konfrontiert, in der Dinge vorkommen die den Gesetzen der Naturwissenschaft widersprechen?
 
 ### Abenteuer
 
