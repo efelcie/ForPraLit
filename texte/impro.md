@@ -94,13 +94,75 @@
 
 ## Charakter-Analyse
 
+  Das zweite, für uns wesentliche, Merkmal ist das Verhalten der Hauptfiguren.
+  Oder genauer: das geschlechts-typische, Verhalten.
+  Wie feminin oder maskulin verhalten sich die Hauptfiguren?
+  Hier arbeiten wir mit einer Liste von Eigenschaftspaaren, bei dem jeweils eines für Stereotypisch männliches, und das andere für stereotypisch weibliche Verhalten steht.
+  Diese Eigenschafte ordnen wir den Charakteren zu, und bestimmen für sie einen Wert, der ihnen entweder feminines oder maskulines Verhalten bescheinigt.
+  Uns ist bewusst, dass die Skala nicht sehr genau ist, glauben aber, dass sie Tendenzen gut abbildet und wir uns so die Untersuchung bei allen Büchern durchführen können.
+
+  Weiters werden gewisse andere Aspekte der Hauptfigur erhoben.
+  Darunter fällt das Geschlecht, ob es sich um eine Hauptfigur oder einen Multiprotagonisten handelt und so weiter.
+
+
+## Cover-Analyse
+
+  Weitere wesentliche Merkmale, die wir erheben müssen, sind die Merkmale mit denen wir die Entscheidung der Kinder (oder ihrer Eltern) erklären wollen.
+  Der auf dein ersten Blick entscheidende Faktor ist die *Farbe*.
+  Ein rosarotes Buch ist, ganz klar, ein Mädchenbuch.
+  Doch bei anderen Farben wird es schnell komplizierter.
+  Somit suchten wir eine Möglichkeit um die Farben möglichst gut messen zu können.
+  Wir entschieden uns schließlich für die Helligkeit.
+  Die Helligkeit ist ein Faktor der gut reproduzierbar mit jedem Bildeditor einfach feststellbar ist.
+  Des weiteren haben wir einen metrisch skalierten Wert den wir gut mit unseren anderen Werten vergleichen können.
+
+  Die Farbe oder Helligkeit, kässt eine Orientierung zu ohne sich dem Buch nähern zu müssen.
+  Doch nähert man sich dem Buch kommen neue Ebenen zum Vorschein.
+  Zuerst die Bilder dann der Text.
+
+  Auf nahezu allen Kinderbüchern gibt es Grafiken.
+  Was wird auf den Büchern dargestellt.
+  Gibt es mehrere Figuren?
+  Agieren diese miteinander?
+  Welechem Geschlecht können die Figuren zugerordnet werden?
+
+
+  Was für ein Text steht auf der Vorderseite eines Buchs.
+  Es ist meistens die Autorin oder der Autor, die Illustratorin oder der Illustrator, der Verlag und der Titel mit Untertitel und je nach dem mit Reihen- oder Serientitel.
+  Für uns relevant, ist wieder alles, dass sich für eine Aufteilung in männlich/weiblich, maskulin/feminin eignet.
+  Da sticht in erster Line das Geschlecht der Namen ins Auge.
+  Dieses Geschlecht, also einerseits der Kreativen und andererseits der Namen die im Titel vorkommen.
+  (Das muss nicht automatisch das Geschlecht der Hauptfigur sein.)
+  Andere Aspekte wie die Menge des Textes am Cover oder die Länge des Titels war schwer vernünftig zu messen.
+  <!-- Ein weiterer interessant wäre die femininität/makulinität der Aussage des Titels. -->
+
+## Entstehungs-Analyse
+
+## Statistische Überprüfungen
+
 
 
 
 
 # Die Durchführung
 
+  Die Druchführung lief ganz ohne Probleme ab. ;)
+
 # Die Ergebnisse
+
+  Was sind nun die Ergebnisse der Untersuchungen?
+
+## Frage 1
+
+### Merkmal 1
+
+### Merkmal 2
+
+### Vergleich
+
+## Frage 2
+
+### Merkmale a--z
 
 # Was heißt das?
 
