@@ -1,0 +1,759 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+<TITLE>PSPP Output</TITLE>
+<META NAME="generator" CONTENT="GNU pspp 0.7.9">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<STYLE TYPE="text/css">
+<!--
+body {
+  background: white;
+  color: black;
+  padding: 0em 12em 0em 3em;
+  margin: 0
+}
+body>p {
+  margin: 0pt 0pt 0pt 0em
+}
+body>p + p {
+  text-indent: 1.5em;
+}
+h1 {
+  font-size: 150%;
+  margin-left: -1.33em
+}
+h2 {
+  font-size: 125%;
+  font-weight: bold;
+  margin-left: -.8em
+}
+h3 {
+  font-size: 100%;
+  font-weight: bold;
+  margin-left: -.5em }
+h4 {
+  font-size: 100%;
+  margin-left: 0em
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  color: blue
+}
+html {
+  margin: 0
+}
+code {
+  font-family: sans-serif
+}
+table {
+  border-collapse: collapse;
+  margin-bottom: 1em
+}
+th { background: #dddddd; font-weight: normal; font-style: oblique }
+caption {
+  text-align: left
+}
+-->
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff" TEXT="#000000"
+ LINK="#1f00ff" ALINK="#ff0000" VLINK="#9900dd">
+<DIV class="GET"><H3>GET</H3>
+<PRE class="syntax">GET FILE=&quot;/home/peter/git/ForPraLit/daten/merkmalebuecher.sav&quot;.
+</PRE>
+</DIV>
+<DIV class="CORRELATIONS"><H3>CORRELATIONS</H3>
+<PRE class="syntax">CORRELATION
+	/VARIABLES =  v04 v08 v07 v12 v21 v10 v11 v18 v17 v16 v15 v14 v13
+	/PRINT = TWOTAIL SIG.
+</PRE>
+<TABLE>
+  <CAPTION>Correlations</CAPTION>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-top: double; border-left: double"></TH>
+    <TH ALIGN="RIGHT" STYLE="border-top: double"></TH>
+    <TH STYLE="border-top: double; border-left: double"><EM>Geschlecht</EM></TH>
+    <TH STYLE="border-top: double; border-left: thin solid"><EM>Helligkeit</EM></TH>
+    <TH STYLE="border-top: double; border-left: thin solid"><EM>Geschlecht der Titelfigur</EM></TH>
+    <TH STYLE="border-top: double; border-left: thin solid"><EM>w/m-Faktor</EM></TH>
+    <TH STYLE="border-top: double; border-left: thin solid"><EM>Gender-Faktor</EM></TH>
+    <TH STYLE="border-top: double; border-left: thin solid"><EM>Seiten</EM></TH>
+    <TH STYLE="border-top: double; border-left: thin solid"><EM>Figurenanzahl am Cover</EM></TH>
+    <TH STYLE="border-top: double; border-left: thin solid"><EM>Geschlecht Hauptfigur</EM></TH>
+    <TH STYLE="border-top: double; border-left: thin solid"><EM>Quest</EM></TH>
+    <TH STYLE="border-top: double; border-left: thin solid"><EM>Innerer Monolog</EM></TH>
+    <TH STYLE="border-top: double; border-left: thin solid"><EM>Growing Up</EM></TH>
+    <TH STYLE="border-top: double; border-left: thin solid"><EM>Alltag/Abenteuer</EM></TH>
+    <TH STYLE="border-top: double; border-left: thin solid; border-right: double"><EM>Phantastische Elemente</EM></TH>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>Geschlecht</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">1,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,12</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,32</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,27</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,32</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,21</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,35</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,08</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,14</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,38</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,08</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">-,22</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double"></TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,56</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,18</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,12</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,32</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,87</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,13</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,72</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,49</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,06</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,72</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">,29</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">25</TD>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>Helligkeit</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">-,12</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">1,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,22</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,56</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,48</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,35</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,24</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,16</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,31</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,21</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">-,37</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">,56</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid"></TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,37</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,02</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,08</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,26</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,51</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,23</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,98</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,13</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,32</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">,07</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">25</TD>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>Geschlecht der Titelfigur</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">,32</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,22</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">1,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,63</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,32</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,10</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,01</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,95</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,22</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,08</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,13</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">-,39</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">,18</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,37</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid"></TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,67</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,98</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,38</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,73</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,91</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,61</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">,10</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">19</TD>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>w/m-Faktor</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">,27</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,56</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,63</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">1,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,50</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,32</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,22</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,64</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,16</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,43</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,44</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">-,01</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">,19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid"></TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,01</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,11</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,30</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,23</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,44</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">,95</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">25</TD>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>Gender-Faktor</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">,32</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,48</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,32</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,50</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">1,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,12</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,41</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,40</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,48</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,26</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">-,10</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">,12</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,02</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,01</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid"></TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,57</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,89</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,07</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,05</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,35</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,01</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,21</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">,63</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">25</TD>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>Seiten</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">-,21</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,35</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,10</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,32</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,12</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">1,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,14</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,06</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,38</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,24</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,17</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,43</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">-,03</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">,32</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,08</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,67</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,11</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,57</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid"></TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,50</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,80</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,06</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,24</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,43</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">,90</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">25</TD>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>Figurenanzahl am Cover</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">-,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,24</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,01</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,22</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,14</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">1,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,01</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,15</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,28</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,24</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,23</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">,27</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">,87</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,26</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,98</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,30</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,89</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,50</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid"></TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,97</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,49</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,18</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,24</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,26</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">,19</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">25</TD>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>Geschlecht Hauptfigur</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">,35</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,16</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,95</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,64</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,41</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,06</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,01</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">1,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,09</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,04</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,09</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,21</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">-,42</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">,13</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,51</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,07</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,80</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,97</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid"></TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,70</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,88</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,70</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,37</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">,07</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">20</TD>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>Quest</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">-,08</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,22</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,40</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,38</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,15</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,09</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">1,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,39</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,44</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,68</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">-,03</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">,72</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,23</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,38</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,23</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,05</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,06</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,49</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,70</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid"></TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,06</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">,90</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">25</TD>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>Innerer Monolog</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">,14</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,08</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,16</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,24</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,28</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,04</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,39</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">1,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,40</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,39</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">-,27</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">,49</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,98</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,73</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,44</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,35</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,24</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,18</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,88</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,06</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid"></TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,05</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,06</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">,19</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">25</TD>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>Growing Up</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">,38</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,31</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,43</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,48</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,17</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,24</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,09</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,44</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,40</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">1,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,09</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">,09</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">,06</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,13</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,91</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,01</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,43</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,24</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,70</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,05</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid"></TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,67</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">,67</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">25</TD>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>Alltag/Abenteuer</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">,08</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,21</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,13</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,44</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,26</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,43</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,23</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,21</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,68</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,39</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,09</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">1,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">-,14</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">,72</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,32</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,61</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,21</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,26</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,37</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,00</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,06</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,67</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid"></TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">,52</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double">25</TD>
+  </TR>
+  <TR>
+    <TH STYLE="border-top: thin solid; border-left: double"><EM>Phantastische Elemente</EM></TH>
+    <TH STYLE="border-top: thin solid; border-left: thin solid"><EM>Pearson Correlation</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: double">-,22</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,37</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,39</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,01</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,10</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,27</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,42</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,03</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,27</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">,09</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid">-,14</TD>
+    <TD ALIGN="RIGHT" STYLE="border-top: thin solid; border-left: thin solid; border-right: double">1,00</TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-left: double"></TH>
+    <TH STYLE="border-left: thin solid"><EM>Sig. (2-tailed)</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-left: double">,29</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,07</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,10</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,95</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,63</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,90</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,07</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,90</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,67</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid">,52</TD>
+    <TD ALIGN="RIGHT" STYLE="border-left: thin solid; border-right: double"></TD>
+  </TR>
+  <TR>
+    <TH ALIGN="RIGHT" STYLE="border-bottom: double; border-left: double"></TH>
+    <TH STYLE="border-bottom: double; border-left: thin solid"><EM>N</EM></TH>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: double">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: thin solid">19</TD>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: thin solid">20</TD>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: thin solid">25</TD>
+    <TD ALIGN="RIGHT" STYLE="border-bottom: double; border-left: thin solid; border-right: double">25</TD>
+  </TR>
+</TABLE>
+
+</DIV>
+</BODY>
+</HTML>
+<!-- end of file -->
