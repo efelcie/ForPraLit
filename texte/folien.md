@@ -1,7 +1,6 @@
 % Bücher machen Buben 
 % Lisa Weiler, Lukas Kaiser, Peter Flucher
-% Herbst 2012
-
+% Forschungspraktikum 2012/2013
 
 Einleitung
 ==========
