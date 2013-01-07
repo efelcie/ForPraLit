@@ -1,72 +1,51 @@
-
-
 Unterschiede im Leseverhalten von Mädchen und Buben
 ===============================================
 
-
-Wie wir bereits im Literaturteil erarbeitet haben, beeinflussen Bücher neben vielen anderen Sozialisationsfaktoren auch die Entwicklung von Gender. Was Mädchen oder Buben lesen, wirkt in gewisser Weise auf sie ein, gleich wie etwa bestimmte Erwartungen der Eltern, der Schule oder von Freunden. 
-
-Der erste Schritt unserer Analyse besteht nun darin, zu erheben, was Mädchen und Buben überhaupt lesen. Wir nehmen an, dass es  Unterschiede im Leseverhalten gibt, die neben vielen anderen Faktoren auf die Geschlechterrollenbildung von Kindern Einfluss nehmen, gleich wie  sich bereits vorhandene „Rollenspezifika“ umgekehrt auf die Lesepräferenzen auswirken können. Natürlich bleiben Bücher, die von beiden Geschlechtern in gleichem Ausmaß gelesen werden, nicht von unserer Fragestellung ausgeschlossen: Können solche *neutralen* Kinderbücher eher dazu beitragen typische Geschlechterverhältnisse abzubauen oder bieten sie einfach mehr unterschiedliche Identifikationsmöglichkeiten für den Leser oder die Leserin? 
-Wir nehmen alson an, dass bestimmte Bücher eher Mädchen oder Buben ansprechen, während andere, vom geschlechtsspezifischen Leseverhalten her, nicht zuordenbar sind. Wenn sich diese Annahmen bestätigen, wollen wir in den weiteren Schritten herausfinden, auf welche Faktoren diese Differenzen zurückgeführt werden können.
-
-Wenn es Bücher gibt, die eindeutig von Mädchen oder eben von Buben bevorzugt gelesen werden, dann haben wir natürlich bestimmte Vermutungen, die den Inhalt oder die äußerliche Gestaltung betreffen,  oder auch über die Charakterzüge der Hauptfigur. Hier erwarten wir typische Kennzeichen: Während Buben eher Bücher lesen, deren Geschichten sich beispielsweise um Abenteuer oder Fußball drehen, sprechen Pferdebücher oder Geschichten über Prinzessinnen eher Mädchen an. Ist das Geschlecht des oder der Protagonist_in für die Leseentscheidung eines Buches ausschlaggebend, oder sind es die Covergestaltung, Empfehlungen von Freunden und Freundinnen oder Geschenke? Kinder entscheiden meist nicht nur von sich heraus, was sie lesen; was angeboten wird, wird stark von der Werbeindustrie bestimmt, die natürlich von Einteilungen und Käufergruppen leben. Wir wollen nicht analysieren wie ein Kind genau zu diesem oder jenem Buch kommt und haben auch keine Möglichkeiten diese unterschwelligen Prozesse zu untersuchen, aber wir können unsere Hypothesen überprüfen und uns selbst ein Bild über die Literatur machen, die Kinder konsumieren. 
+Wie wir bereits im Literaturteil erarbeitet haben, beeinflussen Bücher neben vielen anderen Sozialisationsfaktoren auch die Entwicklung von Gender. Was Mädchen oder Buben lesen, wirkt in gewisser Weise auf sie ein, gleich wie etwa bestimmte Erwartungen der Eltern, der Schule oder von Freunden. Und wenn Buben und Mädchen tatsächlich Unterschiedliches lesen, oder zum Beispiel mit anderem Spielzeug spielenund  andere Filme ansehen, dann kann das unter Umständen auch dazu beitragen, dass traditionelle Rollenbilder stabilisiert werden.
+Der erste Schritt unserer Analyse besteht nun darin, zu erheben, was Mädchen und Buben überhaupt lesen. Wir nehmen an, dass es  Unterschiede im Leseverhalten gibt, die neben vielen anderen Faktoren auf die Geschlechterrollenbildung von Kindern Einfluss nehmen, gleich wie  sich bereits vorhandene *Rollenspezifika* umgekehrt auf die Lesepräferenzen auswirken können. Natürlich bleiben Bücher, die von beiden Geschlechtern in gleichem Ausmaß gelesen werden, nicht von unserer Fragestellung ausgeschlossen: Können solche *neutralen* Kinderbücher eher dazu beitragen typische Geschlechterverhältnisse abzubauen oder bieten sie einfach mehr unterschiedliche Identifikationsmöglichkeiten für den Leser oder die Leserin? Wir nehmen also an, dass bestimmte Bücher eher Mädchen oder Buben ansprechen, während andere, vom geschlechtsspezifischen Leseverhalten her, nicht zuordenbar sind. Wenn sich diese Annahmen bestätigen, wollen wir in den weiteren Schritten herausfinden, auf welche Faktoren diese Differenzen zurückgeführt werden können.
+Wenn es Bücher gibt, die eindeutig von Mädchen oder eben von Buben bevorzugt gelesen werden, dann haben wir natürlich bestimmte Vermutungen, die den Inhalt oder die äußerliche Gestaltung betreffen,  aber auch über die Charakterzüge der Hauptfigur. Hier erwarten wir typische Kennzeichen: Während Buben eher Bücher lesen, deren Geschichten sich beispielsweise um Abenteuer oder Fußball drehen, sprechen Pferdebücher oder Geschichten über Prinzessinnen eher Mädchen an. Ist das Geschlecht des Protagonisten oder der Protagonistin für die Leseentscheidung eines Buches ausschlaggebend, oder sind es die Covergestaltung, Empfehlungen von Freunden und Freundinnen oder Geschenke? Kinder entscheiden meist nicht nur von sich heraus, was sie lesen; was angeboten wird, wird stark von der Werbeindustrie bestimmt, die natürlich von klassischen Einteilungen und Käufergruppen lebt. Wir wollen nicht analysieren wie ein Kind genau zu diesem oder jenem Buch kommt und haben auch keine Möglichkeiten diese unterschwelligen Prozesse zu untersuchen, aber wir können unsere Hypothesen überprüfen und uns selbst ein Bild über die Literatur machen, die Kinder konsumieren. 
 
 ## Erhebung der Lesepräferenzen anhand einer Fragebogenanalyse
 
-Um herauszufinden, was Buben und Mädchen lesen, liegt eine Fragebogenanalyse am nächsten. Unsere Stichprobe waren Volksschulkinder der dritten und vierten Klasse in Graz, die Schulen die sich daran beteiligten, waren "Bertha von Suttner", "Afritsch", "Rosenberggürtel", "Engelsdorf", "Leopoldinum", "Mariatrost" und "Ursulinen". Insgesamt konnten wir mit 530 ausgefüllten Fragebögen unsere ersten Auswertungen beginnen.
-Zur Erstellung des Fragebogens muss gesagt werden, dass wir zusätzlich zu einer offenen Frage („Was ist dein Lieblingsbuch?“) eine Liste mit Büchern, von denen wir annahmen, dass sie häufig gelesen werden, zum Ankreuzen verwendeten und noch eine weitere geschossene Frage ( „Über welche Themen liest du gerne?“) angeboten haben. Zur Erstellung unserer Bücherliste verwendeten wir hauptsächlich Bestsellerlisten, etwa von Amazon, oder auch Ausleihstatistiken von Bibliotheken und die Expertise einer Mitarbeiterin einer Buchhandlung. Obwohl wir uns auf Kinder der dritten und vierten Schulstufe beschränkten, waren auch Bücher in der Auswahl enthalten, die eher die Funktion eines Vorlese- oder Erstlesebuchs erfüllen. Das hatte den einfachen Grund auch Schülern und Schülerinnen, die wenig lesen oder sich auf einem weniger hohen Leseniveau befinden (wir waren auch in Klassen mit Migrationsanteil und einer Integrationsklasse), etwas anzubieten. Außerdem interessierte uns auch, ob und wie sich Rollenangebote mit steigendem empfohlenem Lesealter veränderten.
-Der Vorteil einer Liste bestand für uns darin, eine gewisse Breite an Büchern abzudecken und einer möglichen Schreibfaulheit der Schüler und Schülrinnen zu entgehen, aber auch um Bücher, die vor einiger Zeit gelesen und eventuell in Vergessenheit geraten waren, zu repräsentieren. Bei offenen Fragen ist das Problem größer, die Frage gemeinsam mit dem Nachbarn oder der Nachbarin zu beantworten, was unserer Annahme nach insgesamt weniger und dafür mehr gleiche Antworten produziert. Natürlich ist auch eine vorgefertigte Liste nicht frei von ungewollten Ergebnissen: die Schüler und Schülerinnen könnten möglichst viel ankreuzen, damit sie vielleicht besser dastehen, genauso gut zusammenarbeiten oder auch Bücher, die sie nur von Fernsehserien oder Filmen kennen, angeben. Außerdem kann ein Bias entstehen, wenn etwa eine Klasse ein bestimmtes Buch auf der Literaturliste hatte und das jeder Schüler und jede Schülerin sowieso lesen musste.
+Um herauszufinden, was Buben und Mädchen lesen, liegt eine Fragebogenanalyse am nächsten. Unsere Stichprobe waren Volksschulkinder der dritten und vierten Klasse in Graz, die Schulen die sich daran beteiligten, waren "Bertha von Suttner", "Afritsch", "Rosenberggürtel", "Engelsdorf", "Leopoldinum", "Mariatrost" und "Ursulinen". Insgesamt konnten wir mit 502 ausgefüllten Fragebögen aus zwanzig Klassen unsere ersten Auswertungen beginnen. 
+Zur Erstellung des Fragebogens muss hinzugefügt werden, dass wir zusätzlich zu einer offenen Frage (*Was ist dein Lieblingsbuch?*) eine Liste mit Büchern, von denen wir annahmen, dass sie häufig gelesen werden, zum Ankreuzen verwendeten und noch eine weitere geschossene Frage (*Über welche Themen liest du gerne?*) angeboten haben. Zur Erstellung unserer Bücherliste verwendeten wir hauptsächlich Bestsellerlisten, zum Teil von Amazon, Ausleihstatistiken von Bibliotheken und die Expertise einer Mitarbeiterin einer Buchhandlung. Obwohl wir uns auf Kinder der dritten und vierten Schulstufe beschränkten, waren auch Bücher in der Auswahl enthalten, die eher die Funktion eines Vorlese- oder Erstlesebuchs erfüllen. Das hatte den einfachen Grund auch Schülern und Schülerinnen, die wenig lesen oder sich auf einem weniger hohen Leseniveau befinden (wir waren auch in Klassen mit Migrationsanteil und einer Integrationsklasse), etwas anzubieten. Außerdem interessierte uns auch, ob und wie sich Rollenangebote in den Büchern mit steigendem empfohlenem Lesealter veränderten. Der Vorteil einer Liste bestand für uns darin, eine gewisse Breite an Büchern abzudecken und einer möglichen Schreibfaulheit der Schüler und Schülerinnen entgegenzukommen, aber auch um Bücher, die vor einiger Zeit gelesen und eventuell in Vergessenheit geraten waren, zu repräsentieren. Bei offenen Fragen ist das Problem größer, die Frage gemeinsam mit dem Nachbarn oder der Nachbarin zu beantworten, was unserer Annahme nach insgesamt weniger und dafür mehr gleiche Antworten produziert. Natürlich ist auch eine vorgefertigte Liste nicht frei von ungewollten Ergebnissen: die Schüler und Schülerinnen könnten möglichst viel ankreuzen, damit sie vielleicht besser dastehen, genauso gut zusammenarbeiten oder auch Bücher, die sie nur von Fernsehserien oder Filmen kennen, angeben. Außerdem kann ein Bias entstehen, wenn etwa eine Klasse ein bestimmtes Buch auf der Literaturliste hatte und das jeder Schüler und jede Schülerin sowieso lesen musste.
+Nach der Durchführung eines Pretests wurden Kleinigkeiten im Fragebogen verändert, es war danach möglich einzuschätzen wie lange Kinder in diesem Alter brauchen um einen Bogen auszufüllen und auch ob die Gestaltung des Bogens verständlich und adäquat ist. Die Anzahl der Bücher erschien uns passend, gleich wie die Auswahl der Titel.
 
 ### Auswertung und Ergebnisse
+Wir führten die Fragebogenerhebung gemeinsam mit einer zweiten Gruppe unseres Projekts, die sich mit Fernsehserien beschäftigt hat, durch. Auch die Dateneingabe erfolgte in der Großgruppe, es war wichtig für jedes Buch oder für jede Serie, die in den offenen Fragen genannt wurden, eine eigene Variable zu bilden. Die Aufteilung, Kompatibilität und Vollständigkeit stellte kein Problem dar.
+In die nähere Auswahl gelangten dann nur Bücher, die mindestens fünfzig Nennungen aufwiesen, die anderen mussten wir unberücksichtigt lassen, um die Auswahl zu reduzieren und die am häufigsten gelesenen herauszuheben. Mithilfe von Häufigkeitsanalysen konnten wir unsere vorhandene Liste dann erstmals von siebenunddreißig auf dreißig Titel einschränken. Erst dann sahen wir uns die Verhältnisse, also Nennungen von Buben und Mädchen separat an. Die Ergebnisse sind in der Tabelle unten dargestellt, hier wird neben den absoluten Lesehäufigkeiten ein Faktor errechnet, der ausdrücken soll, ab wann es sich um ein Buben- oder Mädchenbuch handelt, wann also Leser oder Leserinnen überwiegen. Die Werte gehen hier theoretisch von -1 (alle Leser sind Buben= Bubenbuch), bis +1 (ausschließlich Leserinnen= Mädchenbuch). 
 
-In die nähere Auswahl kamen dann nur Bücher, die mindestens fünfzig mal ganannt worden sind, wodurch wir unsere vorhandene Liste auf 30 Bücher einschränken konnten. Bildung des m/b- Faktors, Tabellen, welche Bücher sind eindeutig, welche nicht?
+Footnote: w/m = (m-b)/Gesamt
 
-### Interpretation der Ergebnisse
-
-Bias?( ganze Klasse hat ein Buch gelesen,...) 
-Es gibt mehr eindeutige Mädchen- als Bubenbücher: Warum? Haben sich Vermutungen bisher bestätigt? Neue Erkenntnisse? 
-
-… tabelle
-… Ergebnisse
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Unterschiede im Leseverhalten von Mädchen und Buben
-===============================================
-
-Grundannahmen aus der Literatur und unsere persönlichen Einschätzungen: Mädchen und Buben werden unterschiedlich sozialisiert, neben vielen anderen Faktoren spielen auch Bücher eine Rolle.
-Wir nehmen an, dass bestimmte Bücher eher Mädchen oder Buben ansprechen, während andere, vom geschlechtsspezifischen Leseverhalten her, nicht zuordenbar sind. Wenn sich diese Annahmen bestätigen, wollen wir in den weiteren Schritten herausfinden, auf welche Faktoren diese Differenzen zurückgeführt werden können.
-Vermutungen: Was sind M/B Bücher? bestimmte Thematik ( Fußball, Drache vs. Prinzessinen und Pferde), Geschlecht der Protagonist_innen, Covergestaltung,...natürlich auch Eltern, Geschwister, Schule und peergroup die die Leseentscheidung mitbeeinflussen.
-Was sind die beliebtesten Bücher? Sind es eher Bücher, die hauptsächlich von einem Geschlecht gelesen werden oder welche, bei denen Unterschiede in der Lesepräferenz nicht festzumachen sind? 
-
-## Erhebung der Lesepräferenzen anhand einer Fragebogenanalyse
-
-### Vorgehensweise
-
-Erstellung des Fragebogens, wie ist unsere Bücherliste entstanden?, Vor/Nachteile der offene Frage
-Schulen in Graz, 3.4. Klasse, 300 Fragebögen
-
-### Auswertung und Ergebnisse
-
-mind. 50 Nennungen -> Liste mit 30 Büchern, Bildung des m/b- Faktors, Tabellen, welche Bücher sind eindeutig, welche nicht?
 
 \input{tabellen/top30.tex}
 
+Ab wann nun von einem signifikanten Unterschied gesprochen werden kann, entscheidet der der w/m- Faktor. ...
+Durch den Anspruch, dass Titel fünfzig Mal genannt worden waren fielen alle Bücher, die nicht schon in der Liste enthalten waren, heraus. Die höchste Anzahl an Nennungen bei der offenen Frage, bekamen die *Lustigen Taschenbücher* mit vierzehn, was leider  nicht als repräsentativ gesehen werden kann. Die anderen *Lieblingbücher* tümpelten meistens bei bis zu fünf Nennungen.
+Schon auf den ersten Blick auf die Tabelle ist leicht zu erkennen, dass Mädchenbücher einen eindeutigeren Faktor aufweisen als Bubenbücher: 
+Buben präferieren eindeutig *Die wilden Fußballkerle* mit einem Wert von über -0,4. Dann kommt erst wieder mit einem Wert von -0,17 das Tiger- Team, dann *Die Knickerbockerbande* und *Gregs Tagebuch*.
+Bei den Mädchen können wir die Zahlen viel eindeutiger interpretieren, da ihre Werte näher am Extremwert angesiedelt sind. *Prinzessin Lillifee* führt die Liste mit einem Wert von 0,77 an, es folgen *Conni*, *Geschichten von Mini*, *Die wilden Hühner* und *Hexe Lilli*, deren w/m- Faktor aber immer noch höher ist, als der von *Die wilden Fußballkerle*. 
+Bei den vorherigen Recherchen stießen wir immer wieder auf  Ergebnisse von PISA oder Ähnlichem, die darauf hinwiesen, dass Buschen deutlich weniger lesen würden als Mädchen und auch eher mit Leseschwächen zu kämpfen hätten, was aber allein anhand unseres Fragebogens nicht nachgewiesen werden kann. 2003- Buben, Mädchen 2384 Nennungen insgesamt. Unserer Vermutung nach könnte sich die geringere Anzahl an Gesamtnennungen eventuell mit einem etwas geringerem Leseinteresse der Buben, wie auch einem fehlenden Angebot an Comics oder Sachbüchern erklären lassen.
+
+Weitere interessante Ergebnisse brachte die Frage zu Themen, die Mädchen und Buben interessieren könnten. Antwortmöglichkeiten waren hier Pferde/Hunde/Katzen (145/40) 0,57, Fußball/Sport (67/173) -0,44, Prinzessinen (53/0)1, Autos/Technik (16/130) -0,78, Dinosaurier (32/87)-0,46, Meerestiere(92/77) 0,09, Freunde/Liebe (108/23) 0,64, Geister/Monster (97/122) -0,11, Abenteuer/Indianer/Piraten (77/116)-0,2, Hexen/Zauberer (114/52) 0,37 und Drachen/Ritter (44/107), -0,42.
+
+Problematisch beim Fragebogen im Nachhinein war, dass Bücher doch ein weite Range abdecken und deshalb auch teilweise schwer miteinander zu vergleichen sind, wie zum Beispiel Harry Potter und der Regenbogenfisch. Auch Informationstechnisch hätte man aus dem Fragebogen nach einer gründlicheren Recherche und Literaturanalyse etwas mehr herausholen können. Außerdem wurden Sachbücher nicht berücksichtigt, die in diesem Alter gerade von Buben gerne gelesen werden und die gerade Themenvorlieben gut repräsentieren könnten. Auch Bücher, die wir ursprünglich in der Auswahl dabei waren und aus alterstechnischen Gründen wieder verworfen wurden, wurden manchmal genannt.
+
+Das Problem der Tabelle ist, dass die Werte nicht genau sind.
+Das heißt siekönnen je nach dem, wie viele Personen ein Buch gelesen
+haben um die 10% Schwanken. (Wie viel das im Faktor ist weiß ich nicht.)
+
+Das heißt für die Interpretation, dass um von einen Unterschied im
+Leseverhalten zu sprechen der Unterschied im Faktor deutlich (keine
+Ahnung wie deutlich) sein müsste.
+
+
+welche Bücher sind eindeutig, welche nicht?as sind die beliebtesten Bücher? Sind es eher Bücher, die hauptsächlich von einem Geschlecht gelesen werden oder welche, bei denen Unterschiede in der Lesepräferenz nicht festzumachen sind? 
+
+
+Wutmonster, Baumhausgeschichten und Sickensuchmaschine und nein Tomaten ess ich nicht komisches histogramm
+
 ### Interpretation der Ergebnisse
 
-Bias?( ganze Klasse hat ein Buch gelesen,...) 
 Es gibt mehr eindeutige Mädchen- als Bubenbücher: Warum? Haben sich Vermutungen bisher bestätigt? Neue Erkenntnisse? 
-(Welche Vermutungen haben wir aufgrund unserer Liste, sind sich Mädchenbücher ähnlicher als Bubenbücher odr *neutrale* Bücher?) -->
+(Welche Vermutungen haben wir aufgrund unserer Liste, sind sich Mädchenbücher ähnlicher als Bubenbücher oder *neutrale* Bücher?) -->
