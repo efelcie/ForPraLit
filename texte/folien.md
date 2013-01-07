@@ -24,43 +24,39 @@ Was wollen wir?
 Fragestellungen
 ===============
 
-Sind Bücher die Mädchen lesen anders?
--------------------------------------
-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-
-
 Unterstützen Kinderbücher das entstehen von Stereotypen?
 --------------------------------------------------------
 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Mädchen und Buben lesen andere Bücher
+
+- Bücher haben einen Einfluss auf das Verhalten der Leser
+
+- Schlussfolgerung: Findet man inhaltliche Merkmale die Mädchenbücher von Bubenbücher unterscheiden, kann davon ausgegangen werden, dass Kinderbücher den Prozess des Doing-Gender unterstützen. 
+
+
+
+Sind Bücher von Mädchen **beim** **lesen** anders?
+-------------------------------------
+
+- Weisen Mädchen- und Bubenbücher inhaltlich unterschiedliche Merkmale auf?
+
+- Wo liegen etwaige Unterschiede? Protagonisten? Aufbau?
+
+- Untersuchung der Genderkonstruktionen in Mädchenbüchern und Bubenbüchern
+
+- Untersuchung von Unterschieden im Aufbau der Texte
 
 
 
 
 Welche Merkmale eines Buchs lassen auf den Anteil von Leserinnen/Lesern schließen?
-----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Der Inhalt eines Buches kann eine Erklärung liefern warum es von einem Geschlecht bevorzugt wird. Gibt es noch mehr?
 
+- Suche nach Unterscheidungsmerkmalen, die erklären, warum ein Geschlecht verstärkt ein bestimmtes Buch liest? 
 
+- Besonderes Augenmerk auf Merkmale die auf den ersten Blick erkennbar sind
 
 
 
