@@ -3,37 +3,37 @@ ASCII SPSS PORT FILE                    ASCII SPSS PORT FILE
 ASCII SPSS PORT FILE                    0000000000000000000000000000000000000000
 0000000000000000000000000123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrst
 uvwxyz .<(+|&[]!$*);^-/|,%_>?`:$@'="000000~-0000123456789000-()0{}\0000000000000
-00000000000000000000000000000000000000000000000000000000SPSSPORTA8/201301076/204
-0111E/GNU pspp 0.7.93J/x86_64-pc-linux-gnu414/5B/78F/3/V011/8F/0/1/8F/0/C9/Bucht
+00000000000000000000000000000000000000000000000000000000SPSSPORTA8/201301076/224
+3331E/GNU pspp 0.7.93J/x86_64-pc-linux-gnu414/5B/78F/3/V011/8F/0/1/8F/0/C9/Bucht
 itel70/3/V025/1/0/5/1/0/C3/Typ78F/3/V031/8F/0/1/8F/0/CC/Name AutorIn70/3/V045/1/
-0/5/1/0/CA/Geschlecht70/3/V055/8/0/5/8/0/CG/Gelesen M√§dchen70/3/V065/8/0/5/8/0/
+0/5/1/0/CA/Geschlecht70/3/V055/8/0/5/8/0/CG/Gelesen Maedchen70/3/V065/8/0/5/8/0/
 CD/Gelesen Buben70/3/V075/1/0/5/1/0/CP/Geschlecht der Titelfigur78F/3/V201/8F/0/
 1/8F/0/CJ/Name der Hauptfigur70/3/V085/5/2/5/5/2/CA/Helligkeit70/3/V095/8/2/5/8/
 2/CA/Buchstaben70/3/V105/8/0/5/8/0/C6/Seiten70/3/V115/8/0/5/8/0/CM/Figurenanzahl
- am Cover70/3/V125/8/2/5/8/2/CA/w/m-Faktor70/3/F015/8/0/5/8/0/CL/unterw√ºrfig/do
-minant70/3/F025/8/0/5/8/0/CL/abh√§ngig/unabh√§ngig70/3/F035/8/0/5/8/0/CT/koopera
+ am Cover70/3/V125/8/2/5/8/2/CA/w/m-Faktor70/3/F015/8/0/5/8/0/CL/unterwuerfig/do
+minant70/3/F025/8/0/5/8/0/CL/abhaengig/unabhaengig70/3/F035/8/0/5/8/0/CT/koopera
 tiv/konkurenzorientier70/3/F045/8/0/5/8/0/CC/passiv/aktiv70/3/F055/8/0/5/8/0/C17
-/sicherheitsbed√ºrftig/abenteuerlustig70/3/F065/8/0/5/8/0/CE/sanft/aggresiv70/3/
+/sicherheitsbeduerftig/abenteuerlustig70/3/F065/8/0/5/8/0/CE/sanft/aggresiv70/3/
 F075/8/0/5/8/0/CF/furchtsam/mutig70/3/F085/8/0/5/8/0/CD/schwach/stark70/3/F095/8
-/0/5/8/0/CL/tr√§umerisch/rational70/3/F105/8/0/5/8/0/CJ/ weichherzig/streng70/3/
-F115/8/0/5/8/0/CO/f√ºhrsorglich/egoistisch70/3/F125/8/0/5/8/0/CN/gef√ºhlvoll/emo
+/0/5/8/0/CL/traeumerisch/rational70/3/F105/8/0/5/8/0/CJ/ weichherzig/streng70/3/
+F115/8/0/5/8/0/CO/fuehrsorglich/egoistisch70/3/F125/8/0/5/8/0/CN/gefuehlvoll/emo
 tionslos70/3/F135/8/0/5/8/0/CP/unlogisch/logisch denkend70/3/V135/8/0/5/8/0/CM/P
 hantastische Elemente70/3/V145/8/0/5/8/0/CG/Alltag/Abenteuer70/3/V155/8/0/5/8/0/
 CA/Growing Up70/3/V165/8/0/5/8/0/CF/Innerer Monolog70/3/V175/8/0/5/8/0/C5/Quest7
 0/3/V185/8/0/5/8/0/CL/Geschlecht Hauptfigur70/3/V195/8/0/5/8/0/CL/Empfohlen ab x
  Jahren70/3/V215/8/2/5/8/2/CD/Gender-FaktorD1/3/V025/1/4/Buch2/A/Kleinserie3/A/K
-leinreihe4/5/Serie5/5/ReiheD1/3/V043/1/8/Weiblich2/9/M√§nnlich3/7/NeutralD1/3/V0
-73/1/8/Weiblich2/9/M√§nnlich3/7/NeutralD1/3/F012/1/C/unterw√ºrfig2/8/dominantD1/
-3/F022/1/9/abh√§ngig2/B/unabh√§ngigD1/3/F032/1/A/kooperativ2/J/konkurenzorientie
-rtD1/3/F042/1/6/passiv2/5/aktivD1/3/F052/1/L/sicherheitsbed√ºrftig2/F/abenteuerl
+leinreihe4/5/Serie5/5/ReiheD1/3/V043/1/8/weiblich2/9/maennlich3/7/neutralD1/3/V0
+73/1/8/Weiblich2/9/Maennlich3/7/NeutralD1/3/F012/1/C/unterwuerfig2/8/dominantD1/
+3/F022/1/9/abhaengig2/B/unabhaengigD1/3/F032/1/A/kooperativ2/J/konkurenzorientie
+rtD1/3/F042/1/6/passiv2/5/aktivD1/3/F052/1/L/sicherheitsbeduerftig2/F/abenteuerl
 ustigD1/3/F062/1/5/sanft2/8/aggresivD1/3/F072/1/9/furchtsam2/5/mutigD1/3/F082/1/
-7/schwach2/5/starkD1/3/F092/1/C/tr√§umerisch2/8/rationalD1/3/F102/1/B/weichherzi
-g2/6/strengD1/3/F112/1/D/f√ºhrsorglich2/A/egoistischD1/3/F122/1/B/gef√ºhlvoll2/B
+7/schwach2/5/starkD1/3/F092/1/C/traeumerisch2/8/rationalD1/3/F102/1/B/weichherzi
+g2/6/strengD1/3/F112/1/D/fuehrsorglich2/A/egoistischD1/3/F122/1/B/gefuehlvoll2/B
 /emotionslosD1/3/F132/1/H/unlogisch denkend2/F/logisch denkendD1/3/V132/1/9/vorh
 anden2/F/nicht vorhandenD1/3/V142/1/6/Alltag2/9/AbenteuerD1/3/V152/1/9/vorhanden
 2/F/nicht vorhandenD1/3/V162/1/9/vorhanden2/F/nicht vorhandenD1/3/V172/1/9/vorha
-nden2/F/nicht vorhandenD1/3/V183/1/8/weiblich2/9/m√§nnlich3/7/neutralF8F/Gr¸ffel
-o                                                                               
+nden2/F/nicht vorhandenD1/3/V183/1/8/weiblich2/9/maennlich3/7/neutralF8F/Grueffe
+lo                                                                              
                                                                                 
                                                                                 
         3/8F/Axel Scheffler                                                     
@@ -43,7 +43,7 @@ o
                                                                                 
                                                                                 
                                                         45.76/1B/O/2/-.1248H48H4
-9/2/2/2/2/2/2/2/1/1/2/2/2/2/1/1/2/2/2/3/3/.KN296RKN29/8F/Der kleine Eisb‰r      
+9/2/2/2/2/2/2/2/1/1/2/2/2/2/1/1/2/2/2/3/3/.KN296RKN29/8F/Der kleine Eisbaer     
                                                                                 
                                                                                 
                                                                         3/8F/Han
@@ -97,11 +97,11 @@ RKN296RKN/8F/Prinzessing Lillifee
                                                                                 
                                                                                 
                                                    3O.R/T/12/2/-.274RMP274S/2/2/
-1/2/2/2/2/2/1/1/1/1/1/1/2/1/1/2/2/5/.296RKN296S/8F/Der R‰uber Hotzenplotz       
+1/2/2/2/2/2/1/1/1/1/1/1/2/1/1/2/2/5/.296RKN296S/8F/Der Raeuber Hotzenplotz      
                                                                                 
                                                                                 
                                                                   2/8F/Ottfried 
-Preuﬂler                                                                        
+Preuszler                                                                       
                                                                                 
                                                                                 
       2/32/3B/2/8F/Kasperl                                                      
@@ -155,7 +155,7 @@ hichten
                                                                                 
                                                                                 
                                                                                 
-5/8F/Erhard Dietl	                                                              
+5/8F/Erhard Dietl                                                               
                                                                                 
                                                                                 
                     2/1H/1I/*.8F/                                               
@@ -216,8 +216,8 @@ er)
                                                                                 
                                                                                 
                                                                      4D.Q3/H/6S/
-2/-.95/2/2/1/2/2/2/2/2/1/1/1/1/1/1/1/2/2/2/1/8/.296RKN296S/8F/Die Wilden Fuﬂball
-kerle                                                                           
+2/-.95/2/2/1/2/2/2/2/2/1/1/1/1/1/1/1/2/2/2/1/8/.296RKN296S/8F/Die Wilden Fuszbal
+lkerle                                                                          
                                                                                 
                                                                              4/8
 F/Joachim Masannek                                                              
@@ -241,7 +241,7 @@ F/Joachim Masannek
 1/1/2/2/2/3/8/-.6RKN296RKN/8F/Franz                                             
                                                                                 
                                                                                 
-                                             5/8F/Christine Nˆstlinger          
+                                             5/8F/Christine Noestlinger         
                                                                                 
                                                                                 
                                                                  1/2N/20/2/8F/Fr
@@ -252,7 +252,7 @@ anz
 8/-.KN296RKN29/8F/Mini                                                          
                                                                                 
                                                                                 
-                                 5/8F/Christine Nˆstlinger                      
+                                 5/8F/Christine Noestlinger                     
                                                                                 
                                                                                 
                                                      1/1T/G/1/8F/Mini           
@@ -325,7 +325,7 @@ ustus Jonas,Peter Shaw, Bob Andrews
                                                                                 
                                                                               44
 .C/2B/7E/1/.4HD4HD4HD5/2/1/2/2/2/2/1/1/1/2/2/1/2/2/1/2/1/2/2/A/.6RKN296RKN/8F/Di
-e wilden H¸hner                                                                 
+e wilden Huehner                                                                
                                                                                 
                                                                                 
              2/8F/Cornelia Funkenerxe                                           
@@ -339,7 +339,7 @@ e wilden H¸hner
 leine Hexe                                                                      
                                                                                 
                                                                                 
-          1/8F/Ottfried Preuﬂler                                                
+          1/8F/Ottfried Preuszler                                               
                                                                                 
                                                                                 
                               2/3J/1M/1/8F/kleine Hexe                          
