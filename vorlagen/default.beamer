@@ -126,7 +126,7 @@ $else$
 $endif$
 \logo{\pgfimage[width=1.2cm,height=1cm]{/home/peter/.pandoc/templates/logo}}
 
-
+\usepackage{tikz}
 \begin{document}
 $if(title)$
 \frame{\titlepage}

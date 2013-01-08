@@ -8,7 +8,7 @@
   Unsere Lehrveranstaltung heißt, "Geschlechteridentität und Geschlechterrollen bei Kindern" und wie diese von Kinderbüchern beeinflusst werden ist das Thema unseres Projekts.
   Wie beeinflussen Bücher eigentlich?
   Das ist eine komplexe Frage und Bücher beeinflussen sicher auf viele verschiedene Weisen.
-  Betrachtet man Geschichten aus der Perspektive derer, die die Geschiten Schreiben, ist das *Herz* der Geschichten die Hauptfigur, die Protagonistin oder der Protagonist.
+  Betrachtet man Geschichten aus der Perspektive derer, die die Geschichten Schreiben, ist das *Herz* der Geschichten die Hauptfigur, die Protagonistin oder der Protagonist.
   Wir gehen davon aus, dass die Kinder mit den Hauptfiguren die Geschichten mit leben und erleben.
   Dieses erleben hat einen Einfluss auf das Verhalten der Kinder.
   Mädchen und Buben lesen unterschiedliche Bücher.
@@ -32,12 +32,12 @@
   1.) Wenn kein Zusammenhang zwischen dem geschlechts-spezifischen Verhalten der Hauptfigur und dem Geschlecht der Lesenden nachgewiesen werden kann, können wir nicht sagen, dass Bücher eine Auswirkung auf das Geschlechtsspezifische Verhalten von Kindern haben.
   2.) Wenn jedoch ein Zusammenhang besteht, ist die Frage: wie.
   Handeln Hauptfiguren in Bücher mit einem großen Anteil von weiblichen Lesern eher feminin, dann kann davon ausgegangen werden, dass Bücher das Bestehen von geschlechts-spezifischem Verhalten positiv beeinflussen. Das heißt, es wird verstärkt oder konstruiert.
-  3.) Wenn jedoch ein negativer Zusammenhanb besteht, das heißt, das Hauptfiguren in Büchern die einen großen Anteil weiblicher Leser haben eher maskulin handeln, wirken Bücher offensichtlich dekonstruierend auf geschechts-spezifisches Handeln, das heißt ganz im Sinne des *Gender-Mainstreamings*.
+  3.) Wenn jedoch ein negativer Zusammenhang besteht, das heißt, das Hauptfiguren in Büchern die einen großen Anteil weiblicher Leser haben eher maskulin handeln, wirken Bücher offensichtlich dekonstruierend auf geschechts-spezifisches Handeln, das heißt ganz im Sinne des *Gender-Mainstreamings*.
 
   Die Frage beschäftigt sich mit der Entstehung des unterschiedlichen Leseverhaltens zwischen Mädchen und Buben.
   Wir gehen davon aus, dass man von den Büchern selbst darauf schließen können muss, ob das Buch hauptsächlich von Mädchen oder von Buben gelesen wird.
   Denn sonst könnten Mädchen und Buben sich nicht anders Entscheiden.
-  Die Frage ist: **Welche Merkmale erklären das Verhältnis von Leserinnen zu Lesern bein einem Buch am besten?**
+  Die Frage ist: **Welche Merkmale erklären das Verhältnis von Leserinnen zu Lesern beim einem Buch am besten?**
 
   Eine dritte Frage schließt dann an die zweite Frage an.
   Hier geht es darum, dass nicht alle Merkmale die wir erhoben haben, in der Zeit gemacht werden können in der Einkäufe getätigt werden.
@@ -66,7 +66,7 @@
 ## Gender ist Verhalten
 
 
-# Wie wollen wir unsere Fragestellungen lösen (Desgin)
+# Wie wollen wir unsere Fragestellungen lösen (Design)
 
   Um unsere Fragestellungen zu lösen gilt es als erstes abzustecken, was die Menge ist, über die wir etwas aussagen wollen.
   Was ist unsere Grundgesamtheit?
@@ -76,16 +76,16 @@
   Die Grundgesamtheit, sind also all jene Bücher die von Kindern in der Volksschule gelesen werden.
   Da wir uns auf die Wirkung der Hauptfigur konzentrieren, ist eine weitere Bedingung, dass eine Geschichte erzählt wird.
   Es muss eine Hauptfigur geben.
-  Das schließt Sachbücher, die Hauptsächlich von Buben gelesen werden aus.
+  Das schließt Sachbücher, die hauptsächlich von Buben gelesen werden aus.
   Von diesen Büchern müssen wir jetzt Merkmale oder Eigenschaften erheben, die wir dann mit einander Vergleichen und zu einander in Beziehung setzen können.
   Die für uns wichtigste Eigenschaft des Buchs ist der Anteil von Leserinnen bzw. Lesern.
-  Wird das Buch hauptsächlich von Mädchen oder hauptsächlch von Buben gelesen oder kann man keinen signifikanten Unterschied feststellen.
+  Wird das Buch hauptsächlich von Mädchen oder hauptsächlich von Buben gelesen oder kann man keinen signifikanten Unterschied feststellen.
 
 ## Fragebogen
 
   Um dieses Merkmal zu erheben, fragen wir Kinder ob sie gewisse Bücher gelesen haben.
   Bei der Erhebung ergeben sich zwei Probleme:
-  1.) Kinder in der Volksschule lesen und schreiben sehr langsam. Volsschullehrerinnen befürchteten, dass wenn wir die Kinder offen Fragen, nicht viele Antworten kommen werden, da viele Kinder schreiben vermeiden.
+  1.) Kinder in der Volksschule lesen und schreiben sehr langsam. Volksschullehrerinnen befürchteten, dass wenn wir die Kinder offen Fragen, nicht viele Antworten kommen werden, da viele Kinder schreiben vermeiden.
   2.) Um über ein Buch etwas aussagen zu können, brauchen wir viele Kinder die das Buch gelesen haben. Sonst ist das Konfidenzintervall, also die Ungenauigkeit für das Verhältnis der Lesenden zu groß.
   Auf Grund dieser beiden Gründe entschieden wir uns den Kindern eine Liste von Büchern vorzulegen, bei denen sie nur noch "gelesen" ankreuzen mussten.
   Die Liste der Bücher erstellten wir mit Hilfe von Bestsellerlisten von Internetbuchhandlungen, Webseiten auf denen Kinder ihr Lieblingsbuch vorstellen und der Auswertung der Verleihliste einer Schulbibliothek.
@@ -97,7 +97,7 @@
   Das zweite, für uns wesentliche, Merkmal ist das Verhalten der Hauptfiguren.
   Oder genauer: das geschlechts-typische, Verhalten.
   Wie feminin oder maskulin verhalten sich die Hauptfiguren?
-  Hier arbeiten wir mit einer Liste von Eigenschaftspaaren, bei dem jeweils eines für Stereotypisch männliches, und das andere für stereotypisch weibliche Verhalten steht.
+  Hier arbeiten wir mit einer Liste von Eigenschaftspaaren, bei dem jeweils eines für stereotypisch männliches, und das andere für stereotypisch weibliche Verhalten steht.
   Diese Eigenschafte ordnen wir den Charakteren zu, und bestimmen für sie einen Wert, der ihnen entweder feminines oder maskulines Verhalten bescheinigt.
   Uns ist bewusst, dass die Skala nicht sehr genau ist, glauben aber, dass sie Tendenzen gut abbildet und wir uns so die Untersuchung bei allen Büchern durchführen können.
 
@@ -116,7 +116,7 @@
   Die Helligkeit ist ein Faktor der gut reproduzierbar mit jedem Bildeditor einfach feststellbar ist.
   Des weiteren haben wir einen metrisch skalierten Wert den wir gut mit unseren anderen Werten vergleichen können.
 
-  Die Farbe oder Helligkeit, kässt eine Orientierung zu ohne sich dem Buch nähern zu müssen.
+  Die Farbe oder Helligkeit, lässt eine Orientierung zu ohne sich dem Buch nähern zu müssen.
   Doch nähert man sich dem Buch kommen neue Ebenen zum Vorschein.
   Zuerst die Bilder dann der Text.
 
@@ -124,13 +124,13 @@
   Was wird auf den Büchern dargestellt.
   Gibt es mehrere Figuren?
   Agieren diese miteinander?
-  Welechem Geschlecht können die Figuren zugerordnet werden?
+  Welchem Geschlecht können die Figuren zugeordnet werden?
 
 
   Was für ein Text steht auf der Vorderseite eines Buchs.
   Es ist meistens die Autorin oder der Autor, die Illustratorin oder der Illustrator, der Verlag und der Titel mit Untertitel und je nach dem mit Reihen- oder Serientitel.
   Für uns relevant, ist wieder alles, dass sich für eine Aufteilung in männlich/weiblich, maskulin/feminin eignet.
-  Da sticht in erster Line das Geschlecht der Namen ins Auge.
+  Da sticht in erster Linie das Geschlecht der Namen ins Auge.
   Dieses Geschlecht, also einerseits der Kreativen und andererseits der Namen die im Titel vorkommen.
   (Das muss nicht automatisch das Geschlecht der Hauptfigur sein.)
   Andere Aspekte wie die Menge des Textes am Cover oder die Länge des Titels war schwer vernünftig zu messen.
@@ -146,7 +146,7 @@
 
 # Die Durchführung
 
-  Die Druchführung lief ganz ohne Probleme ab. ;)
+  Die Durchführung lief ganz ohne Probleme ab. ;)
 
 # Die Ergebnisse
 
@@ -167,3 +167,5 @@
 # Was heißt das?
 
 # Wo können Forschungen anschließen
+
+/input{grafiken/wm-gender.tex}

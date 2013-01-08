@@ -1,4 +1,4 @@
-% Bücher machen Buben 
+% Kinderbücher Doing Gender 
 % Lisa Weiler, Lukas Kaiser, Peter Flucher
 % Forschungspraktikum 2012/2013
 
@@ -24,6 +24,7 @@ Was wollen wir?
 Fragestellungen
 ===============
 
+<<<<<<< HEAD
 Unterstützen Kinderbücher das entstehen von Stereotypen?
 --------------------------------------------------------
 
@@ -32,8 +33,20 @@ Unterstützen Kinderbücher das entstehen von Stereotypen?
 - Bücher haben einen Einfluss auf das Verhalten der Leser
 
 - Schlussfolgerung: Findet man inhaltliche Merkmale die Mädchenbücher von Bubenbücher unterscheiden, kann davon ausgegangen werden, dass Kinderbücher den Prozess des Doing-Gender unterstützen. 
+=======
+Gibt es einen Zusammenhang zwischen dem Verhältnis von Leserinnen zu Lesern und dem "doing gender" der Hauptfiguren?
+--------------------------------------------------------
 
+Kein Zusammenhang:
 
+:   Bücher haben keine Auswirkung auf die Bildung von Geschlechterstereotypen.
+
+Positiver Zusammenhang:
+>>>>>>> 77213c6e0c8d1ab1462e5084ea409b942af064f6
+
+:   Bücher verstärken Geschlechterstereotype.
+
+<<<<<<< HEAD
 
 Sind Bücher von Mädchen **beim** **lesen** anders?
 -------------------------------------
@@ -45,16 +58,30 @@ Sind Bücher von Mädchen **beim** **lesen** anders?
 - Untersuchung der Genderkonstruktionen in Mädchenbüchern und Bubenbüchern
 
 - Untersuchung von Unterschieden im Aufbau der Texte
+=======
+Negativer Zusammenhang:
+
+:   Bücher schwächen die Bildung von Geschlechterstereotypen.
+>>>>>>> 77213c6e0c8d1ab1462e5084ea409b942af064f6
 
 
 
 
+<<<<<<< HEAD
 Welche Merkmale eines Buchs lassen auf den Anteil von Leserinnen/Lesern schließen?
 ---------------------------------------------------------------------------------
 
 - Der Inhalt eines Buches kann eine Erklärung liefern warum es von einem Geschlecht bevorzugt wird. Gibt es noch mehr?
 
 - Suche nach Unterscheidungsmerkmalen, die erklären, warum ein Geschlecht verstärkt ein bestimmtes Buch liest? 
+=======
+Wie kann man von einem Buch auf das Verhältnis von Leserinnen zu Lesern schließen?
+-------------------------------------------------------------------------------
+
+- Welche Merkmale eines Buchs beeinflussen das Verhältnis?
+
+- Kann man ohne den Inhalt eines Buchs zu kennen, verlässlich auf dieses Verhältnis schließen?
+>>>>>>> 77213c6e0c8d1ab1462e5084ea409b942af064f6
 
 - Besonderes Augenmerk auf Merkmale die auf den ersten Blick erkennbar sind.
 
@@ -63,77 +90,16 @@ Welche Merkmale eines Buchs lassen auf den Anteil von Leserinnen/Lesern schließ
 Ergebnisse
 ==========
 
-Mädchenbücher -- Bubenbücher
-----------------------------
+Bücher verstärken Geschlechterstereotype
+----------------------------------------
 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Es gibt einen positiven linearen Zusammenhang
+  zwischen dem Verhältnis von Leserinnen zu 
+  Lesern.
 
+### Zusammenhang
 
-
-Hauptfiguren doing gender
--------------------------
-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-
-Kinderbücher unterstützen das entstehen von Stereotypen
--------------------------------------------------------
-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-
-Zusammenhänge zwischen den Merkmalen
-------------------------------------
-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-
-Welche Merkmale erklären den Anteil am besten?
-----------------------------------------------
-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-<!--
-
- Auswertung
-----------
-
-*   Skala von $-1$ bis $1$
-*   $w/m=\frac{Bu-Ma}{Gesamt}$
-*   $1$ heißt: 100% sind Leserinnen
-*   $-1$ heißt: 100% sind Leser 
-
-
-
+$r=0{,}47$, $Sig.=0{,}01$, $N=30$
 
 
 Extremwerte des w/m-Faktor
@@ -147,23 +113,145 @@ Extremwerte des w/m-Faktor
         label   = top30 ,
         pos   = htp,
       %  width    = \textwidth
-      ]{lD{,}{,}{0}D{,}{,}{0}D{,}{,}{0}D{,}{,}{3}}{
+      ]{lD{,}{,}{0}D{,}{,}{0}D{,}{,}{0}D{,}{,}{1}D{,}{,}{1}}{
         \tnote{\scriptsize 1: 100\% Leserinnen; 0: gleich viele Leserinnen wie Leser; --1: 100\% Leser}
       }{
       \FL \scriptsize Bücher &  \multicolumn{1}{c}{\scriptsize Mädchen} & 
       \multicolumn{1}{c}{\scriptsize Buben} & \multicolumn{1}{c}{\scriptsize Gesamt} & 
-      \multicolumn{1}{c}{ \scriptsize w/m-Faktor\tmark}
-      \ML Die wilden Fußballkerle & 43 & 110 & 153 & -0,438
-      \NN Tiger-Team & 49 & 69 & 118 & -0,169
-      \NN Knickerbockerbande & 48 & 67 & 115 & -0,165
-      \NN .
-      \NN .
-      \NN .
-      \NN Mini & 59 & 16 & 75 & 0,573
-      \NN Conni & 94 & 22 & 116 & 0,621
-      \NN Prinzessin Lillifee & 109 & 14 & 123&0,772  \LL
+      \multicolumn{1}{c}{ \scriptsize w/m\tmark} & \multicolumn{1}{c}{ \scriptsize Gender}
+      \ML Die wilden Fußballkerle & 43 & 110 & 153 & 0,4 & 0,5
+      \NN Tiger-Team & 49 & 69 & 118 & 0,2 & 0,2
+      \NN Knickerbockerbande & 48 & 67 & 115 & 0,2 & 0,3
+      \NN Gregs Tagebuch & 86 & 117 & 203 & 0,2 & 0,2
+      \NN \textelp{}
+      \NN Die wilden Hühner & 77 & 25 & 102 & -0,5 & 0,3
+      \NN Mini & 59 & 16 & 75 & -0,6 & -0,3
+      \NN Conni & 94 & 22 & 116 & -0,6 & -0,6
+      \NN Prinzessin Lillifee & 109 & 14 & 123& -0,8 & -0,3 \LL
       }
   \end{figure}
+
+
+Gender-Faktor -- w/m-Faktor
+-------------------------
+
+\input{grafiken/wm-gender.tex}
+
+
+Gender-Faktor -- Leserinnen
+-------------------------------------------------------
+
+\input{grafiken/wm-maedchen.tex}
+
+
+
+
+Gender-Faktor -- Leser
+------------------------------------
+
+\input{grafiken/wm-buben.tex}
+
+
+
+
+Die am *femininsten* handelnde Figur ist ein Bub
+-------------------------------------------------
+
+![Franz](grafiken/franz.jpg)
+
+
+Weibliche Stereotype: Emotional, unkontrolliert, schwach
+---------------------------------------------------------
+
+> Und als sie dann noch erklärte, der Franz sollte sich seinetwegen nicht aufregen, 
+> denn für einen Prinzen sei er viel zu klein, da sah der Franz nur noch rot. 
+> Er warf der Sandra die Zipfelmütze , die er als Hofzwerg aufsetzen sollte, 
+> an den Kopf und lief nach Hause. 
+> Schluchzend warf er sich auf sein Bett und trommelte mit den Fäusten in sein Kissen.
+
+(Nöstlinger, S. 30)
+
+
+
+Gender-Faktor -- w/m-Faktor
+-------------------------
+
+\input{grafiken/wm-gender.tex}
+
+
+
+
+Was macht Franz zu einem Buch das bei Mädchen und Buben gleich beliebt ist?
+-------------------------------------------------
+
+![Franz](grafiken/franz.jpg)
+
+
+
+
+Strukturgleichungsmodell
+------------------------
+
+![Modell](grafiken/mastermodel.jpg)
+
+
+Entscheidung kann nur aus Eigenschaften des Buchs erklärt werden
+----------------------
+
+- Geschlecht
+- Helligkeit
+- Seitenanzahl
+
+### Korrigiertes Bestimmtheitsmaß
+
+$r^2=0{,}82$
+
+
+Geschlecht, Helligkeit, Seitenanzahl
+----------------------------------------------
+
+\input{grafiken/resplot.tex}
+
+
+
+
+
+Fazit
+========
+
+Fazit
+-----
+
+- Es gibt so gut wie keine reinen Bubenbücher, aber es gibt sehr wohl Mädchenbücher.
+
+- Kinderbücher verstärken Geschlechterstereotype.
+
+- Auch anti-klischeehafte Figuren können Geschlechtersterotype verstärken.
+
+- Man kann ohne ein Buch aufzumachen sehr verlässlich auf den Anteil 
+  an Leserinnen/Lesern schließen.
+
+
+
+
+
+
+
+<!--
+
+ Auswertung
+----------
+
+*   Skala von $-1$ bis $1$
+*   $w/m=\frac{Ma- Bu}{Gesamt}$
+*   $1$ heißt: 100% sind Leserinnen
+*   $-1$ heißt: 100% sind Leser 
+
+
+
+
+
+
 
 
 
@@ -233,24 +321,3 @@ Tabelle
   \end{figure}
 
  -->
-
-
-
-Fazit
-========
-
-Es ist alles möglich
---------
-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-
-
-
-
