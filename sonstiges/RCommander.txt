@@ -1,0 +1,920 @@
+
+> library(relimp, pos=4)
+
+> showData(merkmale, placement='-20+200', font=getRcmdr('logFont'), maxwidth=80, maxheight=30, 
++   suppress.X11.warnings=FALSE)
+
+> library(foreign, pos=4)
+
+> merkmale <- read.spss("/home/peter/git/ForPraLit/daten/merkmalebuecher.por", use.value.labels=TRUE, 
++   max.value.labels=Inf, to.data.frame=TRUE)
+
+> LinearModel.MHF <- lm(V05 ~ V07, data=merkmale)
+
+> summary(LinearModel.MHF)
+
+Call:
+lm(formula = V05 ~ V07, data = merkmale)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-48.286 -26.643   8.154  17.654  54.714 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)        107.29      11.28   9.510 7.32e-09 ***
+V07[T.maennlich]   -32.44      13.99  -2.318   0.0311 *  
+V07[T.neutral]     -26.29      20.60  -1.276   0.2165    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Residual standard error: 29.85 on 20 degrees of freedom
+  (7 observations deleted due to missingness)
+Multiple R-squared: 0.2142,	Adjusted R-squared: 0.1357 
+F-statistic: 2.727 on 2 and 20 DF,  p-value: 0.08972 
+
+
+> LinearModel.BHF <- lm(V06 ~ V07, data=merkmale)
+
+> summary(LinearModel.BHF)
+
+Call:
+lm(formula = V06 ~ V07, data = merkmale)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-57.846 -20.780  -7.846  26.077  44.154 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)   
+(Intercept)         36.71      11.75   3.125  0.00533 **
+V07[T.maennlich]    44.13      14.57   3.029  0.00664 **
+V07[T.neutral]      35.29      21.45   1.645  0.11558   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Residual standard error: 31.08 on 20 degrees of freedom
+  (7 observations deleted due to missingness)
+Multiple R-squared: 0.3172,	Adjusted R-squared: 0.2489 
+F-statistic: 4.645 on 2 and 20 DF,  p-value: 0.02204 
+
+
+> LinearModel.wmHF <- lm(V12 ~ V07, data=merkmale)
+
+> summary(LinearModel.wmHF)
+
+Call:
+lm(formula = V12 ~ V07, data = merkmale)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.25196 -0.10905  0.01059  0.10711  0.42439 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)      -0.52039    0.06555  -7.939 1.31e-07 ***
+V07[T.maennlich]  0.53391    0.08130   6.567 2.13e-06 ***
+V07[T.neutral]    0.47727    0.11967   3.988 0.000723 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Residual standard error: 0.1734 on 20 degrees of freedom
+  (7 observations deleted due to missingness)
+Multiple R-squared: 0.6904,	Adjusted R-squared: 0.6594 
+F-statistic:  22.3 on 2 and 20 DF,  p-value: 8.091e-06 
+
+
+> merkmale <- read.spss("/home/peter/git/ForPraLit/daten/merkmalebuecher.por", use.value.labels=TRUE, 
++   max.value.labels=Inf, to.data.frame=TRUE)
+
+> colnames(merkmale) <- tolower(colnames(merkmale))
+
+> showData(merkmale, placement='-20+200', font=getRcmdr('logFont'), maxwidth=80, maxheight=30, 
++   suppress.X11.warnings=FALSE)
+
+> scatterplot(f12~v21, reg.line=lm, smooth=TRUE, spread=TRUE, boxplots='xy', span=0.5, data=merkmale)
+
+> showData(merkmale, placement='-20+200', font=getRcmdr('logFont'), maxwidth=80, maxheight=30, 
++   suppress.X11.warnings=FALSE)
+
+> scatterplot(f12~v12, reg.line=lm, smooth=TRUE, spread=TRUE, boxplots='xy', span=0.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=TRUE, spread=TRUE, boxplots='xy', span=0.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, jitter=list(x=1), 
++   data=merkmale)
+
+> scatterplot(v12~v21, log="xy", reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="Mädchen -- Buben", ylab="feminin -- maskulin", cex=2.5, data=merkmale)
+
+> scatterplot(v21~v12, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="Mädchen -- Buben", ylab="feminin -- maskulin", cex=2.5, cex.axis=2.5, cex.lab=2.5, data=merkmale)
+
+> scatterplot(v21~v12, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="Mädchen -- Buben", ylab="feminin -- maskulin", cex=1.5, cex.axis=1.5, cex.lab=1.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, cex.axis=1.5, cex.lab=1.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, cex.lab=1.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+
+> cor.test(merkmale$v12, merkmale$v21, alternative="two.sided", method="pearson")
+
+	Pearson's product-moment correlation
+
+data:  merkmale$v12 and merkmale$v21 
+t = 2.829, df = 28, p-value = 0.008535
+alternative hypothesis: true correlation is not equal to 0 
+95 percent confidence interval:
+ 0.1339713 0.7109846 
+sample estimates:
+     cor 
+0.471484 
+
+
+> wmgender <- cor.test(merkmale$v12, merkmale$v21, alternative="two.sided", method="pearson")
+
+> plot(wmgender)
+
+> wmgender <- cor.test(merkmale$v12, merkmale$v21, alternative="two.sided", method="pearson")
+
+> plot(wmgender)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, id.method="identify", boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+[1] "4"  "5"  "9"  "13" "15" "16" "17" "20" "21"
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, id.method="identify", boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+
+> scatterplot(v12~v21 | v07, reg.line=lm, smooth=FALSE, spread=FALSE, id.method="identify", boxplots=FALSE, 
++   span=0.5, xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, by.groups=FALSE, data=merkmale)
+[1] "20"
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, id.method="identify", boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=TRUE, spread=FALSE, id.method="identify", boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=TRUE, id.method="identify", boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+
+> scatterplot(v12~v05, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, data=merkmale)
+
+> scatterplot(v12~v06, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)", cex=1.5, data=merkmale)
+
+> scatterplot(v12~v05, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, data=merkmale)
+
+> scatterplot(v05~v12, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, data=merkmale)
+
+> cor(merkmale[,c("v05","v06","v12","v21")], use="complete.obs")
+            v05       v06        v12        v21
+v05  1.00000000 0.3023978 -0.4062394 0.03767913
+v06  0.30239782 1.0000000  0.7016416 0.50701360
+v12 -0.40623936 0.7016416  1.0000000 0.47148402
+v21  0.03767913 0.5070136  0.4714840 1.00000000
+
+> scatterplot(v12~v05, reg.line=lm, smooth=TRUE, spread=TRUE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, data=merkmale)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)", cex=1.5, data=merkmale)
+
+> scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, data=merkmale)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)", cex=1.5, data=merkmale)
+
+> scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, data=merkmale)
+
+> scatterplot(v12~v06 | v07, reg.line=lm, smooth=TRUE, spread=TRUE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, by.groups=FALSE, data=merkmale)
+
+> scatterplot(v12~v06 | v07, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, by.groups=FALSE, data=merkmale)
+
+> scatterplot(v12~v05 | v07, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, by.groups=FALSE, data=merkmale)
+
+> scatterplot(v05~v21 | v07, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, by.groups=FALSE, data=merkmale)
+
+> scatterplot(v06~v21 | v07, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, by.groups=FALSE, data=merkmale)
+
+> scatterplot(v06~v21 | v07, reg.line=lm, smooth=FALSE, spread=FALSE, id.method="identify", boxplots=FALSE, 
++   span=0.5, xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, by.groups=FALSE, data=merkmale)
+[1] "4"  "13" "16" "20"
+
+> scatterplot(v12~v21 | v07, reg.line=lm, smooth=FALSE, spread=FALSE, id.method="identify", boxplots=FALSE, 
++   span=0.5, xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)", cex=1.5, by.groups=FALSE, data=merkmale)
+
+> LinearModel.3 <- lm(v12 ~ v07 +v08 +v10, data=merkmale)
+
+> summary(LinearModel.3)
+
+Call:
+lm(formula = v12 ~ v07 + v08 + v10, data = merkmale)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.34430 -0.04134 -0.00491  0.06448  0.24169 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)      -0.2965813  0.1184871  -2.503  0.02217 *  
+v07[T.Maennlich]  0.4944244  0.0596423   8.290 1.47e-07 ***
+v07[T.Neutral]    0.4721709  0.0887522   5.320 4.67e-05 ***
+v08              -0.0021060  0.0006358  -3.313  0.00387 ** 
+v10               0.0006414  0.0003109   2.063  0.05385 .  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Residual standard error: 0.1257 on 18 degrees of freedom
+  (7 observations deleted due to missingness)
+Multiple R-squared: 0.8535,	Adjusted R-squared: 0.821 
+F-statistic: 26.22 on 4 and 18 DF,  p-value: 2.697e-07 
+
+
+> plot(LinearModel.3)
+
+> plot(LinearModel.3)
+
+> plot(LinearModel.3)
+
+> plot(LinearModel.3)
+
+> oldpar <- par(oma=c(0,0,3,0), mfrow=c(2,2))
+
+> plot(LinearModel.3)
+
+> par(oldpar)
+
+> qqPlot(LinearModel.3, simulate=TRUE)
+
+> crPlots(LinearModel.3)
+
+> LinearModel.4 <- lm(v12 ~ v08 + v10, data=merkmale)
+
+> summary(LinearModel.4)
+
+Call:
+lm(formula = v12 ~ v08 + v10, data = merkmale)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-0.5206 -0.1948  0.0790  0.1752  0.2900 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)  
+(Intercept)  0.2005396  0.2025763   0.990    0.331  
+v08         -0.0028100  0.0012019  -2.338    0.027 *
+v10          0.0005401  0.0005760   0.938    0.357  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Residual standard error: 0.2521 on 27 degrees of freedom
+Multiple R-squared: 0.2394,	Adjusted R-squared: 0.1831 
+F-statistic:  4.25 on 2 and 27 DF,  p-value: 0.02485 
+
+
+> LinearModel.5 <- lm(v12 ~ v08 + v10 +v18, data=merkmale)
+
+> summary(LinearModel.5)
+
+Call:
+lm(formula = v12 ~ v08 + v10 + v18, data = merkmale)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.32817 -0.06692 -0.01287  0.06518  0.38705 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)      -0.2211137  0.1435281  -1.541  0.13991    
+v08              -0.0021211  0.0007919  -2.678  0.01486 *  
+v10               0.0004978  0.0003783   1.316  0.20378    
+v18[T.maennlich]  0.4456752  0.0731230   6.095 7.35e-06 ***
+v18[T.neutral]    0.4510359  0.0967498   4.662  0.00017 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Residual standard error: 0.1575 on 19 degrees of freedom
+  (6 observations deleted due to missingness)
+Multiple R-squared: 0.7628,	Adjusted R-squared: 0.7129 
+F-statistic: 15.28 on 4 and 19 DF,  p-value: 9.546e-06 
+
+
+> merkmale <- read.spss("/home/peter/git/ForPraLit/daten/merkmalebuecher.por", use.value.labels=TRUE, 
++   max.value.labels=Inf, to.data.frame=TRUE)
+
+> colnames(merkmale) <- tolower(colnames(merkmale))
+
+> LinearModel.6 <- lm(v12 ~ v07 +v08 +v10, data=merkmale)
+
+> summary(LinearModel.6)
+
+Call:
+lm(formula = v12 ~ v07 + v08 + v10, data = merkmale)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.33565 -0.04632 -0.00139  0.06443  0.25182 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       0.2414744  0.0995304   2.426  0.02314 *  
+v07[T.Weiblich]  -0.5507111  0.0638216  -8.629 8.06e-09 ***
+v07[T.Maennlich] -0.0541358  0.0563354  -0.961  0.34616    
+v07[T.Neutral]   -0.0781813  0.0816534  -0.957  0.34787    
+v08              -0.0019890  0.0005723  -3.475  0.00196 ** 
+v10               0.0006075  0.0002806   2.165  0.04054 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Residual standard error: 0.1176 on 24 degrees of freedom
+Multiple R-squared: 0.8528,	Adjusted R-squared: 0.8221 
+F-statistic:  27.8 on 5 and 24 DF,  p-value: 3.022e-09 
+
+
+> crPlots(LinearModel.6)
+
+> qqPlot(LinearModel.6, simulate=TRUE)
+
+> avPlots(LinearModel.6)
+
+> influencePlot(LinearModel.6)
+
+> influencePlot(LinearModel.6, id.method="identify")
+      StudRes       Hat      CookD
+8  -1.5824531 0.1688025 0.28241820
+11  1.3705233 0.1777056 0.25547161
+20 -4.0133901 0.1762614 0.59373999
+23  2.7718068 0.2373256 0.55827399
+25 -0.2751307 0.2544974 0.06692815
+29 -1.0753921 0.3951090 0.35367148
+30  0.7308895 0.4809148 0.29003259
+
+> library(effects, pos=4)
+
+> trellis.device(theme="col.whitebg")
+
+> plot(allEffects(LinearModel.6), ask=FALSE)
+
+> stepwise(LinearModel.6, direction='backward/forward', criterion='BIC')
+
+Direction:  backward/forward
+Criterion:  BIC 
+
+Start:  AIC=-114.7
+v12 ~ v07 + v08 + v10
+
+       Df Sum of Sq     RSS      AIC
+<none>              0.33206 -114.702
+- v10   1   0.06486 0.39692 -112.751
+- v08   1   0.16711 0.49917 -105.874
+- v07   3   1.38331 1.71537  -75.644
+
+Call:
+lm(formula = v12 ~ v07 + v08 + v10, data = merkmale)
+
+Coefficients:
+     (Intercept)   v07[T.Weiblich]  v07[T.Maennlich]    v07[T.Neutral]               v08               v10  
+       0.2414744        -0.5507111        -0.0541358        -0.0781813        -0.0019890         0.0006075  
+
+
+> summary(LinearModel.6, cor=FALSE)
+
+Call:
+lm(formula = v12 ~ v07 + v08 + v10, data = merkmale)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.33565 -0.04632 -0.00139  0.06443  0.25182 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       0.2414744  0.0995304   2.426  0.02314 *  
+v07[T.Weiblich]  -0.5507111  0.0638216  -8.629 8.06e-09 ***
+v07[T.Maennlich] -0.0541358  0.0563354  -0.961  0.34616    
+v07[T.Neutral]   -0.0781813  0.0816534  -0.957  0.34787    
+v08              -0.0019890  0.0005723  -3.475  0.00196 ** 
+v10               0.0006075  0.0002806   2.165  0.04054 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Residual standard error: 0.1176 on 24 degrees of freedom
+Multiple R-squared: 0.8528,	Adjusted R-squared: 0.8221 
+F-statistic:  27.8 on 5 and 24 DF,  p-value: 3.022e-09 
+
+
+> library(leaps, pos=4)
+
+> plot(regsubsets(v12 ~ v07 + v08 + v10, data=merkmale, nbest=1, nvmax=6), scale='adjr2')
+
+> avPlots(LinearModel.6)
+
+> qqPlot(LinearModel.6, simulate=TRUE)
+
+> crPlots(LinearModel.6)
+
+> require(tikzDevice)
+
+> setwd("/home/peter/git/ForPraLit/grafiken")
+
+> require(tikzDevice)
+
+> tikz('wm-gender.tex', standAlone = FALSE, width=5, height=5)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+
+> dev.off()
+X11cairo 
+       2 
+
+> require(tikzDevice)
+
+> tikz('beispiel.tex', standAlone = TRUE, width=5, height=5)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+
+> dev.off()
+X11cairo 
+       2 
+
+> tikz('wm-gender.tex', standAlone = FALSE, width=2, height=2)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.5, data=merkmale)
+
+> dev.off()
+X11cairo 
+       2 
+
+> require(tikzDevice)
+
+> tikz('wm-gender.tex', standAlone = FALSE, width=3, height=3)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=1.0, data=merkmale)
+
+> dev.off()
+X11cairo 
+       2 
+
+> tikz('wm-gender.tex', standAlone = FALSE, width=4, height=3)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex=0.5, data=merkmale)
+
+> dev.off()
+X11cairo 
+       2 
+
+> scatterplot(v12~v19, reg.line=lm, smooth=TRUE, spread=TRUE, boxplots='xy', span=0.5, data=merkmale)
+
+> require(tikzDevice)
+
+> tikz('wm-gender.tex', standAlone = FALSE, width=4, height=3)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben",  data=merkmale)
+
+> dev.off()
+X11cairo 
+       2 
+
+> scatterplot(v12~v19, reg.line=lm, smooth=TRUE, spread=TRUE, boxplots='xy', span=0.5, cex.axis=0.5, 
++   data=merkmale)
+
+> require(tikzDevice)
+
+> tikz('wm-gender.tex', standAlone = FALSE, width=4, height=3)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben", cex.axis=0.5,  data=merkmale)
+
+> dev.off()
+X11cairo 
+       2 
+
+> require(tikzDevice)
+
+> tikz('wm-gender.tex', standAlone = FALSE, width=4, height=2.8)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben",  data=merkmale)
+
+> dev.off()
+X11cairo 
+       2 
+
+> require(tikzDevice)
+
+> tikz('wm-maedchen.tex', standAlone = FALSE, width=4, height=2.8)
+
+> scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)",  data=merkmale)
+
+> dev.off()
+X11cairo 
+       2 
+
+> ####################
+
+> require(tikzDevice)
+
+> tikz('wm-buben.tex', standAlone = FALSE, width=4, height=2.8)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
+
+> dev.off()
+X11cairo 
+       2 
+
+> summary(LinearModel.3, cor=FALSE)
+
+Call:
+lm(formula = v12 ~ v07 + v08 + v10, data = merkmale)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.34430 -0.04134 -0.00491  0.06448  0.24169 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)      -0.2965813  0.1184871  -2.503  0.02217 *  
+v07[T.Maennlich]  0.4944244  0.0596423   8.290 1.47e-07 ***
+v07[T.Neutral]    0.4721709  0.0887522   5.320 4.67e-05 ***
+v08              -0.0021060  0.0006358  -3.313  0.00387 ** 
+v10               0.0006414  0.0003109   2.063  0.05385 .  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Residual standard error: 0.1257 on 18 degrees of freedom
+  (7 observations deleted due to missingness)
+Multiple R-squared: 0.8535,	Adjusted R-squared: 0.821 
+F-statistic: 26.22 on 4 and 18 DF,  p-value: 2.697e-07 
+
+
+> summary(LinearModel.6, cor=FALSE)
+
+Call:
+lm(formula = v12 ~ v07 + v08 + v10, data = merkmale)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.33565 -0.04632 -0.00139  0.06443  0.25182 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       0.2414744  0.0995304   2.426  0.02314 *  
+v07[T.Weiblich]  -0.5507111  0.0638216  -8.629 8.06e-09 ***
+v07[T.Maennlich] -0.0541358  0.0563354  -0.961  0.34616    
+v07[T.Neutral]   -0.0781813  0.0816534  -0.957  0.34787    
+v08              -0.0019890  0.0005723  -3.475  0.00196 ** 
+v10               0.0006075  0.0002806   2.165  0.04054 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Residual standard error: 0.1176 on 24 degrees of freedom
+Multiple R-squared: 0.8528,	Adjusted R-squared: 0.8221 
+F-statistic:  27.8 on 5 and 24 DF,  p-value: 3.022e-09 
+
+
+> qqPlot(LinearModel.6, simulate=TRUE)
+
+> crPlots(LinearModel.6)
+
+> tikz('wm-buben.tex', standAlone = FALSE, width=4, height=2.8)
+
+> crPlots(LinearModel.6)
+
+> dev.off()
+X11cairo 
+       2 
+
+> tikz('wm-buben.tex', standAlone = FALSE, width=4, height=2.8)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
+
+> dev.off()
+X11cairo 
+       2 
+
+> tikz('resplot.tex', standAlone = FALSE, width=4, height=2.8)
+
+> crPlots(LinearModel.6, cex=0.5, cex.axis=0.5, 
++   cex.lab=0.5,)
+
+> dev.off()
+X11cairo 
+       2 
+
+> scatterplot(v12~v19, reg.line=lm, smooth=TRUE, spread=TRUE, boxplots='xy', span=0.5, cex=0.5, cex.axis=0.5, 
++   cex.lab=0.5, data=merkmale)
+
+> tikz('resplot.tex', standAlone = FALSE, width=4, height=2.8)
+
+> crPlots(LinearModel.6, cex=0.5, cex.axis=0.5, 
++ +   cex.lab=0.5,)
++ 
++ 
++ dev.off()
+
+> tikz('resplot.tex', standAlone = FALSE, width=4, height=2.8)
+
+> crPlots(LinearModel.6, cex=0.5, cex.axis=0.5, cex.lab=0.5,)
+
+> tikz('resplot.tex', standAlone = FALSE, width=4, height=2.8)
+
+> crPlots(LinearModel.6, cex=0.5, cex.axis=0.5, cex.lab=0.5,)
+
+> dev.off()
+X11cairo 
+       2 
+
+> dev.off()
+tikz output 
+          3 
+
+> ##############
+
+> tikz('resplot.tex', standAlone = FALSE, width=4, height=3.2)
+
+> crPlots(LinearModel.6, cex=0.5, cex.axis=0.5, cex.lab=0.5,)
+
+> dev.off()
+tikz output 
+          3 
+
+> tikz('wm-buben.tex', standAlone = FALSE, width=4, height=2.8)
+
+> par(mfrow=c(1,2)
++ scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)",  data=merkmale)
++ scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
++ 
++ dev.off()
+
+> tikz('wm-buben.tex', standAlone = FALSE, width=4, height=2.8)
+
+> par(mfrow=c(1,2)
++ scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)",  data=merkmale)
++ scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
++ 
++ dev.off()
+
+> require(tikzDevice)
+
+> tikz('wm-buben.tex', standAlone = FALSE, width=4, height=2.8)
+
+> par(mfrow=c(1,2)
++ scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)",  data=merkmale)
++ 
++ scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
++ 
++ dev.off()
+
+> tikz('wm-buben.tex', standAlone = FALSE, width=4, height=2.8)
+
+> par(mfrow=c(1,2))
+
+> scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)",  data=merkmale)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
+
+> dev.off()
+tikz output 
+          2 
+
+> par(mfrow=c(1,2))
+
+> scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)",  data=merkmale)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
+
+> par(mfrow=c(1,2))
+
+> par(mfrow=c(1,2))
+
+> par(mfrow=c(1,2))
+
+> scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)",  data=merkmale)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
+
+> dev.off()
+tikz output 
+          3 
+
+> dev.off()
+tikz output 
+          4 
+
+> dev.off()
+tikz output 
+          5 
+
+> dev.off()
+tikz output 
+          6 
+
+> dev.off()
+null device 
+          1 
+
+> dev.off()
+
+> dev.off()
+
+> par(mfrow=c(1,2))
+
+> scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)",  data=merkmale)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
+
+> par(mfrow=c(2,2))
+
+> scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)",  data=merkmale)
+
+> par(mfrow=c(2,2))
+
+> scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)",  data=merkmale)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
+
+> tikz('wm-buben.tex', standAlone = FALSE, width=4, height=2.8)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
+
+> dev.off()
+null device 
+          1 
+
+> tikz('wm-gender.tex', standAlone = FALSE, width=4, height=2.8)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben",  data=merkmale)
+
+> dev.off()
+null device 
+          1 
+
+> ################
+
+> require(tikzDevice)
+
+> tikz('wm-maedchen.tex', standAlone = FALSE, width=4, height=2.8)
+
+> scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)",  data=merkmale)
+
+> dev.off()
+null device 
+          1 
+
+> ####################
+
+> require(tikzDevice)
+
+> tikz('wm-buben.tex', standAlone = FALSE, width=4, height=2.8)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
+
+> dev.off()
+null device 
+          1 
+
+> ##############
+
+> tikz('resplot.tex', standAlone = FALSE, width=4, height=3.2)
+
+> crPlots(LinearModel.6, cex=0.5, cex.axis=0.5, cex.lab=0.5,)
+
+> dev.off()
+null device 
+          1 
+
+> tikz('wm-gender.tex', standAlone = FALSE, width=4, height=2.8)
+
+> scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen -- Buben",  data=merkmale)
+
+> dev.off()
+null device 
+          1 
+
+> ################
+
+> require(tikzDevice)
+
+> tikz('wm-maedchen.tex', standAlone = FALSE, width=4, height=2.8)
+
+> scatterplot(v05~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Mädchen (Häufigkeit)",  data=merkmale)
+
+> dev.off()
+null device 
+          1 
+
+> ####################
+
+> require(tikzDevice)
+
+> tikz('wm-buben.tex', standAlone = FALSE, width=4, height=2.8)
+
+> scatterplot(v06~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
++   xlab="feminin -- maskulin", ylab="Buben (Häufigkeit)",  data=merkmale)
+
+> dev.off()
+null device 
+          1 
+
+> ##############
+
+> tikz('resplot.tex', standAlone = FALSE, width=4, height=3.2)
+
+> crPlots(LinearModel.6, cex=0.5, cex.axis=0.5, cex.lab=0.5,)
+
+> dev.off()
+null device 
+          1 
+
+> cor.test(merkmale$v12, merkmale$v21, alternative="two.sided", method="pearson")
+
+	Pearson's product-moment correlation
+
+data:  merkmale$v12 and merkmale$v21 
+t = 2.829, df = 28, p-value = 0.008535
+alternative hypothesis: true correlation is not equal to 0 
+95 percent confidence interval:
+ 0.1339713 0.7109846 
+sample estimates:
+     cor 
+0.471484 
+
+
+> cor(merkmale[,c("v12","v21")], use="complete.obs")
+         v12      v21
+v12 1.000000 0.471484
+v21 0.471484 1.000000
+

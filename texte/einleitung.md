@@ -4,7 +4,6 @@ Einleitung
 ## Adaption des Theorieteils.
   
 
-
 ## Erklärung unserer Annahmen.
 
   Zuordnung von Gedner zu Kindern lässt sich ohne "Geschlechter" der Hauptfiguren besser erklären als mit.
