@@ -42,12 +42,12 @@ Negativer Zusammenhang:
 
 
 
-Wie kann man von einem Buch das Verhältnis von Leserinnen zu Lesern schließen?
+Wie kann man von einem Buch auf das Verhältnis von Leserinnen zu Lesern schließen?
 -------------------------------------------------------------------------------
 
 - Welche Merkmale eines Buchs beeinflussen das Verhältnis?
 
-- Kann man ohne den Inhalts eines Buchs zu kennen, verlässlich auf das Verhältnis schließen?
+- Kann man ohne den Inhalt eines Buchs zu kennen, verlässlich auf das Verhältnis schließen?
 
 
 
