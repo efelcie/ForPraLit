@@ -56,7 +56,7 @@ Welche Merkmale eines Buchs lassen auf den Anteil von Leserinnen/Lesern schließ
 
 - Suche nach Unterscheidungsmerkmalen, die erklären, warum ein Geschlecht verstärkt ein bestimmtes Buch liest? 
 
-- Besonderes Augenmerk auf Merkmale die auf den ersten Blick erkennbar sind.
+- Besonderes Augenmerk auf Merkmale die auf den ersten Blick erkennbar sind. Dicke? Cover? usw.
 
 
 
