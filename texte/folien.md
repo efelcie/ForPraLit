@@ -167,7 +167,7 @@ Entscheidung kann nur aus Eigenschaften des Buchs erklärt werden
 - Helligkeit
 - Seitenanzahl
 
-### Korrigiertes Bestimmtsheitsmaß
+### Korrigiertes Bestimmtheitsmaß
 
 $r^2=0{,}82$
 
