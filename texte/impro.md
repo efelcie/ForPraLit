@@ -168,4 +168,3 @@
 
 # Wo können Forschungen anschließen
 
-/input{grafiken/wm-gender.tex}
