@@ -29,15 +29,15 @@ Gibt es einen Zusammenhang zwischen dem Verhältnis von Leserinnen zu Lesern und
 
 Kein Zusammenhang:
 
-:   Bücher haben keine Auswirkung auf die Bildung von Geschlechterstereotypen
+:   Bücher haben keine Auswirkung auf die Bildung von Geschlechterstereotypen.
 
 Positiver Zusammenhang:
 
-:   Bücher verstärken Geschlechterstereotype
+:   Bücher verstärken Geschlechterstereotype.
 
 Negativer Zusammenhang:
 
-:   Bücher schwächen die Bildung von Geschlechterstereotypen
+:   Bücher schwächen die Bildung von Geschlechterstereotypen.
 
 
 
@@ -47,7 +47,7 @@ Wie kann man von einem Buch auf das Verhältnis von Leserinnen zu Lesern schlie�
 
 - Welche Merkmale eines Buchs beeinflussen das Verhältnis?
 
-- Kann man ohne den Inhalt eines Buchs zu kennen, verlässlich auf das Verhältnis schließen?
+- Kann man ohne den Inhalt eines Buchs zu kennen, verlässlich auf dieses Verhältnis schließen?
 
 
 
@@ -60,7 +60,7 @@ Bücher verstärken Geschlechterstereotype
 
 - Es gibt einen positiven linearen Zusammenhang
   zwischen dem Verhältnis von Leserinnen zu 
-  Leser.
+  Lesern.
 
 ### Zusammenhang
 
@@ -167,7 +167,7 @@ Entscheidung kann nur aus Eigenschaften des Buchs erklärt werden
 - Helligkeit
 - Seitenanzahl
 
-### Korrigiert Bestimmtsheitsmaß
+### Korrigiertes Bestimmtheitsmaß
 
 $r^2=0{,}82$
 
@@ -187,15 +187,14 @@ Fazit
 Fazit
 -----
 
-- Es gibt so gut wie keine reinen Bubenbücher in denen Geschichten vorkommen. 
-  Jedoch es gibt sehr wohl Mädchenbücher.
+- Es gibt so gut wie keine reinen Bubenbücher, aber es gibt sehr wohl Mädchenbücher.
 
-- Kinderbücher verstärken Geschlechterstereotypen
+- Kinderbücher verstärken Geschlechterstereotype.
 
-- Auch anti-geschlechterstereotype Figuren können Geschlechtersterotypen verstärken.
+- Auch anti-klischeehafte Figuren können Geschlechtersterotype verstärken.
 
 - Man kann ohne ein Buch aufzumachen sehr verlässlich auf den Anteil 
-  an Leserinnen/Leser schließen.
+  an Leserinnen/Lesern schließen.
 
 
 
@@ -209,7 +208,7 @@ Fazit
 ----------
 
 *   Skala von $-1$ bis $1$
-*   $w/m=\frac{Bu-Ma}{Gesamt}$
+*   $w/m=\frac{Ma- Bu}{Gesamt}$
 *   $1$ heißt: 100% sind Leserinnen
 *   $-1$ heißt: 100% sind Leser 
 
