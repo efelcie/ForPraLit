@@ -26,7 +26,7 @@ Footnote: w/m = (m-b)/Gesamt
 \input{tabellen/top30.tex}
 
 
-Durch den Anspruch, dass Titel fünfzig Mal genannt worden waren fielen alle Bücher, die nicht schon in der Liste enthalten waren, heraus. Die offene „Lieblingsbücher“-Frage erwies sich dennoch als sinnvoll um die Bücherauswahl zu kontrollieren. Die höchste Anzahl an Nennungen bei der offenen Frage, bekamen die *Lustigen Taschenbücher* mit vierzehn, was leider  nicht als repräsentativ angesehen werden kann. Die anderen *Lieblingsbücher* dümpelten meistens bei bis zu fünf Nennungen. 
+Durch den Anspruch, dass Titel fünfzig Mal genannt worden waren fielen alle Bücher, die nicht schon in der Liste enthalten waren, heraus. Die offene „Lieblingsbücher“-Frage erwies sich dennoch als sinnvoll um die Bücherauswahl zu kontrollieren. Die höchste Anzahl an Nennungen bei der offenen Frage, bekamen die *Lustigen Taschenbücher* mit vierzehn, was leider  nicht als repräsentativ angesehen werden kann. Die anderen *Lieblingsbücher* dümpelten meistens bei bis zu fünf Nennungen. (Siehe Tabelle \ref{top30})
 
 Ab wann nun von einem signifikanten Unterschied gesprochen werden kann, entscheidet nicht nur der w/m- Faktor, sondern sein Verhältnis zur Grundgesamtheit. …
 Um nun von einem tatsächlichen Unterschied im Leseverhalten ausgehen zu können, muss der Unterschied deutlich sein. …
