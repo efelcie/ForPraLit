@@ -122,7 +122,7 @@ Bei diesem Oberflächenmerkmal ist für die Buben kein Zusammenhang nachweisbar.
 Aber auch die Erklärungskraft bei den Mädchen ist nicht überzubewerten, da sie zu einem sehr großen Teil aus einem sehr gewichtigen *Ausreißer* besteht.
 Der/die Autor_in von *Der Hexe Lilli*, dem Buch, das bei den Mädchen das Ranking anführt nennt sich *Knister*. Hinter dem Pseudonym steckt ein Mann, jedoch entschieden wir uns, für die Cover- Analyse nur eindeutig feststellbare Geschlechter anzuführen.
 Da es sich hier um einen Ausnahmefall handelt und *Knister* das einzige neutrale Autorengeschlecht auf den ersten Blick darstellt und dieses Buch von den Mädchen am häufigsten gelesen wurde, erklärt warum dieser Wert, wenn überhaupt, nur mit besonderer Vorsicht interpretiert werden kann.
-Vor allem da, da sich die Werte zwischen weiblich und männlich nicht signifikant unterscheiden. (Siehe Abbildung\ \ref{maedchen-geschlecht})
+Vor allem da sich die Werte zwischen weiblich und männlich nicht signifikant unterscheiden. (Siehe Abbildung\ \ref{maedchen-geschlecht})
 
 \begin{figure}
 \center
@@ -137,16 +137,16 @@ Mädchen bevorzugen Bücher mit wenig Figuren am Cover
 
 Somit bleibt von den bis jetzt angesprochen Merkmalen nur mehr die Anzahl der Figuren am Cover.
 Zu unserer Überraschung besteht ein negativer linearer Zusammenhang zwischen der Häufigkeit der Leserinnen und der Anzahl der Figuren am Cover.
-Das heißt um so weniger Figuren am Cover sind um so höher ist die Wahrscheinlichkeit, dass das Buch von einem Mädchen gelesen wurde.
-In unseren ersten Überlegungen hatten wir eher damit gerechnet, das Mädchen mehrere Figuren bevorzugen würden.
+Das heißt, umso weniger Figuren am Cover sind umso höher ist die Wahrscheinlichkeit, dass das Buch von einem Mädchen gelesen wurde.
+In unseren ersten Überlegungen hatten wir eher damit gerechnet, dass Mädchen mehrere Figuren bevorzugen würden.
 
-Um zu verstehen wie es zu diesem Merkmal kommt, ist es wieder sinnvoll die Entstehung dieses Merkmals genauer zu beleuchten.
-Dieses Merkmal entsteht wie auch schon die Helligkeit ohne direkten Einfluss der Verfasserin bzw. dem Verfasser.
+Um zu verstehen, wie es zu diesem Merkmal kommt, ist es wieder sinnvoll die Entstehung dieses Merkmals genauer zu beleuchten.
+Dieses Merkmal entsteht, wie auch schon die Helligkeit, ohne den direkten Einfluss der Verfasserin bzw. des Verfassers.
 Die Grafikabteilung des Verlags, übersetzt hier wieder Inhalt in Design.
-Wobei wir vermuten das zwei Aspekte der Geschichte für die Anzahl der Figuren wichtig ist.
+Wobei wir vermuten, dass zwei Aspekte der Geschichte für die Anzahl der Figuren wichtig ist.
 Einerseits halten wir es für entscheidend, ob es sich um einen Multiprotagonisten handelt, wie z.B bei der *Knickerbockerbande* oder den *Wilden Hühnern*.
-Andererseits glauben wir, dass die Ebene auf der die Geschichte stattfindet, ob es viel *psychologisches* also z.B. *Inneren Monolog* gibt, oder ob sich die meisten Probleme auf soziales Handeln bezieht.
-Diese These wird auch davon gestützt, dass die stärkste Korrelation mit der Anzahl der Figuren von dem Merkmal *Innerer Monolog* ausgeht ($r=0{,}36; p=0{,}06$).
+Andererseits glauben wir, dass die Ebene auf der die Geschichte stattfindet, ob es viel *psychologisches* also z.B. *Inneren Monolog* gibt, oder ob sich die meisten Probleme auf soziales Handeln beziehen.
+Diese These wird auch davon gestützt, dass die stärkste Korrelation der Anzahl der Figuren von dem Merkmal *Innerer Monolog* ausgeht ($r=0{,}36; p=0{,}06$).
 
 
 
