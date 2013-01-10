@@ -42,7 +42,21 @@ $if(natbib)$
 \bibliographystyle{plainnat}
 $endif$
 $if(biblatex)$
-\usepackage[backend=biber]{biblatex}
+% \usepackage[backend=biber]{biblatex}
+\usepackage[
+  % style=authoryear-icomp, % Autor:Jahr Stil
+    style=fiwi2,    % Autor:Jahr Stil
+  backend=biber,    % Eine BibTeX Alternative
+% maxbibnames=99,
+% maxcitenames=2,   % Namen in Zitaten
+% mincitenames=1,   % Namen in Zitat bei et al.
+  uniquelist=false,
+  origyearwithyear=false,
+% url=false,
+  doi=true,
+  pages=bib,
+  publisher=true
+      ]{biblatex}   % Literaturverwaltung
 $if(biblio-files)$
 \bibliography{$biblio-files$}
 $endif$
@@ -213,6 +227,10 @@ $if(toc)$
 \listoftables 
 }
 $endif$
+
+\nocite{Barrie2007}
+
+
 $body$
 
 $if(natbib)$
