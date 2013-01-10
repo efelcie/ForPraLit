@@ -125,7 +125,15 @@ Bei diesem Geschlecht ist für die Buben kein Zusammenhang nachweisbar.
 Aber auch das die Erklärungskraft durch bei den Mädchen ist nicht überzubewerten, da sie zu einem sehr großen Teil aus einem sehr gewichtigem *Ausreißer* besteht.
 Der/die Autor_in von *Der Hexe Lilli*, dem Buch, das bei den Mädchen das Ranking anführt nennt sich *Knister*. Hinter dem Pseudonym steckt ein Mann, jedoch entschieden wir uns dafür nur eindeutig feststellbare Geschlechter anzuführen.
 Da das Geschlecht von Knister, das einzige neutrale ist und dieses das am häufigsten gelesene Buch von Mädchen ist, erklärt warum dieser Wert wenn überhaupt nur mit besonderer Vorsicht zu interpretieren ist.
-Vor allem da, da sich die Werte zwischen weiblich und männlich nicht signifikant unterscheiden. (Siehe GrafikXY)
+Vor allem da, da sich die Werte zwischen weiblich und männlich nicht signifikant unterscheiden. (Siehe Abbildung\ \ref{maedchen-geschlecht})
+
+\begin{figure}
+\center
+  \caption[Leserinnen--Geschlecht]{Anzahl der Leserinnen zu Geschlecht der AutorIn}
+  \label{maedchen-geschlecht}
+\input{grafiken/maedchen-geschlecht-a.tex}
+
+\end{figure}
 
 Mädchen bevorzugen Bücher mit wenig Figuren am Cover
 ----------------------------------------------------
