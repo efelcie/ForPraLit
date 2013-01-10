@@ -29,6 +29,8 @@ Bei den vorherigen Recherchen stießen wir immer wieder auf  Ergebnisse von PISA
 
 Weitere interessante Ergebnisse brachte die Frage zu Themen, die Mädchen und Buben interessieren könnten. Antwortmöglichkeiten waren hier Pferde/Hunde/Katzen (145/40) 0,57, Fußball/Sport (67/173) -0,44, Prinzessinen (53/0)1, Autos/Technik (16/130) -0,78, Dinosaurier (32/87)-0,46, Meerestiere(92/77) 0,09, Freunde/Liebe (108/23) 0,64, Geister/Monster (97/122) -0,11, Abenteuer/Indianer/Piraten (77/116)-0,2, Hexen/Zauberer (114/52) 0,37 und Drachen/Ritter (44/107), -0,42.
 
+\input{tabellen/themen.tex}
+
 Problematisch beim Fragebogen im Nachhinein war, dass Bücher doch ein weite Range abdecken und deshalb auch teilweise schwer miteinander zu vergleichen sind, wie zum Beispiel Harry Potter und der Regenbogenfisch. Auch Informationstechnisch hätte man aus dem Fragebogen nach einer gründlicheren Recherche und Literaturanalyse etwas mehr herausholen können. Außerdem wurden Sachbücher nicht berücksichtigt, die in diesem Alter gerade von Buben gerne gelesen werden und die gerade Themenvorlieben gut repräsentieren könnten. Auch Bücher, die wir ursprünglich in der Auswahl dabei waren und aus alterstechnischen Gründen wieder verworfen wurden, wurden manchmal genannt.
 
 Das Problem der Tabelle ist, dass die Werte nicht genau sind.
