@@ -34,71 +34,11 @@ Schon auf den ersten Blick auf die Tabelle ist leicht zu erkennen, dass Mädchen
 Buben präferieren eindeutig *Die wilden Fußballkerle* mit einem Wert von über -0,4. Dann kommt erst wieder mit einem Wert von -0,17 das Tiger- Team, dann *Die Knickerbockerbande* und *Gregs Tagebuch*.
 Bei den Mädchen können wir die Zahlen viel eindeutiger interpretieren, da ihre Werte näher am Extremwert angesiedelt sind. *Prinzessin Lillifee* führt die Liste mit einem Wert von 0,77 an, es folgen *Conni*, *Geschichten von Mini*, *Die wilden Hühner* und *Hexe Lilli*, deren w/m- Faktor aber immer noch höher ist, als der von *Die wilden Fußballkerle*. 
 
-Weitere interessante Ergebnisse lieferte die Auswertung der Frage zu Themen, die Mädchen und Buben interessieren könnten. 
+Weitere interessante Ergebnisse lieferte die Auswertung der Frage zu Themen, die Mädchen und Buben interessieren könnten. (Siehe Tabelle \ref{themen})
 
-Über welche Themen liest du gerne?
-Gesamtnennungen
-Mädchen
-Buben
-Faktor
-Pferde, Hunde, Katzen
-185
-145
-40
-0,57
-Fußball/Sport
-240
-67
-173
--0,44
-Prinzessinen
-53
-53
-0
-1
-Autos/Technik
-146
-16
-130
--0,78
-Dinosaurier
-119
-32
-87
--0,46
-Meerestiere
-169
-92
-77
-0,09
-Freunde/Liebe
-132
-108
-23
-0,64
-Geister/Monster
-219
-97
-122
--0,11
-Abenteuer/Indianer/Piraten
-193
-77
-116
--0,2
-Hexen/Zauberer
-166
-114
-52
-0,37
-Drachen/Ritter
-151
-44
-107
-0,42
+\input{tabellen/themen}
 
 
-…
 
 Problematisch beim Fragebogen im Nachhinein war, dass die Bücher doch ein weite Range abdecken und deshalb auch teilweise schwer miteinander zu vergleichen sind, wie zum Beispiel Harry Potter und der Regenbogenfisch. Außerdem stehen neben Klassikern, die seit Jahrzehnten gelesen werden, wie die *Fünf Freunde* relativ neue erschienene Bücher. Informationstechnisch hätte man aus dem Fragebogen nach einer gründlicheren Recherche und Literaturanalyse etwas mehr herausholen können. Außerdem wurden Sachbücher nicht berücksichtigt, die in diesem Alter gerade von Buben gerne gelesen werden und die auch Themenvorlieben gut repräsentieren könnten. Bücher, die ursprünglich in der Auswahl dabei waren und aus alterstechnischen Gründen wieder verworfen wurden, wurden ebenfalls manchmal genannt.
 

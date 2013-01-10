@@ -42,7 +42,21 @@ $if(natbib)$
 \bibliographystyle{plainnat}
 $endif$
 $if(biblatex)$
-\usepackage[backend=biber]{biblatex}
+% \usepackage[backend=biber]{biblatex}
+\usepackage[
+  % style=authoryear-icomp, % Autor:Jahr Stil
+    style=fiwi2,    % Autor:Jahr Stil
+  backend=biber,    % Eine BibTeX Alternative
+% maxbibnames=99,
+% maxcitenames=2,   % Namen in Zitaten
+% mincitenames=1,   % Namen in Zitat bei et al.
+  uniquelist=false,
+  origyearwithyear=false,
+% url=false,
+  doi=true,
+  pages=bib,
+  publisher=true
+      ]{biblatex}   % Literaturverwaltung
 $if(biblio-files)$
 \bibliography{$biblio-files$}
 $endif$
@@ -213,6 +227,13 @@ $if(toc)$
 \listoftables 
 }
 $endif$
+
+\nocite{Barrie2007, Beer1998, Blyton2009, Boie2006,Brezina2008,Brezina2010,Brezina2010a}
+\nocite{Collodi2010,Dietl2009,Dittert2012,Finsterbusch2012,Funke2008,Kinney2012,Klein2011}
+\nocite{KNISTER1999,Leope2008,Lindgren1986,Maar2011,Masannek2003,Noestlinger2011,Noestlinger2010}
+\nocite{Osborne2007,Pfister2011,Preussler2005,Preussler2005a,Rowling1998,Scheffler2011}
+\nocite{Schneider2010,Schwarz2004,Siegner2002}
+
 $body$
 
 $if(natbib)$

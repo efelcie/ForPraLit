@@ -1,0 +1,1090 @@
+%!TEX encoding = IsoLatin9
+% biblatex-fiwi,v 1.29 2012/12/09 
+\documentclass{ltxdockit}
+\usepackage[latin9]{inputenc}
+\usepackage{hyphsubst}
+\HyphSubstIfExists{ngerman-x-latest}{%
+  \HyphSubstLet{ngerman}{ngerman-x-latest}}{}
+\usepackage[ngerman]{babel}
+\usepackage[style=fiwi,series=true,publisher=true,fullcitefilm,translatedas=true,partofcited=true]{biblatex}
+\ExecuteBibliographyOptions{bibencoding=utf8}
+\ExecuteBibliographyOptions{backref=false}
+\usepackage[strict,style=german,german=guillemets]{csquotes}
+\usepackage{btxdockit}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{shortvrb}
+\usepackage{needspace}
+\usepackage{pifont}
+\MakeAutoQuote{«}{»}
+\MakeAutoQuote*{<}{>}
+\MakeShortVerb{\|}
+\addbibresource{examples.bib}
+
+
+
+\titlepage{%
+  title={Der \sty{biblatex-fiwi}-Stil},
+  subtitle={Ein \sty{biblatex}-Zitierstil für Filmwissenschaftler},
+  url={http://www.ctan.org/tex-archive/macros/latex/contrib/csquotes/},
+  author={Simon Spiegel},
+  email={simon@simifilm.ch},
+  revision={1.2b},
+  date={\rcstoday}}
+
+\hypersetup{%
+  pdftitle={Das biblatex-fiwi-Paket},
+  pdfsubject={Ein biblatex-Zitierstile für Filmwissenschaftler},
+  pdfauthor={Simon Spiegel},
+  citecolor=black,
+  pdfkeywords={tex, e-tex, latex, biblatex, film studies, humanities}}
+
+\AtBeginToc{\setcounter{tocdepth}{1}}
+\AtEndToc{\setcounter{tocdepth}{5}}
+
+\deffootnote{2em}{2em}{\makebox[2em][l]{\thefootnotemark}}
+% tables
+
+\newcolumntype{H}{>{\sffamily\bfseries\spotcolor}l}
+\newcolumntype{P}{>{\raggedright}p{120pt}}
+\newcolumntype{Q}{>{\raggedright}p{70pt}}
+\newcolumntype{V}{>{\raggedright\displayverbfont}l}
+
+\newcommand*{\vcmd}[1]{\rotatehead{1.5em}{9.5em}{\cmd{#1}}}
+\newcommand*{\venv}[1]{\rotatehead{1.5em}{9.5em}{\env{#1}}}
+\newcommand*{\rotatehead}[3]{%
+  \makebox[#1][c]{\rotatebox{90}{\makebox[#2][l]{\scriptsize #3}}}}
+\newcommand{\tickmarkyes}{\Pisymbol{psy}{183}}
+\newcommand{\tickmarkno}{\textendash}
+
+% samples
+
+\definecolor{grid}{rgb}{0.7,0.7,0.7}
+
+\newcommand*{\mksample}[2][25]{%
+  \mkmetrics[#1]{#2\,\textcolor{grid}{AaGg}\,#2}}
+\newcommand*{\mkmetrics}[2][25]{%
+  \setlength{\unitlength}{1pt}%
+  \linethickness{0.25pt}%
+  \begin{picture}(#1,0)(0,0)
+   %\put(0,0){\parbox[b]{#1\unitlength}{\mkgrid{\fontdimen9\font}}}
+    \put(0,0){\parbox[b]{#1\unitlength}{\mkgrid{\fontdimen5\font}}}
+    \put(0,0){\parbox[b]{#1\unitlength}{\mkgrid{0pt}}}
+   %\put(0,0){\parbox[b]{#1\unitlength}{\mkgrid{-\fontdimen11\font}}}
+    \put(0,0){\parbox[b]{#1\unitlength}{\centering #2}}
+  \end{picture}}
+\newcommand*{\mkgrid}[1]{%
+  \begingroup\color{grid}%
+  \hrule height 0.25pt depth 0pt width \linewidth
+  \hrule height #1     depth 0pt width 0pt
+  \endgroup}
+
+\makeatletter
+
+\newcounter{@pseudofootnote}
+\newcommand{\@pseudofootnote}[1]{%
+  \stepcounter{@pseudofootnote}%
+  \textsuperscript{\number\value{@pseudofootnote}}}
+
+\newenvironment{quotesample}[2][]
+  {\setquotestyle[#1]{#2}%
+   \setcounter{@pseudofootnote}{0}%
+   \let\footnote\@pseudofootnote
+   \trivlist
+   \leftskip\parindent
+   \small}
+  {\endtrivlist}
+
+\makeatother
+
+% hyphenation
+
+\hyphenation{%
+ }
+
+\begin{document}
+
+\printtitlepage
+\tableofcontents
+\listoftables
+
+\section{Einleitung}
+\label{int}
+\subsection[About]{Über \sty{biblatex-fiwi}}
+
+Ich habe den \sty{biblatex-fiwi}"=Stil ursprünglich für meine Dissertation in Filmwissenschaft geschrieben und seither  kontinuierlich weiterentwickelt. Mittlerweile haben diverse Studenten und Doktoranden den Stil erfolgreich eingesetzt, ich selbst habe \sty{biblatex-fiwi} für zwei Bücher\footnote{\fullcite{Spiegel.S:2007b,Spiegel.S:2010b}.} benutzt -- der Stil ist also definitiv praxiserprobt.
+
+Es handelt sich bei \sty{biblatex-fiwi} nicht um die Implementierung eines definierten Standards, sondern um einen Zitierstil, der für verschiedene geisteswissenschaftliche Disziplinen geeignet sein sollte. Dabei wird dem Zitieren von Filmen und Fernsehserien besonderes Augenmerk geschenkt. Zudem liegt ein Fokus auf vertrackten Fällen, zB. Artikel in Sammelbänden innerhalb eines mehrbändigen Werks mit vielen Mitwirkenden.
+
+Bug"=Reports oder Fragen und Anregungen zur Weiterentwicklung des Stils sind stets willkommen. Falls sich jemand, der den Stil erfolgreich einsetzt, erkenntlich zeigen möchte, sei hier auf meine Amazon"=Wunschliste\fnurl{http://www.amazon.de/registry/wishlist/2HW0Y8SWX4QDU} verwiesen.
+
+\subsection{License}
+
+Copyright © 2003--2013 Simon Spiegel. Permission is granted to copy, distribute and\slash or modify this software under the terms of the \lppl, version 1.3c.\fnurl{http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt} This package is author"=maintained.
+
+\subsection{Voraussetzungen}
+
+\sty{biblatex-fiwi} benötigt \sty{biblatex} ab Version 2.4. Die Verwendung des \bibtex{}"=Ersatzes \bin{biber}\fnurl{http://biblatex-biber.sourceforge.net/} in der Version 1.4 oder höher wird dringend empfohlen. Zwar sollten diverse Funktionen auch mit \bibtex funktionieren, ich selber verwende aber seit längerem ausschließlich \bin{biber} und kann deshalb für nichts garantieren. Da mittlerweile sowohl \bin{biber} als auch \sty{biblatex} Bestandteil der \TeX{}"=Distributionen  \TeX{}~Live\fnurl{http://www.tug.org/texlive} und MiK\TeX{}\fnurl{http://www.miktex.org} sind, sollten beide den meisten Benutzern ohnehin zur Verfügung stehen.
+
+\subsection{Zu dieser Anleitung}
+Diese Anleitung behandelt nur die spezifischen Anpassungen und Eigenheiten von \sty{biblatex-fiwi} und ist nicht als allgemeine Einführung in \sty{biblatex} gedacht. Für Informationen zu \sty{biblatex} empfehle ich das exzellente \sty{biblatex}"=Manual sowie die deutschsprachige Einführung von Dominik Waßenhoven\fnurl{http://biblatex.dominik-wassenhoven.de/dtk.shtml}.
+\section{Benutzung}\label{benutzung}
+
+\sty{biblatex-fiwi} wird wie alle anderen \sty{biblatex}"=Stile aufgerufen:
+
+\begin{ltxcode}
+\usepackage[style=fiwi]{biblatex}
+\end{ltxcode}
+%
+oder 
+%
+\begin{ltxcode}
+\usepackage[style=fiwi2]{biblatex}
+\end{ltxcode}
+%
+Der Stil \sty{fiwi2} entspricht der Option \opt{yearatbeginning} (\secref{opt}); hier wird das Erscheinungsjahr unmittelbar nach dem Autor/Herausgeber in Klammern ausgegeben.
+
+\subsection{Paketoptionen}\label{opt}
+
+\sty{biblatex-fiwi} unterstützt alle gängigen Lade"=Optionen von \sty{biblatex}, bietet zusätzlich aber noch eigene an. Auch diese werden wie gewohnt aktiviert:
+\begin{ltxcode}
+\usepackage[bibstyle=fiwi,citestyle=fiwi,dashed=true]{biblatex}
+\end{ltxcode}
+
+\begin{optionlist}
+
+\optitem[normal]{citefilm}{\opt{normal}, \opt{full}, \opt{complete}}
+
+Mit dieser Option wird die Ausgabe von Filmen bei Zitaten im Text definiert. Dies betrifft nur das Aussehen bei der Ernstnennung respektive den Befehl \cmd{citefullfilm} (\secref{zitbefehl}). Die Kurzform \opt{citefilm} entspricht \kvopt{citefilm}{normal}.
+
+\begin{valuelist}
+\item[normal] Im Normalfall wird der volle Filmtitel und das Jahr der Veröffentlichung in Klammern ausgegeben; zB. \citefilm{Kubrick.S:1968}.
+\item[full] Gibt den Filmtitel sowie -- in Klammern -- das Produktionsland und das Jahr der Veröffentlichung aus; zB. \toggletrue{citefullfilm}\citefullfilm{Kubrick.S:1968}.\togglefalse{citefullfilm}
+\item[complete] Gibt den Filmtitel sowie  -- in Klammern --  den deutschen Verleihititel, Produktionsland und das Jahr der Veröffentlichung aus; zB. \toggletrue{citecompletefilm}\citefullfilm{Kubrick.S:1968}.\togglefalse{citecompletefilm}
+\end{valuelist}
+
+
+
+
+\boolitem[true]{citeprefix}
+
+Das korrekte Schreiben und Sortieren von Nachnamen mit Zusätzen wie <von> oder <van> ist eine Wissenschaft für sich. Im Deutschen gilt grundsätzlich folgende Regel: Ein Name wie «Ursula von Keitz» muss in der Bibliographie als «Keitz, Ursula von» erscheinen. Dies gilt aber nicht für Namen in anderen Sprachen; im Prinzip müssen hier jeweils die Regeln der Sprache des Herkunftslandes befolgt werden. Und streng genommen gibt es auch einen Unterschied zwischen der Deutschen «Ursula von Keitz» und dem Schweizer «Peter von Matt». Im ersten Fall handelt es sich ursprünglich um einen Adelstitel, im zweiten Fall um einen Flurnamen, der eigentlich als «von Matt, Peter» in der Bibliographie stehen müsste.
+
+Steht unter \bibfield{name} einfach \opt{von Keitz, Ursula}, dann erfolgt die Ausgabe auch als «von Keitz, Ursula» und wird  unter «von» einsortiert. Möchte man diese Ausgabe aber eine Einsortierung unter «Keitz», dann müsste ein entsprechender Eintrag in das \bibfield{sortkey}"=Feld.
+
+Setzt man dagegen in das Feld \bibfield{options} den Eintrag \bibfield{useprefix=false}, dann lautet die Ausgabe «Keitz, Ursula von» und wird unter «Keitz» einsortiert.
+
+Unabhängig von diesem Feld lautet die Ausgabe im Text in jedem Fall standardmäßig «von Keitz» resp. «von Matt». Für Zitate im Text wird \option{useprefix=false} also normalerweise ignoriert. Mit der Option \opt{nociteprefix} kann dies geändert werden, dann  steht auch beim Zitat  im Text nur noch «Matt» bzw. «Keitz». Die Kurzform \opt{citeprefix} entspricht \kvopt{citeprefix}{true}.
+
+\boolitem[false]{dashed}
+
+Bei aufeinander folgenden identischen Autoren wird in der Bibliographie statt des Namens ein Spiegelstrich (--) gesetzt. Die Kurzform \opt{dashed} entspricht \kvopt{dashed}{true}.
+
+\boolitem[false]{filmruntime}
+
+Bestimmt, ob in der Bibliographie bei Filmen die in \bibfield{pagetotal} angegebene Laufzeit angegeben wird (vgl. \secref{sub:filme}). Die Kurzform \opt{filmruntime} entspricht \kvopt{filmruntime}{true}.
+
+\optitem[false]{ignoreforeword}{\opt{true}, \opt{false}, \opt{cite}, \opt{bib}, \opt{both}}
+
+Bestimmt, ob der Inhalt von \bibfield{foreword} ausgegeben wird oder nicht.
+
+\begin{valuelist}
+\item[true] Die Ausgabe von \bibfield{foreword} wird sowohl bei \cmd{fullcite} im Lauftext als auch in der Bibliographie unterdrückt.
+\item[both] Ist mit \opt{true} identisch.
+\item[false] \bibfield{foreword} wird überall ausgegeben.
+\item[cite] Die Ausgabe von \bibfield{foreword} bei \cmd{fullcite} wird unterdrückt.
+\item[bib] Die Ausgabe von \bibfield{foreword} in der Bibliographie wird unterdrückt.
+\end{valuelist}
+Die Kurzform \opt{ignoreforeword} entspricht \kvopt{ignoreforeword}{true}
+
+Diese Option kann innerhalb eines Dokuments mit den Befehlen \cmd{ignoreforewordtrue} und \cmd{ignoreforewordfalse} gesteuert werden.
+
+\optitem[false]{ignoreafterword}{\opt{true}, \opt{false}, \opt{cite}, \opt{bib}, \opt{both}}
+
+Bestimmt, ob der Inhalt von \bibfield{afterword} ausgegeben wird oder nicht.
+
+\begin{valuelist}
+\item[true] Die Ausgabe von \bibfield{afterword} wird sowohl bei \cmd{fullcite} im Lauftext als auch in der Bibliographie unterdrückt.
+\item[both] Ist mit \opt{true} identisch.
+\item[false] \bibfield{afterword} wird überall ausgegeben.
+\item[cite] Die Ausgabe von \bibfield{afterword} bei \cmd{fullcite} wird unterdrückt.
+\item[bib] Die Ausgabe von \bibfield{afterword} in der Bibliographie wird unterdrückt.
+\end{valuelist}
+Die Kurzform \opt{ignoreafterword} entspricht \kvopt{ignoreafterword}{true}
+
+Diese Option kann innerhalb eines Dokuments mit den Befehlen \cmd{ignoreafterwordtrue} und \cmd{ignoreafterwordfalse} gesteuert werden.
+
+\optitem[false]{ignoreintroduction}{\opt{true}, \opt{false}, \opt{cite}, \opt{bib}, \opt{both}}
+
+Bestimmt, ob der Inhalt von \bibfield{introduction} ausgegeben wird oder nicht.
+
+\begin{valuelist}
+\item[true] Die Ausgabe von \bibfield{introduction} wird sowohl bei \cmd{fullcite} im Lauftext als auch in der Bibliographie unterdrückt.
+\item[both] Ist mit \opt{true} identisch.
+\item[false] \bibfield{introduction} wird überall ausgegeben.
+\item[cite] Die Ausgabe von \bibfield{introduction} bei \cmd{fullcite} wird unterdrückt.
+\item[bib] Die Ausgabe von \bibfield{introduction} in der Bibliographie wird unterdrückt.
+\end{valuelist}
+Die Kurzform \opt{ignoreintroduction} entspricht \kvopt{ignoreintroduction}{true}
+
+Diese Option kann innerhalb eines Dokuments mit den Befehlen \cmd{ignoreintroductiontrue} und \cmd{ignoreintroductionfalse} gesteuert werden.
+
+\optitem[false]{ignoreaddendum}{\opt{true}, \opt{false}, \opt{cite}, \opt{bib}, \opt{both}}
+
+Bestimmt, ob der Inhalt von \bibfield{addendum} ausgegeben wird oder nicht.
+
+\begin{valuelist}
+\item[true] Die Ausgabe von \bibfield{addendum} wird sowohl bei \cmd{fullcite} im Lauftext als auch in der Bibliographie unterdrückt.
+\item[both] Ist mit \opt{true} identisch.
+\item[false] \bibfield{addendum} wird überall ausgegeben.
+\item[cite] Die Ausgabe von \bibfield{addendum} bei \cmd{fullcite} wird unterdrückt.
+\item[bib] Die Ausgabe von \bibfield{addendum} in der Bibliographie wird unterdrückt.
+\end{valuelist}
+Die Kurzform \opt{ignoreaddendum} entspricht \kvopt{ignoreaddendum}{true}
+
+Diese Option kann innerhalb eines Dokuments mit den Befehlen \cmd{ignoreaddendumtrue} und \cmd{ignoreaddendumfalse} gesteuert werden.
+
+\optitem[false]{ignoreparatext}{\opt{true}, \opt{false}, \opt{cite}, \opt{bib}, \opt{both}}
+Kombination der beiden vorhergehenden Befehle, der bestimmt, ob der Inhalt von \bibfield{foreword}, \bibfield{afterword}, \bibfield{introduction} und \bibfield{addendum} ausgegeben wird oder nicht.  Die Kurzform \opt{ignoreparatext} entspricht \kvopt{ignoreparatext}{true}
+
+\boolitem[true]{ignorearticle}
+
+\bin{biber} bietet die Möglichkeit, Teile eines Felds beim Sortieren zu ignorieren. Mit \opt{ignorearticle} werden die gängigen Artikel bei den Feldern \bibfield{title} und \bibfield{maintitle} ignoriert (\secref{sub:sort}). Die Kurzform \opt{ignorearticle} entspricht \kvopt{ignorearticle}{true}.
+
+\boolitem[false]{translatedas}
+
+Aktiviert die Ausgabe der deutschen Übersetzung am Ende des Eintrags, siehe dazu \secref{sub:germ}. Die Kurzform \opt{translatedas} entspricht \kvopt{translatedas}{true}.\footnote{In früheren Versionen hiess diese Option \opt{germ}.}
+
+\boolitem[false]{origyearsuperscript}
+Ist diese Option aktiviert, wird bei Neuauflagen vor \bibfield{origdate} immer eine hochgestellte \textsuperscript{1} ausgegeben. Ansonsten geschieht dies nur bei Büchern.
+
+\optitem[false]{origyearwithyear}{\opt{true}, \opt{false}, \opt{brackets}}
+
+Mit dieser Option wird definiert, wie das Feld \bibfield{origdate} bei Neuauflagen ausgegeben wird.
+
+\begin{valuelist}
+\item[false] \bibfield{origdate} wird nicht zusammen mit \bibfield{date} respektive \bibfield{year} ausgegeben, sondern bei Aufsätzen in Klammern unmittelbar nach dem Aufsatzitel und bei den übrigen Dokumenttypen am Ende des Eintrags in Klammern.
+\item[true] \bibfield{origdate} wird unmittelbar nach der \bibfield{date} respektive \bibfield{year} ausgegeben; die beiden Felder sind durch einen Schrägstrich getrennt.
+\item[brackets] \bibfield{origdate} wird ebenfalls unmittelbar nach der \bibfield{date} respektive \bibfield{year} ausgegeben, steht aber in eckigen Klammern.
+\end{valuelist}
+
+\begingroup
+  \emergencystretch=3em %
+Die verschiedenen Varianten von \opt{origyearwithyear} und \opt{origyearsuperscript} lassen sich frei kombinieren.
+\par\endgroup
+\opt{origyearwithyear} hat nur einen Einfluss auf die Darstellung von Neuauflagen und auf Übersetzungen; wenn das Feld \bibfield{origtitle} existiert, wird \bibfield{oridate} weiterhin mit den Angaben zum Original ausgegeben.
+
+\boolitem[false]{partofcited} Mit den \bibfield{crossref}- und \bibfield{xref}"=Feldern können in \sty{biblatex} Kinder- und Elterneinträge miteinander verknüpft werden; in der Regel sind dies Aufsätze und die entsprechenden Sammelbände. Die \opt{partofcited}"=Option sorgt dafür, dass bei der Ausgabe des Kindereintrages nicht die ganzen Angaben des Sammelbandes, sondern nur ein Verweis auf diesen ausgegeben wird; siehe dazu \secref{sub:kurz}. Die Kurzform \opt{partofcited} entspricht \kvopt{partofcited}{true}.
+
+\optitem[false]{pages}{\opt{true}, \opt{false}, \opt{cite}, \opt{bib}, \opt{both}}
+
+Diese Option steuert, ob bei vor die Seitenzahlen <S. > vorangestellt wird. Dabei können die Ausgabe im Lauftext und in der Bibliographie getrennt definiert werden. Mögliche Optionen sind:
+
+\begin{valuelist}
+\item[true] Sowohl im Lauftext als auch in der Bibliographie steht <S. > vor der Seitenzahl.
+\item[both] Ist mit \opt{true} identisch.
+\item[false] Die Seitenzahlen werden ohne Zusatz ausgegeben.
+\item[cite] Bei Zitaten im Lauftext werden die Seitenzahlen mit dem Zusatz <S. > ausgegeben.
+\item[bib] In der Bibliographie werden die Seitenzahlen mit dem Zusatz <S. > ausgegeben.
+\end{valuelist}
+
+\boolitem[false]{publisher}
+
+Bestimmt, ob in der Bibliographie der Verlag -- respektive bei Übersetzungen der Verlag des Originals -- ausgegeben wird. Die Kurzform \opt{publisher} entspricht \kvopt{publisher}{true}.
+
+Diese Option kann innerhalb eines Dokuments mit den Befehlen \cmd{ignorepublishertrue} und \cmd{ignorepublisherfalse} gesteuert werden. Zusätzlich gibt es noch die Befehle \cmd{ignoreaddresstrue} und \cmd{ignoreaddressfalse} respektive \cmd{ignorelocationtrue} und \cmd{ignorelocationfalse}, die die Ausgabe des Verlagortes steuern.
+
+\boolitem[false]{series}
+
+Bestimmt, ob in der Bibliographie die Reihe, in der der zitierte Titel erschienenen ist, ausgegeben wird. Die Kurzform \opt{publisher} entspricht \kvopt{publisher}{true}.
+
+\boolitem[false]{yearatbeginning}
+
+Während im Normalfall das Jahr am Ende des Eintrags ausgegeben wird, steht es mit der aktivierten Option \opt{yearatbeginning} nach dem Autor/Herausgeber zu Beginn in Klammern. Diese Option entspricht dem Aufruf des Stils \sty{fiwi2} (\secref{benutzung}). Die Kurzform \opt{yearatbeginning} entspricht \kvopt{yearatbeginning}{true}.
+
+\boolitem[false]{xindy}
+
+Standardmäßig aktiviert \sty{biblatex-fiwi} die Option \opt{cite=bib}, das heißt, \sty{biblatex} schreibt bei allen \cmd{cite}-Befehlen einen Index-Eintrag in die \file{.idx}"=Datei. Dieser Eintrag hat normalerweise folgende Form
+\begin{ltxcode}
+\indexentry{Index-Eintrag@Index-Eintrag}{Seitenzahl}.
+\end{ltxcode}
+%
+Der zweite Teil des Eintrags nach dem @-Zeichen zeigt dem Programm \sty{makeindex} an, wie der Eintrag sortiert werden muss und kann bei Bedarf über das Feld \bibfield{indextitle} definiert werden (ist \bibfield{indextitle} nicht definiert, wird \bibfield{title} verwendet). Das weitaus mächtigere Index"=Programm \bin{xindy}\fnurl{http://xindy.sourceforge.net/} dagegen ermöglicht komplexe Sortiervorgänge und benötigt den zweiten Teil des Index"=Eintrags nicht -- im Gegenteil: Dieser macht die Verarbeitung mit \bin{xindy} viel komplizierter. Die Option \opt{xindy} unterbindet deshalb, dass der zweite Teil ausgegeben wird; der Eintrag in die \sty{.idx}"=Datei sieht dann folgendermaßen aus:
+
+\begin{ltxcode}
+\indexentry{Index-Eintrag}{Seitenzahl}.
+\end{ltxcode}
+%
+In diesem Fall hat das Feld \bibfield{indexsorttitle} somit auch keinen Einfluss auf den Index"=Eintrag. Die Kurzform \opt{xindy} entspricht \kvopt{xindy}{true}.
+
+In jedem Fall muss aber die Index"=Erzeugung mittels dem Paket \sty{makedidx} und \cmd{makeindex} aktiviert werden.
+\end{optionlist}
+
+%\subsection{Optionen für die Bibliography}\label{check}
+%
+%\sty{biblatex-fiwi} stellt Filter für die Bibliographie bereit, die beim Aufrufen des Befehls \cmd{printbibliography} eingesetzt werden können. Die Filter entsprechen den gleichnamigen Paketoptionen (\secref{opt}).
+%
+%\begin{ltxcode}
+%\printbibliography[check=<<Filter>>]
+%\end{ltxcode}
+%
+%\begin{keymarglist}
+%\item[ignoreforeword]
+%Bestimmt, ob der Inhalt von \bibfield{foreword} ausgegeben wird oder nicht. 
+%
+%\item[ignoreafterword]
+%Bestimmt, ob der Inhalt von \bibfield{afterword} ausgegeben wird oder nicht. 
+%
+%\item[ignoreintroduction]
+%Bestimmt, ob der Inhalt von \bibfield{introduction} ausgegeben wird oder nicht. 
+%
+%\item[ignoreparatext]
+%Kombination der beiden vorhergehenden Filter, der bestimmt, ob der Inhalt von \bibfield{foreword}, \bibfield{afterword} und \bibfield{introduction} ausgegeben wird oder nicht.
+%
+%\item[printpublisher]
+%Bestimmt unabhängig von der  globalen Option \opt{publisher}, ob in der Bibliographie der Verlag -- respektive bei Übersetzungen der Verlag des Originals -- ausgegeben wird.
+%
+%\item[ignorepublisher]
+%Bestimmt unabhängig von der  globalen Option \opt{publisher}, ob in der Bibliographie der Verlag -- respektive bei Übersetzungen der Verlag des Originals -- ausgegeben wird.
+%
+%\item[ignoreaddress]
+%Bestimmt unabhängig, ob in der Bibliographie der Verlagsort -- respektive bei Übersetzungen der Verlagsort des Originals -- ausgegeben wird.
+%
+%\end{keymarglist}
+
+\section{Befehle}
+\label{bas}
+
+\subsection{Zitierbefehle}
+\label{zitbefehl}
+
+\sty{biblatex-fiwi} unterstützt alle gängigen \sty{biblatex}"=Befehle. Auch die \cmd{footcite}"=Befehle sollten grundsätzlich funktionieren. Da es sich bei \sty{biblatex-fiwi} aber um ein Format für Zitate im Lauftext handelt, ist deren Einsatz wenig sinnvoll und wird von mir auch nicht getestet.
+
+\begin{ltxsyntax}
+\cmditem{inparencite}{key}
+
+Neben den normalen \sty{biblatex}"=Befehlen unterstützt \sty{biblatexf-fiwi} den durch den \sty{biblatex"=luh"=ipw}"=Stil\fnurl{http://www.tex.ac.uk/ctan/macros/latex/exptl/biblatex-contrib/biblatex-luh-ipw/} eingeführten \cmd{inparencite}"=Befehl. Dieser ähnelt dem Befehl \cmd{parencite}, erlaubt aber Zitatangaben im Fließtext nach dem Schema \enquote{Wie \inparencite[28]{Lavery.D:2008a} erläutert}. Im Gegensatz zu den meisten anderen Zitierbefehlen, wird bei \cmd{inparencite} eine Zitatwiederholung nicht durch \enquote{ebd.} ersetzt.
+
+\end{ltxsyntax}
+
+\noindent Neben den Standardbefehlen bietet \sty{biblatex-fiwi} zudem noch spezielle Befehle für das Zitieren von Filmen für die Dokumenttypen \bibtype{movie}, \bibtype{video} und \bibtype{misc} (siehe auch\secref{supp:types}):
+
+\begin{ltxsyntax}
+
+\cmditem{citefilm}{key}
+
+Zum Zitieren von Filmen. Die Form des Zitates hängt von der Option \opt{citefilm} ab (\secref{opt}). Im Normalfall werden der volle Titel und das Jahr ausgegeben, zB.: \citefilm{Kubrick.S:1975}. Bei allen weiteren Nennungen wird nur das Feld \sty{shorttitle} (falls vorhanden) resp. \sty{title} ausgegeben, zB: \citefilm{Kubrick.S:1975}.
+
+\cmditem{citefullfilm}{key}
+
+Gibt  immer die kompletten Angaben zum Film aus, auch wenn der Film bereits zitiert wurde, die Form der Ausgabe hängt von der Option \sty{citefilm} ab.
+
+\cmditem{citecfilm}{key}
+
+Gibt -- unabhängig von der Option \sty{fullcitefilm} -- den vollen Filmtitel sowie Produktionsland und -jahr aus; zB.: \citecfilm{Kubrick.S:1975}. 
+\end{ltxsyntax}
+
+\subsection{Weitere Befehle}
+\begin{ltxsyntax}
+\cmditem{film}{text}
+
+Dieser Befehl markiert Filmtitel und ist standardmäßig auf \cmd{textsc}, also auf Kapitälchen, eingestellt.
+\end{ltxsyntax}
+
+\section{Unterstütze Dokumenttypen}\label{supp:types}
+
+\sty{biblatex} unterstützt eine Fülle von Dokumenttypen, von denen man -- je nach Wissenschaftsgebiet -- in der Praxis allerdings nur einen Bruchteil tatsächlich einsetzt. \sty{biblatex-fiwi} bietet  nur für Dokumenttypen, die im geisteswissenschaftlichen Bereich relevant sind,  spezifische Anpassungen. Alle nicht unterstützen Typen sind mir in der Praxis bislang nicht begegnet; bei Bedarf können in späteren Versionen aber weitere Dokumenttypen hinzukommen.
+
+In der folgenden Liste sind die Dokumenttypen, für die \sty{biblatex-fiwi} spezielle Anpassungen mitbringt, aufgeführt und allfällige Besonderheiten beschrieben. Typen, die nicht in der Liste stehen, können dennoch eingesetzt werden -- \sty{biblatex-fiwi} bietet für sie einfach keine besonderen Anpassungen.
+
+\begin{typelist}
+
+\typeitem{article}
+Entspricht dem normalen \sty{biblatex}"=Typ. Besonderes Augenmerk liegt auf  Kombinationen von \bibfield{volume}, \bibfield{number}, \bibfield{issue} und \bibfield{issuetitle}.
+
+\typeitem{periodical}
+Entspricht dem normalen \sty{biblatex}"=Typ.
+
+\typeitem{book}
+Entspricht dem normalen \sty{biblatey}"=Typ. Besonderes Augenmerk liegt auf mehrbändigen Werken mit \bibfield{title}, \bibfield{maintitle}, \bibfield{parttitle} u.a. sowie auf Kombinationen von Autoren, Herausgeber nund Bearbeitern.
+
+\typeitem{incollection/inbook}
+
+Die Unterscheidung dieser beiden Typen hat mir nie eingeleuchtet. Zumindest ist mir bislang noch kein Fall begegnet, bei dem sie mir sinnvoll erschienen wäre. Deshalb werden die beiden Dokumenttypen von \sty{biblatex-fiwi} gleich behandelt.
+
+\typeitem{online} 
+
+Entspricht dem normalen \sty{biblatex}"=Typ.
+
+\typeitem{movie, video,misc}
+
+Diese drei Typen werden alle für Filme verwendet, wobei \bibtype{movie} und \bibtype{video} gleich behandelt werden sollten; \bibtype{misc} ist eher ein historisches Überbleibsel. Die Standardfelder haben bei diesen Dokumenttypen eine leicht andere Bedeutung als normal (siehe dazu \secref{sub:filme} und \secref{zitbefehl}).
+
+\typeitem{thesis}
+Entspricht dem normalen \sty{biblatex}"=Typ.
+
+\typeitem{phdthesis}
+Entspricht dem normalen \sty{biblatex}"=Typ.
+
+\typeitem{collection, reference}
+Diese beiden Typen sind für Nachschlagewerke gedacht. In der Bibliographie wird zuerst der Name des Buches ausgegeben und anschließend die Autoren oder Herausgeber. Die Sortierung erfolgt anhand des Titels.
+
+\typeitem{review}
+Dieser Typ ist für Rezensionen gedacht. In den Standard"=Stilen von \sty{biblatex} ist \bibtype{review} mit \bibtype{article} identisch, \sty{biblatex-fiwi} dagegen stellt eine spezielle Anpassung zur Verfügung, bei der die Rezension mit dem Eintrag des rezensierten Werks verknüpft wird. Dabei wird das rezensierte Werk  im Feld \bibfield{related} angegeben, eine Angabe in \bibfield{title} entfällt. Die Unterstützung dieses Typs ist noch experimentell.
+\end{typelist}
+
+\subsection{Zusätzliche Felder}\label{sub:zusatzfeld}
+
+\sty{biblatex} stellt eine Reihe von Feldern bereit, um das Erscheinungsjahr der Erstausgabe oder -- bei Übersetzungen -- das Original anzugeben. In den Standard"=Stilen wird nur das \bibfield{origlanguage}"=Feld unterstützt. \sty{biblatex-fiwi} dagegen nutzt alle  \bibfield{orig*}"=Felder; siehe dazu auch die Beispiele in \secref{beisp} (Alternativ kann hierfür auch der \bibfield{related}-Mechanismus eingesetzt werden \secref{sub:uebersetzungen}). Ausserdem wird \bibfield{nameaddon} unterstützt.
+
+\begin{fieldlist}
+
+\item[origdate]
+Das Datum -- normalerweise nur das Jahr -- der Erstveröffentlichung respektive des Originals im Falle einer Übersetzung. Bei Aufsätzen, bei denen es sich nicht um Übersetzungen handelt, wird dieses Datum unmittelbar nach \bibfield{title} in Klammern ausgegeben, bei Büchern, die keine Übersetzungen sind, dagegen am Ende des Eintrags in Klammern mit einer hochgestellten \textsuperscript{1}. Handelt es sich um eine Übersetzung -- ist der \bibfield{origtitle} angegeben -- erfolgt die Ausgabe zusammen mit den Angaben zum Original ebenfalls am Ende des Eintrags in Klammern.
+
+\item[origlanguage]
+Die Sprache des Originals. Normalerweise wird dieses Feld gemeinsam mit \bibfield{translator}, \bibfield{origtitle}, \bibfield{origdate} und \bibfield{origlocation} angegeben, keine dieser Angaben ist aber zwingend nötig. 
+
+\item[origtitle]
+Bei Übersetzungen der Titel des Originals. Wenn dieses Feld leer ist, werden auch \bibfield{origlocation} und \bibfield{origpublisher} nicht angegeben und \bibfield{origyear} nur mit einer hochgestellten \textsuperscript{1}.
+
+\item[origlocation]
+Bei Übersetzungen der Publikationsort des Originals. Wird nur ausgegeben, wenn \bibfield{origtitle} nicht leer ist.
+
+\item[origpublisher]
+Bei Übersetzungen der Verlag des Originals. Wie \bibfield{publisher} wird die Ausgabe über die Option \opt{publisher} gesteuert (\secref{opt}). Wird nur ausgegeben, wenn \bibfield{origtitle} nicht leer ist.
+
+\item[nameaddon]
+Dient zur Angabe von Pseudonymen und ähnlichem bei Autoren und Herausgebern; der Inhalt dieses Feldes wird unverändert unmittelbar nach dem Namen in eckigen Klammern ausgegeben.
+
+\textbf{Achtung}: Sollte \bibfield{author} respektive \bibfield{editor} mehrere Namen enthalten, kann \sty{biblatex} nicht wissen, zu welchem Autor die Angabe in \bibfield{nameaddon} gehört (und es ist auch nicht möglich, mehreren Autoren unterschiedliche \bibfield{nameaddons} zuzuweisen); deshalb gibt \sty{biblatex"=fiwi} den Inhalt von \bibfield{nameaddon} in diesem Fall ebenfalls hinter den Namen aus. Für die Praxis bedeutet das, dass \bibfield{nameaddon} eigentlich nur bei Dokumenten mit einem einzigen Autor sinnvoll eingesetzt werden kann. 
+\end{fieldlist}
+
+
+
+\subsection{Filme}\label{sub:filme}
+
+Filme werden mit den \cmd{citefilm}"=Befehlen zitiert (siehe \secref{zitbefehl}). Bei den Dokumenttypen \bibtype{movie}, \bibtype{video} und \bibtype{misc} haben einige Felder eine leicht andere Bedeutung:
+
+\begin{fieldlist}
+
+\item[author]
+Der Regisseur des Films.
+
+\item[address, location]
+Das Produktionsland.
+
+\item[title]
+Der internationale Verleihtitel.
+
+\item[subtitle]
+Der deutsche Verleihtitel. 
+
+\item[pagetotal]
+Die Laufzeit des Films in Minuten, wird nur ausgegeben, wenn \opt{filmruntime} aktiviert ist (vgl. \secref{opt}).
+
+\item[note]
+Angaben zur zitierten DVD o.ä.; wird, falls vorhanden, unverändert am Ende des Eintrags in Klammern ausgegeben.
+
+\end{fieldlist}
+
+\subsection{Serien}\label{sub:serien}
+
+\sty{biblatex-fiwi} stellt sowohl Zitierstile für Filme als auch für Fernsehserien bereit; bei Fernsehserien werden zwei Varianten unterschieden:
+
+\subsubsection*{Zitieren einer einzelnen Folge}
+In diesem Fall bleibt die Bedeutung der bisherigen Felder gleich; es kommen allerdings neue hinzu:
+
+\begin{fieldlist}
+\item[maintitle]
+Der Titel der Serie; für den Titel der zitierten Folge wird \bibfield{title} verwendet.
+
+\item[volume]
+Die Staffel der zitierten Folge.
+
+\item[number]
+Die Nummer der zitierten Folge innerhalb der Staffel.
+\end{fieldlist}
+%
+\begin{ltxexample}
+@movie{Reardon.J:1994a,
+	Address = {USA},
+	Author = {Reardon, Jim},
+	Maintitle = {The Simpsons},
+	Number = {6},
+	Rating = {5},
+	Read = {Yes},
+	Title = {Treehouse of Horror V},
+	Volume = {6},
+	Year = {1994}}
+\end{ltxexample}
+\fullcite{Reardon.J:1994a}.
+\\ \\
+\noindent Um Fernsehserien innerhalb des Textes zu zitieren, gibt es zwei verschiedene Befehle: Mit \cmd{citefilm} wird der Titel der Serie (also \bibfield{maintitle}), die Angaben zu Staffel und Folge, sowie der Titel der spezifischen Folge und das Jahr ausgegeben. Bei \cmd{citeepisode} dagegen werden nur der Titel der Folge (also \bibfield{title}) und das Jahr ausgegeben.
+
+\subsubsection*{Zitieren einer ganzen Serie}
+Wenn eine ganze Serie und nicht eine einzelne Folge zitiert werden soll, gelten andere Anforderungen; so ist nun der Sender, auf dem die Serie ursprünglich ausgestrahlt wurde, oft wichtiger als das Land. Dagegen sind die Regisseure der Sendung weniger wichtig als ihre <Erfinder> . Als Zitierbefehle kommen weiterhin die Befehle \cmd{citefilm} und \cmd{citefullfilm} zum Einsatz. Um anzuzeigen, dass es sich bei dem zitierten Film um eine ganze Serie handelt, wird das Feld \bibfield{entrysubtype} auf \prm{serial} gesetzt. Zudem werden einige bestehende Felder nun anders verwendet.
+
+\begin{fieldlist}
+\item[entrysubtype]
+Um eine ganze Serie zu zitieren, muss in diesem Feld \prm{serial} stehen.
+
+\item[organization]
+Der Fernsehsender, der die Sendung zuerst ausgestrahlt hat.
+
+\item[title]
+Ist \bibfield{entrysubtype} auf \prm{serial} gesetzt, wird hier der Name der Serie angegeben und nicht der der Folge.
+
+\item[author]
+Wird hier für den Schöpfer/Erfinder der Serie verwendet.
+\end{fieldlist}
+
+\begin{ltxexample}
+@movie{Ball.A:2003a,
+	Address = {USA},
+	Author = {Ball, Alan},
+	Date = {2003/},
+	Entrysubtype = {serial},
+	Organization = {HBO},
+	Title = {True Blood}}
+\end{ltxexample}
+\fullcite{Ball.A:2003a}
+
+\subsection{Zitieren von Fernsehsendungen}\label{movie:tv}
+
+Im Gegensatz zum vorangegangen Kapitel geht es hier um das Zitieren einer zu einem bestimmten Zeitpunkt ausgestrahlten Sendung. In der Regel handelt es sich dabei gerade nicht um Filme, Serien o.ä., sondern um die Eigenproduktionen -- meist Infomations- oder Live"=Sendungen -- eines Senders.
+
+Fernsehsendungen wie z.\,B.\  Talkshows oder Nachrichtensendungen haben keinen Regisseur im eigentlichen Sinn, dafür aber ein präzises Ausstrahlungsdatum. Statt des Landes wird hier der Fernsehsender angegeben.
+\begin{fieldlist}
+\item[entrysubtype]
+Um eine Sendung zu zitieren, muss in diesem Feld \prm{tv} stehen.
+
+\item[organization]
+Der Fernsehsender, auf dem die Sendung  ausgestrahlt wurde.
+
+\item[date]
+Das Datum der Ausstrahlung.
+
+\item[maintitle]
+Handelt es sich um ein wiederkehrendes Format, bei dem die einzelnen Folgen eigene Titel haben, wird hier der Name der Sendung angegeben.
+
+\item[title]
+Handelt es sich um ein wiederkehrendes Format, bei dem die einzelnen Folgen eigene Titel haben, wird hier der Name zitieren Folge angegeben. Tragen die einzelnen Folgen dagegen keinen Namen, bleibt \bibfield{maintitle} leer und der Name der Sendung wird mit \bibfield{title} angegeben.
+\end{fieldlist}
+%
+\begin{ltxexample}
+@movie{Kassensturz:2012-05-12,
+	Date = {2012-05-12},
+	Entrysubtype = {tv},
+	Organization = {SF1},
+	Pagetotal = {23},
+	Title = {Kassensturz},
+	Year = {2012}}
+\end{ltxexample}
+\fullcite{Wuergel.H:2012d}.
+\\ \\
+\noindent Auch hier gibt es die Möglichkeit den Titel der Sendung und jenen der spezifischen Folge mit \cmd{citefilm} zu zitieren oder mittels \cmd{citeepisode} nur den Titel der gewünschten Folge.
+
+Für den Fall, dass verschiedene Ausgaben einer Sendung zitiert werden, bei der eine einzelne Folge keinen eigenen Titel hat (man danke an \film{Tagesschau}, \film{Sportstudio} oder dergleichen) wird das Ausstrahlungsdatum der Sendung auch bei Folgezitaten ausgegeben. Werden also zum Beispiel \citefilm{Wuergel.H:2012d} und \citefilm{Wuergel.H:2012b} zitiert, so so sieht ein Wiederholungszitat folgedermaßen aus: \citefilm{Wuergel.H:2012d}.
+
+\subsection{Sortieren von Filmen}\label{sub:sort}
+
+Filme werden normalerweise in einer gesonderten Filmographie aufgeführt. Da \sty{biblatex} die Möglichkeit bietet, mehrere Bibliographien auszugeben, kann auf einfache Weise eine Filmographie erstellt werden:
+
+\begin{ltxexample}
+\documentclass{...}
+\usepackage{biblatex}
+\addbibresource{...}
+\begin{document}
+...
+\printbibheading
+\printbibliography[<<nottype=movie,video>>,heading=subbibliography,
+                   title={Literatur}]
+\printbibliography[<<type=movie,video>>,heading=subbibliography,
+                   title={Filmographie}]
+\end{document}
+\end{ltxexample}
+%
+Normalerweise werden Filmographien nicht nach dem Namen des Regisseurs, sondern nach dem Titel des Films geordnet. Seit Version 2.0 bietet \sty{biblatex} die Möglichkeit, das Sortier"=Schema nicht nur global, sondern gesondert für jede Bibliographie zu setzen. \sty{biblatex-fiwi} bietet zusätzlich zu den Standard"=Schemata noch das Sortierschema \opt{title}, das ausschliesslich nach Titeln ordnet:
+
+\begin{ltxexample}
+\printbibliography[type=movie,video,<<sorting=title>>]
+\end{ltxexample}
+%
+ Bei einzelnen Folgen von Fernsehserien wird zuerst nach \bibfield{maintitle} und anschließend nach \bibfield{title} sortiert.\footnote{In früheren Versionen wurde mittels \cmd{DeclareSortExclusion}  das Sortieren nach Autoren, Herausgebern etc. für \bibtype{misc,movie} und \bibtype{video} generell deaktiviert. Dies ist nun nicht mehr der Fall. Das kann zur Folge haben, dass bestehende Dokumente angepasst werden müssen.}
+
+Zudem bietet \bin{biber} die Möglichkeit, beim Sortieren von Filmtiteln die Artikel zu ignorieren, so dass beispielsweise \textsc{The Godfather} unter <G> eingeordnet wird. Standardmäßig werden bei \sty{biblatex-fiwi} so die gängigen Artikel in den Feldern \bibfield{title} und \bibfield{maintitle} ignoriert. Mit der Option \opt{ignorearticle=false} kann diese Funktion deaktiviert werden. Wenn alle Stricke reißen, kann man am Ende immer noch auf die Felder \bibfield{sorttitle} respektive \bibfield{sortkey} ausweichen.
+
+\section{Verbundene Einträge}\label{sub:verbund}
+
+Seit Version 2.0 bietet \sty{biblatex} die Möglichkeit, zwei Einträge miteinander zu verknüpfen. Dabei wird im Feld \bibfield{related} der Citekey des verknüpften Eintrags und im Feld \bibfield{relatedtype} die Art der Verbindung angegeben. Mit \sty{biblatex-fiwi} sind verschiedene Varianten von Verknüpfungen möglich.
+
+\subsection{Übersetzungen und Neuauflagen}\label{sub:uebersetzungen}
+
+Übersetzungen und Neuauflagen können nicht nur mittels den \bibfield{orig*}-Feldern (\secref{sub:zusatzfeld}), sondern auch über verknüpfte Einträge angegeben werden.
+
+Diese beiden Einträge
+\begin{ltxexample}
+@book{Todorov.T:1970,
+	Address = {Paris},
+	Author = {Todorov, Tzvetan},
+	Publisher = {Éditions du Seuil},
+	Title = {Introduction à la littérature fantastique},
+	Year = {1970}}
+
+@book{Todorov.T:1992,
+	Address = {Frankfurt a. M.},
+	Author = {Todorov, Tzvetan},
+	Origlanguage = {french},
+	Publisher = {Fischer},
+	<<Related = {Todorov.T:1970},
+	Relatedtype = {translationof},>>
+	Title = {Einführung in die fantastische Literatur},
+	Translator = {Kersten, Karin and Metz, Senta and Neubaur, Caroline},
+	Year = {1992}}
+\end{ltxexample}
+%
+führen zur gleichen Ausgabe wie dieser:
+
+\begin{ltxexample}
+@book{Todorov.T:1992,
+	Address = {Frankfurt a. M.},
+	Author = {Todorov, Tzvetan},
+	<<Origdate = {1970},
+	Origlanguage = {french},
+	Origlocation = {Paris},
+	Origpublisher = {Éditions du Seuil},
+	Origtitle = {Introduction à la littérature fantastique},>>
+	Publisher = {Fischer},
+	Title = {Einführung in die fantastische Literatur},
+	Translator = {Kersten, Karin and Metz, Senta and Neubaur, Caroline},
+	Year = {1992}}
+\end{ltxexample}
+%
+\fullcite{Todorov.T:1992}\\
+
+\noindent Welche Variante man im konkreten Fall wählt, ist nur eine Frage des persönlichen Geschmacks respektive der Bequemlichkeit.\\
+
+\noindent Analog funktioniert \bibfield{related} auch bei Neuauflagen. Diese beiden Einträge
+\newpage
+\begin{ltxexample}
+@book{Bordwell.D:1979a,
+	Address = {Reading},
+	Author = {Bordwell, David and Thompson, Kristin},
+	Publisher = {Addison-Wesley},
+	Title = {Film Art: An Introduction},
+	Year = {1979}}
+
+@book{Bordwell.D:2004a,
+	Address = {Boston and Burridge and Dubuque and Madison and New York},
+	Author = {Bordwell, David and Thompson, Kristin},
+	Edition = {7},
+	Publisher = {McGraw-Hill},
+	<<Related = {Bordwell.D:1979a},
+	Relatedtype = {origpubin},>>
+	Title = {Film Art: An Introduction},
+	Year = {2004}}
+\end{ltxexample}
+%
+führen zur gleichen Ausgabe wie dieser:
+\begin{ltxexample}  
+@book{Bordwell.D:2004a,
+	Address = {Boston and Burridge and Dubuque and Madison and New York},
+	Author = {Bordwell, David and Thompson, Kristin},
+	Edition = {7},
+	<<Origdate = {1979},>>
+	Publisher = {McGraw-Hill},
+	Title = {Film Art: An Introduction},
+	Year = {2004}}
+\end{ltxexample}
+\fullcite{Bordwell.D:2004a}\\
+
+\noindent Wie man an diesem Beispiel sieht, lohnt sich die Verknüpfung bei Neuauflagen in der Regel nicht. Die Funktion ist vor allem dann nützlich, wenn man -- aus welchen Gründen auch immer -- ohnehin zwei verschiedene Varianten einer Publikation bibliographiert hat.
+
+\subsection{Deutsche Übersetzungen}\label{sub:germ}
+
+Über den gleichen Mechanismus kann bei einer fremdsprachigen Publikation die deutsche Übersetzung angegeben werden: Dazu kommt die Option \opt{translatedas} (siehe \secref{opt}) in Kombination mit den Feldern \bibfield{related} und \bibfield{relatedtype} zum Einsatz.\footnote{In früheren Versionen hiess diese Option \opt{germ} wurde in Kombination mit dem \bibfield{usera} benutzt; dieses wird nun nicht mehr unterstützt. Alte .bib-Dateien müssen entsprechend angepasst werden.} Diese Funktion habe ich für ein eigenes Buchprojekt geschrieben, im Normalfall dürfte sie kaum benötigt werden (in wissenschaftlichen Arbeiten ist es üblich, bei Übersetzungen das fremdsprachige Original anzugeben. Der gegenteilige Fall kommt dagegen kaum vor). Dabei wird ein Eintrag mittels Angabe des Citekeys in \bibfield{related} mit dem Eintrag, der die Übersetzung enthält, verknüpft und in \bibfield{relatedtype} die Art der Verknüpfung angegeben -- in diesem Fall \opt{translatedas} -- angegeben:
+
+\begin{ltxexample}
+@incollection{Poe.E:1982c,
+	Address = {London and New York},
+	Author = {Poe, Edgar Allan},
+	Bookauthor = {Poe, Edgar Allan},
+	Booktitle = {The Complete Tales and Poems of Edgar Allan Poe},
+	Origdate = {1843},
+	Pages = {223--230},
+	Title = {The Black Cat},
+	Related = {Poe.E:1999a},
+	Relatedtype = {translatedas},
+	Year = {1982}}
+
+@incollection{Poe.E:1999a,
+	Address = {Zürich},
+	Author = {Poe, Edgar Allan},
+	Bookauthor = {Poe, Edgar Allan},
+	Booktitle = {Der schwarze Kater. Erzählungen},
+	Maintitle = {Gesammelte Werke in 5 Bänden},
+	Origdate = {1843},
+	Origlanguage = {american},
+	Origtitle = {The Black Cat},
+	Pages = {139--152},
+	Publisher = {Haffmans Verlag},
+	Title = {Der schwarze Kater},
+	Translator = {Wollschläger, Hans},
+	Volume = {3},
+	Year = {1999}}
+\end{ltxexample}
+\fullcite{Poe.E:1982c}
+\bigskip
+
+\noindent Wie das Beispiel zeigt, wird die deutsche Übersetzung am Ende in eckigen Klammern ausgegeben. Der Autor sowie die Angaben zum englischsprachigen Original, die im Eintrag der deutschen Fassung enthalten sind, werden nicht ausgegeben, da sie in diesem Fall redundant wären.
+
+%Grundsätzlich funktioniert dieses Konstrukt, es gilt aber einige Punkte zu beachten: Da \sty{biblatex} von Haus aus (noch) keinen Mechanismus bietet, der es erlaubt, Original und Übersetzung elegant zu verbinden, erfolgt die Ausgabe der deutschen Übersetzung relativ plump durch ein \cmd{fullcite} des in \bibfield{related} angegebenen Eintrags, wobei einige Elemente unterdrückt werden.
+
+%Das Verwenden von \cmd{fullcite} hat zwei Dinge zur Folge: Da \LaTeX{} und \bin{biber} beim ersten Durchgang  nicht <wissen>, dass  der Eintrag in \bibfield{related} zitiert wird, ist jeweils ein zusätzlicher Durchlauf von \bin{biber} und \LaTeX\ nötig. Und da der Aufruf der deutschen Fassung über einen normalen \cmd{cite}"=Befehl geschieht, wird dieser Eintrag auch wie ein gewöhnliches Zitat behandelt und taucht ebenfalls in der Bibliographie auf. Im Falle des angeführten Beispiels würde das bedeuten, dass der Eintrag zu \emph{Der schwarze Kater} noch einmal gesondert in der Bibliographie stehen würde, was kaum erwünscht ist. Am einfachsten lässt sich dieses Problem beheben, indem man  Bibliographie"=Kategorien verwendet. Wenn man zB. den Eintrag \bibfield{Poe.E:1982c} mittels \cmd{addtocategory} der Kategorie \opt{primaerlit} zuweist und via \cmd{printbibliography[category=primaerlit]} nur diese ausgibt, wird die deutsche Übersetzung nicht mehr aufgeführt. Wenn \sty{biblatex} einen Mechanismus zum Verbinden von Einträgen bietet (dies ist für \sty{biblatex} 2.x geplant), sollte sich dieses Problem eleganter lösen lassen.
+
+\subsection{Rezensionen}\label{sub:rezis}
+Der Dokumenttyp \bibtype{review} ist für Rezensionen gedacht und funktioniert analog. Auch hier werden zwei Einträge miteinander verbunden, wobei  der Citekey des rezensierten Werks im Feld \bibfield{related} angegeben wird; da eine Rezension eigentlich immer mit dem rezensierten Werk verknüpft ist, entfällt die Angaben von \bibfield{relatedtype}.
+
+Das Feld \bibfield{title} ist bei \bibtype{review} fakultativ. Ist es nicht vorhanden, wird einfach nur «Rezension von \ldots» als Titel ausgegeben.
+
+\begin{ltxexample}
+@movie{Cameron.J:2009b,
+	Address = {USA and GB},
+	Author = {Cameron, James},
+	Pagetotal = {162},
+	Subtitle = {Avatar -- Aufbruch nach Pandora},
+	Title = {Avatar},
+	Year = {2009}}
+	
+@review{Spiegel.S:2009a,
+	Author = {Spiegel, Simon},
+	Date = {2009-12-17},
+	Journal = {Basler Zeitung},
+	Pages = {21--23},
+	Title = {Welcome to Pandora},
+	Related = {Cameron.J:2009b}}
+\end{ltxexample}
+\fullcite{Spiegel.S:2009a}
+
+\subsection{Verkürzte Bibliographie"=Einträge mit \bibfield{crossref} und \bibfield{xref}}\label{sub:kurz}
+
+\sty{biblatex} bietet zwei verschiedene Möglichkeiten an, um Eltern"= und Kindeinträge zu verbinden -- das \bibfield{crossref}"= und das \bibfield{xref}"=Feld. Mittels der \opt{mincrossrefs}"=Option von \sty{biblatex} kann bestimmt werden, ab wie vielen Nennungen von Kindereinträgen der Elterneintrag automatisch ausgegeben wird, selbst wenn dieser nicht explizit zitiert wird (siehe Kapitel 2.4.1 in der \sty{biblatex}"=Anleitung). Die Option \opt{partofcited} dagegen ist für einen anderen Fall vorgesehen: Wenn sowohl Eltern- wie auch Kindeintrag explizit zitiert werden, werden mit dieser Option bei der Ausgabe des Kindereintrages nicht die ganzen Angaben des Sammelbandes, sondern nur ein Verweis auf diesen ausgegeben. Auf das Verhalten von \opt{mincrossrefs} hat \opt{partofcited} keinen Einfluss.
+
+\newpage
+\begin{ltxexample}
+@book{Telotte.J:2008a,
+	Address = {Lexington},
+	Editor = {Telotte, J. P.},
+	Publisher = {University Press of Kentucky},
+	Series = {Essential Readers in Contemporary Media and Culture},
+	Title = {The Essential Science Fiction Television Reader},
+	Year = {2008}}
+
+@incollection{Lavery.D:2008a,
+	Author = {Lavery, David},
+	Crossref = {Telotte.J:2008a},
+	Pages = {283--245},
+	Subtitle = {Is \film{Lost} Science Fiction?},
+	Title = {The Island's Greatest Mystery}}
+\end{ltxexample}
+Diese  Einträge führen, wenn sie beide zitiert werden und \opt{partofcited} aktiviert ist, zu folgender Ausgabe in der Bibliographie:\\ \\
+\fullcite{Telotte.J:2008a}\\
+\fullcite{Lavery.D:2008a} \\
+
+%\noindent Es gibt bei dieser Option derzeit noch zwei Einschränkungen zu beachten: Die Nennung des Elterneintrags erfolgt übereinen \cmd{textcite}"=Befehl, der direkt in die \file{.bbl}"=Datei geschrieben wird. Dies hat zur Folge, dass der Elterneintrag und die verkürzte Variante des Kindereintrages auch dann in der Bibliographie ausgegeben bleiben, wenn der Elterneintrag bereits wieder gelöscht worden ist. Daran ändert auch ein erneuter \bin{biber}"=Durchlauf nichts. Um die korrekte Ausgabe zu erhalten, muss in dieser Situation die \file{.bbl}"=Datei von Hand gelöscht werden. Auch diese Beschränkungen sollte mit \sty{biblatex} 2.x fallen.
+
+%Derzeit ist diese Option nur beim \opt{authoryear}"=Format wirklich sinnvoll; beim Standardformat mit der Angabe des Jahres am Ende des Eintrags fehlt nun die Jahresangabe des Kindereintrags, was nicht optimal ist. Ideen für eine bessere Darstellungsform werden gerne entgegengenommen.
+
+\section{Kleinkram}\label{sub:besond}
+\subsection{Neue Localization Strings}
+Localization Strings sind vordefinierte Begriffe wie «Aufl.» oder «Hg.», die von \sty{biblatex} verwendet und bei Bedarf an die jeweilige Sprache angepasst werden. \sty{biblatex-fiwi} definiert eine Reihe zusätzlicher Strings -- allerdings vorläufig nur auf Deutsch. Anpassungen an andere Sprachen müssen mittels \cmd{DefineBibliographyStrings} vorgenommen werden.
+
+\begin{keymarglist}
+\item[fromjapanese] Der Ausdruck <aus dem Japanischen>.
+\item[fromhebrew] Der Ausdruck <aus dem Hebräischen>.
+\item[frompolish] Der Ausdruck <aus dem Polnischen>.
+\item[minutes] Der Ausdruck <min>, für Längenangaben bei Filmen.
+\item[tvseason] Der Ausdruck <Staffel>, für Fernsehserien.
+\item[tvepisode] Der Ausdruck <Folge>, für Fernsehserien.
+\item[translatedto] Der Ausdruck <dt.>, wird verwendet, wenn die deutschsprachige Übersetzung eines fremdsprachigen Textes angegeben werden soll (siehe \opt{translatedas} und \bibfield{related}  \secref{sub:germ}).
+\item[prepublished] Der Ausdruck <Online-Vorveröffentlichung>. Ein zusätzlicher Publikationsstand für das Feld \bibfield{pubstate}.
+\item[reviewof] Der Ausdruck <Rezension von>, wird bei \bibtype{review} verwendet.
+\item[undated] Der Ausdruck <Undatiert>, wird bei Einträgen ohne Datumsangabe verwendet.
+\end{keymarglist}
+
+
+
+\subsection{Aktivierte Optionen}
+Wenn \sty{biblatex-fiwi} ohne weitere Optionen geladen wird, werden folgende \sty{biblatex}-Optionen gesetzt: 
+
+\begin{ltxexample}
+\ExecuteBibliographyOptions{indexing=cite,maxnames=3,minnames=3,maxitems=9,
+useprefix=true,date=long,urldate=long,hyperref=auto,
+pagetracker=true,ibidtracker=context,citetracker=true,labelyear=true,
+isbn=false,babel=hyphen,partofcited}
+\ExecuteBibliographyOptions[misc,movie,video]{uniquename=false,
+labelyear=false,labeltitle=true}
+\end{ltxexample}
+
+
+\section{Beispiele}\label{beisp}
+Die folgenden Beispiele sollen einen Einblick geben, was mit \sty{biblatex-fiwi} alles möglich ist. 
+
+Für die Beispiele wurden folgende Optionen  zusätzlich zu den Standardeinstellungen aktiviert: \kvopt{publisher}{true}, \kvopt{series}{true} und \kvopt{partofcited}{true}. Weitere Beispiele mit anderen Einstellungen finden sich in den separaten PDF"=Dateien.%
+
+\begin{ltxexample}
+@collection{clute.j:1999,
+	Address = {London},
+	Edition = {2},
+	Editor = {Clute, John and Nicholls, Peter},
+	Origdate = {1979},
+	Publisher = {Orbit},
+	Title = {The Encyclopedia of Science Fiction},
+	Year = {1999}}
+\end{ltxexample}
+\fullcite{clute.j:1999}.%\pagebreak
+
+\begin{ltxexample}
+@incollection{Wells.HG:1980,
+	Address = {Sussex},
+	Author = {Wells, H. G.},
+	Bookauthor = {Wells, H. G.},
+	Booktitle = {H.{\,}G. Wells's Literary Criticism},
+	Editor = {Philmus, Robert M. and Parrinder, Patrick},
+	Origdate = {1938},
+	Pages = {248--249},
+	Publisher = {Harvester},
+	Title = {Fiction about the Future},
+	Year = {1980}}
+\end{ltxexample}
+\fullcite{Wells.HG:1980}.
+
+\begin{ltxexample}
+@book{Kant.I:2004a,
+	Address = {Frankfurt a. M.},
+	Author = {Kant, Immanuel},
+	Editor = {Weischedel, Wilhelm},
+	Maintitle = {Werkausgabe},
+	Origdate = {1790},
+	Publisher = {Suhrkamp},
+	Title = {Kritik der Urteilskraft},
+	Volume = {10},
+	Year = {1996}}
+\end{ltxexample}
+\fullcite{Kant.I:2004a}.%
+
+\begin{ltxexample}
+@book{Kuhn.T:1976,
+	Address = {Frankfurt a. M.},
+	Author = {Kuhn, Thomas Samuel},
+	Edition = {2., rev. u. um das Postskriptum von 1969 ergänzte 
+	Aufl.},
+	Origdate = {1962},
+	Origlanguage = {english},
+	Origlocation = {Chicago},
+	Origpublisher = {University of Chicago Press},
+	Origtitle = {The Structure of Scientific Revolutions},
+	Publisher = {Suhrkamp},
+	Title = {Die Struktur wissenschaftlicher Revolutionen},
+	Translator = {Vetter, Hermann},
+	Year = {1976}}
+\end{ltxexample}
+\fullcite{Kuhn.T:1976}.
+
+\begin{ltxexample}
+@incollection{Kepler.J:1993,
+	Address = {München},
+	Author = {Kepler, Johannes},
+	Bookauthor = {Kepler, Johannes},
+	Booktitle = {Calendaria et prognostica. Astronomica minora. 
+	Somnium},
+	Editora = {Bialas, Volker and Grössing, Helmuth},
+	Editoratype = {redactor},
+	Maintitle = {Gesammelte Werke},
+	Origdate = {1634},
+	Origlocation = {Frankfurt a. M},
+	Origtitle = {Somnium sive De Astronomia Lunari},
+	Pages = {317--379},
+	Part = {2},
+	Publisher = {Beck},
+	Title = {Somnium},
+	Volume = {11},
+	Year = {1993}}
+\end{ltxexample}
+\fullcite{Kepler.J:1993}.
+
+\begin{ltxexample}
+@incollection{sklovskij.v:1969a,
+	Address = {München},
+	Author = {¦klovskij, Viktor},
+	Booktitle = {Texte zur allgemeinen Literaturtheorie und zur 
+	Theorie der Prosa},
+	Editor = {Striedter, Jurij},
+	Maintitle = {Texte der Russsischen Formalisten},
+	Number = {6},
+	Origdate = {1929},
+	Origlanguage = {russian},
+	Origlocation = {Moskau},
+	Origtitle = {Iskusstvo kak priem},
+	Pages = {3--35},
+	Publisher = {Wilhelm Fink Verlag},
+	Series = {Theorie und Geschichte der Literatur und der der schönen 
+	Künste. Texte und Abhandlungen},
+	Title = {Die Kunst als Verfahren},
+	Translator = {Fieguth, Rolf},
+	Volume = {1},
+	Year = {1969}}
+\end{ltxexample}
+\fullcite{sklovskij.v:1969a}.
+
+\begin{ltxexample}
+@movie{Kubrick.S:1968,
+	Address = {GB and USA},
+	Author = {Kubrick, Stanley},
+	Subtitle = {2001: Odyssee im Weltraum},
+	Title = {2001: A Space Odyssey},
+	Year = {1968}}
+\end{ltxexample}
+\fullcite{Kubrick.S:1968}.
+
+\begin{ltxexample}
+@movie{Lidelof.D:2004a,
+	Address = {USA},
+	Author = {Lidelof, Damon and Cuse, Carlton and Abrams, J. J.},
+	Date = {2004/2010},
+	Entrysubtype = {serial},
+	Organization = {ABC},
+	Title = {Lost}}
+\end{ltxexample}
+\fullcite{Lidelof.D:2004a}.
+
+\begin{ltxexample}
+@book{Oeuver.A:2010a,
+	Address = {Amsterdam},
+	Editor = {van den Oever, Annie},
+	Number = {1},
+	Publisher = {Amsterdam University Press},
+	Read = {1},
+	Series = {The Key Debates},
+	Subtitle = {On \enquote{Strangeness} and the Moving Image. 
+	The History, Reception, and Relevance of a Concept},
+	Title = {Ostrannenie},
+	Year = {2010}}
+
+@review{Spiegel.S:2011b,
+	Author = {Spiegel, Simon},
+	Doi = {10.3167/proj.2011.050209},
+	Journal = {Projections},
+	Number = {2},
+	Pages = {128--134},
+	Related = {Oeuver.A:2010a},
+	Volume = {5},
+	Year = {2011}}
+\end{ltxexample}
+\fullcite{Spiegel.S:2011b}
+
+\begin{ltxexample}
+@book{Pearson.R:2009a,
+	Address = {London and New York},
+	Editor = {Pearson, Roberta E.},
+	Publisher = {I. B. Tauris},
+	Subtitle = {Perspectives on a Hit Television Show},
+	Title = {Reading Lost},
+	Year = {2009}}
+
+@incollection{Ndalianis.A:2009b,
+	Address = {London and New York},
+	Author = {Ndalianis, Angela},
+	Booksubtitle = {Perspectives on a Hit Television Show},
+	Booktitle = {Reading Lost},
+	Editor = {Pearson, Roberta E.},
+	Pages = {181--197},
+	Publisher = {I. B. Tauris},
+	Title = {Lost in Genre: Chasing the White Rabbit to Find a 
+	White Polar Bear},
+	Xref = {Pearson.R:2009a},
+	Year = {2009}}
+\end{ltxexample}
+\fullcite{Pearson.R:2009a}\\
+\fullcite{Ndalianis.A:2009b}
+
+\section{Versionsgeschichte}
+
+
+\begin{changelog}
+
+\begin{release}{1.2b}{2012-12-09}
+\item Korrigiert zwei dumme Fehler der vorhergehen Version
+\end{release}
+
+\begin{release}{1.2a}{2012-12-03}
+\item Neue Optionen \opt{ignoreforeword}, \opt{ignoreafterword}, \opt{ignoreintroduction} und \opt{ignoreparatext} (Anregung von Rolf Niepraschk) \see{opt}
+\item Dazu passende Befehle für Wechsel innerhalb des Dokuments \see{opt}
+\item Neues Feld \bibfield{parttitle}
+\item Leicht geänderte Ausgabe des Typs \bibtype{review}
+\item Kleine Fehlerkorrekturen (Dank an Rolf Niepraschk)
+\end{release}
+
+\begin{release}{1.2}{2012-07-20}
+\item Unterstützung der \bibfield{related}-Funktionen, die \sty{biblatex} seit Version 2.0 anbietet:
+\subitem Übersetzungen und Neuauflagen \see{sub:uebersetzungen}
+\subitem Anpassung der Option \opt{partofcited} \see{sub:kurz}
+\subitem Anpassung des Typs \bibtype{review} \see{sub:rezis}
+\subitem Option \opt{germ}  überarbeitet und in \opt{translatedas} umbenannt \see{sub:germ}
+\subitem In allen Fällen ist nun nur noch ein Durchlauf von \bin{biber} nötig
+\item Neuer \bibfield{entrysubtype} für Fernsehsendungen \see{movie:tv}
+\item \cmd{citefilm} gibt bei Serien und Fernsehendungen nun \bibfield{maintitle} aus
+\item Neuer Befehl \cmd{citeepisode} \see{sub:serien}
+\item Sortierschema \opt{title} hinzugefügt \see{sub:sort}
+\item Option \opt{ignorearticle} hinzugefügt \see{sub:sort}
+\item Bei fehlender Datumsangabe wird nun der der Bibstring \cmd{undated} ausgegeben
+\item Weitere Detailkorrekturen
+\end{release}
+
+
+\begin{release}{1.1e}{2011-12-16} 
+\item Neuer Befehl \cmd{inparencite} (Anregung von Christian Erll) \see{zitbefehl}
+\item Unterstützung für den Dokumenttyp \bibtype{periodical} \see{supp:types}
+\item Neue Paketoption \opt{citefilm} \see{opt}
+\item Neue Paketoption \opt{pages} \see{opt}
+\item Zusätzliche Localization Strings \bibfield{page} und \bibfield{pages} \see{sub:besond}
+\item Die Option \opt{origyearwithyear=brackets} hinzugefügt \see{opt}
+\item Unterstützung für das Feld \bibfield{nameaddon} \see{sub:zusatzfeld}
+\item Mehrere Fehler bei der Option \opt{dashed} korrigiert
+\item Fehlende Seitenzahlen bei der Option \opt{partofcited} ergänzt
+
+\item Die Ausgabeform für \bibtype{article} wurde leicht geändert
+\end{release}
+
+\begin{release}{1.1d}{2011-12-13}
+\item Separate Beispiele mit unterschiedlichen Einstellungen hinzugefügt
+\item Viel Detail"=Aufräumarbeiten, zahlreiche kleine Unregelmäßigkeiten korrigiert
+\item Zukünftige Versionen sollten dank eines neuen Testverfahrens seltener neue Fehler einführen
+\end{release}
+
+\begin{release}{1.1c}{2011-12-06}
+\item Die Option \opt{partofcited hinzugeführt} \see{sub:kurz}
+\item Das Format des Beispiels für \file{biber.conf} angepasst \see{sub:sort}
+\end{release}
+
+\begin{release}{1.1b}{2011-11-22}
+\item Die Option \opt{origyearsuperscript} hinzugefügt \see{opt}
+\item Die Option \opt{origyearwithyear} hinzugefügt \see{opt}
+\item Die Option \opt{yearatbeginning} hinzugefügt, entspricht dem Stil \sty{fiwi2} \see{opt}
+\item Die Datei \file{fiwi2.cbx} hinzugefügt, ermöglicht den Aufruf \opt{style=fiwi2}
+\item Kleine Fehlerkorrekturen (Dank an Dominik Waßenhoven)
+\end{release}
+
+\begin{release}{1.1a}{2011-11-18}
+\item Kleine Fehlerkorrekturen (Dank an j mach wust)
+\end{release}
+
+\begin{release}{1.1}{2011-11-15}
+\item Erste Veröffentlichung
+\end{release}
+
+\end{changelog}
+%\printbibliography
+\end{document}

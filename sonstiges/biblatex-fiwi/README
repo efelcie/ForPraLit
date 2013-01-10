@@ -1,0 +1,83 @@
+biblatex-fiwi 2012/12/09 v1.2b
+Copyright (c) 2011-2012 Simon Spiegel <simon(at)simifilm.ch>
+  
+************************************************************
+
+Contents of README
+ 1. Package description
+ 2. Installation
+ 3. Usage notes
+ 4. Documentation
+ 5. Licence
+ 6. Files
+
+ 
+1. Package description
+----------------------
+ 
+biblatex-fiwi is a collection of styles for the biblatex package. It was designed for citations in German Humanities, especially film studies, and offers some features which are not provided by the standard biblatex styles. biblatex-fiwi dependend on biblatex (version 1.7 at least) and cannot be used without it!
+ 
+Since the style in its current incarnation is highly optimized for documents written in German, the main documentation is only available in German. If there is enough interest, I could add English documentation at a later point.
+ 
+Any suggestions concerning this package are highly appreciated.
+ 
+ 
+2. Installation
+---------------
+ 
+If you would like to install biblatex-fiwi manually, do the following: Extract the tds.zip archive to the $LOCALTEXMF directory of your system. 
+Refresh your filename database. For further information, please see the documentation of your LaTeX distribution.
+ 
+ 
+3. Usage notes
+--------------
+ 
+The styles are loaded as the biblatex standard styles:
+ 
+   \usepackage[style=fiwi]{biblatex}
+ or
+   \usepackage[style=fiwi2]{biblatex}
+
+If you want to learn more about the styles and their additional options, please consult the package documentation.
+
+
+4. Documentation
+----------------
+
+The German documentation of biblatex-fiwi can be found in the file 'biblatex-fiwi.pdf'.
+
+
+  
+5. Licence
+----------
+ 
+This work may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.3 of this license or (at your option) any later version. The latest version of this license is in http://www.latex-project.org/lppl.txt and version 1.3 or later is part of all distributions of LaTeX version 2005/12/01 or later.
+ 
+This work has the LPPL maintenance status `maintained'.
+ 
+The Current Maintainer of this work is Simon Spiegel.
+ 
+ 
+6. Files
+-------- 
+
+This work consists of the following files:
+
+ * README				% this file, including licence
+ * fiwi.bbx
+ * fiwi2.bbx
+ * fiwi-yearbeginning.bbx
+ * fiwi.cbx
+ * fiwi2.cbx
+ * fiwi.dbx
+ * fiwi2.dbx
+ * biblatex-fiwi.pdf			% German documentation
+ * biblatex-fiwi.tex			% German documentation 
+ * example-biblatex-fiwi.tex		% examples
+ * example-biblatex-fiwi-options.tex	% examples
+ * example-biblatex-fiwi-options.pdf	% examples
+ * example-biblatex-fiwi.pdf		% examples
+ * example-biblatex-fiwi2.tex		% examples
+ * example-biblatex-fiwi2-options.pdf	% examples
+ * example-biblatex-fiwi2.pdfn  	% examples
+ * examples.bib				% bib for documentation	and example
