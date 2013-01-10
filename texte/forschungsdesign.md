@@ -10,7 +10,7 @@ Forschungsfragen
 
   Wie gehen davon aus, dass Kinder mit der Hauptfigur die Geschichte mit erleben. Weiters gehen wir davon aus, dass Mädchen und Buben unterschiedliche Bücher lesen. Nun gilt es zu untersuchen, ob Hauptfiguren in Büchern die Mädchen lesen, femininer handeln als Hauptfiguren in Büchern die Buben lesen.
 
-  Wenn es einen positiven Zusammenhang zwischen dem geschlechtsspezifischen Verhalten und dem Geschlecht der Hauptfigur, kann darauf geschlossen werden, dass Kinderbücher an der Konstruktion der Stereotype mit beteiligt sind.
+  Wenn es einen positiven Zusammenhang zwischen dem geschlechtsspezifischen Verhaltensa und dem Geschlecht der Hauptfigur, kann darauf geschlossen werden, dass Kinderbücher an der Konstruktion der Stereotype mit beteiligt sind.
   Gibt es einen Negativen Zusammenhang, das heißt, um so mehr Mädchen ein Buch lesen um so eher handelt die Hauptfigur maskulin, heißt das, dass Bücher gegen geschlechter-stereotypisches Wirken.
   Gibt es keinen Zusammenhang zwischen den Unterschieden, heißt das, dass Bücher keine Unterschiede zwischen. Mädchen und Burschen produzieren.
 
@@ -31,18 +31,30 @@ Forschungsfragen
 Erhebungsmethoden
 -----------------
 
-### Sekundär-Analyse (Auswertung von Lesestatistiken)
-
-  Durch die Analysen von Bibliotheksverzeichnisse, Verkaufsstatisken und Auswertung von Schulwebseiten auf der Kinder Büchervorstellen erheben wir eine Liste von Büchern bei der es Wahrscheinlich ist, dass Kinder sie gelesen haben.
 
 
 ### Fragebogen
 
   Mit Hilfe eines Ankreuz-Fragebogen verknüpfen wir das Geschlecht der mit einzelnen Buchtitel.
+  Ziel des Fragebogens ist es, eine Anzahl von Bücher
+
+
+### Sekundär-Analyse (Auswertung von Lesestatistiken)
+
+  Durch die Analysen von Bibliotheksverzeichnisse, Verkaufsstatisken und Auswertung von Schulwebseiten auf der Kinder Büchervorstellen erheben wir eine Liste von Büchern bei der es Wahrscheinlich ist, dass Kinder sie gelesen haben.
+
+  In diesem Teil der Analyse ist notwendig um die Bücher die 
 
 ### Inhaltsanalyse
 
-  Durch eine qualitative Inhaltsanalyse stellen wir fest, wie die Hauptfigur handelt.
+  Mit Hilfe einer Inhaltsanalyse zerteilen wir die Bücher in für uns Auswertbare Merkmale.
+  Unser Hauptziel bei diesem Vorgehen war, möglichst effizient das Buch in Gruppen von Werte zu zerlegen, um diese danach durch mathematische Verfahren vergleichen zu können.
+  Dabei geht es uns in erster Linie um zwei Arten von Merkmalen. Einmal Merkmale, die das Handeln der Hauptfigur beschreiben und zweitens Merkmale die eine Unterscheidung für die Leseentscheidung ermöglichen.
+
+
+#### Merkmale
+
+
 
 
 Statistische Methoden
