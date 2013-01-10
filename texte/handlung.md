@@ -262,3 +262,13 @@ Die Untersuchung der vier inhaltlichen Merkmale von Alltags- und Abenteuergeschi
 Als großer Triumpf dieses Kapitels ist die Untersuchung der Gendermerkmale von Hauptprotagonisten in Kinderbüchern zu sehen. Sie hat uns gezeigt, dass Buben vor allem über maskuline Charaktere lesen, Mädchen zu weiblichen tendieren aber mit beiden konfrontiert werden. Weiterhin werden manche stereotype Eigenschaften bestimmten biologischen Geschlechtern zugeschrieben und verhindern damit den Prozess des Gender-Mainstreaming. Das soziale Geschlecht kann hier ergänzend zum biologischen Geschlecht gesehen werden um das Doing-Gender von Kinderbuchcharakteren zu erklären. Die Regression zeigt uns, dass die Wahrscheinlichkeit einer Erklärung steigt wenn die beiden Faktoren kombiniert werden.(R bei biologischem Geschlecht: 0.58; bei Gender: 0.19; Kombiniert: 0.66). 
 
 Der Versuch dieses Ergebnis mit Theorie zu verknüpfen kann zu provokanten Aussagen führen, die hier nur genannt werden um etwaige Untersuchungen in der Zukunft zu provozieren und motivieren. So kann etwa unser Wissen, dass Mädchen und Buben unterschiedliche Bücher lesen mit der Theorie verknüpft werden, dass das Verhalten von Protagonisten in Büchern auf deren Leser abfärbt und somit Verhalten reproduziert. Diese Verknüpfung würde aus Sicht der Ergebnisse dieser Untersuchung wie folgt zu interpretieren sein: Wenn Buben verstärkt mit maskulinen Protagonisten konfrontiert werden, könnte diese Einseitigkeit zu einer Reproduktion von stereotypen Geschlechterrollen führen. Bei Mädchen hingegen sagen uns die Ergebnisse, dass viel ausgeglichener mit Geschlechterklischees konfrontiert werden und daher im Sinne des Gender-Mainstreamings eine größere Chance genießen, bestehende stereotype Rollen zu brechen und neu zu gestallten.
+
+
+
+\begin{figure}
+\center
+  \caption[w/m-Faktor]--Gender-Faktor{w/m-Faktor zu Gender-Faktor}
+  \label{maedchen-geschlecht}
+\input{grafiken/wm-gender.tex}
+
+\end{figure}
