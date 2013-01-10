@@ -39,8 +39,8 @@ Diese hängt gerade bei Kindergeschichten stark mit dem Zielpublikum, also für 
 
 Drei Merkmale eines Kinderbuchs reichen aus, um das Verhältnis von Leserinnen zu Lesern bei einem Kinderbuch bestimmen zu können: das *Geschlecht der Hauptfigur*, die *Helligkeit* und die *Anzahl der Seiten*.
 Die Genauigkeit eines linearen Modells mit diesen drei Merkmalen ist mit einem korrigierten Bestimmtheitsmaß von $0{,}82$ sehr genau.
-Wobei allein das Geschlecht der Figur, die im Titel genannt wird, schon schon sehr genau ist ($r^2=0{,}67$).\footnote{Es wird immer das korrigierte $r^2$ angegeben.}
-Die Helligkeit erklärt auch alleine noch recht viel  ($r^2=0{,}30$), die Anzahl der Seiten dient dann nur noch zu Verfeinerung($r^2=0{,}67$).
+Wobei allein das Geschlecht der Figur, die im Titel genannt wird, schon schon sehr genau ist ($R^2=0{,}67$).\footnote{Es wird immer das korrigierte $r^2$ angegeben.}
+Die Helligkeit erklärt auch alleine noch recht viel  ($R^2=0{,}30$), die Anzahl der Seiten dient dann nur noch zu Verfeinerung($R^2=0{,}67$).
 All diese Merkmale können von Kindern ohne Probleme und ohne dass sie das Buch aufmachen müssen wahrgenommen werden.
 Unsere beiden Fragen, ob Merkmale des Buchs das Verhältnis von Leserinnen zu Lesern erklären und ob sie das ohne das Buch zu öffnen können, können wir eindeutig mit *ja* beantworten.
 Steht im Titel ein weiblicher Name, ist das Buch noch dazu sehr hell und obendrein auch noch dünn.
@@ -52,11 +52,11 @@ Für beide Geschlechter sind unterschiedliche Merkmale ausschlaggebend
 
 Dies heißt jedoch nicht, dass die drei Merkmale auf Mädchen und Buben denselben Einfluss haben.
 Die Wahrscheinlichkeit, dass Mädchen oder Buben ein Buch lesen, hängt mit unterschiedlichen Merkmalen von Büchern zusammen.
-Dafür, dass ein Buch hauptsächlich von Mädchen gelesen wird, ist es wichtig, dass das Buch von einer Frau geschrieben wurde ($r^2=0{,}19; p=0{,}04$), wiederum, dass die Figur im Titel weiblich ist ($r^2=0{,}18; p=0{,}03$) und dass wenige Figuren am Cover ($r=-0{,}37; p=0{,}4$) sichtbar sind.
+Dafür, dass ein Buch hauptsächlich von Mädchen gelesen wird, ist es wichtig, dass das Buch von einer Frau geschrieben wurde ($R^2=0{,}19; p=0{,}04$), wiederum, dass die Figur im Titel weiblich ist ($R^2=0{,}18; p=0{,}03$) und dass wenige Figuren am Cover ($r=-0{,}37; p=0{,}4$) sichtbar sind.
 Insgesamt hat das Modell mit diesen drei Merkmalen ein korrigiertes Bestimmtheitsmaß von $0{,}33$ ($p=0{,}02$).
 Die Helligkeit und die Anzahl der Seiten ist für die Anzahl der Mädchen die ein Buch lesen irrelevant.
 
-Diese Merkmale sind für die Häufigkeit bei den Buben natürlich um so wichtiger. (Helligkeit: $r^2=0{,}25$; Seiten: $r^2=0{,}16$; $p=0{,}01$)
+Diese Merkmale sind für die Häufigkeit bei den Buben natürlich um so wichtiger. (Helligkeit: $R^2=0{,}25$; Seiten: $R^2=0{,}16$; $p=0{,}01$)
 Das lässt auch darauf schließen, dass grundsätzlich das Leseverhalten von Buben für das Verhältnis zwischen Mädchen und Buben relevanter ist.
 Und tatsächlich ist die Korrelation zwischen der Häufigkeit der Nennungen pro Buch bei den Buben und dem Verhältnis der Nennungen zwischen Mädchen und Buben mit $0{,}70$ größer als zwischen den Mädchen und dem Verhältnis, dass nur eine Korrelation von $-0{,}41$ aufweist.
 Da die Nennungen der Buben für unser Verhältnis so wichtig sind, fangen wir hier mit einer detaillierteren Analyse der Merkmale an.
@@ -88,7 +88,7 @@ Wir vermuten, dass die Verlage herausgefunden haben, dass dunkle *coole* Bücher
 Zusätlich muss der Verlag eine Entscheidung treffen, für wen die Geschichte gedacht ist.
 Der Verlag hat für diese Zeit mehr Ressourcen als der Endkunde.
 Hier werden Inhalte eines Buches von den dafür zuständigen Personen im Cover ausgedrückt und gewissermaßen *übersetzt*. Dabei wirkt es nicht überraschend, dass sie sich an, in der Gesellschaft verfestigten Geschlechterrollenbildern orientieren.
-Tatsächlich hat der *Gender-Faktor* auf die Helligkeit den größten Einfluss ($r=-0{,}51$). Gemeinsam mit dem Geschlecht der Hauptfigur lässt sich die Helligkeit schon recht gut voraussagen ($r^2=0{,}24; p=0{,}02$).
+Tatsächlich hat der *Gender-Faktor* auf die Helligkeit den größten Einfluss ($r=-0{,}51$). Gemeinsam mit dem Geschlecht der Hauptfigur lässt sich die Helligkeit schon recht gut voraussagen ($R^2=0{,}24; p=0{,}02$).
 So ist die Helligkeit ein gutes *Transportmittel* um den Gender-Faktor ankommen zu lassen.\footnote{Wir gehen davon aus, dass weitere Merkmale des Covers, die wir nicht operationalisiert haben, wie die Form der Darstellung oder die Komplexität des Bildes noch einen wesentlichen Anteil zur Übersetzung des Genderfaktor beitragen.}
 
 Nicht übersehen darf man, dass nur das Leseverhalten von Buben von der Helligkeit beeinflusst wird. Bei den Mädchen kann kein Zusammenhang mit der Helligkeit nachgewiesen werden.
