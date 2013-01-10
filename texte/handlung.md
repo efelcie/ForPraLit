@@ -202,12 +202,22 @@ Der w/m-Faktor korreliert dabei mit dieser Variabel am höchsten von allen Eigen
 Dabei sollte noch erklärt werden, dass alle anderen Eigenschaftspaare gleich gepolt sind und zwar zwar ebenfalls positiv korrelieren jedoch das Signifikanzniveau zu niedrig ist um eine klare Aussage zu tätigen. Daher kann hier nur soweit interpretiert werden, dass keine einzige Gender-Eigenschaft eine Tendenz zu einer nicht-klischeehaft Verwendung vorweist. 
 
 ####Beispiel Franz
+Wie man aus der Tabelle oben (siehe...) entnehmen kann, werden die Geschichten vom Franz bevorzugterweise von Mädchen gelesen und das obwohl das biologische Geschlecht männlich ist. Der Gender-Faktor des lieben Franz sieht jedoch ganz anders aus. Mit dem niedrigsten Wert aller 30 Hauptcharaktere stellt er den feministen Protagonisten dar und bietet damit eine spannende Basis für eine inhaltsanalytische Untersuchung.
 
-###Multicharaktere
+Situationsbeschreibung:
 
-Leser dieser Arbeit die einige der hier untersuchten Kinderbücher kennen oder gar selbst gelesen haben, wird aufgefallen sein, dass nicht jedem der 30 Bücher ein klar definierter einzelner Hauptcharakter zugeordnet werden kann. Durch eine starke Selektion von ebenfalls wichtigen aber dennoch (wenn auch nur ein sehr wenig) untergeordneten Charakteren, konnte sich die Forschungsgruppe jedoch in den meisten Fällen auf einen einzelnen bzw. prägendsten Charakter einigen. Das dabei am heftigsten diskutierte Opfer dieser Selektion ist Peter Pan, da die literarische Aufbereitung des Textes von den meisten Verfilmungen abweicht und nicht der Peter sondern vielmehr die Wendy im Mittelpunkt der Erzählungen steht. Doch besonders in den Detektivgeschichten ist es zumeist nicht möglich einen Charakter als den Hauptprotagonisten zu deklarieren, da diese fast ausschließlich aus einem Team junger Detektive und Detektivinnen bestehen die gleichwertig nebeneinander agieren. Hier wurde das Prinzip des Multicharakters verwendet, der das Team als einen einzelnen Charakter erhebt. Um jedoch einen Multicharakter erstellen zu können, muss besonders ein Kriterium erfüllt werden. Die Charaktere müssen dasselbe Ziel haben. Zusammengefasst handelt es sich bei Multicharakteren um eine Gruppe von Akteuren die jedoch in ihrer Gesamtheit ebenso als ein einziger Charakter verstanden werden können, dessen komplexe Attribute - aufgrund der leichteren Verständlichkeit für Kinder - in verschiedene Persönlichkeiten aufgeteilt wurden. Nur wenn eine Gruppe als solches verstanden werden kann, kann ein Multicharakter erstellt werden. Bei den zuvor genannten Geschichten des Peter Pans wäre die Konstruktion eines solchen Multicharakters beispielsweise nicht möglich gewesen, da sowohl Wendy als auch Peter Pan als eigenständige Charaktere begriffen werden müssen und über kein gemeinsames Ziel verfügen. Zum leichteren Verständnis wird hier ein Beispiel eines solchen Multicharakters genannt und erklärt:
+Franz spielt mit Sandra und Gabi Prinz und Prinzessin, wobei Sandra  den Prinzen spielt und Gabi - in die er sich verliebt hat - die Prinzessin. Die beiden verlangen von ihm den Hofzwerg zu spielen und das obwohl er sogern der Prinz wäre:
+
+„ Als sie dan eines Tages wollte, dass der Franz den königlichen Hofzwerg spielte, da reichte es ihm! Und als sie dann noch erklärte, der Franz sollte sich deswegen nicht aufregen, denn für einen Prinzen sei er viel zu klein, da sah der Franz nur noch rot. Er warf der Sandra die Zipfelmütze, die er als Hofzwerg aufsetzen sollte, an den Kopf und lief nach Hause. Schluchzend warf er sich auf sein Bett und trommelte mit den Fäusten in sein Kissen.“
+
+Die Geschichten vom Franz thematisieren in einer humorvollen Weise die Bewältigung des Alltags. Schulprobleme, die erste Liebe, Beziehungen, Peinlichkeiten, Gefühle, usw. Franz zeigt viele Emotionen und wirkt oftmals als hätte er nicht viel Selbstbewusstsein. Anhand der drei Eigenschaftspaare die vorgestellt wurden, ist er als ein unterwürfiger, sicherheitsbedürftiger und träumerischer Protagonist einzuordnen. 
+
+###Multiprotagonisten
+
+Leser dieser Arbeit die einige der hier untersuchten Kinderbücher kennen oder gar selbst gelesen haben, wird aufgefallen sein, dass nicht jedem der 30 Bücher ein klar definierter einzelner Hauptcharakter zugeordnet werden kann. Durch eine starke Selektion von ebenfalls wichtigen aber dennoch (wenn auch nur ein sehr wenig) untergeordneten Charakteren, konnte sich die Forschungsgruppe jedoch in den meisten Fällen auf einen einzelnen bzw. prägendsten Charakter einigen. Das dabei am heftigsten diskutierte Opfer dieser Selektion ist Peter Pan, da die literarische Aufbereitung des Textes von den meisten Verfilmungen abweicht und nicht der Peter sondern vielmehr die Wendy im Mittelpunkt der Erzählungen steht. Doch besonders in den Detektivgeschichten ist es zumeist nicht möglich einen Charakter als den Hauptprotagonisten zu deklarieren, da diese fast ausschließlich aus einem Team junger Detektive und Detektivinnen bestehen die gleichwertig nebeneinander agieren. Hier wurde das Prinzip des Multiprotagonisten verwendet, der das Team als einen einzelnen Charakter erhebt. Um jedoch einen Multiprotagonisten erstellen zu können, muss besonders ein Kriterium erfüllt werden. Die Charaktere müssen dasselbe Ziel haben. Zusammengefasst handelt es sich bei Multiprotagonisten um eine Gruppe von Akteuren die jedoch in ihrer Gesamtheit ebenso als ein einziger Charakter verstanden werden können, dessen komplexe Attribute - aufgrund der leichteren Verständlichkeit für Kinder - in verschiedene Persönlichkeiten aufgeteilt wurden. Nur wenn eine Gruppe als solches verstanden werden kann, kann ein Multiprotagonist erstellt werden. Bei den zuvor genannten Geschichten des Peter Pans wäre die Konstruktion eines solchen Multiprotagonisten beispielsweise nicht möglich gewesen, da sowohl Wendy als auch Peter Pan als eigenständige Charaktere begriffen werden müssen und über kein gemeinsames Ziel verfügen. Zum leichteren Verständnis wird hier ein Beispiel eines solchen Multiprotagonisten genannt und erklärt:
 
 ####Beispiel: Tom Turbo
+Das dreiergespann Tom Turbo, Karo und Klaro können als ideales Beispiel für einen Multiprotagonisten fungieren. Tom Turbo ist das tollste Fahrrad der Welt mit dutzenden von Tricks die auf der Verbrecherjagt von nutzen sein können. Seine Detektivkollen Karo und Klaro sind ein Geschwisterpaar. Karo ist ein taffes kleines Mädchen, dass sich ohne viel scheu in ein Abenteuer wirft, genauso wie ihr Bruder Klaro der oftmals sogar etwas nachdenklicher wirkt. Sie trennen sich während der Bewältiung ihrer Abenteur nie, wenn nicht einer der drei das Opfer der Geschichte ist (Beispiel Entführung). Alle drei gemeinsam haben, dass selbe Ziel und sind zumeist der gleichen Meinung. Entseht einmal ein Disput zwischen den beiden Geschwistern ähneln diese einer Abwägung von Pros und Contras die auch eine einzelne Person gedanklich abarbeiten würde, stecke sie in einer ähnlichen Situation.  
 
 ##Merkmale des inhaltlichen Aufbaus
 
@@ -217,13 +227,24 @@ Aus dem Wissen, dass Buben und Mädchen unterschiedliche Lesepräferenzen aufwei
 
 Alltagsgeschichten spielen in einem dem Hauptprotagonisten vertrauten Umfeld. Bei kindlichen Protagonisten handelt es sich zumeist um die familiäre und/oder schulische Umgebung. Es werden Themen und Problematiken angesprochen die im realen Leben der Leser nicht unwahrscheinlich vorkommen können. Beispiele dafür sind Beziehungsprobleme mit Freunden, Eltern oder Lehrer. Aber auch Leistungsdruck in der Schule oder Klassenausfahrten, Urlaube und auch der Tod von Haustieren. 
 
-####Beispiel Hexe Lilli
+####Beispiel: Hexe Lilli
+"Das ist Lilli, die Hauptperson unserer Geschichte, Sie ist ungefähr so alt wie du und sieht aus wie ein gewöhnliches Kind."Bereits dieser Satz, mit dem die Erzähltung beginnt, verrät viel darüber wie versucht wird, den Leser in die Geschichte zu integrieren, was in späterer Folge nicht schwierig fällt, da Lilli Situationen durchlebt, die wohl keinem gänzlich unbekannt sind. Zankerein mit dem kleinen Bruder sowie Unverständnis über die Einstellungen der Eltern gehören wohl zu vielen Alltagen von Kindern. 
+
+Situationsbeschreibung:
+Der Schulrat besucht an diesem Tag die Klasse von Lilli und möchte den Unterricht von Frau Grach der Klassenlehrerin inspizieren. Lilli möchte der Frau Lehrerin gerne helfen einen guten Eindruck zu hinterlasssen, doch der Herr Schulrat taucht natürlich genau im falschen Moment auf als das totale Chaos in der Klasse herrscht. 
+
+""Auweia", flüstert Lilli, So war das nicht gedacht!" Hier muss sie schnell eingreifen bevor der Schulrat gleich zu Anfang einen schlechten Eindruck bekommt."
+
+Lilli ist tatkräftig und dominant aber zugleich auch hilfsbereit und großherzig. Sie bietet aus Sicht des Doing-Gender einen Mix an Eigenschaften, der sich auch im Wert der Gendertabelle (siehe Tabelle...) wiederspiegelt. Lilli wird sehr klar bevorzugt von Mädchen gelesen und zeigt, wie Mädchen ebenfalls mit maskulinen Genderatributen dargestellt werden. Sie ist ein Paradebeispiel dafür, dass Mädchen mit beiden Genderrollen konfrontiert werden, was Buben gemeinhin noch verwehrt wird.
 
 ###Abenteuergeschichten
 
 Abenteuergeschichten sind das Gegenstück zu Alltagsgeschichten. Dabei durchlebt der Hauptprotagonist ein wahrscheinlich einzigartiges Erlebnis das zumeist mit großen Risiken und Gefahren verbunden ist. Der Protagonist ist dabei zumeist gezwungen sein gewohntes Umfeld zu verlassen und sich in völlig fremden zumeist auch unrealistischen Situationen zurechtzufinden. Beispiele hierfür wären die Suche nach einem verschollenen Schatz, das Tätigen einer gefährlichen und ungewissen Reise, das Kämpfen mit bösen Mächten wie Ganoven oder Drachen usw. 
 
 ####Beispiel Harry Potter
+Harry ist ein schmächtiger Junge, der bei der Familie seiner Tante lebt, da seine Eltern gestorben sind. Das allerdings nur so lange bis er erfährt, das er ein Zauberer ist und auf die Zauberschule kommt. Dort angekommen erlebt er ein Abenteuer nach dem anderen. Diese Gipfeln in einem großen und brutalen Show-Down im Kampf gegen den Mörder seiner Eltern. 
+
+Harry Potter hat viele Attribute die feminin deklariert sind, so ist er beispielsweise großherzig und emotional, manchmal sogar etwas träumerisch aber auch mutig und aktiv. Er ist teilweise sehr dominant und hält sich nicht an Regeln. Diese Attribute lassen den Genderwert leicht ins maskuline wandern. Sein Genderwert ist beispielsweise jenem von Hexe Lilli nicht unähnlich und wird auch von vielen Mädchen gerne gelesen, jedoch tendenziel ein wenig mehr von Jungen. Harry Potter ist ein passendes Beispiel dafür, dass Jungen männliche Protagonisten, vor allem aber auch Abenteuergeschichten favorisieren.
 
 Tabelle 3.
 
@@ -239,6 +260,14 @@ Verläuft die Geschichte des Buches auf ein bestimmtes Ziel hinaus, dass erreich
 
 ####Beispiel Knickerbockerbande
 
+Die Knickerbockerbande besteht aus Lilo, Axel, Dominik und Poppi, die in jedem Band neue „Rätsel“ lösen. Dabei kann es vorkommen, dass sie etwa im Urlaub auf mysteriöse Fälle stoßen, die sie dann meist zu viert aufklären. Die Geschichten sind spannend, die vier geraten öfter in Gefahr oder in die Hände von Verbrechern, aus denen sie aber mit List und Geschick wieder befreien. Dies ein eindeutiger Indikator für das Merkmal des Quests. Sie haben unterschiedliche Qualitäten, die aber als ein Multiprotagonist verstanden werden können. Auch das Verhalten untereinander ist sehr hilfsbereit, sie sind verlässlich und sie vereint alle dasselbe Hobby, nennen wir es Dedektiv spielen, worauf sie sich auch in ihrer Freizeit vorbereiten und trainieren, wie man sich z. B. Anschleicht oder besonders schnell ist. Die Geschichten wirken anfangs mysteriös, was auch die Titel wiedergeben, die manchmal gruslige und unreale Situationen zu versprechen scheinen,  sich dann aber immer als menschengemacht herausstellen. 
+
+
+"Die Männer in den roten Mänteln lagen kraftlos am Boden. [...]  Axel waren sofort die kleinen roten Federbüschel aufgefallen, die ihnen seitlich aus dem Hals ragten. Sie dienten einer kleinen Nadel als Stabilisator. Solche Nadeln wurden aus Blasrohren abgefeuert. Axel erinnerte sich, etwas im Fernsehen darüber gesehen zu haben."
+
+Die Protagonisten agieren sehr rational. Sie können Situationen gut einschätzen und Verknüpfen das Wissen aus anderen Informationsquellen mit Erlebten. Diese Eigenschaft hilft ihnen dabei die Rätsel zu lösen um ihr Ziel zu erreichen.
+
+
 ###Phantastische Elemente
 
 Kommen in den Büchern Figuren, Orte oder Handlungen vor die in der Realität nicht vorkommen? Beispiele: Einhörner, sprechende Tiere, fliegende Menschen, zaubern, fremde Welten, uvm. Phantastische Elemente könnten einen Hang zum träumerischen, irrationalen Denken fördern, welches aus der Sicht des Doing-Genders feminine Attribute wären. Doch Abenteuergeschichten sind natürlich gespickt mit unmöglichen Situation. Oftmals bekämpfen Charaktere Monster und Gespenster. Daher tendieren die Zahlen dazu das Vorkommen von phantastischen Elementen den Abenteuerbüchern zuzuschreiben. Das niedrige Signifikanzniveau lässt hier jedoch keine genaue Aussage zu. Es kann auch kein Zusammenhang mit dem w/m-Faktor gefunden werden. Dieses inhaltliche Merkmal scheint in beiden Geschlechtsgruppen annähern gleich oft verwendet zu werden und kann daher keinen Annäherung zur Erklärung von Geschlechtsrollenbildung liefern.
@@ -249,6 +278,13 @@ Welche Rolle spielt die Gedankenwelt des Hauptprotagonisten? Wie stark reflektie
 Mädchen gelten als passiver und introvertierter als ihre männlichen Altersgenossen und haben aus Sicht des Doing-Gender ein größeres Einfühlungsvermögen als Jungen. All dies wären Indizien den Inneren Monolog als ein Merkmal zu deklarieren, das Jungen fehlen könnte eine feminine Seite zu entwickeln. Und tatsächlich tendieren die Zahlen unserer Ergebnisse dazu einen Zusammenhang von Alltagsgeschichten und inneren Monolog zu bescheinigen. Auch hier ist jedoch, dass Signifikanzniveau zu niedrig um fixe Aussagen zu tätigen. Auffällig ist jedoch das das Merkmal des inneren Monologs negativ mit dem Merkmal Quests korreliert (R= -0,333; Sig. 0,083). Das bedeutet, dass das kombinierte Vorkommen dieser beiden Merkmale äußerst selten anzutreffen ist. 
 
 ####Beispiel Mini
+
+In den Mini-Büchern geht es darum den frühen Alltag eines Kindes zu bewältigen und persönliche Konflikte auf sehr humorvolle Art aus Minis Sicht wiederzugeben.
+
+Mini ist schon sehr groß für ihr Alter und gleichzeitig sehr dünn, weshalb ihr auch alle möglichen Spitznamen gegeben werden, was sie kränkt. Der Schule blickt sie mit gemischten Gefühlen entgegen, gleichzeitig freut sie sich schon drauf, hat aber auch Angst in die falsche Schule zu kommen, die falsche Lehrerin zu bekommen oder vor den fremden Kindern, die sie wieder hänseln könnten. Dies zeigt etwa wie viel sie reflektiert und über mögliche Situationen und Folgen nachdenkt. Als Beispiel kann hier der Gedankengang genannt werden, der Zeigt wie erleichtert sie darüber ist, dass sie nicht die größte in ihrer Klasse ist:
+
+“Und die Mini fing vor lauter Staunen zu schielen an. […] Warum die Mini so erstaunt und verblüfft war? Weil sie garantiert nicht das größte Kind ihrer Klasse war! Ein Bub und ein Mädchen waren noch ein bisschen größer als die Mini, 2 Buben und 2 Mädchen waren genauso groß wie die Mini. Die Mini dachte:“ Wenn es unter zwanzig Kindern sieben „lange Latten“ gibt, dann ist ja die Überlänge direkt normal!““
+
 
 ###Growing-Up:
 
