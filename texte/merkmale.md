@@ -39,7 +39,7 @@ Diese hängt gerade bei Kindergeschichten stark mit dem Zielpublikum, also für 
 
 Drei Merkmale eines Kinderbuchs reichen aus, um das Verhältnis von Leserinnen zu Lesern bei einem Kinderbuch bestimmen zu können: das *Geschlecht der Hauptfigur*, die *Helligkeit* und die *Anzahl der Seiten*.
 Die Genauigkeit eines linearen Modells mit diesen drei Merkmalen ist mit einem korrigierten Bestimmtheitsmaß von $0{,}82$ sehr genau.
-Wobei allein das Geschlecht der Figur, die im Titel genannt wird, schon schon sehr genau ist ($R^2=0{,}67$).\footnote{Es wird immer das korrigierte $r^2$ angegeben.}
+Wobei allein das Geschlecht der Figur, die im Titel genannt wird, schon schon sehr genau ist ($R^2=0{,}67$).\footnote{Es wird immer das korrigierte $R^2$ angegeben.}
 Die Helligkeit erklärt auch alleine noch recht viel  ($R^2=0{,}30$), die Anzahl der Seiten dient dann nur noch zu Verfeinerung($R^2=0{,}67$).
 All diese Merkmale können von Kindern ohne Probleme und ohne dass sie das Buch aufmachen müssen wahrgenommen werden.
 Unsere beiden Fragen, ob Merkmale des Buchs das Verhältnis von Leserinnen zu Lesern erklären und ob sie das ohne das Buch zu öffnen können, können wir eindeutig mit *ja* beantworten.
@@ -52,7 +52,7 @@ Für beide Geschlechter sind unterschiedliche Merkmale ausschlaggebend
 
 Dies heißt jedoch nicht, dass die drei Merkmale auf Mädchen und Buben denselben Einfluss haben.
 Die Wahrscheinlichkeit, dass Mädchen oder Buben ein Buch lesen, hängt mit unterschiedlichen Merkmalen von Büchern zusammen.
-Dafür, dass ein Buch hauptsächlich von Mädchen gelesen wird, ist es wichtig, dass das Buch von einer Frau geschrieben wurde ($R^2=0{,}19; p=0{,}04$), wiederum, dass die Figur im Titel weiblich ist ($R^2=0{,}18; p=0{,}03$) und dass wenige Figuren am Cover ($r=-0{,}37; p=0{,}4$) sichtbar sind.
+Dafür, dass ein Buch hauptsächlich von Mädchen gelesen wird, ist es wichtig, dass das Buch von einer Frau geschrieben wurde ($R^2=0{,}19; p=0{,}04$), wiederum, dass die Figur im Titel weiblich ist ($R^2=0{,}18; p=0{,}03$) und dass wenige Figuren am Cover ($R=-0{,}37; p=0{,}4$) sichtbar sind.
 Insgesamt hat das Modell mit diesen drei Merkmalen ein korrigiertes Bestimmtheitsmaß von $0{,}33$ ($p=0{,}02$).
 Die Helligkeit und die Anzahl der Seiten ist für die Anzahl der Mädchen die ein Buch lesen irrelevant.
 
@@ -88,7 +88,7 @@ Wir vermuten, dass die Verlage herausgefunden haben, dass dunkle *coole* Bücher
 Zusätlich muss der Verlag eine Entscheidung treffen, für wen die Geschichte gedacht ist.
 Der Verlag hat für diese Zeit mehr Ressourcen als der Endkunde.
 Hier werden Inhalte eines Buches von den dafür zuständigen Personen im Cover ausgedrückt und gewissermaßen *übersetzt*. Dabei wirkt es nicht überraschend, dass sie sich an, in der Gesellschaft verfestigten Geschlechterrollenbildern orientieren.
-Tatsächlich hat der *Gender-Faktor* auf die Helligkeit den größten Einfluss ($r=-0{,}51$). Gemeinsam mit dem Geschlecht der Hauptfigur lässt sich die Helligkeit schon recht gut voraussagen ($R^2=0{,}24; p=0{,}02$).
+Tatsächlich hat der *Gender-Faktor* auf die Helligkeit den größten Einfluss ($R=-0{,}51$). Gemeinsam mit dem Geschlecht der Hauptfigur lässt sich die Helligkeit schon recht gut voraussagen ($R^2=0{,}24; p=0{,}02$).
 So ist die Helligkeit ein gutes *Transportmittel* um den Gender-Faktor ankommen zu lassen.\footnote{Wir gehen davon aus, dass weitere Merkmale des Covers, die wir nicht operationalisiert haben, wie die Form der Darstellung oder die Komplexität des Bildes noch einen wesentlichen Anteil zur Übersetzung des Genderfaktor beitragen.}
 
 Nicht übersehen darf man, dass nur das Leseverhalten von Buben von der Helligkeit beeinflusst wird. Bei den Mädchen kann kein Zusammenhang mit der Helligkeit nachgewiesen werden.
@@ -146,7 +146,7 @@ Die Grafikabteilung des Verlags, übersetzt hier wieder Inhalt in Design.
 Wobei wir vermuten, dass zwei Aspekte der Geschichte für die Anzahl der Figuren wichtig ist.
 Einerseits halten wir es für entscheidend, ob es sich um einen Multiprotagonisten handelt, wie z.B bei der *Knickerbockerbande* oder den *Wilden Hühnern*.
 Andererseits glauben wir, dass die Ebene auf der die Geschichte stattfindet, ob es viel *psychologisches* also z.B. *Inneren Monolog* gibt, oder ob sich die meisten Probleme auf soziales Handeln beziehen.
-Diese These wird auch davon gestützt, dass die stärkste Korrelation der Anzahl der Figuren von dem Merkmal *Innerer Monolog* ausgeht ($r=0{,}36; p=0{,}06$).
+Diese These wird auch davon gestützt, dass die stärkste Korrelation der Anzahl der Figuren von dem Merkmal *Innerer Monolog* ausgeht ($R=0{,}36; p=0{,}06$).
 
 
 
