@@ -50,12 +50,4 @@ Wutmonster, Baumhausgeschichten und Sickensuchmaschine und nein Tomaten ess ich 
 Es gibt mehr eindeutige Mädchen- als Bubenbücher: Warum? Haben sich Vermutungen bisher bestätigt? Neue Erkenntnisse? 
 (Welche Vermutungen haben wir aufgrund unserer Liste, sind sich Mädchenbücher ähnlicher als Bubenbücher oder *neutrale* Bücher?) -->
 
-\input{tabellen/top30gender.tex}
 
-\begin{figure}
-\center
-  \caption[w/m-Faktor]--Gender-Faktor{w/m-Faktor zu Gender-Faktor}
-  \label{maedchen-geschlecht}
-\input{grafiken/wm-gender.tex}
-
-\end{figure}
