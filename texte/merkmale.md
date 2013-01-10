@@ -79,7 +79,7 @@ Jedoch muss der Verlag eine Entscheidung treffen, für wen die Geschichte gedach
 Der Verlag hat für diese Zeit mehr Ressourcen als der Endkunde.
 Er kann sich dafür auch den Inhalt genau anschauen.
 Die Zuständigen im Verlag *übersetzen* die Handlungen in ein Cover. Dabei wirkt es nicht überraschend, dass sie sich an in der Gesellschaft verfestigten Geschlechterbilder orientieren.
-Tatsächlich ist hat der *Gender-Faktor* auf die Helligkeit den größten Einfluss ($r=-0{,}51$). Gemeinsam mit dem Geschlecht der Hauptfigur lässt sich die Helligkeit schon recht gut voraussagen ($r²=0{,}24; p=0{,}02$).
+Tatsächlich ist hat der *Gender-Faktor* auf die Helligkeit den größten Einfluss ($r=-0{,}51$). Gemeinsam mit dem Geschlecht der Hauptfigur lässt sich die Helligkeit schon recht gut voraussagen ($r^2=0{,}24; p=0{,}02$).
 So ist die Helligkeit ein gutes *Transportmittel* um den Gender-Faktor ankommen zu lassen.\footnote{Wir gehen davon aus, dass weitere Merkmale des Covers die wir nicht operationalisiert haben, wie die Form der Darstellung oder die Komplexität des Bildes noch einen wesentlichen Anteil zur Übersetzung des Genderfaktor beitragen.}
 Nicht übersehen darf man, dass nur das Leseverhalten von Buben von der Helligkeit beeinflusst wird. Bei den Mädchen kann kein Zusammenhang mit der Helligkeit nachgewiesen werden.
 Das heißt Mädchen lesen genauso helle wie dunkle Bücher.
@@ -106,50 +106,5 @@ Bei diesem Geschlecht ist für die Buben kein Zusammenhang nachweisbar.
 
 
 
-<<<<<<< HEAD
-=======
-Der erste Einflussfaktor ist das Geschlecht der Figur die im Titel ist. Das ist in den meisten Fällen auch die Hauptfigur, also die Figur mit der sich die Leserin oder der Leser am wahrscheinlichsten identifiziert.
-Nur bei wenigen Geschichten ist die Figur die am Titel erwähnt wird nicht die eigentliche Protagonisten bzw. der eigentliche Protagonist. Und auch wenn die Hauptfigur eine andere ist, heißt  das noch immer nicht, das sich auch das Geschlecht unterscheidet. Zum Beispiel ist in *der Räuber Hotzenplotz* die Hauptfigur der Kasperl, aber beide sind männlich. In *Grüffelo* ist die Hauptfigur eine Maus und beide sind *neutral*.
-In unseren 30 meist genanntesten Büchern bleibt nur ein Buch übrig, bei denen sich das Geschlecht der Titelfigur und der Hauptfigur unterscheiden und hier handelt es sich um einen Streitfall.
-Gemeint ist *Peter Pan*, bei dem, im Original, Wendy die Protagonistin ist. Jedoch ist bei vielen Adaptionen der Fokus ganz zu Peter gewandert.
-Ein andere Möglichkeit einer Differenz zwischen den beiden Merkmalen ist, dass das Geschlecht der Hauptfigur nicht vorkommt oder nicht eindeutig bestimmbar ist.
-Das Geschlecht der Hauptfigur ist ein Merkmal, über das die Autorin oder der Autor die volle Kontrolle haben.
-Das Geschlecht der Hauptfigur entsteht meist ganz am Anfang und hat insgesammt gesehen den größten Erklärungswert für das Gesamt-Modell und ist für Mädchen und Buben relevant.
-
-Das nächst wichtigste Merkmal ist die Cover-Helligkeit eines Buchs.
-Dieses Merkmal hat bei Buben immerhin einen gleich großen Erklärungswert wie das Geschlecht der Titelfigur.
-Die Entstehung dieses Merkmals ist jedoch schon nicht mehr direkt mit der Autorin oder dem Autro zu verbinden.
-Das Cover wird zu einem Zeitpunkt an dem die Geschichte schon längst an einen Verlag verkauft worden ist Gestaltet.
-Es ist oft auch, dass bei neueren Fassungen das Cover komplett anders ausschaut.
-Der Verlag hat die Aufgabe die Geschichte an den Endkunden zu verkaufen.
-Das heißt, es ist seine Aufgabe, das die Kinder oder deren Eltern richtige EntscheiSchützenhofgasse 25 8010 dungen treffen können.
-Richtige Entscheidungen heitß, dass sich die Kinder von dem Buch angesprochen fühlen.
-Wir vermuten, dass die Verlage herausgefunden haben, dass dunkle coole Bücher Buben eher ansprechen als lieblich helle rosa Bücher.
-Jedoch muss der Verlag eine Entscheidung treffen, für wen die Geschichte gedacht ist.
-Der Verlag hat für diese Zeit mehr Recoursen als der Endkunde.
-Er kann sich dafür auch den Inhalt genau anschauen.
-Die Zuständigen im Verlag *übersetzen* die Handlungen in ein Cover. Dabei wirkt es nicht überaschend, dass sie sich an in der Gesellschaft verfestigten Geschlechterbilder orientieren.
-Tatsächlich ist hat der *Gender-Faktor* auf die Helligkeit den größten Einfluss ($r=-0{,}51$). Gemeinsam mit dem Geschlecht der Hauptfigur lässt sich die Helligkeit schon recht gut voraussagen ($r²=0{,}24; p=0{,}02$).
-So ist die Helligkeit ein gutes *Transportmittel* um den Gender-Faktor ankommen zu lassen.\footnote{Wir gehen davon aus, dass weitere Merkmale des Covers die wir nicht operationalisiert haben, wie die Form der Darstellung oder die Komplexität des Bildes noch einen wesentlichen Anteil zur Übersetzung des Genderfaktor beitragen.}
-Nicht übersehen darf man, dass nur das Leseverhalten von Buben von der Helligkeit beeinflusst wird. Bei den Mädchen kann kein Zusammenhang mit der Helligkeit nachgewiesen werden.
-Das heißt Mädchen lesen genauso helle wie dunkle Bücher.
-Buben meiden jedoch helle Bücher.
-Das zeigt wie Buben vom Konsum femininens Verhalten durch Bücher ausgeschlossen werden.
-
-Ein weitere Einfluss auf das Leseverhalten, speziell von Buben ist die Dicke eine Buch bzw. das eng damit zusammenhängende empfohlene Alter.
-Und zwar steig die Dicke der Bücher mit der Anzahl der männlichen Leser.
-Dieser Fakt widerspricht auf den ersten Blick den Ergebnissen aus der Lesesozialisationsforschung in der Buben meist als *Lesemuffel* dargestellt werden.
-Vorallem da er auf auf das Leseverhalten von Mädchen wiederum keinen nachweisbaren Zusammenhang hat.
-Weiters ist hier auch nicht klar zu sagen welches Merkmal.
-Alter oder Dicke eigentlich wirksam ist.
-Um das Wirken des Merkmalpares haben wir zwei Vermutungen.
-Die erste bezieht sich darauf, dass Mädchen früher zu lesen beginnen. Wir haben die Kinder gefragt, welche Bücher sie gelesen haben. Die befragten Kinder waren zwischen 8 und 10 Jahren und es ist durch aus vorstellbar, dass die Mädchen früher zum Lesen von *Geschichten Büchern* anfangen. Das heißt, dass sie davor weniger oder andere von uns nicht untersuchte Bücher, wie die bei den Buben sehr beliebten Sachbücher, lesen.
-Die zweite Vermutung bezieht sich auf den *Coolheits-Faktor*.
-Das heißt, das es für Buben wichtiger ist *cool* zu sein.
-So kann sich von unserer Forschungsgruppe ein männliches Mitglied noch sehr gut erinnern, das das empfohlene Alter hinten auf den Büchern für ihn gerade im Alter der Untersuchten sehr wichtig war.
-
-
-
->>>>>>> a505c5821e7f21bade95fcddfafcef92afb160fe
 
 
