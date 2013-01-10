@@ -66,3 +66,9 @@ Statistische Methoden
 
 
 
+\input{tabellen/stereotype.tex}
+
+
+
+
+
