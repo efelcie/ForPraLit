@@ -69,7 +69,7 @@ Unterstützend sollen qualitative Inhaltsanalysen spezifischer Textbeispiele zug
 
 
 ### Statistische Verfahren
-#####Mädchenbücher können ohne Kentnisse über den Inhalt als solche erkannt werden.
+#####Mädchenbücher können ohne Kenntnisse über den Inhalt als solche erkannt werden.
 Mit Hilfe statistischer Verfahren soll hinterfragt werden, durch welche vom Inhalt der Bücher völlig unabhängigen Merkmale eine Favorisierung von spezifischen *Geschlechterbüchern* erklärt werden kann. Ziel ist es ein Modell zu entwerfen, das den Einfluss dieser inhaltsunabhängigen Merkmale auf die Wahl eines Buches durch ein Geschlecht bestmöglich erklärt.
 
 Folgende inhaltsunabhängige Variablen sollen zu diesem Zweck erhoben werden:
