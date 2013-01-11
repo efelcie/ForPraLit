@@ -97,7 +97,7 @@ TABELLE ZEITPLAN
 
 
 
-
+<!--
 -------
 
 ### Unterstützen Kinderbücher das Entstehen von geschlechter-stereotypischen Handlungen bei Kindern?
@@ -166,5 +166,5 @@ Statistische Methoden
 
 
 
-
+-->
 
