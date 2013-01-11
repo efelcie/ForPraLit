@@ -27,7 +27,7 @@ Das lässt auch darauf schließen, dass grundsätzlich das Leseverhalten von Bub
 Und tatsächlich ist die Korrelation zwischen der Häufigkeit der Nennungen pro Buch bei den Buben und dem Verhältnis der Nennungen zwischen Mädchen und Buben mit $0{,}70$ größer als zwischen den Mädchen und dem Verhältnis, dass nur eine Korrelation von $-0{,}41$ aufweist.
 Da die Nennungen der Buben für unser Verhältnis so wichtig sind, fangen wir hier mit einer detaillierteren Analyse der Merkmale an.
 
-Das Geshlecht der Titelfigur
+Das Geschlecht der Titelfigur
 ----------------------------
 
 Der erste Einflussfaktor ist das Geschlecht der Figur, die im Titel genannt wird. Das ist in den meisten Fällen auch die Hauptfigur, also die Figur mit der sich die Leserin oder der Leser am wahrscheinlichsten identifiziert.
@@ -60,9 +60,9 @@ So ist die Helligkeit ein gutes *Transportmittel* um den Gender-Faktor ankommen 
 Nicht übersehen darf man, dass nur das Leseverhalten von Buben von der Helligkeit beeinflusst wird. Bei den Mädchen kann kein Zusammenhang mit der Helligkeit nachgewiesen werden.
 Das heißt Mädchen lesen genauso helle wie dunkle Bücher.
 Buben meiden jedoch helle Bücher.
-Das zeigt, dass Buben es eher vemeiden mädchenhafte Literatur zu konsumieren, während der Spielraum der Mädchen hier weniger eingeschränkt wird.
+Das zeigt, dass Buben es eher vermeiden mädchenhafte Literatur zu konsumieren, während der Spielraum der Mädchen hier weniger eingeschränkt wird.
 
-Buben bevorzugen Bücher für ältere
+Buben bevorzugen Bücher für Ältere
 ----------------------------------
 
 Ein weiterer Einfluss auf das Leseverhalten, speziell von Buben, ist die Dicke eines Buchs beziehungsweise das eng damit zusammenhängende empfohlene Alter.
@@ -77,7 +77,7 @@ Die zweite Vermutung bezieht sich auf den *Coolness-Faktor*.
 Das heißt, das es für Buben wichtiger ist *cool* zu sein.
 So kann sich von unserer Forschungsgruppe ein männliches Mitglied noch sehr gut erinnern, dass das empfohlene Alter hinten auf den Büchern, für ihn, gerade im Alter der Untersuchten, sehr wichtig war.
 
-Der Einfluss des Geschlechts der Autor_in ist zu vernachlässigen
+Der Einfluss des Geschlechts der Autorin/des Autors ist zu vernachlässigen
 ----------------------------------------------------------------
 
 Wenden wir uns wieder dem Modell, dass die Häufigkeiten der Mädchen erklären soll, zu.
