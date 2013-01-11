@@ -1,0 +1,180 @@
+\documentclass[
+%	fontsize=10pt,	% Standard-Schriftgröße
+	fontsize=12pt,	% Für Korrekturversionen
+%	fotnsize=14pt,	% Ideale Schriftgröße für 3. Klasse VS
+%	paper=a5,
+%	twoside,
+	pagesize,
+%	notitlepage	
+%      ]{scrartcl}		% Koma-Script Artikel
+     ]{scrreprt}		% Koma-Script Report (nötig für paperandpencil)
+%      ]{scrbook}		% Koma-Script Report (nötig für paperandpencil)
+		
+
+%\usepackage{
+%	array,		% Array Paket wird für paperandpencil benötigt
+%      	paperandpencil	% Zur Erstellung von Fragebögen
+%	papi		% Für Papiergestützte Befragungen
+%}
+
+%\usepackage[
+%	top=2.5cm, 
+%	left=2.5cm, 
+%	bottom=2.5cm,
+%	right=2.5cm
+%	]{geometry}	% Einstellungen für Fragebogen (paperandpencil)
+
+
+
+\usepackage[utf8]{inputenc}		% Ermöglicht das Umgehen mit Unicode (Umlaute).
+\usepackage[french, english, ngerman]{babel}	% Lädt Spracheinstellungen.
+\usepackage[				% Verwaltet Anführungszeichen.
+  	babel,				%
+	german=quotes,
+	english=british]{csquotes}	% Deutsche Anführungszeichen.
+\usepackage{ctable}			% Für coolere Tabellen
+%\usepackage[just=true]{stdpage} 	% Normseite
+\usepackage[T1]{fontenc}		% Schriften auf mehr Zeichen erweitern.
+
+\usepackage{% 
+	ellipsis, 	% Korrigiert den Weißraum um Auslassungspunkte
+%	ragged2e, 	% Ermöglicht Flattersatz mit Silbentrennung
+	marginnote,	% Für bessere Randnotizen mit \marginnote statt marginline
+	microtype, 	% Mikrotypografische Feinheiten 
+			% Andere Einstellungen siehe microtype-Handbuch
+	eurosym, 	% echte Euro-Symbol
+	xspace,		% ermöglich Lehrzeichen, dass nicht vor Satzzeichen ist
+%	wasysym, 	% Sammlung von Symbolen
+	blindtext,	% Einfügen von Blindtext
+	lmodern,
+	rotating,	% Erlaubt vertikalen Text (Tabellen)
+	dcolumn		% Ermöglicht das Ausrichten von Tabellen am Dezimalpunkt
+}
+\usepackage{tikz}
+
+
+\usepackage[
+  %	style=authoryear-icomp,	% Autor:Jahr Stil
+  	style=fiwi2,		% Autor:Jahr Stil
+	backend=biber,		% Eine BibTeX Alternative
+%	maxbibnames=99,
+%	maxcitenames=2,		% Namen in Zitaten
+%	mincitenames=1,		% Namen in Zitat bei et al.
+	uniquelist=false,
+	origyearwithyear=false,
+%	url=false,
+	doi=true,
+	pages=bib,
+	publisher=true
+      ]{biblatex}		% Literaturverwaltung
+\bibliography{literatur/primaer}
+\bibliography{literatur/sekundaer}		% Pfad zur Literatur-Datei '<name.bib>' ohne .bib
+\title{Mädchenbücher--Bubenbücher}
+\author{Peter Flucher, Lukas Kaiser, Lisa Weiler}
+\date{}
+
+% 				% Anpassung von authoryear
+%\renewcommand{\postnotedelim}{\addcolon\addspace}	% : statt ,
+%\DeclareFieldFormat{postnote}{#1}			% kein S.
+%\renewcommand{\labelnamepunct}{\addcolon\addspace}	% : statt .
+							% in LitListe
+
+%\usepackage{DejaVuSans}
+%\usepackage{DejaVuSansCondensed}
+%% Another possibility is
+%% \usepackage{dejavu}
+%% which loads the DejaVu Serif and DejaVu Sans Mono fonts as well
+%\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+%\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage[
+	pdftitle={Mädchenbücher-Bubenbücher},
+	pdfsubject={Forschungsdesign},
+	pdfauthor={Flucher, Kaiser, Weiler},	
+	pdfkeywords={}
+	]{hyperref}
+
+\newcommand{\zB}{\mbox{z.\,B.}\xspace}	% Definiert einen Befehl für z.B.
+
+%\renewcommand{\familydefault}{\sfdefault}
+%\renewcommand{\familydefault}{\rmdefault} 
+					%Standardschrift ist Roman (wegen stdpage)
+
+
+\SetCiteCommand{\parencite}		% Notwendig für (Zitieren)
+\renewcommand{\mkccitation}[1]{ #1}	%
+\begin{document}
+
+\maketitle
+\recalctypearea
+\singlespacing
+\tableofcontents
+%\listoffigures % Abbildungsverzeichnis
+\listoftables % Tabellenverzeichnis 
+\onehalfspacing
+%\chapter{Vorwort}
+%\Blindtext
+%\part{Projekte}
+%\chapter{Mädchenbücher--Bubenbücher}
+%\begin{refsection}
+
+\newpage 
+
+\input{texte/literatur.tex}
+\input{pandoc.tex}
+
+
+% \nocite{Knister1994}
+\pagebreak
+\singlespacing
+
+\printbibliography%[heading=subbibliography]
+
+
+
+
+% \printbibliography[nottype=movie,
+% 		notkeyword=kb,
+%   	 %	nottype=video,
+% 	 %	nottype=online,
+% 		heading=subbibliography,
+% 		title={Literatur}]
+
+% \printbibliography[type=movie,
+% 		notkeyword=kb,
+% 	 %	type=video,
+% 	 %	type=online,
+% 		heading=subbibliography,
+% 		title={Filmographie}]
+  
+%  \printbibliography[nottype=movie,
+%  		keyword=kb,
+% 	 %	type=video,
+% 	 %	type=online,
+% 		heading=subbibliography,
+% 		title={Analysierte Kinderbücher}]
+
+%\end{refsection}
+
+%\chapter{Anderes Projetkt}
+%\begin{refsection}
+% %\nocite{latour2010}
+% \blindtext
+%  \printbibliography[heading=subbibliography]
+%\end{refsection}
+%
+%\begin{refsection}
+%  \blinddocument
+%\end{refsection}
+%\blinddocument
+
+%\singlespacing
+%\printbibliography	% Literaturliste
+
+\end{document}% Gender
+
+
+
+
+
