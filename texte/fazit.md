@@ -5,11 +5,18 @@ Fazit
  Wir haben in unserer Arbeit gezeigt, dass es Gender auch bei Kinderbüchern gibt. 
  Auch Kinderbücher *verhalten* sich abhängig vom Geschlecht und zwar Abhängig vom Geschlecht der Lesenden.Mädchen und Buben lesen unterschiedliche Bücher und diese Bücher unterscheiden sich in ihrem Verhalten.
  So konsumieren Mädchen und Buben unterschiedliches Verhalten.
- Eine Analyse dieses Verhaltens anhand der Hauptfiguren hat gezeigt, dass dieses Gender der Bücher auch mit dem Geschlechterstereotypen Zusammenhängt.
+ Eine Analyse dieses Verhaltens anhand der Hauptfiguren hat gezeigt, dass dieses Gender der Bücher auch mit den Geschlechterstereotypen Zusammenhängt.
  Umso höher der Anteil an Leserinnen um so femininer handelt die Hauptfigur.
 
- Weiter haben wir gezeigt, wie dieses Verhältnis von Leserinnen zu Lesern zustande kommen lönnte.
- Eine Vorhersage des Verhältnis ist sogar möglich, dass man das Buch aufschllagen muss.                      
+ Das es dieses Gender geben kann, setzt voraus, dass dieser Unterschied auch bei der Entscheidung ob man ein Buch liest gmacht werden kann.
+ Das dies Möglich ist wurde durch den zweiten Teil der Untersuchung gezeigt.
+
+ Geht man davon aus, dass konsumiertes Verhalten auf die Leserinnen und Leser abfärbt und deren Verhalten beeinflusst, könnte man vermuten, dass Kinderbücher auf diese Art und Weise geschlechtsstereotypisches Verhalten bei Kindern verstärkt wird.
+
+ Durch das Zeigen, wie Stereotypen mit Kindern verknüpft werden lassen sich auch neue Ansätze für Gendermainstreaming-Maßnahmen in Bezug auf Kinderbücher ableiten.
+
+Wir möchten noch einmal darauf hinweisen, dass wir nicht die Wirkung von Büchern auf Kinder untersucht haben sondern nur das Geschlechtsabhängige *Verhalten* von den Büchern selbst. Das Gender von Kinderbüchern.
+
 
                                                               
 
