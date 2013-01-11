@@ -54,7 +54,7 @@ Eine weiter kürze Liste mit Aufzählungen beliebter Thematiken die zu Gruppen z
 ##### Von Mädchen favorisierte Bücher unterscheiden sich anhand der Darstellung des sozialen Geschlechts von jenen der Buben.
 Den Hauptprotagonisten der jeweiligen Bücher sollen mithilfe einer Liste von 13 geschlechterstereotypen Eigenschaftspaaren ein Genderwert zugeteilt werden um eine Aussage über die unterschiedliche Darstellung des sozialen Geschlechts in den jeweils von einem Geschlecht bevorzugten Kinderbüchern zu treffen. 
 
-TABELLE DER 13 EIGENSCHAFTSPAARE
+\input{tabellen/stereotype.tex}
 
 ##### Von Mädchen favorisierte Bücher unterscheiden sich anhand inhaltlicher Merkmale von jenen der Buben.
 Die Kinderbücher sollen daraufhin untersucht werden ob sie Alltags- oder Abenteuergeschichten darstellen. Es wird vermutet, dass Buben Abenteuergeschichten bevorzugen, Mädchen hingegen zu Alltagsgeschichten tendieren. Sollte sich diese Annahme bewahrheiten, sollen weitere inhaltliche Merkmale auf ihr Vorkommen in Alltags- und Abenteuergeschichten untersucht werden. 
@@ -91,16 +91,19 @@ Folgende inhaltsunabhängige Variablen sollen zu diesem Zweck erhoben werden:
 
 \input{tabellen/zuordnung.tex}
 
+
+<!-- 
 ### Zeitplan
 Die Studie wird innerhalb der Lehrveranstaltung durchgeführt. Die Lehrveranstaltung
 dauert vom Sommersemester 2012 bis zum Wintersemester 2012/13. Für eine Überblick
 siehe Tabelle
+ -->
 
 \input{tabellen/zeitplan.tex}
 
 
+<!-- 
 
--------
 
 ### Unterstützen Kinderbücher das Entstehen von geschlechter-stereotypischen Handlungen bei Kindern?
 
@@ -147,7 +150,6 @@ siehe Tabelle
   Unser Hauptziel bei diesem Vorgehen war, möglichst effizient das Buch in Gruppen von Werte zu zerlegen, um diese danach durch mathematische Verfahren vergleichen zu können.
   Dabei geht es uns in erster Linie um zwei Arten von Merkmalen. Einmal Merkmale, die das Handeln der Hauptfigur beschreiben und zweitens Merkmale die eine Unterscheidung für die Leseentscheidung ermöglichen.
 
-<!-- 
 #### Merkmale
 
 
