@@ -43,6 +43,7 @@ b=bericht
   pandoc\
   texte/titel.md \
   texte/einleitung.md \
+  texte/literatur.tex \
   texte/forschungsdesign.md \
   texte/leseverhalten.md \
   texte/handlung.md \

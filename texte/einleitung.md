@@ -14,3 +14,8 @@ Einleitung
 ## Relevanz
 
   Feminine Burschen und maskuline Mädchen als Hauptfiguren haben keinen Einfluss auf Gendermainstreaming wenn nur Mädchen die femininen Burschen lesen. (Franz)
+
+
+
+\input{texte/literatur.tex}
+
