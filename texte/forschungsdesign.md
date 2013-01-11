@@ -1,5 +1,4 @@
 
-
 Forschungsdesign
 ================
 Im Rahmen unseres Forschungspraktikums mit dem Titel Geschlechtsidentität und Geschlechterrollen
@@ -7,7 +6,7 @@ bei Kindern, möchten wir untersuchen, wie sich Kinderbücher, je nachdem
 ob sie eher von Mädchen oder Buben gelesen werden, unterscheiden und welche Merkmale
 für unterschiedliche Lesepräferenzen entscheidend sein können. 
 
-## Deffinitionen
+## Definitionen
 Mädchebuch - Buch das von einer Mehrheit an weiblichen Lesern konsumiert wird.
 
 Bubenbuch - Buch das von einer Mehrheit an männlichen Lesern konsumiert wird.
@@ -16,57 +15,58 @@ Forschungsfragen
 ----------------
 
 - Lesen Mädchen andere Bücher als Buben?
-- Weisen von Mädchen favorisierte Bücher inhaltliche Unterschiede auf zu jenen der Buben?
-- Kann man ohne über den Inhalt eines Buchs bescheid zu wissen, auf das Verhältnis von Leserinnen zu Lesern schließen?
+- Weisen von Mädchen favorisierte Bücher im Vergleich zu denen von Buben inhaltliche Unterschiede auf?
+- Kann man ohne über den Inhalt eines Buchs Bescheid zu wissen, auf das Verhältnis von Leserinnen zu Lesern schließen?
 
-Die Beantwortung dieser drei Fragen ist das genannte Ziel dieser Untersuchung, erst in späterer Folge sollen diese mit Theorien in Verbindung gebracht werden, die mögliche Konsequenzen auf die Rekonstruktion von Geschlechteridentitäten und Geschlechterrollen aufzeigen können, um schlussendlich dem Titel und Anspruch des Forschungsprojektes auch gerecht zu werden.
+Die Beantwortung dieser drei Fragen ist das genannte Ziel dieser Untersuchung, erst in späterer Folge sollen diese mit Theorien in Verbindung gebracht werden, die mögliche Konsequenzen auf die Rekonstruktion von Geschlechteridentitäten und Geschlechterrollen aufzeigen können, um schließlich dem Titel und Anspruch dieses Forschungsprojektes gerecht zu werden.
 
 Hypothesen
 ------------
 ##### Lesen Mädchen andere Bücher als Buben?
 - Mädchen lesen andere Bücher als Buben.
 - Mädchen lesen mehr Bücher als Buben.
-- Mädchen lieber über andere Themen als Buben.
+- Mädchen lesen lieber über andere Themen als Buben.
 
-##### Weisen von Mädchen favorisierte Bücher inhaltliche Unterschiede auf zu jenen der Buben?
+##### Weisen von Mädchen favorisierte Bücher im Vergleich zu denen von Buben inhaltliche Unterschiede auf?
 - Von Mädchen favorisierte Bücher unterscheiden sich anhand der Darstellung des sozialen Geschlechts von jenen der Buben.
 - Von Mädchen favorisierte Bücher unterscheiden sich anhand inhaltlicher Merkmale von jenen der Buben.
+- Mädchen neigen dazu eher Bücher zu lesen, in denen der Beziehungsaspekt angesprochen wird, während Buben Literatur bevorzugen, die eher von Konkurrenz geprägt sind oder es ein großes *Ziel* zu erreichen gibt.
 
-##### Kann man ohne über den Inhalt eines Buchs bescheid zu wissen, auf das Verhältnis von Leserinnen zu Lesern schließen?
-- Mädchenbücher können ohnen den Inhalt zu kennen als solche erkannt werden.
+##### Kann man ohne über den Inhalt eines Buchs Bescheid zu wissen, auf das Verhältnis von Leserinnen zu Lesern schließen?
+- Mädchenbücher können auch ohne Kenntnisse über den Inhalt als solche erkannt werden.
 
-Um all diese Hypothesen beantworten zu können, ist ein geplantes Vorgehen durch den Einsatz der jeweilig passende Erhebungsmethode notwendig.
+Um all diese Hypothesen beantworten zu können, ist ein geplantes Vorgehen und der Einsatz der jeweils passenden Erhebungsmethode notwendig.
 
 ## Erhebungsmethoden
 
 ###Fragebogenerhebung
 ##### Mädchen lesen andere Bücher als Buben.
-Mit Hilfe einer Bücherliste wird erhoben werden, welche Bücher von der Schülern und Schülerinnen der dritten und vierten Klassen von außgewählten Grazer Volksschulen gelesen werden. Diese Bücherliste wird aus Bestseller-Listen (Amazon), Bibliotheksleihverzeichnissen und Expertisen einer Buchhändlerin zusammengestellt. Als Kontrolle wird eine offene Frage nach den Lieblingsbüchern hinzugefügt. Diese wird im Fragebogen vor die Liste platziert um den Einfluss der Bücherlist auf die Antwortgebung zu vermeiden.
+Mit Hilfe einer Bücherliste soll erhoben werden, welche Bücher von den Schülern und Schülerinnen der dritten und vierten Klassen von außgewählten Grazer Volksschulen gelesen werden. Diese Bücherliste wird aus Bestsellerlisten (Amazon), Bibliotheksleihverzeichnissen und Expertisen von Büchereimitarbeiter_innen zusammengestellt. Als Kontrolle wird eine offene Frage nach den Lieblingsbüchern hinzugefügt. Diese wird im Fragebogen vor die Liste platziert um den Einfluss der Bücherliste auf die Antwortgebung zu vermeiden.
 
 ##### Mädchen lesen mehr Bücher als Buben.
-Hier soll die selbe Bücherliste dazu dienen eine Aussage über die Lesefreudigkeit des jeweiligen Geschlechts zu liefern. Dafür werden die Nennungen an gelesenen Büchern ausgezählt und verglichen.
+Hier soll dieselbe Bücherliste dazu dienen eine Aussage über die Lesefreudigkeit des jeweiligen Geschlechts zu liefern. Dafür werden die Nennungen an gelesenen Büchern ausgezählt und verglichen.
 
 ##### Mädchen lesen über andere Themen als Buben.
-Eine weiter kürze Liste mit Aufzählungen beliebter Thematiken die zu Gruppen zusammengefasst werden, soll Aufschluss darüber geben, welche Thematiken von dem jeweiligen Geschlecht bevorzugt werden. 
+Eine weitere kurze Liste mit Aufzählungen beliebter Thematiken,soll Aufschluss darüber geben, welche Thematiken von dem jeweiligen Geschlecht bevorzugt werden. 
 
 ###Inhaltsanalyse
 
 ##### Von Mädchen favorisierte Bücher unterscheiden sich anhand der Darstellung des sozialen Geschlechts von jenen der Buben.
-Den Hauptprotagonisten der jeweiligen Bücher sollen mithilfe einer Liste von 13 geschlechterstereotypen Eigenschaftspaaren ein Genderwert zugeteilt werden um eine Aussage über die unterschiedliche Darstellung des sozialen Geschlechts in den jeweils von einem Geschlecht bevorzugten Kinderbüchern zu treffen. 
+Den Hauptprotagonisten der jeweiligen Werke sollen mithilfe einer Liste von 13 geschlechterstereotypen Eigenschaftspaaren ein Genderwert zugeteilt werden um eine Aussage über die unterschiedliche Darstellung des sozialen Geschlechts in den jeweils von einem Geschlecht bevorzugten Kinderbüchern zu treffen. 
 
 \input{tabellen/stereotype.tex}
 
 ##### Von Mädchen favorisierte Bücher unterscheiden sich anhand inhaltlicher Merkmale von jenen der Buben.
-Die Kinderbücher sollen daraufhin untersucht werden ob sie Alltags- oder Abenteuergeschichten darstellen. Es wird vermutet, dass Buben Abenteuergeschichten bevorzugen, Mädchen hingegen zu Alltagsgeschichten tendieren. Sollte sich diese Annahme bewahrheiten, sollen weitere inhaltliche Merkmale auf ihr Vorkommen in Alltags- und Abenteuergeschichten untersucht werden. 
+Die Kinderbücher sollen daraufhin untersucht werden, ob sie Alltags- oder Abenteuergeschichten darstellen. Es wird vermutet, dass Buben Abenteuergeschichten bevorzugen, Mädchen hingegen zu Alltagsgeschichten tendieren. Sollte sich diese Annahme bewahrheiten, sollen weitere inhaltliche Merkmale auf ihr Vorkommen in Alltags- und Abenteuergeschichten untersucht werden. 
 
 Folgende inhaltliche Merkmale werden hierbei auf Vorkommen in und ihren Zusammenhang mit Alltags- und Abenteurgeschichten erhoben und analysiert:
 
-- Quests - Präsenz eine Hauptzieles das durch lösen von Rätseln erreicht wird.
+- Quests - Präsenz eines Hauptzieles das durch das Lösen von Rätseln erreicht wird.
 - Phantastische Elemente - Präsenz von irrealen Wesen, Orten oder Handlungen.
-- Innerer Monolog - Wiedergabe der Gedankenwelt des Protagonisten
-- Growing Up - Präsenz eines Reifeprozesses
+- Innerer Monolog - Wiedergabe der Gedankenwelt des Protagonisten.
+- Growing Up - Präsenz eines Reifeprozesses.
 
-Unterstützend sollen qualitative Inhaltsanalysen spezifischer Textbeispiele Verwendung finden, zugunsten einer besseren Verständlichkeit.
+Unterstützend sollen qualitative Inhaltsanalysen spezifischer Textbeispiele zugunsten einer besseren Verständlichkeit Verwendung finden.
 
 
 ### Statistische Verfahren
