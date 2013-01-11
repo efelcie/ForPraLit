@@ -54,6 +54,8 @@ Eine weiter kürze Liste mit Aufzählungen beliebter Thematiken die zu Gruppen z
 ##### Von Mädchen favorisierte Bücher unterscheiden sich anhand der Darstellung des sozialen Geschlechts von jenen der Buben.
 Den Hauptprotagonisten der jeweiligen Bücher sollen mithilfe einer Liste von 13 geschlechterstereotypen Eigenschaftspaaren ein Genderwert zugeteilt werden um eine Aussage über die unterschiedliche Darstellung des sozialen Geschlechts in den jeweils von einem Geschlecht bevorzugten Kinderbüchern zu treffen. 
 
+TABELLE DER 13 EIGENSCHAFTSPAARE
+
 ##### Von Mädchen favorisierte Bücher unterscheiden sich anhand inhaltlicher Merkmale von jenen der Buben.
 Die Kinderbücher sollen daraufhin untersucht werden ob sie Alltags- oder Abenteuergeschichten darstellen. Es wird vermutet, dass Buben Abenteuergeschichten bevorzugen, Mädchen hingegen zu Alltagsgeschichten tendieren. Sollte sich diese Annahme bewahrheiten, sollen weitere inhaltliche Merkmale auf ihr Vorkommen in Alltags- und Abenteuergeschichten untersucht werden. 
 
