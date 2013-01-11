@@ -170,7 +170,7 @@ Da wir in den vorangegangenen Kapiteln zeigen konnten, dass Mädchen und Buben u
 
 - Unterschiede in Aufbau und Verwendung stilistischer Mittel
 
-##Darstellung Gender
+Darstellung Gender
 ------------------
 
 Auch wenn die Frage nach der Intensität des Einflusses von Kinderbüchern auf die Sozialisierung und die Ausprägung von Geschlechterrollen bei Kindern nicht restlos beantwortet werden kann, muss hier dennoch von einem Einfluss ausgegangen werden. Dieser Einfluss geht vor allem von den Hauptprotagonisten und der Verhalten, Handeln und Denken aus, die sie jene Identifizierungsinstanz darstellen mit denen im Verlauf der Geschichte des jeweiligen Buches am meisten mitgelitten, gefeiert und gebangt wird. Daher ist es von hoher Bedeutung wie diese Charaktere dargestellt werden. Jene Form der Darstellung die uns hier im Besonderen interessiert ist die des sozialen Geschlechtes, welche mit Hilfe einer Liste von 13 Eigenschaftspaaren (siehe Tabelle \ref{stereo}) erhoben wurden. Jedes dieser Eigenschaftspaare weist einen stereotyp maskulinen und femininen Pol auf. Jeder Hauptcharakter der 30 Bücher unserer Erhebung wurde auf diese 13 Eigenschaftspaare untersucht und ein Gender-Faktor erstellt der uns zeigen kann wie maskulin oder feminin diese dargestellt werden. 
@@ -212,7 +212,7 @@ Der w/m-Faktor korreliert dabei mit dieser Variabel am höchsten von allen Eigen
 Dabei sollte noch erklärt werden, dass alle anderen Eigenschaftspaare gleich gepolt sind und zwar zwar ebenfalls positiv korrelieren jedoch das Signifikanzniveau zu niedrig ist um eine klare Aussage zu tätigen. Daher kann hier nur soweit interpretiert werden, dass keine einzige Gender-Eigenschaft eine Tendenz zu einer nicht-klischeehaft Verwendung vorweist. 
 
 ####Beispiel Franz
-Wie man aus der Tabelle oben (siehe...) entnehmen kann, werden die Geschichten vom Franz bevorzugterweise von Mädchen gelesen und das obwohl das biologische Geschlecht männlich ist. Der Gender-Faktor des lieben Franz sieht jedoch ganz anders aus. Mit dem niedrigsten Wert aller 30 Hauptcharaktere stellt er den feministen Protagonisten dar und bietet damit eine spannende Basis für eine inhaltsanalytische Untersuchung.
+Wie man aus der Tabelle \ref{top30gender} entnehmen kann, werden die Geschichten vom Franz bevorzugterweise von Mädchen gelesen und das obwohl die Hauptfigur ein Bub ist. Der Gender-Faktor des lieben Franz sieht jedoch ganz anders aus. Mit dem niedrigsten Wert aller 30 Hauptcharaktere stellt er den feministen Protagonisten dar und bietet damit eine spannende Basis für eine inhaltsanalytische Untersuchung.
 
 Situationsbeschreibung:
 
@@ -231,7 +231,9 @@ Das dreiergespann Tom Turbo, Karo und Klaro können als ideales Beispiel für ei
 
 ##Merkmale des inhaltlichen Aufbaus
 
-Aus dem Wissen, dass Buben und Mädchen unterschiedliche Lesepräferenzen aufweisen, ergibt sich die Frage worin sie sich unterscheiden. Es ist bekannt, dass Buben verstärkt auf Sachbücher – die in unserer Erhebung bewusst auf Grund der fehlenden Darstellungen von Protagonisten nicht erhoben wurden - ansprechen, Mädchen hingegen tendieren zu Büchern die eine Geschichte erzählen. In unserer Erhebung haben wir ausschließlich Bücher erhoben, die aus dieser Unterscheidung von Mädchen favorisiert werden sollten. Dennoch konnte hier keinen nennenswerten Unterschied in der Menge des Gelesenen feststellen, was es uns ermöglicht die Unterscheidung was Buben und Mädchen gerne lesen auf eine weiter Form zu unterscheiden. Hierbei wurde analysiert ob es sich bei den Büchern um Abenteuer- oder Alltagsgeschichten handelt (siehe 3.).
+Aus dem Wissen, dass Buben und Mädchen unterschiedliche Lesepräferenzen aufweisen, ergibt sich die Frage worin sie sich unterscheiden. Es ist bekannt, dass Buben verstärkt auf Sachbücher – die in unserer Erhebung bewusst auf Grund der fehlenden Darstellungen von Protagonisten nicht erhoben wurden - ansprechen, Mädchen hingegen tendieren zu Büchern die eine Geschichte erzählen. In unserer Erhebung haben wir ausschließlich Bücher erhoben, die aus dieser Unterscheidung von Mädchen favorisiert werden sollten. Dennoch konnte hier keinen nennenswerten Unterschied in der Menge des Gelesenen feststellen, was es uns ermöglicht die Unterscheidung was Buben und Mädchen gerne lesen auf eine weiter Form zu unterscheiden. Hierbei wurde analysiert ob es sich bei den Büchern um Abenteuer- oder Alltagsgeschichten handelt (siehe Tabelle \ref{genre}).
+
+\input{tabellen/genre.tex}
 
 ###Alltagsgeschichten
 
@@ -245,7 +247,7 @@ Der Schulrat besucht an diesem Tag die Klasse von Lilli und möchte den Unterric
 
 >"Auweia", flüstert Lilli, So war das nicht gedacht! Hier muss sie schnell eingreifen bevor der Schulrat gleich zu Anfang einen schlechten Eindruck bekommt.
 
-Lilli ist tatkräftig und dominant aber zugleich auch hilfsbereit und großherzig. Sie bietet aus Sicht des Doing-Gender einen Mix an Eigenschaften, der sich auch im Wert der Gendertabelle (siehe Tabelle...) wiederspiegelt. Lilli wird sehr klar bevorzugt von Mädchen gelesen und zeigt, wie Mädchen ebenfalls mit maskulinen Genderatributen dargestellt werden. Sie ist ein Paradebeispiel dafür, dass Mädchen mit beiden Genderrollen konfrontiert werden, was Buben gemeinhin noch verwehrt wird.
+Lilli ist tatkräftig und dominant aber zugleich auch hilfsbereit und großherzig. Sie bietet aus Sicht des Doing-Gender einen Mix an Eigenschaften, der sich auch im Wert der Gendertabelle (siehe Tabelle \ref{top30gender}) wiederspiegelt. Lilli wird sehr klar bevorzugt von Mädchen gelesen und zeigt, wie Mädchen ebenfalls mit maskulinen Genderatributen dargestellt werden. Sie ist ein Paradebeispiel dafür, dass Mädchen mit beiden Genderrollen konfrontiert werden, was Buben gemeinhin noch verwehrt wird.
 
 ###Abenteuergeschichten
 
@@ -256,9 +258,8 @@ Harry ist ein schmächtiger Junge, der bei der Familie seiner Tante lebt, da sei
 
 Harry Potter hat viele Attribute die feminin deklariert sind, so ist er beispielsweise großherzig und emotional, manchmal sogar etwas träumerisch aber auch mutig und aktiv. Er ist teilweise sehr dominant und hält sich nicht an Regeln. Diese Attribute lassen den Genderwert leicht ins maskuline wandern. Sein Genderwert ist beispielsweise jenem von Hexe Lilli nicht unähnlich und wird auch von vielen Mädchen gerne gelesen, jedoch tendenziel ein wenig mehr von Jungen. Harry Potter ist ein passendes Beispiel dafür, dass Jungen männliche Protagonisten, vor allem aber auch Abenteuergeschichten favorisieren.
 
-Tabelle 3.
 
-Wie wir auf Tabelle 3. Erkennen lesen Buben verstärkt Abenteuergeschichten während Mädchen einen viel höhere Anzahl an Alltagsgeschichten in ihrer Lesepräferenz vorweisen. Dies kann auch statistisch festgehalten werden mit einer Korrelation von 0,314 (Sig. 0,091). Auch hier finden wir dasselbe Bild, dass Mädchen in beiden Ausprägungen zu finden sind, Buben hingegen nur sehr wenige Alltagsgeschichten lesen. 
+Wie wir auf Tabelle \ref{gernre}. Erkennen lesen Buben verstärkt Abenteuergeschichten während Mädchen einen viel höhere Anzahl an Alltagsgeschichten in ihrer Lesepräferenz vorweisen. Dies kann auch statistisch festgehalten werden mit einer Korrelation von 0,314 (Sig. 0,091). Auch hier finden wir dasselbe Bild, dass Mädchen in beiden Ausprägungen zu finden sind, Buben hingegen nur sehr wenige Alltagsgeschichten lesen. 
 
 Doch hat diese unterschiedliche Präferenz eine Auswirkung auf die unterschiedliche Entwicklung von Geschlechterausprägungen. Diese Frage kann anhand der Erhobenen Daten nicht beantwortet werden und dennoch war sie nützlich um eine weiter Frage aufzuwerfen, die einen Anhaltspunkt für die Beantwortung liefern kann. Aus unserer Erhebung zur Darstellung von Gendermerkmalen (siehe Genderfaktor) wissen wir das gewisse Eigenschaften als besonders maskulin oder feminin empfunden werden. Wir haben uns daher gefragt, ob es denn Merkmale im Inhalt und Aufbau von Kinderbüchern geben könnte die die Ausprägung solcher Eigenschaften unterstützen. Da die Ergebnisse für Jungen viel einseitiger ausgefallen sind, kann die Frage auch wie folgt formuliert werden. Liefern Abenteuergeschichten bestimmt Merkmale mit denen Buben verstärkt konfrontiert werden und sie somit hin zu einem maskulinen Wesen unterstützen? Aber auch: Fehlen durch das sparsame lesen von Alltagsgeschichten bestimmte Merkmale, wodurch eine femininere Entwicklung verhindert wird. 
 
@@ -270,7 +271,7 @@ Verläuft die Geschichte des Buches auf ein bestimmtes Ziel hinaus, dass erreich
 
 #####Beispiel Knickerbockerbande
 
-Die Knickerbockerbande besteht aus Lilo, Axel, Dominik und Poppi, die in jedem Band neue "Rätsel" lösen. Dabei kann es vorkommen, dass sie etwa im Urlaub auf mysteriöse Fälle stoßen, die sie dann meist zu viert aufklären. Die Geschichten sind spannend, die vier geraten öfter in Gefahr oder in die Hände von Verbrechern, aus denen sie aber mit List und Geschick wieder befreien. Dies ein eindeutiger Indikator für das Merkmal des Quests. Sie haben unterschiedliche Qualitäten, die aber als ein Multiprotagonist verstanden werden können. Auch das Verhalten untereinander ist sehr hilfsbereit, sie sind verlässlich und sie vereint alle dasselbe Hobby, nennen wir es Dedektiv spielen, worauf sie sich auch in ihrer Freizeit vorbereiten und trainieren, wie man sich z. B. Anschleicht oder besonders schnell ist. Die Geschichten wirken anfangs mysteriös, was auch die Titel wiedergeben, die manchmal gruslige und unreale Situationen zu versprechen scheinen,  sich dann aber immer als menschengemacht herausstellen. 
+Die Knickerbockerbande besteht aus Lilo, Axel, Dominik und Poppi, die in jedem Band neue "Rätsel" lösen. Dabei kann es vorkommen, dass sie etwa im Urlaub auf mysteriöse Fälle stoßen, die sie dann meist zu viert aufklären. Die Geschichten sind spannend, die vier geraten öfter in Gefahr oder in die Hände von Verbrechern, aus denen sie aber mit List und Geschick wieder befreien. Dies ein eindeutiger Indikator für das Merkmal des Quests. Sie haben unterschiedliche Qualitäten, die aber als ein Multiprotagonist verstanden werden können. Auch das Verhalten untereinander ist sehr hilfsbereit, sie sind verlässlich und sie vereint alle dasselbe Hobby, nennen wir es Dedektiv spielen, worauf sie sich auch in ihrer Freizeit vorbereiten und trainieren, wie man sich \zB Anschleicht oder besonders schnell ist. Die Geschichten wirken anfangs mysteriös, was auch die Titel wiedergeben, die manchmal gruslige und unreale Situationen zu versprechen scheinen,  sich dann aber immer als menschengemacht herausstellen. 
 
 
 >Die Männer in den roten Mänteln lagen kraftlos am Boden. \textelp{}  Axel waren sofort die kleinen roten Federbüschel aufgefallen, die ihnen seitlich aus dem Hals ragten. Sie dienten einer kleinen Nadel als Stabilisator. Solche Nadeln wurden aus Blasrohren abgefeuert. Axel erinnerte sich, etwas im Fernsehen darüber gesehen zu haben.
