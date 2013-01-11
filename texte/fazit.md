@@ -9,11 +9,11 @@ Unter Gender verstehen \inparencite[126]{West1987} vom Geschlecht abhängiges Ve
  Umso höher der Anteil an Leserinnen um so femininer handelt die Hauptfigur.
 
  Das es dieses Gender geben kann, setzt voraus, dass dieser Unterschied auch bei der Entscheidung ob man ein Buch liest gemacht werden kann.
- Das dies Möglich ist wurde durch den zweiten Teil der Untersuchung gezeigt.
+ Dass dies möglich ist, wurde durch den zweiten Teil der Untersuchung gezeigt.
 
- Geht man davon aus, dass konsumiertes Verhalten auf die Leserinnen und Leser abfärbt und deren Verhalten beeinflusst, könnte man vermuten, dass Kinderbücher auf diese Art und Weise geschlechtsstereotypisches Verhalten bei Kindern verstärkt wird.
+ Geht man davon aus, dass konsumiertes Verhalten auf die Leserinnen und Leser abfärbt und deren Verhalten beeinflusst, könnte man vermuten, dass Kinderbücher auf diese Art und Weise geschlechtsstereotypes Verhalten bei Kindern verstärkt wird.
 
- Durch das Zeigen, wie Stereotypen mit Kindern verknüpft werden lassen sich auch neue Ansätze für Gendermainstreaming-Maßnahmen in Bezug auf Kinderbücher ableiten.
+ Durch das Zeigen, wie Stereotypen mit Kindern verknüpft werden, lassen sich auch neue Ansätze für Gendermainstreaming-Maßnahmen in Bezug auf Kinderbücher ableiten.
 
 Wir möchten noch einmal darauf hinweisen, dass wir nicht die Wirkung von Büchern auf Kinder untersucht haben sondern nur das geschlechtsabhängige *Verhalten* von den Büchern selbst: das Gender von Kinderbüchern.
 
