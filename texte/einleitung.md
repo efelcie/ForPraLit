@@ -9,6 +9,7 @@ Wie wir im ersten Kapitel sehen werden, bietet die vorhandene Literatur, Theorie
     Im Forschungsdesign werden unsere Fragestellungen vorgestellt und mit verschiedenen Analysemethoden verknüpft.
 Der zweite Teil dieser Arbeit beschäftigt sich mit der Vorgehensweise und den Ergebnissen unserer Untersuchung, wobei wir hier schrittweise verfahren wollen um den Forschungsprozess zu repräsentieren.
 
+Mögliche Einflussfaktoren auf die Bildung des sozialen Geschlechts zu ermitteln, ist sicher keine neue Idee. Dennoch haben wir in vorangegangenen Studien, keine Antwort auf unsere Fragen, was Mädchen und Buben nun lesen und warum sie das tun, bekommen. Häufig werden Bücher lediglich auf die Häufigkeit von weiblichen und männlichen Charakteren und die Art, wie sie dargestellt werden, hin untersucht. Die Erweiterung dieses Ansatzes auf Merkmale, die die Leseentscheidung von Kindern (die zum Großteil aktiv entscheiden, was sie lesen) beeinflussen können. Was die 
 
 
 ## Relevanz
