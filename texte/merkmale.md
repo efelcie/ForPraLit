@@ -1,46 +1,12 @@
 Merkmale die das Leseverhalten erklären
 =======================================
 
-<!-- 
-Welche Merkmale erklären das Verhältnis von Leserinnen zu Lesern am besten?
-Welche Merkmale erklären den m/w-Faktor am besten?
-Welche Merkmale erklären die unterschiedliche Auswahl von Büchern bei Mädchen und Buben am besten?
-Welche Merkmale eine Buchs erklären warum es eher Mädchen oder Buben lesen?
-Was macht ein Mädchenbuch zu einem Mädchenbuch?
-
-
-
-Wir haben also festgestellt, dass es einen tendenziellen Zusammenhang zwischen dem Verhalten das die Lesenden beim Lesen durchleben und deren Geschlecht gibt.
-
-Das heißt mit dem Anteil der Leserinnen steigt die Wahrscheinlichkeit, dass die Handlungen die die Leserinnen mit erleben feminin sind.
-
-Doch uns stellt sich nun die Frage: Woher wissen unsere Leserinnen und Leser, dass sie ein gewisses Buch lesen *dürfen* und ein anderes nicht? Gibt es Merkmale eines Buchs, die auch Kinder einfach festellen können, die das Verhältnis von Leserinnen zu Lesern erklären?
-Und wenn es Merkmale gibt, wie viel können diese Merkmale erklären?
-Indirekt heißt das, wie groß muss der Einfluss von, von uns nicht gemessen Merkmalen auf das Verhältnis von Lerserinnen zu Lesern sein?
-Wir denken dabei hautpsächlich an Beeinflussung durch Gleichaltrige, ältere Geschwister und Eltern, Werbung und Verkaufsstrategien und natürlich Merkmale des Buchs die wir nicht gemessen haben.
-Ob das Buch von den Kindern selbst oder durch eine andere Person ausgesucht wird ist für uns irrelevant.
-
-Zuerst müssen wir uns fragen, was denn überhaupt von uns messbare Merkmale eines Buchs sind. Dann müssen wir uns fragen, wie es zu diesen Merkmalen kommt und wie sie die Leserinnen und Leser oder andere Merkmale beeinflussen könnten.
-Danach messen wir mit Hilfe eines linearen Models den Einfluss der Merkmale.
-
-Stellen wir uns vor, wir nähern uns einem Buch ganz langsam von weit weg. Je nach dem, wie es liegt nehmen wir als erstes die *Dicke* oder die *Farbe* wahr.
-Somit haben wir unsere ersten Merkmale.
-
-### Dicke
-
-Die Dicke eines Buchs ist von der Anzahl der Seiten abhängig.
-Deswegen ist sie für uns leicht zu messen.
-Sie hängt von der Länge der Geschichte ab, die erzählt wird.
-Diese hängt gerade bei Kindergeschichten stark mit dem Zielpublikum, also für wen die Geschichten gedacht sind, zusammen.
-
- -->
-
 
 
 Drei Merkmale eines Kinderbuchs reichen aus, um das Verhältnis von Leserinnen zu Lesern bei einem Kinderbuch bestimmen zu können: das *Geschlecht der Hauptfigur*, die *Helligkeit* und die *Anzahl der Seiten*.
 Die Genauigkeit eines linearen Modells mit diesen drei Merkmalen ist mit einem korrigierten Bestimmtheitsmaß von $0{,}82$ sehr genau.
 Wobei allein das Geschlecht der Figur, die im Titel genannt wird, schon schon sehr genau ist ($R^2=0{,}67$).\footnote{Es wird immer das korrigierte $R^2$ angegeben.}
-Die Helligkeit erklärt auch alleine noch recht viel  ($R^2=0{,}30$), die Anzahl der Seiten dient dann nur noch zu Verfeinerung($R^2=0{,}67$).
+Die Helligkeit erklärt auch alleine noch recht viel  ($R^2=0{,}30$), die Anzahl der Seiten dient dann nur noch zu Verfeinerung($R^2=0{,}12$).
 All diese Merkmale können von Kindern ohne Probleme und ohne dass sie das Buch aufmachen müssen wahrgenommen werden.
 Unsere beiden Fragen, ob Merkmale des Buchs das Verhältnis von Leserinnen zu Lesern erklären und ob sie das ohne das Buch zu öffnen können, können wir eindeutig mit *ja* beantworten.
 Steht im Titel ein weiblicher Name, ist das Buch noch dazu sehr hell und obendrein auch noch dünn.
