@@ -80,24 +80,24 @@ Folgende inhaltsunabhängige Variablen sollen zu diesem Zweck erhoben werden:
 - Geschlecht der Titelfigur
 - Altersempfehlung 
 
-GRAFIK VON VARIABLE UND ERHEBUNGSMETHODE
+
+
+\input{tabellen/var.tex}
 
 
 ###Überblick der Erhebungsmethoden
 
-GRAFIK WELCHE FORSCHUNGSFRAGE DURCH WELCHE METHODE
-
+\input{tabellen/zuordnung.tex}
 
 ### Zeitplan
 Die Studie wird innerhalb der Lehrveranstaltung durchgeführt. Die Lehrveranstaltung
 dauert vom Sommersemester 2012 bis zum Wintersemester 2012/13. Für eine Überblick
 siehe Tabelle
 
-TABELLE ZEITPLAN
+\input{tabellen/zeitplan.tex}
 
 
 
-<!--
 -------
 
 ### Unterstützen Kinderbücher das Entstehen von geschlechter-stereotypischen Handlungen bei Kindern?
@@ -125,8 +125,6 @@ TABELLE ZEITPLAN
 
 
 
------------------
-
 
 
 ### Fragebogen
@@ -147,7 +145,7 @@ TABELLE ZEITPLAN
   Unser Hauptziel bei diesem Vorgehen war, möglichst effizient das Buch in Gruppen von Werte zu zerlegen, um diese danach durch mathematische Verfahren vergleichen zu können.
   Dabei geht es uns in erster Linie um zwei Arten von Merkmalen. Einmal Merkmale, die das Handeln der Hauptfigur beschreiben und zweitens Merkmale die eine Unterscheidung für die Leseentscheidung ermöglichen.
 
-
+<!-- 
 #### Merkmale
 
 
@@ -165,6 +163,6 @@ Statistische Methoden
 \input{tabellen/stereotype.tex}
 
 
+ -->
 
--->
 
