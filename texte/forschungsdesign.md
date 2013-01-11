@@ -1,4 +1,3 @@
-
 Forschungsdesign
 ================
 Im Rahmen unseres Forschungspraktikums mit dem Titel Geschlechtsidentität und Geschlechterrollen
@@ -70,8 +69,8 @@ Unterstützend sollen qualitative Inhaltsanalysen spezifischer Textbeispiele zug
 
 
 ### Statistische Verfahren
-#####Mädchenbücher können ohnen den Inhalt zu kennen als solche erkannt werden.
-Mit Hilfe statistischer Verfahren soll Hinterfragt werden, durch welche vom Inhalt der Bücher völlig unabhängigen Merkmale eine Favorisierung von spezifischen Geschlechterbüchern erklärt werden kann. Ziel ist ein Modell zu entwerfen, dass den Einfluss dieser inhaltsunabhängigen Merkmale auf die Wahl eines Buches durch ein Geschlecht bestmöglich erklärt.
+#####Mädchenbücher können ohne Kentnisse über den Inhalt als solche erkannt werden.
+Mit Hilfe statistischer Verfahren soll hinterfragt werden, durch welche vom Inhalt der Bücher völlig unabhängigen Merkmale eine Favorisierung von spezifischen *Geschlechterbüchern* erklärt werden kann. Ziel ist es ein Modell zu entwerfen, das den Einfluss dieser inhaltsunabhängigen Merkmale auf die Wahl eines Buches durch ein Geschlecht bestmöglich erklärt.
 
 Folgende inhaltsunabhängige Variablen sollen zu diesem Zweck erhoben werden:
 
@@ -95,7 +94,7 @@ Folgende inhaltsunabhängige Variablen sollen zu diesem Zweck erhoben werden:
 <!-- 
 ### Zeitplan
 Die Studie wird innerhalb der Lehrveranstaltung durchgeführt. Die Lehrveranstaltung
-dauert vom Sommersemester 2012 bis zum Wintersemester 2012/13. Für eine Überblick
+dauert vom Sommersemester 2012 bis zum Wintersemester 2012/13. Für einen genaueren Überblick
 siehe Tabelle
  -->
 
@@ -107,26 +106,17 @@ siehe Tabelle
 
 ### Unterstützen Kinderbücher das Entstehen von geschlechter-stereotypischen Handlungen bei Kindern?
 
-  Wie gehen davon aus, dass Kinder mit der Hauptfigur die Geschichte mit erleben. Weiters gehen wir davon aus, dass Mädchen und Buben unterschiedliche Bücher lesen. Nun gilt es zu untersuchen, ob Hauptfiguren in Büchern die Mädchen lesen, femininer handeln als Hauptfiguren in Büchern die Buben lesen.
-
-  Wenn es einen positiven Zusammenhang zwischen dem geschlechtsspezifischen Verhaltensa und dem Geschlecht der Hauptfigur, kann darauf geschlossen werden, dass Kinderbücher an der Konstruktion der Stereotype mit beteiligt sind.
-  Gibt es einen Negativen Zusammenhang, das heißt, um so mehr Mädchen ein Buch lesen um so eher handelt die Hauptfigur maskulin, heißt das, dass Bücher gegen geschlechter-stereotypisches Wirken.
-  Gibt es keinen Zusammenhang zwischen den Unterschieden, heißt das, dass Bücher keine Unterschiede zwischen. Mädchen und Burschen produzieren.
-
-
+  Wir gehen davon aus, dass Kinder mit der Hauptfigur die Geschichte mit erleben. Weiters gehen wir davon aus, dass Mädchen und Buben unterschiedliche Bücher lesen. Nun gilt es zu untersuchen, ob Hauptfiguren in Büchern die Mädchen lesen, femininer handeln als Hauptfiguren in Büchern, die Buben lesen.
 
 
 ### Welche Merkmale erklären das Verhältnis von Leserinnen zu Lesern am besten?
 
   Diese Frage untersucht alle Merkmale und deren Verhältnis zu einander und Versucht ein Modell zu erstellen, dass die Entstehung des Verhältnises bestmöglich erklärt.
 
-  
+   Wir gehen davon aus, dass die Entscheidung welches Buch ein Kind liest, getroffen wird, ohne dass der Inhalt bekannt ist. Das heißt, dass das Verhältnis von Leserinnen zu Lesern schon durch Merkmale vorhersagbar ist, die nicht den Inhalt betreffen.
 
-
-  Wir gehen davon aus, dass die Entscheidung welches Buch ein Kind liest, getroffen wird, ohne das der Inhalt bekannt ist. Das heißt, dass das Verhältnis von Lerserinnen zu Lesern schon durch Merkmale vorhersagbar ist, die nicht den Inhalt betreffen.
-
-  Wenn durch Merkmale, die nicht den Inhalt betreffen, auf das Verhältnis von Leserinnen zu Leser schließen kann, ist es argumentierbar, dass Leseentscheidungen ohne direkten Bezug auf den Inhalt getroffen werden.
-  Wenn es nicht gelingt das Verhältnis vorauszusagen, ist es nicht plausibel, das inhaltsfremde Faktoren für die Leseentscheidung relevant sind.
+  Wenn durch Merkmale, die nicht den Inhalt betreffen, auf das Verhältnis von Leserinnen zu Leser geschossen werden kann, ist das Treffen von Leseentscheidungen ohne direkten Bezug auf den Inhalt argumentierbar.
+  Wenn es nicht gelingt dieses Verhältnis vorauszusagen, sind inhaltsfremde Faktoren für die Leseentscheidung nicht relevant.
 
 
 
@@ -140,15 +130,15 @@ siehe Tabelle
 
 ### Sekundär-Analyse (Auswertung von Lesestatistiken)
 
-  Durch die Analysen von Bibliotheksverzeichnisse, Verkaufsstatisken und Auswertung von Schulwebseiten auf der Kinder Büchervorstellen erheben wir eine Liste von Büchern bei der es Wahrscheinlich ist, dass Kinder sie gelesen haben.
+  Durch die Analyse von Bibliotheksverzeichnissen, Verkaufsstatisken und die Auswertung von Schulwebseiten auf der Kinder Bücher vorstellen, wird eine Liste von Werken von der es wahrscheinlich ist, dass Kinder sie gelesen haben, erstellt.
 
   In diesem Teil der Analyse ist notwendig um die Bücher die 
 
 ### Inhaltsanalyse
 
-  Mit Hilfe einer Inhaltsanalyse zerteilen wir die Bücher in für uns Auswertbare Merkmale.
-  Unser Hauptziel bei diesem Vorgehen war, möglichst effizient das Buch in Gruppen von Werte zu zerlegen, um diese danach durch mathematische Verfahren vergleichen zu können.
-  Dabei geht es uns in erster Linie um zwei Arten von Merkmalen. Einmal Merkmale, die das Handeln der Hauptfigur beschreiben und zweitens Merkmale die eine Unterscheidung für die Leseentscheidung ermöglichen.
+  Mit Hilfe einer Inhaltsanalyse zerteilen wir die Bücher in für uns auswertbare Merkmale.
+  Unser Hauptziel bei diesem Vorgehen ist es, ein Buch möglichst effizient in Gruppen von Werten zu zerlegen, um diese danach durch mathematische Verfahren vergleichen zu können.
+  Dabei geht es uns in erster Linie um zwei Arten von Merkmalen. Einmal Merkmale, die das Handeln der Hauptfigur beschreiben und zweitens Merkmale, die die Leseentscheidung beeinflussen können.
 
 #### Merkmale
 
