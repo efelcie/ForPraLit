@@ -17,5 +17,4 @@ Einleitung
 
 
 
-\input{texte/literatur.tex}
 
