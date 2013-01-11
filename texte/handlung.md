@@ -181,9 +181,25 @@ Das Lesergeschlecht (w/m-Faktor) korreliert mit dem Gender-Faktor hochsignifikan
 
 \begin{figure}
 \center
-  \caption[w/m-Faktor]--Gender-Faktor{w/m-Faktor zu Gender-Faktor}
+  \caption[w/m-Faktor--Gender-Faktor]{w/m-Faktor zu Gender-Faktor}
   \label{wm-gender}
 \input{grafiken/wm-gender.tex}
+
+\end{figure}
+
+\begin{figure}
+\center
+  \caption[Mädchen--Gender-Faktor]{Mädchen zu Gender-Faktor}
+  \label{w-gender}
+\input{grafiken/m-gender.tex}
+
+\end{figure}
+
+\begin{figure}
+\center
+  \caption[Buben--Gender-Faktor]{Buben zu Gender-Faktor}
+  \label{m-gender}
+\input{grafiken/b-gender.tex}
 
 \end{figure}
 
