@@ -170,7 +170,7 @@ Da wir in den vorangegangenen Kapiteln zeigen konnten, dass Mädchen und Buben u
 
 - Unterschiede in Aufbau und Verwendung stilistischer Mittel
 
-Darstellung Gender
+##Darstellung Gender
 ------------------
 
 Auch wenn die Frage nach der Intensität des Einflusses von Kinderbüchern auf die Sozialisierung und die Ausprägung von Geschlechterrollen bei Kindern nicht restlos beantwortet werden kann, muss hier dennoch von einem Einfluss ausgegangen werden. Dieser Einfluss geht vor allem von den Hauptprotagonisten und der Verhalten, Handeln und Denken aus, die sie jene Identifizierungsinstanz darstellen mit denen im Verlauf der Geschichte des jeweiligen Buches am meisten mitgelitten, gefeiert und gebangt wird. Daher ist es von hoher Bedeutung wie diese Charaktere dargestellt werden. Jene Form der Darstellung die uns hier im Besonderen interessiert ist die des sozialen Geschlechtes, welche mit Hilfe einer Liste von 13 Eigenschaftspaaren (siehe Tabelle \ref{stereo}) erhoben wurden. Jedes dieser Eigenschaftspaare weist einen stereotyp maskulinen und femininen Pol auf. Jeder Hauptcharakter der 30 Bücher unserer Erhebung wurde auf diese 13 Eigenschaftspaare untersucht und ein Gender-Faktor erstellt der uns zeigen kann wie maskulin oder feminin diese dargestellt werden. 
@@ -187,22 +187,24 @@ Das Lesergeschlecht (w/m-Faktor) korreliert mit dem Gender-Faktor hochsignifikan
 
 \end{figure}
 
-##Eigenschaftspaare
+###Eigenschaftspaare
 
 
 Zur besseren Nachvollziehbarkeit des Genderfaktors sollen im Folgenden drei der 13 Eigenschaftspaare etwas genauer vorgestellt werden, die besonders aufgrund ihrer Signifikanz besonders aufgefallen sind. 
-Unterwürfig/Dominant
+
+####Unterwürfig/Dominant
+
 Unterwürfig ist eine Person besonders dann, wenn sie sich befehligen lässt. Gehorsam zu sein und ohne viel Wiederstand seine eigene Position aufzugeben sind weitere Beschreibungen dieser Eigenschaft. Dominante Personen können hingegen ihren Willen gegenüber Anderen durchsetzen. Andere zu befehligen ist ein guter Indikator um dominante Charaktere zu erkennen. Die Unterwerfung ist aus Sicht des Doing-Gender eine weibliche Eigenschaft, während den Männern die Dominanz zugeschrieben wird. 
 
 Der w/m-Faktor korreliert dabei mit dieser Variabel sehr stark (0,379; Sig. 0,043). Wir können daraus lesen, dass diese Eigenschaften besonders Klischeehaft in den gelesenen Kinderbüchern bei den Hauptcharakteren verwendet wurden. Auffällig ist hier ebenfalls, dass männliche Autoren dazu tendieren dominante Hauptprotagonisten zu entwerfen (R = 0,330; Sig. 0,086)
 
-###Sicherheitsbedürftig/Abenteuerlustig
+####Sicherheitsbedürftig/Abenteuerlustig
 
 Sicherheitsdürftig zu sein äußert sich zumeist daran, dass eine Persönlichkeit sehr zurückgezogen lebt und sehr überlegt handelt. Zumeist umgeben sich sicherheitsbedürftige Menschen mit anderen Menschen ihres persönlichen Vertrauens. Abenteuerlustige Personen gehen Risiken ein und werfen sich der Gefahr entgegen. Dies tun sie meist ohne viel darüber nachzudenken. Auch hier wird jede der Eigenschaften einem Geschlecht stereotyp zugeteilt. Sicherheitsbedürftig ist somit eine weibliche Eigenschaft während Männer abenteuerlustig sind. 
 
 Der w/m-Faktor korreliert dabei mit dieser Variabel sehr hoch (0,384; Sig. 0,036). Wir können daraus erkennen, dass dieses Eigenschaftspaar besonders klischeehaft bei der Konstruktion von Protagonisten in Kinderbüchern verwendet wird. 
 
-###Träumerisch/Realistisch
+####Träumerisch/Realistisch
 
 Verträumte Entscheidungen sind oftmals optimistisch motiviert während realistisches Denken starke rationale Gedankengänge verlangt. Oftmals aus einer Laune heraus getroffen sind verträumte Entscheidungen spontan aber auch mit Risiken verknüpft. Träumerisch wird aus Sichtweise des Doing-Gender mit feminin assoziierte. Realistisch wird hier als maskulines Attribut geführt. 
 
@@ -212,7 +214,7 @@ Dabei sollte noch erklärt werden, dass alle anderen Eigenschaftspaare gleich ge
 ####Beispiel Franz
 Wie man aus der Tabelle oben (siehe...) entnehmen kann, werden die Geschichten vom Franz bevorzugterweise von Mädchen gelesen und das obwohl das biologische Geschlecht männlich ist. Der Gender-Faktor des lieben Franz sieht jedoch ganz anders aus. Mit dem niedrigsten Wert aller 30 Hauptcharaktere stellt er den feministen Protagonisten dar und bietet damit eine spannende Basis für eine inhaltsanalytische Untersuchung.
 
-####Situationsbeschreibung:
+Situationsbeschreibung:
 
 Franz spielt mit Sandra und Gabi Prinz und Prinzessin, wobei Sandra  den Prinzen spielt und Gabi - in die er sich verliebt hat - die Prinzessin. Die beiden verlangen von ihm den Hofzwerg zu spielen und das obwohl er sogern der Prinz wäre:
 
@@ -238,7 +240,7 @@ Alltagsgeschichten spielen in einem dem Hauptprotagonisten vertrauten Umfeld. Be
 ####Beispiel: Hexe Lilli
 "Das ist Lilli, die Hauptperson unserer Geschichte, Sie ist ungefähr so alt wie du und sieht aus wie ein gewöhnliches Kind." Bereits dieser Satz, mit dem die Erzähltung beginnt, verrät viel darüber wie versucht wird, den Leser in die Geschichte zu integrieren, was in späterer Folge nicht schwierig fällt, da Lilli Situationen durchlebt, die wohl keinem gänzlich unbekannt sind. Zankerein mit dem kleinen Bruder sowie Unverständnis über die Einstellungen der Eltern gehören wohl zu vielen Alltagen von Kindern. 
 
-####Situationsbeschreibung:
+Situationsbeschreibung:
 Der Schulrat besucht an diesem Tag die Klasse von Lilli und möchte den Unterricht von Frau Grach der Klassenlehrerin inspizieren. Lilli möchte der Frau Lehrerin gerne helfen einen guten Eindruck zu hinterlasssen, doch der Herr Schulrat taucht natürlich genau im falschen Moment auf als das totale Chaos in der Klasse herrscht. 
 
 >"Auweia", flüstert Lilli, So war das nicht gedacht! Hier muss sie schnell eingreifen bevor der Schulrat gleich zu Anfang einen schlechten Eindruck bekommt.
@@ -249,7 +251,7 @@ Lilli ist tatkräftig und dominant aber zugleich auch hilfsbereit und großherzi
 
 Abenteuergeschichten sind das Gegenstück zu Alltagsgeschichten. Dabei durchlebt der Hauptprotagonist ein wahrscheinlich einzigartiges Erlebnis das zumeist mit großen Risiken und Gefahren verbunden ist. Der Protagonist ist dabei zumeist gezwungen sein gewohntes Umfeld zu verlassen und sich in völlig fremden zumeist auch unrealistischen Situationen zurechtzufinden. Beispiele hierfür wären die Suche nach einem verschollenen Schatz, das Tätigen einer gefährlichen und ungewissen Reise, das Kämpfen mit bösen Mächten wie Ganoven oder Drachen usw. 
 
-####Beispiel Harry Potter
+####Beispiel: Harry Potter
 Harry ist ein schmächtiger Junge, der bei der Familie seiner Tante lebt, da seine Eltern gestorben sind. Das allerdings nur so lange bis er erfährt, das er ein Zauberer ist und auf die Zauberschule kommt. Dort angekommen erlebt er ein Abenteuer nach dem anderen. Diese Gipfeln in einem großen und brutalen Show-Down im Kampf gegen den Mörder seiner Eltern. 
 
 Harry Potter hat viele Attribute die feminin deklariert sind, so ist er beispielsweise großherzig und emotional, manchmal sogar etwas träumerisch aber auch mutig und aktiv. Er ist teilweise sehr dominant und hält sich nicht an Regeln. Diese Attribute lassen den Genderwert leicht ins maskuline wandern. Sein Genderwert ist beispielsweise jenem von Hexe Lilli nicht unähnlich und wird auch von vielen Mädchen gerne gelesen, jedoch tendenziel ein wenig mehr von Jungen. Harry Potter ist ein passendes Beispiel dafür, dass Jungen männliche Protagonisten, vor allem aber auch Abenteuergeschichten favorisieren.
@@ -262,11 +264,11 @@ Doch hat diese unterschiedliche Präferenz eine Auswirkung auf die unterschiedli
 
 Folgende vier Kriterien wurden erhoben, bei denen von einem Einfluss auf die Geschlechterrollenentwicklung ausgegangen wurde:
 
-###Quest
+####Quest
 
 Verläuft die Geschichte des Buches auf ein bestimmtes Ziel hinaus, dass erreicht werden soll? Erfordert das Erreichen des Zieles das lösen von Aufgaben bzw. Rätsel? Besonders Kriminal- und Detektivgeschichten sind mit einem obersten Ziel verknüpft, dass erreicht werden soll. Auf dem Weg bis zur Lösung stellen sich dem Protagonisten Stolpersteine in den Weg die zuerst entfernt werden müssen. Dies braucht oft rationales Denken, Mut, aktives Handeln oftmals auch körperliche Stärke und Aggression. All diese Attribute werden im Sinne des Doing-Gender als maskuline Eigenschaften wahrgenommen und könnten daher eine spezifische Geschlechterrollenentwicklung miterklären. Es ist wenig überraschend, dass die Präsents von Quests in enger Verbindung mit Abenteuergeschichten steht. Bei einer hochsignifikanten Korrelation von 0,517 kann daher auch eine Verknüpfung mit einem verstärkten Vorkommen in den Büchern mit männlicher Lesepräferenz ausgegangen werden.
 
-####Beispiel Knickerbockerbande
+#####Beispiel Knickerbockerbande
 
 Die Knickerbockerbande besteht aus Lilo, Axel, Dominik und Poppi, die in jedem Band neue "Rätsel" lösen. Dabei kann es vorkommen, dass sie etwa im Urlaub auf mysteriöse Fälle stoßen, die sie dann meist zu viert aufklären. Die Geschichten sind spannend, die vier geraten öfter in Gefahr oder in die Hände von Verbrechern, aus denen sie aber mit List und Geschick wieder befreien. Dies ein eindeutiger Indikator für das Merkmal des Quests. Sie haben unterschiedliche Qualitäten, die aber als ein Multiprotagonist verstanden werden können. Auch das Verhalten untereinander ist sehr hilfsbereit, sie sind verlässlich und sie vereint alle dasselbe Hobby, nennen wir es Dedektiv spielen, worauf sie sich auch in ihrer Freizeit vorbereiten und trainieren, wie man sich z. B. Anschleicht oder besonders schnell ist. Die Geschichten wirken anfangs mysteriös, was auch die Titel wiedergeben, die manchmal gruslige und unreale Situationen zu versprechen scheinen,  sich dann aber immer als menschengemacht herausstellen. 
 
@@ -276,16 +278,16 @@ Die Knickerbockerbande besteht aus Lilo, Axel, Dominik und Poppi, die in jedem B
 Die Protagonisten agieren sehr rational. Sie können Situationen gut einschätzen und Verknüpfen das Wissen aus anderen Informationsquellen mit Erlebten. Diese Eigenschaft hilft ihnen dabei die Rätsel zu lösen um ihr Ziel zu erreichen.
 
 
-###Phantastische Elemente
+####Phantastische Elemente
 
 Kommen in den Büchern Figuren, Orte oder Handlungen vor die in der Realität nicht vorkommen? Beispiele: Einhörner, sprechende Tiere, fliegende Menschen, zaubern, fremde Welten, uvm. Phantastische Elemente könnten einen Hang zum träumerischen, irrationalen Denken fördern, welches aus der Sicht des Doing-Genders feminine Attribute wären. Doch Abenteuergeschichten sind natürlich gespickt mit unmöglichen Situation. Oftmals bekämpfen Charaktere Monster und Gespenster. Daher tendieren die Zahlen dazu das Vorkommen von phantastischen Elementen den Abenteuerbüchern zuzuschreiben. Das niedrige Signifikanzniveau lässt hier jedoch keine genaue Aussage zu. Es kann auch kein Zusammenhang mit dem w/m-Faktor gefunden werden. Dieses inhaltliche Merkmal scheint in beiden Geschlechtsgruppen annähern gleich oft verwendet zu werden und kann daher keinen Annäherung zur Erklärung von Geschlechtsrollenbildung liefern.
 
-###Innerer Monolog
+####Innerer Monolog
 
 Welche Rolle spielt die Gedankenwelt des Hauptprotagonisten? Wie stark reflektiert er seine Entscheidungen vor und/oder nach dem Handeln? Wie intensiv wird sie dem Leser vermittelt?
 Mädchen gelten als passiver und introvertierter als ihre männlichen Altersgenossen und haben aus Sicht des Doing-Gender ein größeres Einfühlungsvermögen als Jungen. All dies wären Indizien den Inneren Monolog als ein Merkmal zu deklarieren, das Jungen fehlen könnte eine feminine Seite zu entwickeln. Und tatsächlich tendieren die Zahlen unserer Ergebnisse dazu einen Zusammenhang von Alltagsgeschichten und inneren Monolog zu bescheinigen. Auch hier ist jedoch, dass Signifikanzniveau zu niedrig um fixe Aussagen zu tätigen. Auffällig ist jedoch das das Merkmal des inneren Monologs negativ mit dem Merkmal Quests korreliert (R= -0,333; Sig. 0,083). Das bedeutet, dass das kombinierte Vorkommen dieser beiden Merkmale äußerst selten anzutreffen ist. 
 
-####Beispiel Mini
+#####Beispiel Mini
 
 In den Mini-Büchern geht es darum den frühen Alltag eines Kindes zu bewältigen und persönliche Konflikte auf sehr humorvolle Art aus Minis Sicht wiederzugeben.
 
@@ -294,7 +296,7 @@ Mini ist schon sehr groß für ihr Alter und gleichzeitig sehr dünn, weshalb ih
 >Und die Mini fing vor lauter Staunen zu schielen an. \textelp{} Warum die Mini so erstaunt und verblüfft war? Weil sie garantiert nicht das größte Kind ihrer Klasse war! Ein Bub und ein Mädchen waren noch ein bisschen größer als die Mini, 2 Buben und 2 Mädchen waren genauso groß wie die Mini. Die Mini dachte:\emph{Wenn es unter zwanzig Kindern sieben \emph{lange Latten} gibt, dann ist ja die Überlänge direkt normal!}
 
 
-###Growing-Up:
+####Growing-Up:
 
 Verändert sich im Verlauf der Geschichte die Persönlichkeit des Hauptprotagonisten? Durchläuft er einen Reifeprozess? Erhebt das Buch den Anspruch eine pädagogische Nachricht zu vermitteln, hingerichtet auf eine positive Sozialisierung? Mädchen gelter oftmals im Vergleich zu den gleichaltrigen Jungen als sozial weiter entwickelt. Dieser Vorsprung in der Entwicklung könnte durch eine vermehrte Konfrontation mit pädagogisch motivierter Literatur mitbegründet sein. Es kann jedoch hier kein Zusammenhang festgestellt werden. Lediglich eine starke signifikante Korrelation mit dem Merkmal des Inneren Monologs kann hier festgestellt werden, sowie eine stark signifikante negative Korrelation mit dem Merkmals Quests, wie auch schon beim Merkmal des Inneren Monologs. 
 
