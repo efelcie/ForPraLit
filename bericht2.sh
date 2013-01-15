@@ -38,7 +38,19 @@
 #   --bibliography=literatur/sekundaer.bib\
 #   --biblatex;
 
+
+
+  cd texte
+
+  R CMD Sweave anhang.Rnw
+
+  cd ..
+
+
+
 b=bericht
+
+  pandoc texte/einleitung.md --output einleitung.tex --chapters;
 
   pandoc\
   texte/forschungsdesign.md \
@@ -48,6 +60,7 @@ b=bericht
   texte/fazit.md\
   --output pandoc.tex\
   --chapters;
+
 
 
   pdflatex $b.tex 

@@ -63,7 +63,9 @@ Der w/m-Faktor korreliert dabei mit dieser Variabel sehr hoch (0,384; Sig. 0,036
 
 ####Träumerisch/Realistisch
 
-Verträumte Entscheidungen sind oftmals optimistisch motiviert während realistisches Denken starke rationale Gedankengänge verlangt. Oftmals aus einer Laune heraus getroffen sind verträumte Entscheidungen spontan aber auch mit Risiken verknüpft. Träumerisch wird aus Sichtweise des Doing-Gender mit Fe­mi­ni­ni­tät assozierte. Realistisch wird hier als maskulines Attribut geführt. 
+Verträumte Entscheidungen sind oftmals optimistisch motiviert während realistisches Denken starke rationale Gedankengänge verlangt. Oftmals aus einer Laune heraus getroffen sind verträumte Entscheidungen spontan aber auch mit Risiken verknüpft.
+Träumerisch wird aus Sichtweise des Doing-Gender mit Femininität assozierte.
+Realistisch wird hier als maskulines Attribut geführt. 
 
 Der w/m-Faktor korreliert mit dieser Variable am höchsten von allen Eigenschaftspaaren (0,479; Sig. 0,01). Auch hier kann davon ausgegangen werden, dass diese Eigenschaften besonders stereotyp verwendet werden. 
 Dabei sollte noch erklärt werden, dass alle anderen Eigenschaftspaare gleich gepolt sind und zwar ebenfalls positiv korrelieren, das Signifikanzniveau jedoch zu niedrig ist um eine klare Aussage zu tätigen. Daher kann hier nur soweit interpretiert werden, dass keine einzige Gender-Eigenschaft eine Tendenz zu einer nicht-klischeehaft Verwendung vorweist. 
