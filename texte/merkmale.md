@@ -3,17 +3,22 @@ Merkmale die das Leseverhalten erklären
 
 
 
-Drei Merkmale eines Kinderbuchs reichen aus, um das Verhältnis von Leserinnen zu Lesern bei einem Kinderbuch bestimmen zu können: das *Geschlecht der Hauptfigur*, die *Helligkeit* und die *Anzahl der Seiten*.
+Drei Merkmale eines Kinderbuchs reichen aus, um das Verhältnis von Leserinnen zu Lesern bei einem Kinderbuch bestimmen zu können: das *Geschlecht der Titelfigur*, die *Helligkeit* und die *Anzahl der Seiten*.
 Die Genauigkeit eines linearen Modells mit diesen drei Merkmalen ist mit einem korrigierten Bestimmtheitsmaß von $0{,}82$ sehr genau.
-Wobei allein das Geschlecht der Figur, die im Titel genannt wird, schon schon sehr genau ist ($R^2=0{,}67$).\footnote{Es wird immer das korrigierte $R^2$ angegeben.}
-Die Helligkeit erklärt auch alleine noch recht viel  ($R^2=0{,}30$), die Anzahl der Seiten dient dann nur noch zu Verfeinerung($R^2=0{,}12$).
+Wobei das Vorhandensein einer weiblichen Namens im Titel am meisten zu dem Modell beiträgt ($\beta=-0{,}77$).
+Danach kommt die Helligkeit des Covers  ($\beta=0{,}29$).
+Die Anzahl der Seiten dient dann nur noch zu Verfeinerung ($\beta=0{,}19$).
+Stellte man eigene Modelle für das Geschlecht der Titelfigur sowie für die Coverhelligkeit auf sieht man, dass Beide auch alleine noch einen beachtlichen Teil erklären. (Siehe Tabelle\ \ref{wmmodel})
+
 All diese Merkmale können von Kindern ohne Probleme und ohne dass sie das Buch aufmachen müssen wahrgenommen werden.
 Unsere beiden Fragen, ob Merkmale des Buchs das Verhältnis von Leserinnen zu Lesern erklären und ob sie das ohne das Buch zu öffnen können, können wir eindeutig mit *ja* beantworten.
 Steht im Titel ein weiblicher Name, ist das Buch noch dazu sehr hell und obendrein auch noch dünn.
 Dann ist die Wahrscheinlichkeit sehr hoch, dass das Buch viel mehr Mädchen als Buben gelesen haben.
 Ist das Buch dunkel, dick und kommt auch noch ein männlicher Name im Titel vor, ist es wahrscheinlicher, dass mehr Buben als Mädchen das Buch gelesen haben.
 
-Für beide Geschlechter sind unterschiedliche Merkmale ausschlaggebend
+\input{tabellen/wmmodel.tex}
+
+Für Mädchen und Buben sind unterschiedliche Merkmale ausschlaggebend
 ---------------------------------------------------------------------
 
 Dies heißt jedoch nicht, dass die drei Merkmale auf Mädchen und Buben denselben Einfluss haben.
@@ -72,7 +77,7 @@ Vor allem weil das Leseverhalten von Mädchen dadurch wiederum nicht nachweisbar
 Weiters kann man hier auch nicht klar zu sagen welches Merkmal, Alter oder Dicke, eigentlich wirksam ist.
 
 Um das Wirken des Merkmalpaares haben wir zwei Vermutungen.
-Die erste bezieht sich darauf, dass Mädchen früher zu lesen beginnen. Wir haben die Kinder gefragt, welche Bücher sie gelesen haben. Die befragten Kinder waren zwischen 8 und 10 Jahren und es ist durchaus vorstellbar, dass die Mädchen früher zum Lesen von *Geschichten- Büchern* anfangen. Das heißt, dass sie davor weniger oder andere von uns nicht untersuchte Bücher, wie die bei den Buben sehr beliebten Sachbücher, lesen.
+Die erste bezieht sich darauf, dass Mädchen früher zu lesen beginnen. Wir haben die Kinder gefragt, welche Bücher sie gelesen haben. Die befragten Kinder waren zwischen 8 und 10 Jahren und es ist durchaus vorstellbar, dass die Mädchen früher zum Lesen von *Geschichten-Büchern* anfangen. Das heißt, dass sie davor weniger oder andere von uns nicht untersuchte Bücher, wie die bei den Buben sehr beliebten Sachbücher, lesen.
 Die zweite Vermutung bezieht sich auf den *Coolness-Faktor*.
 Das heißt, das es für Buben wichtiger ist *cool* zu sein.
 So kann sich von unserer Forschungsgruppe ein männliches Mitglied noch sehr gut erinnern, dass das empfohlene Alter hinten auf den Büchern, für ihn, gerade im Alter der Untersuchten, sehr wichtig war.

@@ -147,13 +147,82 @@ scatterplot(v06~v21 , reg.line=lm, smooth=FALSE, spread=FALSE, boxplots='xy', sp
 
 dev.off()
 
-
+(describe(merkmale)
 
 
 scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
+
+pandoc.table(merkmale)
+
+xtable(merkmale)
+
+
+
+alles <- xtable(merkmale[,c(1,2,3,4,5,6,8,9,10,11,12,13)],label='merkmale',caption='Datentabelle')
+print(alles,scalebox=0.6,floating.environment='sidewaystable')
+
+alles <- xtable(merkmale[,c(14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34)],label='merkmale',caption='Datentabelle')
+print(alles,scalebox=0.6,floating.environment='sidewaystable')
+
+latex(alles)
+
+
+
+
+
+
+
+
+
   xlab="feminin -- maskulin", ylab="Mädchen -- Buben",  data=merkmale)
 
 
 scatterplot(v12~v21, reg.line=lm, smooth=FALSE, spread=FALSE, boxplots=FALSE, span=0.5, 
   xlab="feminin -- maskulin", ylab="Mädchen -- Buben",  data=merkmale)
+summary(merkmale)
+showData(merkmale, placement='-20+200', font=getRcmdr('logFont'), maxwidth=80, maxheight=30, 
+  suppress.X11.warnings=FALSE)
+cor(merkmale[,c("v05","v06","v08","v09","v10","v11","v12","v19","v21")], use="complete.obs")
+
+
+
+summary(v07)
+
+LinearModel.WM.GTF <- lm(v12~v07)
+LinearModel.WM.Hell <- lm(v12~v07+v08+v10)
+LinearModel.WM.Seiten <- lm(v12~v07+v08+v10)
+
+
+LinearModel.WM <- lm(v12~v07+v08+v10)
+
+# v12: w/m-Faktor
+# v07: Geschlecht der Titelfigur (weiblich, männlich, neutral)
+# v08: Helligkeit
+# v10: Anzahl der Seiten
+
+summary(LinearModel.WM.GTF)
+LinearModel.Maedchen.GTF <- lm(v05 ~ v07, data=merkmale)
+summary(LinearModel.Maedchen.GTF)
+
+cor(merkmale[,c("v05","v10")], use="complete.obs")
+cor.test(v05, v11, alternative="two.sided", method="pearson")
+showData(merkmale, placement='-20+200', font=getRcmdr('logFont'), maxwidth=80, maxheight=30, 
+  suppress.X11.warnings=FALSE)
+rcorr.adjust(merkmale[,c("v05","v06","v12")], type="pearson")
+
+
+rcorr.adjust(v10, v16, type="pearson")
+rcorr.adjust(merkmale[,c("v10", "v16")], type="pearson")
+
+
+LinearModel.Figuren.IM <- lm(v11 ~ v16, data=merkmale)
+xtable(summary(LinearModel.Figuren.IM))
+
+
+
+
+
+merkmale <- read.spss("/home/peter/git/ForPraLit/daten/merkmalebuecher.por", use.value.labels=TRUE, 
+  max.value.labels=Inf, to.data.frame=TRUE)
+colnames(merkmale) <- tolower(colnames(merkmale))
 
