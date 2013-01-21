@@ -3,8 +3,8 @@ ASCII SPSS PORT FILE                    ASCII SPSS PORT FILE
 ASCII SPSS PORT FILE                    0000000000000000000000000000000000000000
 0000000000000000000000000123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrst
 uvwxyz .<(+|&[]!$*);^-/|,%_>?`:$@'="000000~-0000123456789000-()0{}\0000000000000
-00000000000000000000000000000000000000000000000000000000SPSSPORTA8/201301176/231
-8281E/GNU pspp 0.7.93J/x86_64-pc-linux-gnu419/5B/78F/8/BUCHTITE1/8F/0/1/8F/0/C9/
+00000000000000000000000000000000000000000000000000000000SPSSPORTA8/201301216/140
+2091E/GNU pspp 0.7.93J/x86_64-pc-linux-gnu419/5B/78F/8/BUCHTITE1/8F/0/1/8F/0/C9/
 Buchtitel70/7/BUCHTYP5/1/0/5/1/0/C3/Typ78F/7/AUTORIN1/8F/0/1/8F/0/CC/Name AutorI
 n70/6/AUTSEX5/1/0/5/1/0/CA/Geschlecht70/8/MAEDCHEN5/8/0/5/8/0/CG/Gelesen Maedche
 n70/5/BUBEN5/8/0/5/8/0/CD/Gelesen Buben70/8/TITELFIG5/1/0/5/1/0/CP/Geschlecht de
@@ -37,332 +37,332 @@ D1/5/UNLOG2/1/H/unlogisch denkend2/F/logisch denkendD1/5/PHANT2/1/9/vorhanden2/F
 /nicht vorhandenD1/5/ABENT2/1/6/Alltag2/9/AbenteuerD1/4/GRUP2/1/9/vorhanden2/F/n
 icht vorhandenD1/4/IMON2/1/9/vorhanden2/F/nicht vorhandenD1/5/QUEST2/1/9/vorhand
 en2/F/nicht vorhandenD1/7/HFIGSEX4/0/C/unbestimmbar1/8/weiblich2/9/maennlich3/7/
-neutralF8F/Grueffelo                                                            
+neutralF8F/Franz                                                                
                                                                                 
                                                                                 
-                          3/8F/Axel Scheffler                                   
+                          5/8F/Christine Noestlinger                            
                                                                                 
                                                                                 
-                                              2/1S/1O/3/8F/Maus                 
+                                              1/2N/20/2/8F/Franz                
                                                                                 
                                                                                 
-                                                                          45.76/
-1B/O/2/-.1248H48H49/2/2/2/2/2/2/2/1/1/2/2/2/2/1/1/2/2/2/3/3/.KN296RKN29/0/1/0/0/
-1/8F/Der kleine Eisbaer                                                         
+                                                                          5I.R/*
+.1P/2/-.4OMJLI7GH6/1/1/1/1.F/1.F/1/1/1/1/1/1/1/2/2/1/1/1/2/2/8/-.KN296RKN29/1/0/
+1/0/0/8F/Conni                                                                  
                                                                                 
                                                                                 
-                    3/8F/Hans de Beer                                           
+                        5/8F/Julia Boehmerz                                     
                                                                                 
                                                                                 
-                                        2/31/1Q/2/8F/Lars                       
+                                            1/34/M/1/8F/Conni                   
                                                                                 
                                                                                 
-                                                                    7F.09/26/12/
-2/-.748H48H48H/2/2/1/2/2/1/2/2/*.1/1/1/2/1/2/1/2/2/2/3/.5/0/1/1/0/0/8F/Der Regen
-bogenfisch                                                                      
+                                                                       66.HL/*.3
+P/3/-.IIIIIIIIIJ/1/1.F/1/1.F/1/1/1/1/1.F/1/1/1/2/2/1/1/2/2/1/7/-.IDPBG4IDPC/1/0/
+0/1/0/8F/Pinocchio                                                              
                                                                                 
                                                                                 
-      3/8F/Marcus Pfister                                                       
+                        1/8F/Carlo Collodi                                      
                                                                                 
                                                                                 
-                          2/42/35/3/8F/Regenbogenfisch                          
+                                            2/36/28/2/8F/Pinocchio              
                                                                                 
                                                                                 
-                                                      39.IR/1F/E/1/-.3LTDC93LTD/
-2/2/2/2/1/1/1/*.*.2/2/2/2/1/1/1/1/2/3/4/.DJ2LOGAR85/0/1/0/0/1/8F/Das Wutmonster 
+                                                                        39.76/L/
+9I/4/-.53JMKEJ0LT/1/1/2/2/2/1/1/1/1/1/2/1/1/1/2/1/2/2/2/7/-.BG4IDPBG4I/0/1/1/0/0
+/8F/Peter Pan                                                                   
                                                                                 
                                                                                 
+                   1/8F/James M. Barrie                                         
                                                                                 
-1/8F/Britta Schwarz                                                             
                                                                                 
+                                       2/30/2D/2/8F/Wendy (Peter)               
                                                                                 
-                    1/14/N/2/8F/Marvin                                          
                                                                                 
+                                                                   4O.9/E/2C/2/-
+.33PSFOPBSR/2/1/2/1/2/1/2/1/1/1/1/1/1/1/2/1/1/2/1/7/-.BG4IDPBG4I/0/1/1/0/0/8F/Pr
+inzessing Lillifee                                                              
                                                                                 
-                                               62.RR/*.12/3/-.5NKFNKFNKG/1/1/1/1
-.F/1/2/1.F/1.F/1.F/1.F/2/1/1.F/1/1/1/2/2/2/4/-.6RKN296RKN/1/0/1/0/0/8F/Prinzessi
-ng Lillifee                                                                     
                                                                                 
+             5/8F/Monika Finsterbusch                                           
                                                                                 
-      5/8F/Monika Finsterbusch                                                  
                                                                                 
+                                 1/3J/E/1/8F/Lillifee                           
                                                                                 
-                          1/3J/E/1/8F/Lillifee                                  
                                                                                 
+                                                            5T.C/1G/36/6/-.N53JM
+KEJ0M/*.2/1/*.2/1/2/*.1/1/1/1/*.1/2/2/*.1/1/4/-.A/1/0/0/1/0/8F/Mini             
                                                                                 
-                                                     5T.C/1G/36/6/-.N53JMKEJ0M/*
-.2/1/*.2/1/2/*.1/1/1/1/*.1/2/2/*.1/1/4/-.A/1/0/0/1/0/8F/Die Geggis              
                                                                                 
+                                                                              5/
+8F/Christine Noestlinger                                                        
                                                                                 
-                                                                       1/8F/Mira
- Lobe                                                                           
                                                                                 
+                  1/1T/G/1/8F/Mini                                              
                                                                                 
-           1/16/11/2/8F/Rokko und Gil                                           
                                                                                 
+                                             50.6R/*.24/4/-.H6/1.F/1.F/1/2/1.F/1
+/1.F/1.F/1/1/1/1/2/2/1/1/1/2/1/8/-.96RKN296RL/1/0/0/1/0/8F/Das Wutmonster       
                                                                                 
-                                       3O.R/T/12/2/-.274RMP274S/2/2/1/2/2/2/2/2/
-1/1/1/1/1/1/2/1/1/2/2/5/.296RKN296S/1/0/1/0/0/8F/Der Raeuber Hotzenplotz        
                                                                                 
+                                                                          1/8F/B
+ritta Schwarz                                                                   
                                                                                 
-                                                                2/8F/Ottfried Pr
-euszler                                                                         
                                                                                 
+              1/14/N/2/8F/Marvin                                                
                                                                                 
-    2/32/3B/2/8F/Kasperl                                                        
                                                                                 
+                                         62.RR/*.12/3/-.5NKFNKFNKG/1/1/1/1.F/1/2
+/1.F/1.F/1.F/1.F/2/1/1.F/1/1/1/2/2/2/4/-.6RKN296RKN/1/0/1/0/0/8F/Sams           
                                                                                 
-                                4L.99/1G/44/1/.1BT20IJHGS/2/2/1/1/2/1/2/1/2/1/1/
-1/2/1/2/2/2/1/2/6/-.296RKN296S/0/1/1/0/0/8F/Der kleine Drache Kokosnuss         
                                                                                 
                                                                                 
-                                                           5/8F/Ingo Siegner    
+2/8F/Paul Maar                                                                  
                                                                                 
                                                                                 
-                                                                               2
-/1G/1M/0/8F/Kokosnuss                                                           
+                    2/23/27/3/8F/Sams                                           
                                                                                 
                                                                                 
-                           4R.9/21/2K/2/.1P31P31P32/2/2/1/2/2/1/1/2/1/1/2/1/2/1/
-2/2/2/1/2/6/.296RKN296S/0/1/0/0/1/8F/Hexe Lilli                                 
+                                                5B.I9/R/6S/8/.0RKN296RKN1/2/1/1/
+2/2/1/2/1/1/1/2/1/1/1/1/2/2/2/3/8/-.6RKN296RKN/0/1/0/0/1/8F/Baumhausgeschichten 
                                                                                 
                                                                                 
-                                                    5/8F/Knister Ludger Jochmann
+                                                                           1/8F/
+Martin Kleinhichte                                                              
                                                                                 
                                                                                 
-                                                                        3/5C/1N/
-1/8F/Lilli                                                                      
+               2/T/M/0/8F/                                                      
                                                                                 
                                                                                 
-                    5N.16/28/32/1/-.F68B4QFADT/2/2/1/2/2/1/2/2/1/1/1/1/2/1/1/2/2
-/1/1/6/.296RKN296S/0/0/0/1/0/8F/Der kleine Ritter Trenk                         
+                                         4Q.6R/*.1D/5/-.43FQE3FQE4/1.F/1.F/1/2/1
+.F/1/1.F/1.F/1.F/1/1.F/1/2/2/1/2/2/2/0/6/-.4IDPBG4IDP/0/1/0/0/1/8F/Die Olchis   
                                                                                 
                                                                                 
-                                               3/8F/Kirsten Boie                
                                                                                 
+  5/8F/Erhard Dietl                                                             
                                                                                 
-                                                                   1/1C/1M/2/8F/
-Trenk von Tausendschlag                                                         
                                                                                 
+                      2/1H/1I/0/8F/                                             
                                                                                 
-               4S.3R/19/9A/2/.35MA6BEKCN/2/2/1/2/2/1/2/2/2/1/1/1/2/1/2/2/2/1/2/6
-/.6RKN296RKN/1/0/1/0/0/8F/Baumhausgeschichten                                   
                                                                                 
+                                                  5F.T3/*.1R/8/.09E69E69E6A/1.F/
+1.F/1/1.F/1.F/1/2/2/1.F/1/1/1.F/1.F/1/1/2/2/2/0/6/-.4IDPBG4IDP/0/1/0/0/1/8F/Der 
+Raeuber Hotzenplotz                                                             
                                                                                 
-                                         1/8F/Martin Kleinhichte                
                                                                                 
+           2/8F/Ottfried Preuszler                                              
                                                                                 
-                                                             2/T/M/0/8F/        
                                                                                 
+                               2/32/3B/2/8F/Kasperl                             
                                                                                 
                                                                                 
-       4Q.6R/*.1D/5/-.43FQE3FQE4/1.F/1.F/1/2/1.F/1/1.F/1.F/1.F/1/1.F/1/2/2/1/2/2
-/2/0/6/-.4IDPBG4IDP/0/1/0/0/1/8F/Die Olchis                                     
+                                                           4L.99/1G/44/1/.1BT20I
+JHGS/2/2/1/1/2/1/2/1/2/1/1/1/2/1/2/2/2/1/2/6/-.296RKN296S/0/1/1/0/0/8F/Die Geggi
+s                                                                               
                                                                                 
                                                                                 
-                                                5/8F/Erhard Dietl               
+      1/8F/Mira Lobe                                                            
                                                                                 
                                                                                 
-                                                                    2/1H/1I/0/8F
-/                                                                               
+                          1/16/11/2/8F/Rokko und Gil                            
                                                                                 
                                                                                 
-                5F.T3/*.1R/8/.09E69E69E6A/1.F/1.F/1/1.F/1.F/1/2/2/1.F/1/1/1.F/1.
-F/1/1/2/2/2/0/6/-.4IDPBG4IDP/0/1/0/0/1/8F/Pinocchio                             
+                                                      3O.R/T/12/2/-.274RMP274S/2
+/2/1/2/2/2/2/2/1/1/1/1/1/1/2/1/1/2/2/5/.296RKN296S/1/0/1/0/0/8F/Der kleine Drach
+e Kokosnuss                                                                     
                                                                                 
+                                                                               5
+/8F/Ingo Siegner                                                                
                                                                                 
-                                                         1/8F/Carlo Collodi     
+                                                                                
+                   2/1G/1M/0/8F/Kokosnuss                                       
+                                                                                
+                                                                                
+                                               4R.9/21/2K/2/.1P31P31P32/2/2/1/2/
+2/1/1/2/1/1/2/1/2/1/2/2/2/1/2/6/.296RKN296S/0/1/0/0/1/8F/Hexe Lilli             
+                                                                                
+                                                                                
+                                                                        5/8F/Kni
+ster Ludger Jochmann                                                            
+                                                                                
+                                                                                
+            3/5C/1N/1/8F/Lilli                                                  
+                                                                                
+                                                                                
+                                        5N.16/28/32/1/-.F68B4QFADT/2/2/1/2/2/1/2
+/2/1/1/1/1/2/1/1/2/2/1/1/6/.296RKN296S/0/0/0/1/0/8F/Pippi Langstrumpf           
+                                                                                
+                                                                                
+                                                                   3/8F/Astrid L
+indgren                                                                         
+                                                                                
+                                                                                
+       1/4L/2F/1/8F/Pippi Langstrumpf                                           
+                                                                                
+                                                                                
+                                   4D.Q3/H/6S/2/-.95/2/2/1/2/2/2/2/2/1/1/1/1/1/1
+/1/2/2/2/1/8/.296RKN296S/1/0/0/1/0/8F/5 Freunde                                 
+                                                                                
+                                                                                
+                                                     5/8F/Enid Blyton           
+                                                                                
+                                                                                
+                                                                         1/3O/3S
+/0/8F/Anne, Georg, Julius, Richard                                              
+                                                                                
+                                                                                
+                     3H.R/*.63/5/.0FFFFFFFFFF/1.F/2/1/2/2/1.F/1.F/1.F/2/1/1.F/1/
+2/2/2/2/2/1/0/8/.4IDPBG4IDP/1/0/0/0/1/8F/Das Tiger- Team                        
+                                                                                
+                                                                                
+                                                        5/8F/Thomas Brezina     
+                                                                                
+                                                                                
+                                                                            2/1J
+/29/0/8F/Biggy, Patrick, Luk                                                    
+                                                                                
+                                                                                
+                        2P.MO/*.5A/4/.52G84210F8/2/2/1/2/2/1/2/1.F/2/1/1/1/2/2/2
+/2/2/1/0/8/.4IDPBG4IDP/0/1/0/0/1/8F/Der kleine Eisbaer                          
+                                                                                
+                                                                                
+                                                   3/8F/Hans de Beer            
+                                                                                
+                                                                                
+                                                                       2/31/1Q/2
+/8F/Lars                                                                        
+                                                                                
+                                                                                
+                   7F.09/26/12/2/-.748H48H48H/2/2/1/2/2/1/2/2/*.1/1/1/2/1/2/1/2/
+2/2/3/.5/0/1/1/0/0/8F/Der kleine Ritter Trenk                                   
+                                                                                
+                                                                                
+                                     3/8F/Kirsten Boie                          
+                                                                                
+                                                                                
+                                                         1/1C/1M/2/8F/Trenk von 
+Tausendschlag                                                                   
+                                                                                
+                                                                                
+     4S.3R/19/9A/2/.35MA6BEKCN/2/2/1/2/2/1/2/2/2/1/1/1/2/1/2/2/2/1/2/6/.6RKN296R
+KN/1/0/1/0/0/8F/Harry Potter                                                    
+                                                                                
+                                                                                
+                               2/8F/Joanne K. Rowling                           
+                                                                                
+                                                                                
+                                                   1/35/45/2/8F/Harry Potter    
+                                                                                
+                                                                                
+                                                                               3
+N.RR/1M/B6/3/.42LOGAR85E/2/1/2/2/2/2/1/2/2/1/1/1/2/1/2/1/2/1/2/A/.6RKN296RKN/1/0
+/1/0/0/8F/Gregs Tagebuch                                                        
+                                                                                
+                                                                                
+                         3/8F/Jeff Kinney                                       
+                                                                                
+                                                                                
+                                             2/2Q/3R/2/8F/Greg                  
+                                                                                
+                                                                                
+                                                                         44.C/2B
+/7E/1/.4HD4HD4HD5/2/1/2/2/2/2/1/1/1/2/2/1/2/2/1/2/1/2/2/A/.6RKN296RKN/0/1/1/0/0/
+8F/Die Knickerbockerbande                                                       
+                                                                                
+                                                                                
+                  5/8F/Thomas Brezina                                           
+                                                                                
+                                                                                
+                                      2/1I/27/0/8F/Poppi, Dominik, Axel, Lilo   
+                                                                                
+                                                                                
+                                                                  36.GO/*.68/5/.
+4SKQ2I7ONE/2/2/1/2/2/1.F/2/2/2/1/1/1/2/2/2/2/2/1/0/9/.96RKN296RL/0/1/0/0/1/8F/Di
+e wilden Huehner                                                                
+                                                                                
+                                                                                
+             2/8F/Cornelia Funkenerxe                                           
+                                                                                
+                                                                                
+                                 1/2H/P/1/8F/Sprotte, Melanie, Frieda, Trude    
+                                                                                
+                                                                                
+                                                            4A.QL/*.5P/8/-.F8OL5
+8OL59/2/1.F/1.F/2/1.F/2/1.F/2/1.F/1.F/1.F/1/2/2/1/2/2/1/1/A/.96RKN296RL/1/0/0/1/
+0/8F/Der Regenbogenfisch                                                        
+                                                                                
+                                                                                
+                    3/8F/Marcus Pfister                                         
+                                                                                
+                                                                                
+                                        2/42/35/3/8F/Regenbogenfisch            
+                                                                                
+                                                                                
+                                                                    39.IR/1F/E/1
+/-.3LTDC93LTD/2/2/2/2/1/1/1/*.*.2/2/2/2/1/1/1/1/2/3/4/.DJ2LOGAR85/0/1/0/0/1/8F/D
+as magische Baumhaus                                                            
+                                                                                
+                                                                                
+              5/8F/Mary P. Osborn                                               
+                                                                                
+                                                                                
+                                  1/2O/3F/0/8F/                                 
+                                                                                
+                                                                                
+                                                              4O.I/1S/2T/2/.3A/2
+/2/1/2/2/2/2/2/2/1/1/*.2/1/2/2/*.*.0/A/.F/1/0/0/0/1/8F/Die Wilden Fuszballkerle 
+                                                                                
+                                                                                
+                                                                      4/8F/Joach
+im Masannek                                                                     
+                                                                                
+                                                                                
+          2/1D/3K/2/8F/Leon                                                     
+                                                                                
+                                                                                
+                                      1J.F/2S/5A/C/.D43FQE3FQE/2/1/2/2/2/2/2/2/2
+/1/2/1/2/2/1/2/2/2/2/8/.G4IDPBG4IE/0/1/1/0/0/8F/Die drei ???                    
+                                                                                
+                                                                                
+                                                               5/8F/Christoph Di
+ttert                                                                           
+                                                                                
+                                                                                
+   2/33/42/2/8F/Justus Jonas,Peter Shaw, Bob Andrews                            
+                                                                                
+                                                                                
+                               1R.E3/1A/46/1/.41BPOCGM9N/2/2/2/2/2/1/2/2/2/1/1/2
+/2/2/2/2/2/1/2/A/.G4IDPBG4IE/0/1/1/0/0/8F/Die kleine Hexe                       
+                                                                                
+                                                                                
+                                                         1/8F/Ottfried Preuszler
                                                                                 
                                                                                 
                                                                              2/3
-6/28/2/8F/Pinocchio                                                             
+J/1M/1/8F/kleine Hexe                                                           
                                                                                 
                                                                                 
-                         39.76/L/9I/4/-.53JMKEJ0LT/1/1/2/2/2/1/1/1/1/1/2/1/1/1/2
-/1/2/2/2/7/-.BG4IDPBG4I/0/1/1/0/0/8F/Tom Turbo                                  
+                         1R/M/47/1/-.AIJ05HL1K9/2/2/2/2/2/2/2/2/2/1/1/1/2/1/1/2/
+1/1/1/6/.G4IDPBG4IE/0/1/0/1/0/8F/Grueffelo                                      
                                                                                 
                                                                                 
-                                                    5/8F/Thomas Brezina         
+                                                3/8F/Axel Scheffler             
                                                                                 
                                                                                 
-                                                                        2/32/3N/
-2/8F/Tom Turbo, Karo, Klaro                                                     
+                                                                    2/1S/1O/3/8F
+/Maus                                                                           
                                                                                 
                                                                                 
-                    5C.I/29/6C/4/.325PI8NCD5/2/2/2/2/2/2/2/2/2/1/1/2/2/1/2/2/2/1
-/3/7/.KN296RKN29/0/1/1/0/0/8F/Conni                                             
+                45.76/1B/O/2/-.1248H48H49/2/2/2/2/2/2/2/1/1/2/2/2/2/1/1/2/2/2/3/
+3/.KN296RKN29/0/1/0/0/1/8F/Tom Turbo                                            
                                                                                 
                                                                                 
-                                             5/8F/Julia Boehmerz                
+                                          5/8F/Thomas Brezina                   
                                                                                 
                                                                                 
-                                                                 1/34/M/1/8F/Con
-ni                                                                              
+                                                              2/32/3N/2/8F/Tom T
+urbo, Karo, Klaro                                                               
                                                                                 
                                                                                 
-            66.HL/*.3P/3/-.IIIIIIIIIJ/1/1.F/1/1.F/1/1/1/1/1.F/1/1/1/2/2/1/1/2/2/
-1/7/-.IDPBG4IDPC/1/0/0/1/0/8F/Peter Pan                                         
-                                                                                
-                                                                                
-                                             1/8F/James M. Barrie               
-                                                                                
-                                                                                
-                                                                 2/30/2D/2/8F/We
-ndy (Peter)                                                                     
-                                                                                
-                                                                                
-             4O.9/E/2C/2/-.33PSFOPBSR/2/1/2/1/2/1/2/1/1/1/1/1/1/1/2/1/1/2/1/7/-.
-BG4IDPBG4I/0/1/1/0/0/8F/Pippi Langstrumpf                                       
-                                                                                
-                                                                                
-                                       3/8F/Astrid Lindgren                     
-                                                                                
-                                                                                
-                                                           1/4L/2F/1/8F/Pippi La
-ngstrumpf                                                                       
-                                                                                
-                                                                                
-       4D.Q3/H/6S/2/-.95/2/2/1/2/2/2/2/2/1/1/1/1/1/1/1/2/2/2/1/8/.296RKN296S/1/0
-/0/1/0/8F/Die Wilden Fuszballkerle                                              
-                                                                                
-                                                                                
-                         4/8F/Joachim Masannek                                  
-                                                                                
-                                                                                
-                                             2/1D/3K/2/8F/Leon                  
-                                                                                
-                                                                                
-                                                                         1J.F/2S
-/5A/C/.D43FQE3FQE/2/1/2/2/2/2/2/2/2/1/2/1/2/2/1/2/2/2/2/8/.G4IDPBG4IE/0/1/1/0/0/
-8F/Sams                                                                         
-                                                                                
-                                                                                
-                  2/8F/Paul Maar                                                
-                                                                                
-                                                                                
-                                      2/23/27/3/8F/Sams                         
-                                                                                
-                                                                                
-                                                                  5B.I9/R/6S/8/.
-0RKN296RKN1/2/1/1/2/2/1/2/1/1/1/2/1/1/1/1/2/2/2/3/8/-.6RKN296RKN/0/1/0/0/1/8F/Fr
-anz                                                                             
-                                                                                
-                                                                                
-             5/8F/Christine Noestlinger                                         
-                                                                                
-                                                                                
-                                 1/2N/20/2/8F/Franz                             
-                                                                                
-                                                                                
-                                                             5I.R/*.1P/2/-.4OMJL
-I7GH6/1/1/1/1.F/1.F/1/1/1/1/1/1/1/2/2/1/1/1/2/2/8/-.KN296RKN29/1/0/1/0/0/8F/Mini
-                                                                                
-                                                                                
-                                                                                
-           5/8F/Christine Noestlinger                                           
-                                                                                
-                                                                                
-                               1/1T/G/1/8F/Mini                                 
-                                                                                
-                                                                                
-                                                          50.6R/*.24/4/-.H6/1.F/
-1.F/1/2/1.F/1/1.F/1.F/1/1/1/1/2/2/1/1/1/2/1/8/-.96RKN296RL/1/0/0/1/0/8F/5 Freund
-e                                                                               
-                                                                                
-                                                                                
-       5/8F/Enid Blyton                                                         
-                                                                                
-                                                                                
-                           1/3O/3S/0/8F/Anne, Georg, Julius, Richard            
-                                                                                
-                                                                                
-                                                       3H.R/*.63/5/.0FFFFFFFFFF/
-1.F/2/1/2/2/1.F/1.F/1.F/2/1/1.F/1/2/2/2/2/2/1/0/8/.4IDPBG4IDP/1/0/0/0/1/8F/Das T
-iger- Team                                                                      
-                                                                                
-                                                                                
-          5/8F/Thomas Brezina                                                   
-                                                                                
-                                                                                
-                              2/1J/29/0/8F/Biggy, Patrick, Luk                  
-                                                                                
-                                                                                
-                                                          2P.MO/*.5A/4/.52G84210
-F8/2/2/1/2/2/1/2/1.F/2/1/1/1/2/2/2/2/2/1/0/8/.4IDPBG4IDP/0/1/0/0/1/8F/Die Knicke
-rbockerbande                                                                    
-                                                                                
-                                                                                
-     5/8F/Thomas Brezina                                                        
-                                                                                
-                                                                                
-                         2/1I/27/0/8F/Poppi, Dominik, Axel, Lilo                
-                                                                                
-                                                                                
-                                                     36.GO/*.68/5/.4SKQ2I7ONE/2/
-2/1/2/2/1.F/2/2/2/1/1/1/2/2/2/2/2/1/0/9/.96RKN296RL/0/1/0/0/1/8F/Harry Potter   
-                                                                                
-                                                                                
-                                                                                
-2/8F/Joanne K. Rowling                                                          
-                                                                                
-                                                                                
-                    1/35/45/2/8F/Harry Potter                                   
-                                                                                
-                                                                                
-                                                3N.RR/1M/B6/3/.42LOGAR85E/2/1/2/
-2/2/2/1/2/2/1/1/1/2/1/2/1/2/1/2/A/.6RKN296RKN/1/0/1/0/0/8F/Die drei ???         
-                                                                                
-                                                                                
-                                                                          5/8F/C
-hristoph Dittert                                                                
-                                                                                
-                                                                                
-              2/33/42/2/8F/Justus Jonas,Peter Shaw, Bob Andrews                 
-                                                                                
-                                                                                
-                                          1R.E3/1A/46/1/.41BPOCGM9N/2/2/2/2/2/1/
-2/2/2/1/1/2/2/2/2/2/2/1/2/A/.G4IDPBG4IE/0/1/1/0/0/8F/Gregs Tagebuch             
-                                                                                
-                                                                                
-                                                                    3/8F/Jeff Ki
-nney                                                                            
-                                                                                
-                                                                                
-        2/2Q/3R/2/8F/Greg                                                       
-                                                                                
-                                                                                
-                                    44.C/2B/7E/1/.4HD4HD4HD5/2/1/2/2/2/2/1/1/1/2
-/2/1/2/2/1/2/1/2/2/A/.6RKN296RKN/0/1/1/0/0/8F/Die wilden Huehner                
-                                                                                
-                                                                                
-                                                             2/8F/Cornelia Funke
-nerxe                                                                           
-                                                                                
-                                                                                
- 1/2H/P/1/8F/Sprotte, Melanie, Frieda, Trude                                    
-                                                                                
-                                                                                
-                            4A.QL/*.5P/8/-.F8OL58OL59/2/1.F/1.F/2/1.F/2/1.F/2/1.
-F/1.F/1.F/1/2/2/1/2/2/1/1/A/.96RKN296RL/1/0/0/1/0/8F/Die kleine Hexe            
-                                                                                
-                                                                                
-                                                                    1/8F/Ottfrie
-d Preuszler                                                                     
-                                                                                
-                                                                                
-        2/3J/1M/1/8F/kleine Hexe                                                
-                                                                                
-                                                                                
-                                    1R/M/47/1/-.AIJ05HL1K9/2/2/2/2/2/2/2/2/2/1/1
-/1/2/1/1/2/1/1/1/6/.G4IDPBG4IE/0/1/0/1/0/8F/Das magische Baumhaus               
-                                                                                
-                                                                                
-                                                           5/8F/Mary P. Osborn  
-                                                                                
-                                                                                
-                                                                               1
-/2O/3F/0/8F/                                                                    
-                                                                                
-                                                                                
-                           4O.I/1S/2T/2/.3A/2/2/1/2/2/2/2/2/2/1/1/*.2/1/2/2/*.*.
-0/A/.F/1/0/0/0/1/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+          5C.I/29/6C/4/.325PI8NCD5/2/2/2/2/2/2/2/2/2/1/1/2/2/1/2/2/2/1/3/7/.KN29
+6RKN29/0/1/1/0/0/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
