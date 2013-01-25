@@ -1,4 +1,3 @@
-
 #Forschungsdesign
 
 ##Definitionen
@@ -106,12 +105,12 @@ H2
 
 H3
 
-:   Abenteuergeschichten werden eher von Buben als vom Mädchen gelesen.
+:   Abenteuergeschichten werden eher von Buben als von Mädchen gelesen.
 
 
 H4
 
-:   Geschichten in den *innerer Monolog* vorkommt, werden eher von Mädchen
+:   Geschichten in denen ein *innerer Monolog* vorkommt, werden eher von Mädchen gelesen
     als von Buben.
 
 H5
