@@ -104,6 +104,24 @@ H2
     :   Der Zusammenhang zwischen Geschlechterverhältnis der Lesenden und dem
         mit dem Verhältnis zwischen femininen und maskulinen Verhalten der Hauptfiguren lässt sich nicht durch das Geschlecht der Hauptfiguren erklären.
 
+
+H3
+
+:   Abenteuergeschichten werden eher von Buben als vom Mädchen gelesen.
+
+
+H4
+
+:   Geschichten in den *innerer Monolog* vorkommt, werden eher von Mädchen
+    als von Buben.
+
+H5
+
+:   Geschichten in denen *das Erwachsenwerden* Thema ist,
+    wedern eher von Mädchen als von Buben gelesen.
+
+
+
     
 
 
