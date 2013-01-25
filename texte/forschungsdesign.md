@@ -1,5 +1,4 @@
 
-
 #Forschungsdesign
 
 ##Definitionen
@@ -17,11 +16,11 @@ Gender
     Wenn ein Mann einer Frau den Vortritt lässt dann macht er *Gender*.
 
 
-Geschlechter Stereotype
+Geschlechterstereotype
 
-:   Unter Geschlechter Stereotypen verstehen wir kulturelle Vorstellungen 
-    über das, was typisch Frau bzw. typisch Mann ist.
-    Wenn wie von Geschlechter Sterotypen reden verwenden wir folgende Begriffe: *feminin*, *maskulin*. (TabelleXY)
+:   Unter Geschlechterstereotypen verstehen wir kulturelle Vorstellungen 
+    über das, was eine typische Frau bzw. ein typischer Mann ist.
+    Wenn wie von Geschlechtersterotypen reden, verwenden wir die folgenden Begriffe: *feminin*, *maskulin*. (TabelleXY)
 
 \input{tabellen/stereotype.tex}
 
@@ -31,13 +30,13 @@ Geschlechterverhältnis
 :   Unter Geschlechterverhältnis verstehen wir das Verhältnis von 
     weiblichen zu männlichen Personen.
     In unserem Fall hauptsächlich das Verhältnis von Leserinnen zu Lesern.
-    Ist der Anteil der weiblichen Personen höher, handelt es sich um ein weibliches Geschlechterverhältnis. Ist der Anteil der Buben oder Männer größer, dann ist das Geschlechterverhältnis männlich. Sonst ist es weder weiblich noch männlich ist es neutral. (siehe: w/m-Faktor)
+    Ist der Anteil der weiblichen Personen höher, handelt es sich um ein weibliches Geschlechterverhältnis. Ist der Anteil der Buben oder Männer größer, dann ist das Geschlechterverhältnis männlich. Wenn es weder weiblich noch männlich ist, ist es neutral. (siehe: w/m-Faktor)
 
 
 Leserinnen und Leser
 
 :   Wenn wir von Leserinnen und Lesern sprechen, meinen wir in dieser Arbeit
-    nur die Untersuchte Grundgesamtheit, das heißt Leserinnen und Leser in Österreich, die die 3. oder 4. Schulstufe besuchen.
+    nur die untersuchte Grundgesamtheit, das heißt Leserinnen und Leser in Österreich, die die 3. oder 4. Schulstufe besuchen.
     Leserinnen *oder* Leser *ohne* die jeweils andere Form verwendet, handelt es sich nur um Mädchen oder Buben.
 
 
