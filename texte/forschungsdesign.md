@@ -182,7 +182,9 @@ Die erste Hypothese fragt nach der Unterschiedlichkeit der Themen.
     Mädchen und Buben interessieren sich für unterschiedliche Themen.
 \end{hyp}
 
-
+In einem zweiten Schritt untersuchen wir wesentliche Aspekte der Geschichten.
+Als erste Aspekt ist, ob es sich um eine *Abenteurer-* oder *Alltagsgeschichte* handelt.
+Wir gehen davon aus, dass Buben eher Abenteuergeschichten lesen.
 
 
 \begin{subhyp}
@@ -190,12 +192,28 @@ Die erste Hypothese fragt nach der Unterschiedlichkeit der Themen.
 \end{subhyp}
 
 
+In vielen Abenteuergeschichten geht es darum bestimmte Fälle zu lösen.
+Doch es gibt auch Alltagsgeschichten in denen es um das Lösen bestimmter Aufgaben geht.
+Aus diesem Grund überprüfen wir separat, ob es in Geschichten um das Lösen von *Quests* geht.
+Wir gehen davon aus, dass solch Zielgerichtete Geschichten eher von Buben gelesen werden.
 
 \begin{subhyp}
-   Geschichten in denen ein \emph{innerer Monolog} vorkommt, werden eher von Mädchen gelesen als von Buben.
+    Geschichten in denen \emph{Quests} vorkommen werden eher von Buben als von Mädchen gelesen.
 \end{subhyp}
 
+Der nächste Aspekt dem wir uns zu wenden ist der *Innere Monolog*.
+Dabei geht es uns um die Elemente einer Geschichte, die persönliche Konfrontation in den Mittelpunkt stellen.
+Können wir im im Buch etwas von den Gedanken, der psychischen Innenwelt der Hauptfigur erfahren?
+Wir wollen überprüfen ob Geschichten, in denen diese Elemente wesentlich sind, vermehrt von Mädchen gelesen werden.
 
+\begin{subhyp}
+   Geschichten in denen ein \emph{Innerer Monolog} vorkommt, werden eher von Mädchen gelesen als von Buben.
+\end{subhyp}
+
+Der letzte Art von Geschichten bezieht sich auf die Veränderung der Hauptfigur.
+Es gibt Kindergeschichten in denen die Hauptfigur bleiben darf wie sie ist.
+In anderen Geschichten ist *das Erwachsenwerden* der Figur wesentlich.
+In diesen Geschichten muss sich die Hauptfigur verändern um das Ende des Buchs zu erreichen.
 
 \begin{subhyp}
    Geschichten in denen \emph{das Erwachsenwerden} Thema ist,
@@ -203,7 +221,43 @@ Die erste Hypothese fragt nach der Unterschiedlichkeit der Themen.
 \end{subhyp}
 
 
+###Merkmale die das Geschlechterverhältnis beeinflussen
 
+In \thref{fra:merkmale} haben wir gefragt, ob man von äußeren Merkmalen eines Buchs, auf das Geschlechterverhältnis der Lesenden schließen kann.
+Daraus leitet sich direkt auch schon die erste Hypothese zu diesem Bereich ab.
+
+\begin{hyp}
+    Man kann das Geschlechterverhältnis durch rein äußere Merkmale eines Buchs erklären.
+\end{hyp}
+
+
+Die zweite Hypothese überprüft ob die Häufigkeit von Mädchen und Buben auf die selben Merkmale reagiert oder ob es Unterschiede zwischen den Geschlechtern gibt.
+
+\begin{subhyp}
+    Die Anzahl der Leserinnen lässt sich besser durch andere Merkmale erklären als die Anzahl der Leser.
+\end{subhyp}
     
+
+
+
+
+
+
+
+
+
+
+
+
+##Methoden
+
+Um die Forschungsfragen beantworten zu können, waren mehrere Schritte der Erhebung notwendig. Zuerst musste in Erfahrung gebracht werden, was die Kinder denn wirklich lesen. Als zweiter Schritt folgte eine Analyse der Kinderbücher die darauf abzielte Unterschiede oberflächlicher und inhaltlicher Merkmale festzuhalten und einem Geschlecht zuzuteilen. Als letzten Schritt sollten repräsentative Kinderbücher und Textauszüge inhaltsanalytisch betrachtet und ergänzend verwendet werden. 
+
+Der erste große Schritt sollte somit die Erstellung unseres Fragebogens gesehen werden. Der Zusammenschluss mit einer weiteren Forschungsgruppe unseres zweisemestrigen Praktikums erleichterte zwar die Erhebung jedoch nicht die Erstellung. Schlussendlich fanden drei Fragestellungen Einzug in den gemeinsamen Fragebogen. Hierbei wurden die Kinder zuerst offen nach ihren Lieblingsbüchern gefragt, bevor sie eine Liste mit ausgewählten Kinderbüchern präsentiert bekamen, wo sie jene Bücher anzukreuzen hatten, die sie bereits gelesen haben. Die Liste wurde Zusammengestellt aus Bestsellerlisten, Ausleihzahlen in einer Schulbibliothek und den Empfehlungen einer Buchhändlerin um etwaige kurzfristige Trends berücksichtigen zu können. Dabei wurde Wert darauf gelegt auch Bücher der Vor- und Erstlesekategorie zu integrieren.  Diese Bücher werden bei der Auswertung jedoch nicht mitberücksichtigt, da ein Vergleich von Vorlesebüchern mit *Selbstlesebüchern* nur bedingt sinnvoll erscheint. Als Drittes wurden noch Themenbereiche abgefragt, die besonders gerne gelesen werden. Bewusst wurde auf  Sachbücher in der Erhebung verzichtet, da hier keine Charaktere dargestellt werden die einem Gender zugeordnet werden können. 
+
+Dieser letzte Satz bietet die Grundlage zum Übergang zur zweiten Erhebungsmethode. Da wir feststellen konnten, dass vor allem Mädchen breiter und somit anderes lesen als Buben, wurden mittels einer Inhaltsanalyse bestimmte Merkmale auf  ihr Vorkommen untersucht. Neben der Erhebung bestimmter Merkmale im Setting einer Geschichte wurde auch das Gender der Hauptprotagonisten mittels einer Eigenschaftenliste ermittelt. Diese Ausprägungen wurden auf ihren Zusammenhang mit dem Geschlecht der Leserschaft untersucht.
+
+Zusätzlich wurden oberflächliche Merkmale festgehalten die auf den ersten Blick an einem Buch erkennbar sind. Sie können Antworten liefern über die Stärke einer stereotypen Aufbereitung und Darstellung von Mädchen- und Bubenbücher liefern. 
+Zum Schluss werden die quantitativ erhobenen Daten mittels qualitativ analysierten Textauszügen unterstützt um ein besseres Gefühl für die jeweilige Erkenntnis zu entwickeln. 
 
 
