@@ -6,15 +6,19 @@
         pos   = htp,
       %  width    = \textwidth
       ]{lD{,}{,}{0}D{,}{,}{0}D{,}{,}{0}D{,}{,}{3}}{
-        \tnote{1: 100\% Leserinnen; 0: gleich viele Leserinnen wie Leser; --1: 100\% Leser}
+        \tnote{--1: 100\% Leserinnen; 0: gleich viele Leserinnen wie Leser; 1: 100\% Leser}
+      % \tnote[.]{< 0,1}
+      % \tnote[*]{< 0,05}
+      % \tnote[**]{< 0,01}
+      % \tnote[***]{< 0,001}
       }{                  
       \FL \small Bücher &  \multicolumn{1}{c}{\small Mädchen} & \multicolumn{1}{c}{\small Buben} & \multicolumn{1}{c}{\small Gesamt} & \multicolumn{1}{c}{ \small w/m-Faktor\tmark}
-      \ML Die wilden Fußballkerle & 43 & 110 & 153 & 0,438
+      \ML Die wilden Fußballkerle & 43 & 110 & 153 & 0,438% 18  $ 0,00 **
       \NN Tiger-Team & 49 & 69 & 118 & 0,169
       \NN Knickerbockerbande & 48 & 67 & 115 & 0,165
-      \NN Gregs Tagebuch & 86 & 117 & 203 & 0,153
-      \NN Harry Potter & 95 & 125 & 220 & 0,136
-      \NN Die drei ??? & 93 & 122 & 215 & 0,135
+      \NN Gregs Tagebuch & 86 & 117 & 203 & 0,153% 28  $ 0,03 *
+      \NN Harry Potter & 95 & 125 & 220 & 0,136% 29  $ 0,05 .
+      \NN Die drei ??? & 93 & 122 & 215 & 0,135% 27  $ 0,05 .
       \NN Das magische Baumhaus & 84 & 105 & 189 & 0,111
       \NN Der kleine Ritter Trenk & 42 & 52 & 94 & 0,106
       \NN Tom Turbo & 92 & 113 & 205 & 0,102
@@ -25,19 +29,55 @@
       \NN Die Olchis & 47 & 48 & 95 & 0,011
       \NN Der Grüffelo & 58 & 54 & 112 & -0,036
       \NN Die Geggis & 36 & 31 & 67 & -0,075
-      \NN Peter Pan & 90 & 73 & 163 & -0,104
-      \NN Der Regenbogenfisch & 122 & 95 & 217 & -0,124
+      \NN Peter Pan & 90 & 73 & 163 & -0,104% 15  $ 0,03 *
+      \NN Der Regenbogenfisch & 122 & 95 & 217 & -0,124% 1   $ 0,00 **
       \NN Baumhausgeschichten & 29 & 22 & 51 & -0,137
-      \NN Geschichten von Franz & 83 & 60 & 143 & -0,161
-      \NN Pinocchio & 96 & 68 & 164 & -0,171
-      \NN Das kleine Wutmonster & 34 & 23 & 57 & -0,193
-      \NN Der kleine Eisbär & 91 & 56 & 147 & -0,238
-      \NN Pipi Langstrumpf & 141 & 75 & 216 & -0,306
-      \NN Die kleine Hexe & 109 & 52 & 161 & -0,354
-      \NN Hexe Lilli & 162 & 53 & 215 & -0,507
-      \NN Die wilden Hühner & 77 & 25 & 102 & -0,510
-      \NN Mini & 59 & 16 & 75 & -0,573
-      \NN Conni & 94 & 22 & 116 & -0,621
-      \NN Prinzessin Lillifee & 109 & 14 & 123& -0,772  \LL
+      \NN Geschichten von Franz & 83 & 60 & 143 & -0,161% 16  $ 0,01 *
+      \NN Pinocchio & 96 & 68 & 164 & -0,171% 14  $ 0,00 **
+      \NN Das kleine Wutmonster & 34 & 23 & 57 & -0,193% 7   $ 0,07 .
+      \NN Der kleine Eisbär & 91 & 56 & 147 & -0,238% 10  $ 0,00 **
+      \NN Pipi Langstrumpf & 141 & 75 & 216 & -0,306% 32  $ 0,00 **
+      \NN Die kleine Hexe & 109 & 52 & 161 & -0,354% 11  $ 0,00 **
+      \NN Hexe Lilli & 162 & 53 & 215 & -0,507% 35  $ 0,00 **
+      \NN Die wilden Hühner & 77 & 25 & 102 & -0,510% 24  $ 0,00 **
+      \NN Mini & 59 & 16 & 75 & -0,573% 36  $ 0,00 **
+      \NN Conni & 94 & 22 & 116 & -0,621% 37  $ 0,00 **
+      \NN Prinzessin Lillifee & 109 & 14 & 123& -0,772% 17  $ 0,00 **  
+      \LL \multicolumn{5}{l}{\footnotesize $^*p<0{,}05, ^{**}p<0{,}01$ $\chi^2$-Test (Mädchen/Buben) $N=498$}
       }
       
+
+
+
+% 1   $ 0,00 **
+% 3   $ 0,85
+% 4   $ 0,33
+% 5   $ 0,39
+% 7   $ 0,07 .
+% 10  $ 0,00 **
+% 11  $ 0,00 **
+% 13  $ 0,45
+% 14  $ 0,00 **
+% 15  $ 0,03 *
+% 16  $ 0,01 *
+% 17  $ 0,00 **
+% 18  $ 0,00 **
+% 19  $ 0,22
+% 20  $ 0,97
+% 21  $ 0,19
+% 22  $ 0,10
+% 23  $ 0,11
+% 24  $ 0,00 **
+% 25  $ 0,78
+% 26  $ 0,69
+% 27  $ 0,05 .
+% 28  $ 0,03 *
+% 29  $ 0,05 .
+% 32  $ 0,00 **
+% 33  $ 0,78
+% 34  $ 0,19
+% 35  $ 0,00 **
+% 36  $ 0,00 **
+% 37  $ 0,00 **
+
+% N=498

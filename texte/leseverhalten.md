@@ -1,6 +1,5 @@
 #Unterschiedliche Lesepräferenzen von Mädchen und Buben
 
-<<<<<<< HEAD
 Wie wir bereits im Literaturteil erarbeitet haben, beeinflussen Bücher neben vielen anderen Sozialisationsfaktoren auch die Entwicklung von Gender. Was Mädchen oder Buben lesen, wirkt in gewisser Weise auf sie ein, gleich wie etwa bestimmte Erwartungen der Eltern, der Schule oder von Freunden. Und wenn Buben und Mädchen tatsächlich Unterschiedliches lesen, mit anderem Spielzeug spielen oder andere Filme ansehen, dann kann das unter Umständen auch dazu beitragen, dass traditionelle Rollenbilder stabilisiert werden.
 Wir nehmen an, dass es  Unterschiede im Leseverhalten gibt, die neben vielen anderen Faktoren auf die Geschlechterrollenbildung von Kindern Einfluss nehmen, gleich wie  sich bereits vorhandene *Rollenspezifika* umgekehrt auf die Lesepräferenzen auswirken können. Natürlich bleiben Bücher, die von beiden Geschlechtern in gleichem Ausmaß gelesen werden, nicht von unserer Fragestellung ausgeschlossen: Können solche *neutralen* Kinderbücher eher dazu beitragen typische Geschlechterverhältnisse abzubauen oder bieten sie einfach mehr unterschiedliche Identifikationsmöglichkeiten für den Leser oder die Leserin? Wir nehmen also an, dass bestimmte Bücher eher Mädchen oder Buben ansprechen, während andere, vom geschlechtsspezifischen Leseverhalten her, nicht zuordenbar sind. Wenn sich diese Annahmen bestätigen, wollen wir in den weiteren Schritten herausfinden, auf welche Faktoren diese Differenzen zurückgeführt werden können.
 
@@ -8,9 +7,8 @@ Wenn es Bücher gibt, die eindeutig von Mädchen oder eben von Buben bevorzugt g
 
 Wir wollen jedoch nicht analysieren wie ein Kind genau zu diesem oder jenem Buch kommt und welche Faktoren die Auswahl beeinflussen und haben auch keine Möglichkeiten Prozesse zu untersuchen, ob und wie Bücher, deren Handlungsstränge oder das Verhalten der Hauptfiguren Auswirkungen auf geschlechtsspezifisches oder rollenunkonformes Handeln der Kinder haben. Ohne den Anspruch zu erheben, mit unseren Mitteln den Zusammenhang vom Lesen bestimmter Bücher und dem *Doing Gender* der Kinder feststellen zu können, soll das Bestehen eines solchen, als Vermutung, nicht verworfen werden. 
     Das Wesentliche besteht nun darin, sich selbst ein Bild über die Literatur zu machen, die Kinder konsumieren und unsere Hypothesen über die Präferenzen eines Geschlechts zu überprüfen. 
-=======
+
 In diesem Kapitel wollen wir herausfinden, welche Bücher im Allgemeinen gerne und häufig gelesen werden, um in einem weiteren Schritt zu überprüfen ob es Bücher gibt, die von einem Geschlecht tendentiell bevorzugt werden. Ebenso sollen Vorlieben von Mädchen und Buben bezüglich der Thematiken in der Kinderliteratur erhoben werden. Anhand der Ergebnisse soll dann eine Auswahl der Bücher getroffen werden, die, im Hinblick auf unsere Fragestellungen, interessant sind und weiter bearbeitet werden sollen.
->>>>>>> origin/designneu
 
 ## Erhebung der Lesepräferenzen anhand einer Fragebogenanalyse
 

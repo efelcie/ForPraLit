@@ -4,7 +4,9 @@
 %	fotnsize=14pt,	% Ideale Schriftgröße für 3. Klasse VS
 %	paper=a5,
 %	twoside,
+	DIV=9,
 	pagesize,
+	% headings=small,
 %	notitlepage	
 %      ]{scrartcl}		% Koma-Script Artikel
      ]{scrreprt}		% Koma-Script Report (nötig für paperandpencil)
@@ -104,6 +106,25 @@
 
 \SetCiteCommand{\parencite}		% Notwendig für (Zitieren)
 \renewcommand{\mkccitation}[1]{ #1}	%
+
+\usepackage[thref,hyperref]{ntheorem}
+
+
+
+
+\newtheorem{frage}{Forschungsfrage}
+
+
+% \theoremindent4em
+\newtheorem{hyp}{Hypothese}
+% \theoremindent4em
+% \theoremnumbering{alph}
+\newtheorem{subhyp}{Hypothese}[hyp]
+% \renewcommand{\thesubhyp}{\thehyp\alph{subhyp}}
+
+
+
+
 \begin{document}
 
 \maketitle
@@ -124,39 +145,24 @@
 \input{einleitung.tex}
 \input{texte/literatur.tex}
 \input{pandoc.tex}
-\input{texte/anhang.tex}
 
 
 % \nocite{Knister1994}
 \pagebreak
 \singlespacing
 
-\printbibliography%[heading=subbibliography]
+% \printbibliography%[heading=subbibliography]
 
 
 
 
-% \printbibliography[nottype=movie,
-% 		notkeyword=kb,
-%   	 %	nottype=video,
-% 	 %	nottype=online,
-% 		heading=subbibliography,
-% 		title={Literatur}]
+\printbibliography[notkeyword={kb},heading=bibliography, title={Literaturverzeichnis}]
 
-% \printbibliography[type=movie,
-% 		notkeyword=kb,
-% 	 %	type=video,
-% 	 %	type=online,
-% 		heading=subbibliography,
-% 		title={Filmographie}]
+
   
-%  \printbibliography[nottype=movie,
-%  		keyword=kb,
-% 	 %	type=video,
-% 	 %	type=online,
-% 		heading=subbibliography,
-% 		title={Analysierte Kinderbücher}]
+ \printbibliography[keyword={kb}, heading=subbibliography, title={Analysierte Kinderbücher}]
 
+\input{texte/anhang.tex}
 %\end{refsection}
 
 %\chapter{Anderes Projetkt}
