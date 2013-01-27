@@ -63,9 +63,9 @@ Welche Unterschiede in Kinderbüchern hängen mit dem Geschlechterverhältnis zu
 
 Es gibt einige *Kategorien*, in die man die Merkmale einordnen kann.
 Einige der Merkmale beziehen sich nur auf den Text des Buchs.
-Hier gibt es wiederum Merkmale die sich auf die Handlung, also im Prinzip auf das Verhalten der Hauptfigur beziehen. Andere beziehn sich auf das Setting in dem die Geschichte spielt.
+Hier gibt es wiederum Merkmale die sich auf die Handlung, also im Prinzip auf das Verhalten der Hauptfigur beziehen. Andere beziehen sich auf das Setting in dem die Geschichte spielt.
 Dazu gehören \zB Merkmale die oft unter dem Begriff *Genre* zusammengefasst werden.
-Wenn es einen Zusammenhang der Merkmale eine Buchs und dem Geschlechterverhältnis gibt, stellt sich die Frage, wie dieses Geschlehcter Verhältnis zustande kommt.
+Wenn es einen Zusammenhang der Merkmale eine Buchs und dem Geschlechterverhältnis gibt, stellt sich die Frage, wie dieses Geschlechter Verhältnis zustande kommt.
 Dabei gibt es unzählige Wege, wie ein Kind dazu kommt, ein bestimmtes Buch zu lesen.
 Jedoch welche *Macht* sorgt dafür, dass Mädchen und Buben unterschiedliche Bücher lesen?
 Die Beeinflussenden Faktoren für die Entscheidung ein Buch zu lesen können viele sein.
@@ -73,7 +73,7 @@ Es gibt Faktoren die keine direkten Merkmale eine Buchs sind, wie \zB die Beeinf
 Aber es gibt auch Faktoren die direkte Merkmale eines Buchs sind.
 Bei diesen Merkmalen, denken wir an die Situation, wie jemand alleine vor einem großen Bücherregal in einem Bücherei oder einer Bibliothek steht und sich ein Buch aussucht.
 Welche Merkmale beeinflussen diese Entscheidung?
-Wir gehen davon aus, dass hier in den meisten Fällen keine großen Inhaltsanlysen gemacht werden und hauptsächlich Merkmale die von aussen erkennbar sind, für die Entscheidung wesentlich sind.
+Wir gehen davon aus, dass hier in den meisten Fällen keine großen Inhaltsanalysen gemacht werden und hauptsächlich Merkmale die von außen erkennbar sind, für die Entscheidung wesentlich sind.
 Aus dieser Vermutung ergibt sich unsere letzte Frage.
 
 \begin{frage}\label{fra:merkmale}
@@ -91,7 +91,7 @@ Daraus ergibt sich folgende Hypothese.
     Mädchen lesen andere Bücher als Buben.
 \end{hyp}
 
-Die Literatur zeigt, dass Mädchen eher *erlaubt* ist, sich in männliche Gefilde vor zuwagen als Buben in weibliche.
+Die Literatur zeigt, dass Mädchen eher *erlaubt* ist, sich in männliche Gefilde vor zu wagen als Buben in weibliche.
 Darauf baut sich unsere nächste Annahme, die wir überprüfen wollen auf.
 Wenn das auch bei Kinderbücher zu trifft, müssten die Anzahl der Leser stärker mit dem Verhältnis von Leserinnen zu Lesern zusammen hängen als die Anzahl der Leserinnen.
 
@@ -99,7 +99,7 @@ Wenn das auch bei Kinderbücher zu trifft, müssten die Anzahl der Leser stärke
     Die Anzahl der Leser hat einen größeren Einfluss auf das Geschlechterverhältnis der Lesenden als die Anzahl der Leserinnen.
 \end{subhyp}
 
-###Unterschiede in der Handlung
+###Unterschiede bei der Hauptfigur
 
 \thref{hyp:andere} und \thref{hyp:anzahl} haben die Bücher unterschieden, jedoch haben sich nicht mit der Frage auseinander gesetzt, ob und wie sich die Geschichten von einander unterscheiden.
 Die Geschichten erzählen die Handlungen einer Hauptfigur auf eine spezielle Art und Weise.
@@ -114,7 +114,7 @@ Daraus ergibt sich folgende Hypothese.
 \end{hyp}
 
 Ob es einen Zusammenhang gibt oder nicht, heißt nicht automatisch, dass die Anzahl der Leserinnen und Leser gleich stark damit zusammen hängen.
-Deswegen wollen wir in den folgenden Hypothesen den Zusammen han für Leser und Leserinnen einzeln prüfen.
+Deswegen wollen wir in den folgenden Hypothesen den Zusammenhang für Leser und Leserinnen einzeln prüfen.
 Unsere Annahmen sind, dass das Geschlecht der Lesenden und der Hauptfiguren mit einander zusammenhängt.
 
 \begin{subhyp}
@@ -141,18 +141,30 @@ Insgesamt gehen wir wieder, aus den selben Gründen wie bei \thref{hyp:anzahl} d
    Das Geschlecht der Hauptfiguren hängt mit Anzahl der Leser stärker zusammen als mit der Anzahl der Leserinnen.
 \end{subhyp}
 
-
-
-Wir vermuten, dass sich von Mädchen favorisierte Bücher anhand der Darstellung des sozialen Geschlechts von jenen der Buben unterscheiden lassen.
+Bis jetzt haben wir uns am Geschlecht der Hauptfigur orientiert.
+Jedoch das Geschlecht der Hauptfigur sagt noch nichts über die Handlung aus.
+Die Handlung ist das Verhalten der Hauptfigur.
+Wir interessieren uns besonders von das vom Geschlecht der Lesenden abhängige Verhalten der Hauptfiguren.
+Ist dieses Verhalten abhängig von den Lesenden stereotyp?
+Daraus ergibt sich folgende Hypothese.
 
 \begin{hyp}
    Es gibt einen Zusammenhang zwischen dem Geschlechterverhältnis der Lesenden
     mit  dem Verhältnis zwischen femininen und maskulinen Verhalten der Hauptfiguren.
 \end{hyp}
 
+Gibt es einen Zusammenhang, wäre es durchaus denkbar, dass Hauptfiguren in Büchern die hauptsächlich Mädchen lesen, mit den stereotypen Geschlechterbildern brechen.
+Jedoch es könnte natürlich auch umgekehrt sein, dass sie sich entsprechend der Stereotypen verhalten.
+Um das zu überprüfen stellen wir die nächste Hypothese auf.
+
 \begin{subhyp}
     Je größer der Anteil an Leserinnen, umso femininer verhalten sich die Hauptfiguren.
 \end{subhyp}
+
+Daraus resultiert, dass mit dem Anteil der Leser die Maskulinität der Hautpfiguren steigt.
+In den meisten Studien die sich mit dem Gender von Hauptfiguren beschäftigen, wird das Gender, nicht wie bei uns indirekt, über das Geschlechterverhältnis bestimmt, sonder direkt über das Geschlecht der Hauptfigur.
+Wenn es einen Zusammenhang zwischen dem Geschlecht der Hauptfigur und dem Geschlecht der Lesenden gibt, könnte es sein, dass der Zusammenhang zwischen dem Gender und dem Geschlechterverhältnis verfälscht wird.
+Die nächste Hypothese dient, um diesen möglichen Einfluss zu kontrollieren.
 
 \begin{subhyp}
     Der Zusammenhang zwischen Geschlechterverhältnis der Lesenden und dem
@@ -161,25 +173,34 @@ Wir vermuten, dass sich von Mädchen favorisierte Bücher anhand der Darstellung
 
 ###Verschiedene Arten von Geschichten
 
-Wir vermuten, dass von Mädchen favorisierte Bücher sich anhand inhaltlicher Merkmale von jenen der Buben unterscheiden lassen
-
+Kinderbücher lassen sich in verschiedene Arten von Büchern einteilen.
+Man kann dabei Thematisch oder nach speziellen Kriterien vor gehen.
+Wir haben uns in einem ersten Schritt auf die Themen konzentriert und in einem zweiten nach Kriterien gesucht, bei denen wir einen Zusammenhang mit dem Geschlecht der Lesenden vermuten.
+Die erste Hypothese fragt nach der Unterschiedlichkeit der Themen.
 
 \begin{hyp}
+    Mädchen und Buben interessieren sich für unterschiedliche Themen.
+\end{hyp}
+
+
+
+
+\begin{subhyp}
    Abenteuergeschichten werden eher von Buben als von Mädchen gelesen.
-\end{hyp}
+\end{subhyp}
 
 
 
-\begin{hyp}
+\begin{subhyp}
    Geschichten in denen ein \emph{innerer Monolog} vorkommt, werden eher von Mädchen gelesen als von Buben.
-\end{hyp}
+\end{subhyp}
 
 
 
-\begin{hyp}
+\begin{subhyp}
    Geschichten in denen \emph{das Erwachsenwerden} Thema ist,
-   wedern eher von Mädchen als von Buben gelesen.
-\end{hyp}
+   werden eher von Mädchen als von Buben gelesen.
+\end{subhyp}
 
 
 
