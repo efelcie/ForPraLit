@@ -29,19 +29,19 @@ Geschlechterverhältnis
 :   Unter Geschlechterverhältnis verstehen wir das Verhältnis von 
     weiblichen zu männlichen Personen.
     In unserem Fall hauptsächlich das Verhältnis von Leserinnen zu Lesern.
-    Ist der Anteil der weiblichen Personen höher, handelt es sich um ein weibliches Geschlechterverhältnis. Ist der Anteil der Buben oder Männer größer, dann ist das Geschlechterverhältnis männlich. Wenn es weder weiblich noch männlich ist, ist es neutral.
+    Ist der Anteil der weiblichen Personen höher, die ein Buch+handelt es sich um ein weibliches Geschlechterverhältnis. Ist der Anteil der Buben oder Männer größer, dann ist das Geschlechterverhältnis männlich. Wenn es weder weiblich noch männlich ist, ist es neutral.
 
 
 Leserinnen und Leser
 
 :   Wenn wir von Leserinnen und Lesern sprechen, meinen wir in dieser Arbeit
     nur die untersuchte Grundgesamtheit, das heißt Leserinnen und Leser in Österreich, die die 3. oder 4. Schulstufe besuchen.
-    Leserinnen *oder* Leser *ohne* die jeweils andere Form verwendet, handelt es sich nur um Mädchen oder Buben.
+   Wenn Leserinnen *oder* Leser *ohne* die jeweils andere Form verwendet werden, handelt es sich nur um Mädchen oder Buben.
 
 
 ##Fragestellungen
 
-Aus der Forschung geht klar hervor, dass Mädchen und Buben unterschiedliche Lesepräferenzen haben. Jedoch sind uns keine Studien bekannt die für einzelne Bücher festgestellt haben, wie das Verhältnis von Leserinnen zu Leser ist.
+Aus der Forschung geht klar hervor, dass Mädchen und Buben unterschiedliche Lesepräferenzen haben. Jedoch sind uns keine Studien bekannt, die das Verhältnis von Leserinnen zu Lesern bei einzelnen Büchern untersucht haben.
 Da wir Merkmale von Kinderbüchern mit dem Geschlecht der Lesenden in Verbindung bringen wollen, ist diese Information jedoch unabdingbar.
 Daraus ergibt sich die erste Frage, die wir in unserer Forschung beantworten wollen.
 
@@ -65,7 +65,7 @@ Es gibt einige *Kategorien*, in die man die Merkmale einordnen kann.
 Einige der Merkmale beziehen sich nur auf den Text des Buchs.
 Hier gibt es wiederum Merkmale die sich auf die Handlung, also im Prinzip auf das Verhalten der Hauptfigur beziehen. Andere beziehen sich auf das Setting in dem die Geschichte spielt.
 Dazu gehören \zB Merkmale die oft unter dem Begriff *Genre* zusammengefasst werden.
-Wenn es einen Zusammenhang der Merkmale eine Buchs und dem Geschlechterverhältnis gibt, stellt sich die Frage, wie dieses Geschlechter Verhältnis zustande kommt.
+Wenn es einen Zusammenhang der Merkmale eine Buchs und dem Geschlechterverhältnis gibt, stellt sich die Frage, wie dieses Geschlechterverhältnis zustande kommt.
 Dabei gibt es unzählige Wege, wie ein Kind dazu kommt, ein bestimmtes Buch zu lesen.
 Jedoch welche *Macht* sorgt dafür, dass Mädchen und Buben unterschiedliche Bücher lesen?
 Die Beeinflussenden Faktoren für die Entscheidung ein Buch zu lesen können viele sein.
