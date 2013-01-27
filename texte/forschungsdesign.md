@@ -285,53 +285,78 @@ Zum Schluss werden die quantitativ erhobenen Daten mittels qualitativ analysiert
 Hallo Welt.
  -->
 
+
+
+
+##Methoden
+
+###Fragebogen
+
+Um \thref{hyp:andere} zu testen, müssen wir zuerst herausfinden, welche Bücher von welchem Geschlecht gelesen werden.
+Es gibt zwar Studien, die sich damit beschäftigen, welche Bücher Mädchen bzw. Buben gerne lesen, jedoch um einen Unterschied bei der Auswahl der Bücher nachzuweisen, müssen wir die Daten selbst erheben.
+Dazu verwenden wir einen Fragebogen mit dem wir Kinder der 3. und 4. Schulstufe (8--10 Jahre) fragen, welche Bücher sie bereits gelesen haben.
+Wir können anhand verschiedener Studien davon ausgehen , dass Kinder heutzutage immer weniger Lesen.
+Weiters ist das Lesegeschwindigkeit und die Schreibgeschwindigkeit bei vielen Kindern in diesem Alter sehr langsam.
+Da wir um statistisch signifikante Aussagen machen zu können pro Buch möglichst viele \emph{Treffer} benötigen, ist das Design des Fragebogens eine besondere Herausforderung.
+Auf Grund dieser Tatsachen entschieden wir uns den Kindern eine Liste von Büchern vorzulegen, bei denen sie nur noch Ankreuzen mussten.
+Die Liste der Bücher erstellten wir anhand von Bestsellerlisten, der Analyse der Vierleihdaten einer Schulbibliothek und dem Gespräch mit Volksschullehrerinnen, Bibliothekarinnen und Buchhändlerinnen.
+Ergebnis ist eine Liste von 39 Büchern (sieh Fragebogen auf Seite \pageref{frabo2}) von denen wir ausgehen, das die Trefferwahrscheinlichkeit akzeptabel ist.
+Zusätzlich dazu fragen wir die Lieblingsbücher der Kinder davor in einer offenen Frage ab.
+Sonst ist für die Hypothese auf dem Fragebogen nur noch das Geschlecht relevant.
+Alle anderen Hypothesen bauen auf die Daten, die wir mit der hier beschriebenen Methode gewinnen auf.
+Ausgenommen \thref{hyp:themen}, für die wir zusätzlich noch Lieblings-Themen, wie \emph{Prinzessinen} oder \emph{Ritter} abfragen. (Siehe Abbildung \ref{frabo4})
+Die Befragungen werden wärend dem Unterricht in Volksschulen in Graz durchgeführt.
+Bei der Auswahl der Volksschulen achteten wir darauf möglichst viele verschiedenen Milieus abzudecken.
+Es sollen insgesamt 500 Kinder befragt werden.
+
+
+### Unterschiede im Leseverhalten
+
+Mit einem $\chi^2$-Vierfeldertest stellen wir für jedes Buch, das insgesamt mehr als 50 Nennungen hat fest ob ein signifikanter Unterschied zwischen der Anzahl der Leserinnen und der Anzahl der Lesern besteht.
+Danach können wir \thref{hyp:andere} beantworten.
+Für \thref{hyp:themen} gehen wir gleich vor und testen ob das Geschlecht das Interesse für Themen beeinflusst.
+
+Um \thref{hyp:anzahl} zu überprüfen benötigen wir einen Wert der das Geschlechterverhältnis der Lesenden angibt.
+Wir bildeten dafür eine Skala die von $-1$ bis $1$ geht.
+$-1$ heißt, dass ein Buch nur von Mädchen gelesen wird.
+$1$ heißt, dass das Buch nur von Buben gelesen wird.
+Mit Hilfe dieser Skala wird ein Faktor, den wir *w/m-Faktor* oder kurz *w/m* nennen, wird wie folgt gebildet.
+
+\begin{equation}
+    w/m=\frac{Buben-Mädchen}{Mädchen+Buben}
+\end{equation}
+
+Es gilt zu überprüfen, wie viel die Anzahl der Leserinnen bzw. die Anzahl der Leser zu diesem Faktor beitragen.
+Dafür stellen wir ein multiples lineares Modell auf in dem die und vergleichen die $\beta$-Werte.
+Ist der $\beta$-Wert der Buben höher können wir die \thref{hyp:anzahl} bestätigen.
+
+###Hauptfigur
+
+Die nächsten Hypothesen beschäftigen sich mit  der *Hauptfigur*.
+Im ersten Schritt muss die Hauptfigur festgestellt werden, und dann können ihr Merkmale zugeordnet werden.
+Wie bereits im Literaturteil erwähnt gehen wir davon aus, dass jede Geschichte *eine* Protagonistin oder *einen* Protagonisten hat.
+Es kann sich dabei auch um einen Multiprotagonisten, wie \zB eine Bande handeln.
+Die Hauptfiguren werden dann mit Merkmalen versehen.
+Für \thref{hyp:h2} bis \thref{hyp:h2.2} brauchen wir nur das Merkmal Geschlecht.
+Das kann entweder eindeutig *weiblich* oder *männlich* sein oder es kann *unbestimmt* sein.
+Für \thref{hyp:h2} modellieren wir wieder eine lineare Multiple Regression, wobei das Geschlecht der Hauptfigur in *Dummy-Variablen* umkodiert werden muss.
+Für \thref{hyp:h2.1} bis \thref{hyp:h2.3} berechnen wir eine Korrelation aus der jeweiligen Dummy-Variable des Geschlechts der Hauptfigur und dem *w/m-Faktor* aus.
+Für \thref{hyp:h2.4} benötigen wir zwei Modelle die wir miteinander Vergleichen.
+Die Modelle erklären mit Hilfe dem Geschlecht der Hauptfigur (Dummy-Variablen) die Häufigkeit mit der Mädchen/Buben ein Buch lesen.
+Danach vergleichen wir die beiden Modelle mit einer ANOVA.
+
+Für \thref{hyp:h3} benötigen wir eine neues Merkmal, dass das Verhalten der Hauptfigur beschreibt.
+Und zwar ob das Verhalten *feminin* oder *maskulin* ist.
+
+
+
+
+
+
 <!-- 
 
-H1 
-
-Chi-Quadrat-Test für jedes Buch.
-Gibt es eine Unterschied zwischen Leserinnen und Lesern
 
 
-Messung welches Buch von welchem Geschlecht gelesen wird.
-Messung welches Thema von welchem Geschlecht gelesen wird.
-
-
-H1.1
-
-Lineare-Regression
-
-lm(wm~b+m)
-
-
-
-
-H2
-
-lm(wm~hfsexm+hfsexw)
-
-
-H2.1
-
-cor(hfsexw,maedchen)
-
-H2.2
-
-cor(hfsexm,buben)
-
-
-H2.3
-
-cor(hfsexu,wm)
-
-od.
-
-lm(wm~hfsexu)
-
-H2.4
-
-lm(buben~hfsexm+hfsexw)
-lm(maedchen~hfsem+hfsexw)
 
 H3
 
@@ -374,48 +399,4 @@ lm(buben~<äusseremerkmale>)
 
 
 -->
-
-
-##Methoden
-
-###Fragebogen
-
-Um \thref{hyp:andere} zu testen, müssen wir zuerst herausfinden, welche Bücher von welchem Geschlecht gelesen werden.
-Es gibt zwar Studien, die sich damit beschäftigen, welche Bücher Mädchen bzw. Buben gerne lesen, jedoch um einen Unterschied bei der Auswahl der Bücher nachzuweisen, müssen wir die Daten selbst erheben.
-Dazu verwenden wir einen Fragebogen mit dem wir Kinder der 3. und 4. Schulstufe (8--10 Jahre) fragen, welche Bücher sie bereits gelesen haben.
-Wir können anhand verschiedener Studien davon ausgehen , dass Kinder heutzutage immer weniger Lesen.
-Weiters ist das Lesegeschwindigkeit und die Schreibgeschwindigkeit bei vielen Kindern in diesem Alter sehr langsam.
-Da wir um statistisch signifikante Aussagen machen zu können pro Buch möglichst viele \emph{Treffer} benötigen, ist das Design des Fragebogens eine besondere Herausforderung.
-Auf Grund dieser Tatsachen entschieden wir uns den Kindern eine Liste von Büchern vorzulegen, bei denen sie nur noch Ankreuzen mussten.
-Die Liste der Bücher erstellten wir anhand von Bestsellerlisten, der Analyse der Vierleihdaten einer Schulbibliothek und dem Gespräch mit Volksschullehrerinnen, Bibliothekarinnen und Buchhändlerinnen.
-Ergebnis ist eine Liste von 39 Büchern (sieh Fragebogen auf Seite \pageref{frabo2}) von denen wir ausgehen, das die Trefferwahrscheinlichkeit akzeptabel ist.
-Zusätzlich dazu fragen wir die Lieblingsbücher der Kinder davor in einer offenen Frage ab.
-Sonst ist für die Hypothese auf dem Fragebogen nur noch das Geschlecht relevant.
-Alle anderen Hypothesen bauen auf die Daten, die wir mit der hier beschriebenen Methode gewinnen auf.
-Ausgenommen \thref{hyp:themen}, für die wir zusätzlich noch Lieblings-Themen, wie \emph{Prinzessinen} oder \emph{Ritter} abfragen. (Siehe Abbildung \ref{frabo4})
-Die Befragungen werden wärend dem Unterricht in Volksschulen in Graz durchgeführt.
-Bei der Auswahl der Volksschulen achteten wir darauf möglichst viele verschiedenen Milieus abzudecken.
-Es sollen insgesammt 500 Kinder befragt werden.
-
-
-### Unterschiede im Leseverhalten
-
-Mit einem $\chi^2$-Vierfeldertest stellen wir für jedes Buch, das insgesamt mehr als 50 Nennungen hat fest ob ein signifikanter Unterschied zwischen der Anzahl der Leserinnen und der Anzahl der Lesern besteht.
-Danach können wir \thref{hyp:andere} beantworten.
-Für \thref{hyp:themen} gehen wir gleich vor und testen ob das Geschlecht das Interesse für Themen beeinflusst.
-
-Um \thref{hyp:anzahl} zu überprüfen benötigen wir einen Wert der das Geschlechterverhältnis der Lesenden angibt.
-Wir bildeten dafür eine Skala die von $-1$ bis $1$ geht.
-$-1$ heißt, dass ein Buch nur von Mädchen gelesen wird.
-$1$ heißt, dass das Buch nur von Buben gelesen wird.
-Mit Hilfe dieser Skala wird ein Faktor, den wir *w/m-Faktor* oder kurz *w/m* nennen, wird wie folgt gebildet.
-
-\begin{equation}
-    w/m=\frac{Buben-Mädchen}{Mädchen+Buben}
-\end{equation}
-
-Es gilt zu überprüfen, wie viel die Anzahl der Leserinnen bzw. die Anzahl der Leser zu diesem Faktor beitragen.
-Dafür stellen wir ein multiples lineares Modell auf in dem die und vergleichen die $\beta$-Werte.
-Ist der $\beta$-Wert der Buben höher können wir die \thref{hyp:anzahl} bestätigen.
-
 
