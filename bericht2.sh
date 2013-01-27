@@ -69,10 +69,10 @@ b=bericht
 
   pdflatex $b.tex
 
-  echo " "
-  echo "LaTeX-Dateien löschen..."
-  echo " "
+  # echo " "
+  # echo "LaTeX-Dateien löschen..."
+  # echo " "
 
-  rm $b.run.xml $b.out $b.toc  \
-  $b.log $b.blg $b.bbl $b.bcf $b.aux;
+  # rm $b.run.xml $b.out $b.toc  \
+  # $b.log $b.blg $b.bbl $b.bcf $b.aux;
 

@@ -2,13 +2,42 @@
 \appendix
 \chapter{Anhang}
 
+% \section{Fragebogen}
+
+\begin{figure}
+    \label{frabo1}
+    \caption{Fragebogen Seite 1}
+    \centering
+    \fbox{\includegraphics[page={1}]{grafiken/fragebogen.pdf}}
+\end{figure}
+
+\begin{figure}
+    \label{frabo2}
+    \caption{Fragebogen Seite 2}
+    \centering
+    \fbox{\includegraphics[page={2}]{grafiken/fragebogen.pdf}}
+\end{figure}
+
+\begin{figure}
+    \label{frabo3}
+    \caption{Fragebogen Seite 3}
+    \centering
+    \fbox{\includegraphics[page={3}]{grafiken/fragebogen.pdf}}
+\end{figure}
+
+\begin{figure}
+    \label{frabo4}
+    \caption{Fragebogen Seite 4}
+    \centering
+    \fbox{\includegraphics[page={4}]{grafiken/fragebogen.pdf}}
+\end{figure}
 
 
 <<include=FALSE, echo=FALSE>>=
 
 library(foreign)
 
-merkmale <- read.spss("/home/peter/git/ForPraLit/daten/merkmalebuecher.por", use.value.labels=TRUE, 
+merkmale <- read.spss("/home/peter/git/ForPraLit/daten/merkmale6.por", use.value.labels=TRUE, 
   max.value.labels=Inf, to.data.frame=TRUE)
 colnames(merkmale) <- tolower(colnames(merkmale))
 
@@ -20,11 +49,14 @@ colnames(merkmale) <- tolower(colnames(merkmale))
 
 library(xtable)
 
-alles <- xtable(merkmale[,c(1,2,3,4,5,6,8,9,10,11,12,13)],label='merkmale',caption='Datentabelle')
+alles <- xtable(merkmale[,c(1,2,3,4,5,6,8,9,10,11,12)],label='merkmale',caption='Datentabelle')
 print(alles,scalebox=0.6,floating.environment='sidewaystable')
 
-alles2 <- xtable(merkmale[,c(14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34)],label='merkmale',caption='Datentabelle (Fortsetzung)')
+alles2 <- xtable(merkmale[,c(13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30)],label='merkmale',caption='Datentabelle (Fortsetzung)')
 print(alles2,scalebox=0.6,floating.environment='sidewaystable')
+
+alles3 <- xtable(merkmale[,c(31,32,33,34,35,36,37,38,39,40,41,42,43,44,45)],label='merkmale',caption='Datentabelle (Fortsetzung)')
+print(alles3,scalebox=0.6,floating.environment='sidewaystable')
 
 @
 
@@ -34,10 +66,10 @@ print(alles2,scalebox=0.6,floating.environment='sidewaystable')
 
 <<echo=FALSE,results=tex>>=
 
-kormatrix <- xtable(cor(merkmale[,c("v05","v06","v08","v09","v10","v11","v12","v19","v21")], use="complete.obs"), caption='Korrelationsmatrix (Daten, gesamt)')
-print(kormatrix,table.placement="h!")
+# kormatrix <- xtable(cor(merkmale[,c("v05","v06","v08","v09","v10","v11","v12","v19","v21")], use="complete.obs"), caption='Korrelationsmatrix (Daten, gesamt)')
+# print(kormatrix,table.placement="h!")
 
-attach(merkmale)
+# attach(merkmale)
 
 
 
@@ -54,17 +86,17 @@ attach(merkmale)
 
 <<echo=FALSE>>=
 
-LinearModel.WM <- lm(v12~v07+v08+v10)
+# LinearModel.WM <- lm(v12~v07+v08+v10)
 
-summary(LinearModel.WM)
+# summary(LinearModel.WM)
 
-LinearModel.WM.GTF <- lm(v12~v07)
-LinearModel.WM.Hell <- lm(v12~v07+v08+v10)
-LinearModel.WM.Seiten <- lm(v12~v07+v08+v10)
+# LinearModel.WM.GTF <- lm(v12~v07)
+# LinearModel.WM.Hell <- lm(v12~v07+v08+v10)
+# LinearModel.WM.Seiten <- lm(v12~v07+v08+v10)
 
-summary(LinearModel.WM.GTF)
-summary(LinearModel.WM.Hell)
-summary(LinearModel.WM.Seiten)
+# summary(LinearModel.WM.GTF)
+# summary(LinearModel.WM.Hell)
+# summary(LinearModel.WM.Seiten)
 
 @
 
@@ -75,19 +107,19 @@ summary(LinearModel.WM.Seiten)
 
 <<echo=FALSE>>=
 
-LinearModel.Maedchen <- lm(v05 ~ v11 +v04+v07, data=merkmale)
-summary(LinearModel.Maedchen)
+# LinearModel.Maedchen <- lm(v05 ~ v11 +v04+v07, data=merkmale)
+# summary(LinearModel.Maedchen)
 
 
 
-LinearModel.Maedchen.Figuren <- lm(v05 ~ v11, data=merkmale)
-summary(LinearModel.Maedchen.Figuren)
-cor.test(v05, v11, alternative="two.sided", method="pearson")
+# LinearModel.Maedchen.Figuren <- lm(v05 ~ v11, data=merkmale)
+# summary(LinearModel.Maedchen.Figuren)
+# cor.test(v05, v11, alternative="two.sided", method="pearson")
 
-LinearModel.Maedchen.GA <- lm(v05 ~ v04, data=merkmale)
-summary(LinearModel.Maedchen.GA)
-LinearModel.Maedchen.GTF <- lm(v05 ~ v07, data=merkmale)
-summary(LinearModel.Maedchen.GTF)
+# LinearModel.Maedchen.GA <- lm(v05 ~ v04, data=merkmale)
+# summary(LinearModel.Maedchen.GA)
+# LinearModel.Maedchen.GTF <- lm(v05 ~ v07, data=merkmale)
+# summary(LinearModel.Maedchen.GTF)
 
 @
 
@@ -98,19 +130,19 @@ summary(LinearModel.Maedchen.GTF)
 
 <<echo=FALSE>>=
 
-LinearModel.Buben <- lm(v06 ~ v07 + v08 + v10 , data=merkmale)
-summary(LinearModel.Buben)
+# LinearModel.Buben <- lm(v06 ~ v07 + v08 + v10 , data=merkmale)
+# summary(LinearModel.Buben)
 
-# v06: Anzahl Buben
+# # v06: Anzahl Buben
 
-LinearModel.Buben.GTF <- lm(v06 ~ v07 , data=merkmale)
-summary(LinearModel.Buben.GTF)
+# LinearModel.Buben.GTF <- lm(v06 ~ v07 , data=merkmale)
+# summary(LinearModel.Buben.GTF)
 
-LinearModel.Buben.Hell <- lm(v06 ~ v08 , data=merkmale)
-summary(LinearModel.Buben.Hell)
+# LinearModel.Buben.Hell <- lm(v06 ~ v08 , data=merkmale)
+# summary(LinearModel.Buben.Hell)
 
-LinearModel.Buben.Seiten <- lm(v06 ~ v10 , data=merkmale)
-summary(LinearModel.Buben.Seiten)
+# LinearModel.Buben.Seiten <- lm(v06 ~ v10 , data=merkmale)
+# summary(LinearModel.Buben.Seiten)
 
 @\section{Zusammenfassungen der Linearen Modelle (Buben)}
 
@@ -120,7 +152,7 @@ summary(LinearModel.Buben.Seiten)
 
 <<echo=FALSE>>=
 
-LinearModel.Figuren.IM <- lm(v11 ~ v16, data=merkmale)
-summary(LinearModel.Figuren.IM)
+# LinearModel.Figuren.IM <- lm(v11 ~ v16, data=merkmale)
+# summary(LinearModel.Figuren.IM)
 
 @
