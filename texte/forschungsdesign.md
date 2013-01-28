@@ -21,7 +21,7 @@ Geschlechterstereotype
     über das, was eine typische Frau bzw. ein typischer Mann ist.
     Wenn wie von Geschlechtersterotypen reden, verwenden wir die folgenden Begriffe: *feminin*, *maskulin*. (Tabelle \ref{stereo})
 
-\input{tabellen/stereotype.tex}
+
 
 
 Geschlechterverhältnis
@@ -347,7 +347,49 @@ Danach vergleichen wir die beiden Modelle mit einer ANOVA.
 
 Für \thref{hyp:h3} benötigen wir eine neues Merkmal, dass das Verhalten der Hauptfigur beschreibt.
 Und zwar ob das Verhalten *feminin* oder *maskulin* ist.
+Um das Verhalten der Hauptfigur zu messen, bilden wir mit der Hilfe einer Tabelle von eschlechterstereotypen Gegensatzpaaren ein semantisches Differenzial. \parencites[174\psq]{feldmann2006}[93\psqq]{Spillner1974}
+Für jede Hauptfigur probieren wir jedes Gegensatzpaar zuzuordnen.
+Dabei bezieht sich die Zuordnung immer auf das Verhalten/Handeln der Hauptfigur.
 
+\input{tabellen/stereotype.tex}
+
+
+Aus den Werten wird dann, analog zum *w/m-Faktor* ein, so genannter *Gender-Faktor* gebildet. haben wir angelehnt an den *w/m-Faktor* einen Faktor gebildet, der das Verhalten auf einer Skala von $-1$ (feminin) bis $1$ (maskulin) darstellt.
+Die *Gender-Faktor* wird wie folgt berechten.
+Wobei $m_i$ den einzelnen Werten ($1=$ feminin, $2=$ maskulin) der 13 Gegensatzpaaren entspricht. 
+
+
+\begin{equation}
+    gender=\Bigg(\frac{1}{13}\sum_{i=1}^{13}m_i-1{,}5\Bigg)2
+\end{equation}
+
+Danach wird die Korrelation zwischen dem *w/m-Faktor* und dem *Gender-Faktor* berechnet.
+Bei \thref{h3.1} wird eine Korrelation zwischen der Häufigkeit der Leserinnen und dem *Gender-Faktor* gerechnet.
+Um gemäß \thref{h3.2} wird der Zusammenhang mit Hilfe der Dummy-Variablen des Geschlechts der Hauptfigur mit eienr Partialkorrelation kontrolliert.
+
+###Arten von Geschichten
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+###Erklärung des w/m-Faktors
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 
@@ -357,22 +399,6 @@ Und zwar ob das Verhalten *feminin* oder *maskulin* ist.
 
 
 
-
-H3
-
-cor(wm,gender)
-
-od.
-
-lm(wm~gender)
-
-H3.1
-
-cor(maedchen,gender)
-
-H3.2
-
-lm(gender~wm+hfsexm+hfsexw)
 
 H4
 
