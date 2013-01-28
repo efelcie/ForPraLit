@@ -331,6 +331,7 @@ Die Liste der Bücher erstellten wir anhand von Bestsellerlisten, der Analyse de
 Ergebnis ist eine Liste von 39 Büchern (sieh Fragebogen auf Seite \pageref{frabo2}) von denen wir ausgehen, das die Trefferwahrscheinlichkeit akzeptabel ist.
 Zusätzlich dazu fragen wir die Lieblingsbücher der Kinder davor in einer offenen Frage ab.
 Sonst ist für die Hypothese auf dem Fragebogen nur noch das Geschlecht relevant.
+
 Alle anderen Hypothesen bauen auf die Daten, die wir mit der hier beschriebenen Methode gewinnen auf.
 Ausgenommen \thref{hyp:themen}, für die wir zusätzlich noch Lieblings-Themen, wie \emph{Prinzessinen} oder \emph{Ritter} abfragen. (Siehe Abbildung \ref{frabo4})
 Die Befragungen werden wärend dem Unterricht in Volksschulen in Graz durchgeführt.
