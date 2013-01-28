@@ -125,7 +125,7 @@ Viele Studien gehen davon aus, dass sich Leserinnen eher mit weiblichen Hauptfig
 Wir wollen überprüfen, ob sich das auch so im Leseverhalten der Kinder wiederspiegelt.
 Daraus ergibt sich folgende Hypothese.
 
-\begin{hyp}
+\begin{hyp}\label{h2}
     Es gibt einen Zusammenhang zwischen dem Geschlecht der Hauptfigur
     und dem Geschlecht der Lesenden.
 \end{hyp}
@@ -134,12 +134,12 @@ Ob es einen Zusammenhang gibt oder nicht, heißt nicht automatisch, dass die Anz
 Deswegen wollen wir in den folgenden Hypothesen den Zusammenhang für Leser und Leserinnen einzeln prüfen.
 Unsere Annahmen sind, dass das Geschlecht der Lesenden und der Hauptfiguren mit einander zusammenhängt.
 
-\begin{subhyp}
+\begin{subhyp}\label{h2.1}
        Je größer der Anteil an weiblichen Hauptfiguren,
         desto größer ist der Anteil an Leserinnen.
 \end{subhyp}
 
-\begin{subhyp}
+\begin{subhyp}\label{h2.2}
        Je größer der Anteil an männlichen Hauptfiguren,
         desto größer ist der Anteil an Lesern.
 \end{subhyp}
@@ -148,13 +148,13 @@ Bei einem Teil unserer Bücher ist das Geschlecht der Hauptfigur nicht eindeutig
 Sei es weil es sich um eine Figur handelt die nicht eindeutig männlich oder weiblich ist oder weil es einen Multiprotagonisten gibt.
 Wir gehen davon aus, dass es bei solchen Bücher *nicht* öfter von Mädchen oder Buben gelesen werden.
 
-\begin{subhyp}
+\begin{subhyp}\label{h2.3}
     Der Anteil der Hauptfiguren, die sich nicht eindeutig zuzuordnen lassen,   hat keinen Zusammenhang mit dem Geschlechterverhältnis der Lesenden.
 \end{subhyp}
 
 Insgesamt gehen wir wieder, aus den selben Gründen wie bei \thref{hyp:anzahl} davon aus, dass der Einfluss von Lesern stärker als der von Leserinnen ist.
 
-\begin{subhyp}
+\begin{subhyp}\label{h2.4}
    Das Geschlecht der Hauptfiguren hängt mit Anzahl der Leser stärker zusammen als mit der Anzahl der Leserinnen.
 \end{subhyp}
 
@@ -165,7 +165,7 @@ Wir interessieren uns besonders von das vom Geschlecht der Lesenden abhängige V
 Ist dieses Verhalten abhängig von den Lesenden stereotyp?
 Daraus ergibt sich folgende Hypothese.
 
-\begin{hyp}
+\begin{hyp}\label{h3}
    Es gibt einen Zusammenhang zwischen dem Geschlechterverhältnis der Lesenden
     mit  dem Verhältnis zwischen femininen und maskulinen Verhalten der Hauptfiguren.
 \end{hyp}
@@ -174,7 +174,7 @@ Gibt es einen Zusammenhang, wäre es durchaus denkbar, dass Hauptfiguren in Büc
 Jedoch es könnte natürlich auch umgekehrt sein, dass sie sich entsprechend der Stereotypen verhalten.
 Um das zu überprüfen stellen wir die nächste Hypothese auf.
 
-\begin{subhyp}
+\begin{subhyp}\label{h3.1}
     Je größer der Anteil an Leserinnen, umso femininer verhalten sich die Hauptfiguren.
 \end{subhyp}
 
@@ -183,7 +183,7 @@ In den meisten Studien die sich mit dem Gender von Hauptfiguren beschäftigen, w
 Wenn es einen Zusammenhang zwischen dem Geschlecht der Hauptfigur und dem Geschlecht der Lesenden gibt, könnte es sein, dass der Zusammenhang zwischen dem Gender und dem Geschlechterverhältnis verfälscht wird.
 Die nächste Hypothese dient, um diesen möglichen Einfluss zu kontrollieren.
 
-\begin{subhyp}
+\begin{subhyp}\label{h3.2}
     Der Zusammenhang zwischen Geschlechterverhältnis der Lesenden und dem
     mit dem Verhältnis zwischen femininen und maskulinen Verhalten der Hauptfiguren lässt sich nicht durch das Geschlecht der Hauptfiguren erklären.
 \end{subhyp}
@@ -204,7 +204,7 @@ Als erste Aspekt ist, ob es sich um eine *Abenteurer-* oder *Alltagsgeschichte* 
 Wir gehen davon aus, dass Buben eher Abenteuergeschichten lesen.
 
 
-\begin{subhyp}
+\begin{subhyp}\label{h4.1}
    Abenteuergeschichten werden eher von Buben als von Mädchen gelesen.
 \end{subhyp}
 
@@ -214,7 +214,7 @@ Doch es gibt auch Alltagsgeschichten in denen es um das Lösen bestimmter Aufgab
 Aus diesem Grund überprüfen wir separat, ob es in Geschichten um das Lösen von *Quests* geht.
 Wir gehen davon aus, dass solch Zielgerichtete Geschichten eher von Buben gelesen werden.
 
-\begin{subhyp}
+\begin{subhyp}\label{h4.2}
     Geschichten in denen \emph{Quests} vorkommen werden eher von Buben als von Mädchen gelesen.
 \end{subhyp}
 
@@ -223,7 +223,7 @@ Dabei geht es uns um die Elemente einer Geschichte, die persönliche Konfrontati
 Können wir im im Buch etwas von den Gedanken, der psychischen Innenwelt der Hauptfigur erfahren?
 Wir wollen überprüfen ob Geschichten, in denen diese Elemente wesentlich sind, vermehrt von Mädchen gelesen werden.
 
-\begin{subhyp}
+\begin{subhyp}\label{h4.3}
    Geschichten in denen ein \emph{Innerer Monolog} vorkommt, werden eher von Mädchen gelesen als von Buben.
 \end{subhyp}
 
@@ -232,7 +232,7 @@ Es gibt Kindergeschichten in denen die Hauptfigur bleiben darf wie sie ist.
 In anderen Geschichten ist *das Erwachsenwerden* der Figur wesentlich.
 In diesen Geschichten muss sich die Hauptfigur verändern um das Ende des Buchs zu erreichen.
 
-\begin{subhyp}
+\begin{subhyp}\label{h4.4}
    Geschichten in denen \emph{das Erwachsenwerden} Thema ist,
    werden eher von Mädchen als von Buben gelesen.
 \end{subhyp}
@@ -337,15 +337,15 @@ Im ersten Schritt muss die Hauptfigur festgestellt werden, und dann können ihr 
 Wie bereits im Literaturteil erwähnt gehen wir davon aus, dass jede Geschichte *eine* Protagonistin oder *einen* Protagonisten hat.
 Es kann sich dabei auch um einen Multiprotagonisten, wie \zB eine Bande handeln.
 Die Hauptfiguren werden dann mit Merkmalen versehen.
-Für \thref{hyp:h2} bis \thref{hyp:h2.2} brauchen wir nur das Merkmal Geschlecht.
+Für \thref{h2} bis \thref{h2.2} brauchen wir nur das Merkmal Geschlecht.
 Das kann entweder eindeutig *weiblich* oder *männlich* sein oder es kann *unbestimmt* sein.
-Für \thref{hyp:h2} modellieren wir wieder eine lineare Multiple Regression, wobei das Geschlecht der Hauptfigur in *Dummy-Variablen* umkodiert werden muss.
-Für \thref{hyp:h2.1} bis \thref{hyp:h2.3} berechnen wir eine Korrelation aus der jeweiligen Dummy-Variable des Geschlechts der Hauptfigur und dem *w/m-Faktor* aus.
+Für \thref{h2} modellieren wir wieder eine lineare Multiple Regression, wobei das Geschlecht der Hauptfigur in *Dummy-Variablen* umkodiert werden muss.
+Für \thref{h2.1} bis \thref{h2.3} berechnen wir eine Korrelation aus der jeweiligen Dummy-Variable des Geschlechts der Hauptfigur und dem *w/m-Faktor* aus.
 Für \thref{hyp:h2.4} benötigen wir zwei Modelle die wir miteinander Vergleichen.
 Die Modelle erklären mit Hilfe dem Geschlecht der Hauptfigur (Dummy-Variablen) die Häufigkeit mit der Mädchen/Buben ein Buch lesen.
 Danach vergleichen wir die beiden Modelle mit einer ANOVA.
 
-Für \thref{hyp:h3} benötigen wir eine neues Merkmal, dass das Verhalten der Hauptfigur beschreibt.
+Für \thref{h3} benötigen wir eine neues Merkmal, dass das Verhalten der Hauptfigur beschreibt.
 Und zwar ob das Verhalten *feminin* oder *maskulin* ist.
 Um das Verhalten der Hauptfigur zu messen, bilden wir mit der Hilfe einer Tabelle von eschlechterstereotypen Gegensatzpaaren ein semantisches Differenzial. \parencites[174\psq]{feldmann2006}[93\psqq]{Spillner1974}
 Für jede Hauptfigur probieren wir jedes Gegensatzpaar zuzuordnen.
