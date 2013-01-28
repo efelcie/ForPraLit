@@ -243,14 +243,14 @@ In diesen Geschichten muss sich die Hauptfigur verändern um das Ende des Buchs 
 In \thref{fra:merkmale} haben wir gefragt, ob man von äußeren Merkmalen eines Buchs, auf das Geschlechterverhältnis der Lesenden schließen kann.
 Daraus leitet sich direkt auch schon die erste Hypothese zu diesem Bereich ab.
 
-\begin{hyp}
+\begin{hyp}\label{h5}
     Man kann das Geschlechterverhältnis durch rein äußere Merkmale eines Buchs erklären.
 \end{hyp}
 
 
 Die zweite Hypothese überprüft ob die Häufigkeit von Mädchen und Buben auf die selben Merkmale reagiert oder ob es Unterschiede zwischen den Geschlechtern gibt.
 
-\begin{subhyp}
+\begin{subhyp}\label{h5.1}
     Die Anzahl der Leserinnen lässt sich besser durch andere Merkmale erklären als die Anzahl der Leser.
 \end{subhyp}
     
@@ -284,6 +284,34 @@ Zum Schluss werden die quantitativ erhobenen Daten mittels qualitativ analysiert
 
 Hallo Welt.
  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -341,7 +369,7 @@ Für \thref{h2} bis \thref{h2.2} brauchen wir nur das Merkmal Geschlecht.
 Das kann entweder eindeutig *weiblich* oder *männlich* sein oder es kann *unbestimmt* sein.
 Für \thref{h2} modellieren wir wieder eine lineare Multiple Regression, wobei das Geschlecht der Hauptfigur in *Dummy-Variablen* umkodiert werden muss.
 Für \thref{h2.1} bis \thref{h2.3} berechnen wir eine Korrelation aus der jeweiligen Dummy-Variable des Geschlechts der Hauptfigur und dem *w/m-Faktor* aus.
-Für \thref{hyp:h2.4} benötigen wir zwei Modelle die wir miteinander Vergleichen.
+Für \thref{h2.4} benötigen wir zwei Modelle die wir miteinander Vergleichen.
 Die Modelle erklären mit Hilfe dem Geschlecht der Hauptfigur (Dummy-Variablen) die Häufigkeit mit der Mädchen/Buben ein Buch lesen.
 Danach vergleichen wir die beiden Modelle mit einer ANOVA.
 
@@ -389,25 +417,4 @@ Für die Hypothesen, wird dann bei jedem Element gleich verfahren und ein, wenn 
 
 ###Erklärung des w/m-Faktors
 
-
-
-
-
-
-
-<!--
-
-H5
-
-lm(wm~<äusseremerkmale>)
-
-H5.1
-
-lm(maedchen~<äusseremerkmale>)
-lm(buben~<äusseremerkmale>)
-
-
-
-
--->
-
+Um zu überprüfen welche äußeren Faktoren am meisten zu Erklärung des Geschlechterverhhältnis der Lesenden und der Anzahl der Leserinnen oder Leser beitragen stellen wir wieder lineare Multiple Modelle auf, die wir dann mit Hilfe einer ANOVA mit einander vergleichen.
