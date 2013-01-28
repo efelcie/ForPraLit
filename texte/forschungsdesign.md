@@ -350,6 +350,8 @@ Und zwar ob das Verhalten *feminin* oder *maskulin* ist.
 Um das Verhalten der Hauptfigur zu messen, bilden wir mit der Hilfe einer Tabelle von eschlechterstereotypen Gegensatzpaaren ein semantisches Differenzial. \parencites[174\psq]{feldmann2006}[93\psqq]{Spillner1974}
 Für jede Hauptfigur probieren wir jedes Gegensatzpaar zuzuordnen.
 Dabei bezieht sich die Zuordnung immer auf das Verhalten/Handeln der Hauptfigur.
+Um die Güte der Codierung zu überprüfen wird jede Hauptfigur von zwei Personen codiert und die Ergebnisse gegenseitig kontrolliert.
+
 
 \input{tabellen/stereotype.tex}
 
@@ -365,52 +367,35 @@ Wobei $m_i$ den einzelnen Werten ($1=$ feminin, $2=$ maskulin) der 13 Gegensatzp
 
 Danach wird die Korrelation zwischen dem *w/m-Faktor* und dem *Gender-Faktor* berechnet.
 Bei \thref{h3.1} wird eine Korrelation zwischen der Häufigkeit der Leserinnen und dem *Gender-Faktor* gerechnet.
-Um gemäß \thref{h3.2} wird der Zusammenhang mit Hilfe der Dummy-Variablen des Geschlechts der Hauptfigur mit eienr Partialkorrelation kontrolliert.
+Um gemäß \thref{h3.2} wird der Zusammenhang mit Hilfe der Dummy-Variablen des Geschlechts der Hauptfigur mit einer Partialkorrelation kontrolliert.
 
 ###Arten von Geschichten
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Für die \thref{h4.1} bis \thref{h4.4} müssen wir uns genauer mit den Eigenschaften der Bücher, die hier überprüft werden sollen beschäftigen und diese operationalisieren.
+Die erste Eigenschaft ist, ob die Geschichte ein *Abenteuer* ist.
+\blockcquote[Hervorhebung P.\,F.]{wiki_abent}{Als \emph{Abenteuer} \textelp{} wird eine risikoreiche Unternehmung oder auch ein Erlebnis bezeichnet, das sich stark vom \emph{Alltag} unterscheidet -- ein Verlassen des gewohnten Umfeldes und des sozialen Netzwerkes, um etwas (Riskantes) zu unternehmen, was interessant, faszinierend zu sein verspricht und bei dem der Ausgang ungewiss ist.}
+Nach der Definition, kann es nur entweder *Abenteuer* oder *Alltag* geben.
+Somit gilt es, bei der Geschichte festzustellen, ob es ein Abenteuer ist oder nicht.
+Die zweite Eigenschaft nennen wir *Quest*.
+Damit meinen wir das gezielte Lösen von Aufgaben, wie sie \zB in Krimis vorkommen.
+Die nächste Eigenschaft bezeichnen wir *Innerer Monolog*, das heißt Textstellen, in denen wir die Gedanken der Hauptfigur lesen können.
+Der letzte Eigenschaft von Geschichten nennen wir *Growing Up*.
+Damit meinen wir Geschichten in denen die Hauptfigur (er-)wachsen muss, um ans Ziel zu kommen.
+Bei all den vier Punkten geht es um *wesentliche* Elemente der Geschichten.
+Natürlich kommt auch in Abenteuer kurz mal der Alltag vor.
+Hier liegt es im Ermessen der Coodierenden, ob ein Element wesentlich ist.
+Um die Güte dieser Messung zu steigern wird auch hier jedes Element von zwei Personen unabhängig von einander gemessen.
+Für die Hypothesen, wird dann bei jedem Element gleich verfahren und ein, wenn die Fallzahl groß genug ist, $\chi^2$-Vierfeldertest gerechnet.
 
 ###Erklärung des w/m-Faktors
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 
 
 
-<!-- 
 
-
-
-
-H4
-
-Chi-Quadrat-Test für Themen
-
-H4.1 -- H4.4
-
-T-Test für verbundene Stichproben
-
-buben/mädchen
-abenteuer/alltag ...
-
+<!--
 
 H5
 

@@ -64,10 +64,12 @@
 %	mincitenames=1,		% Namen in Zitat bei et al.
 	uniquelist=false,
 	origyearwithyear=false,
+	citefilm=full,
+	series=true,
 %	url=false,
 	doi=true,
 	pages=bib,
-	publisher=true
+	publisher=false
       ]{biblatex}		% Literaturverwaltung
 \bibliography{literatur/primaer}
 \bibliography{literatur/sekundaer}		% Pfad zur Literatur-Datei '<name.bib>' ohne .bib
@@ -127,6 +129,19 @@
 % \theoremnumbering{alph}
 \newtheorem{subhyp}{Hypothese}[hyp]
 % \renewcommand{\thesubhyp}{\thehyp\alph{subhyp}}
+
+
+\newenvironment{myquote}%
+   {\begin{quote}\small}%
+   {\end{quote}}%
+\SetBlockEnvironment{myquote}
+
+
+
+
+
+
+
 
 
 
