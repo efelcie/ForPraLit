@@ -1,11 +1,12 @@
 \documentclass[
 %	fontsize=10pt,	% Standard-Schriftgröße
-	fontsize=12pt,	% Für Korrekturversionen
+	% fontsize=12pt,	% Für Korrekturversionen
 %	fotnsize=14pt,	% Ideale Schriftgröße für 3. Klasse VS
 %	paper=a5,
 %	twoside,
-	DIV=9,
+	% DIV=9,
 	pagesize,
+	twocolumn,
 	% headings=small,
 %	notitlepage	
 %      ]{scrartcl}		% Koma-Script Artikel
@@ -93,7 +94,7 @@
 %\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
 %\usepackage[T1]{fontenc}
 \usepackage{setspace}
-\onehalfspacing
+% \onehalfspacing
 \usepackage[
 	pdftitle={Das Gender von Kinderbüchern},
 	pdfsubject={Forschungsdesign},
@@ -154,7 +155,7 @@
 \tableofcontents
 \listoffigures % Abbildungsverzeichnis
 \listoftables % Tabellenverzeichnis 
-\onehalfspacing
+% \onehalfspacing
 %\chapter{Vorwort}
 %\Blindtext
 %\part{Projekte}
@@ -171,7 +172,7 @@
 % \nocite{Knister1994}
 \pagebreak
 \singlespacing
-
+\onecolumn
 % \printbibliography%[heading=subbibliography]
 
 \nocite{BrezinaK}
