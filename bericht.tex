@@ -1,11 +1,16 @@
 \documentclass[
 %	fontsize=10pt,	% Standard-Schriftgröße
 	fontsize=12pt,	% Für Korrekturversionen
-%	fotnsize=14pt,	% Ideale Schriftgröße für 3. Klasse VS
+%	fontsize=14pt,	% Ideale Schriftgröße für 3. Klasse VS
 %	paper=a5,
 %	twoside,
 	DIV=9,
 	pagesize,
+	%DIV=14,
+	%BCOR=17mm,
+	headinclude=true,
+	footinclude=false,
+	%twocolumn,
 	% headings=small,
 %	notitlepage	
 %      ]{scrartcl}		% Koma-Script Artikel
@@ -93,12 +98,19 @@
 %\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
 %\usepackage[T1]{fontenc}
 \usepackage{setspace}
-\onehalfspacing
+ \onehalfspacing
+\usepackage{color}
+\usepackage[]{xcolor}
 \usepackage[
 	pdftitle={Das Gender von Kinderbüchern},
 	pdfsubject={Forschungsdesign},
 	pdfauthor={Flucher, Kaiser, Weiler},	
-	pdfkeywords={}
+	pdfkeywords={},
+	colorlinks=true,
+	linkcolor=darkgray,
+	citecolor=teal,
+	filecolor=darkgray,
+	urlcolor=blue,
 	]{hyperref}
 
 \newcommand{\zB}{\mbox{z.\,B.}\xspace}	% Definiert einen Befehl für z.B.
@@ -131,10 +143,82 @@
 % \renewcommand{\thesubhyp}{\thehyp\alph{subhyp}}
 
 
+\usepackage[labelfont={color=teal}]{caption}
+
+
 \newenvironment{myquote}%
    {\begin{quote}\small}%
    {\end{quote}}%
 \SetBlockEnvironment{myquote}
+
+
+\setkomafont{subsection}{
+	\normalfont \normalsize
+}
+
+\setkomafont{subsubsection}{
+	\normalfont \normalsize
+}
+
+
+\setkomafont{chapter}{\huge \textcolor{teal}
+}
+
+
+\setkomafont{section}{
+	\normalfont \bfseries \normalsize \textcolor{teal}
+}
+
+\setkomafont{subject}{
+	\scshape
+}
+
+% \setkomafont{title}{
+% 	\normalfont \bfseries \large \raggedright
+% }
+
+\setkomafont{subtitle}{
+	 \textcolor{teal}}
+
+\setkomafont{paragraph}{
+	\noindent \normalfont \bfseries \normalsize }
+
+\setkomafont{descriptionlabel}{
+	\textcolor{teal}}
+
+\setkomafont{footnoterule}{
+	\textcolor{teal}
+}
+
+\SetCiteCommand{\parencite}		% Notwendig für (Zitieren)
+\renewcommand{\mkccitation}[1]{ #1}	%
+
+\usepackage{relsize}
+
+\usepackage{fancyhdr}
+
+
+
+\pagestyle{fancy}
+\lhead{\iffloatpage{}{\leftmark}}
+% \chead{}
+\rhead{}
+% \lfoot{}
+% \cfoot{\thepage}
+% \rfoot{}
+% \renewcommand{\headrulewidth}{0.4pt}
+% %\renewcommand{\footrulewidth}{0.4pt}
+
+\renewcommand{\chaptermark}[1]{% 2. Do it now
+\markboth{\thechapter.\ #1}{}} 
+
+\makeatletter
+\def\headrule{{\color{teal}\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
+\hrule\@height\headrulewidth\@width\headwidth
+\vskip-\headrulewidth}}
+\makeatother
+
+\renewcommand{\headrulewidth}{\iffloatpage{0pt}{2pt}}
 
 
 
@@ -149,7 +233,6 @@
 \begin{document}
 
 \maketitle
-\recalctypearea
 \singlespacing
 \tableofcontents
 \listoffigures % Abbildungsverzeichnis
@@ -163,6 +246,7 @@
 
 \newpage 
 
+\recalctypearea
 \input{einleitung.tex}
 \input{texte/literatur.tex}
 \input{pandoc.tex}

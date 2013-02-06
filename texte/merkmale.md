@@ -99,6 +99,7 @@ Vor allem da sich die Werte zwischen weiblich und männlich nicht signifikant un
 \center
   \caption[Leserinnen--Geschlecht]{Anzahl der Leserinnen zu Geschlecht der AutorIn}
   \label{maedchen-geschlecht}
+  \vspace{-1.5cm}
 \input{grafiken/maedchen-geschlecht-a.tex}
 
 \end{figure}
