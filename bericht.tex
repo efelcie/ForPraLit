@@ -98,11 +98,18 @@
 %\usepackage[T1]{fontenc}
 \usepackage{setspace}
 % \onehalfspacing
+\usepackage{color}
+\usepackage[]{xcolor}
 \usepackage[
 	pdftitle={Das Gender von Kinderbüchern},
 	pdfsubject={Forschungsdesign},
 	pdfauthor={Flucher, Kaiser, Weiler},	
-	pdfkeywords={}
+	pdfkeywords={},
+	colorlinks=true,
+	linkcolor=darkgray,
+	citecolor=teal,
+	filecolor=darkgray,
+	urlcolor=blue,
 	]{hyperref}
 
 \newcommand{\zB}{\mbox{z.\,B.}\xspace}	% Definiert einen Befehl für z.B.
@@ -135,8 +142,6 @@
 % \renewcommand{\thesubhyp}{\thehyp\alph{subhyp}}
 
 
-\usepackage{color}
-\usepackage[]{xcolor}
 \usepackage[labelfont={color=teal}]{caption}
 
 
@@ -164,15 +169,15 @@
 }
 
 \setkomafont{subject}{
-	\normalfont \raggedright \normalsize \scshape
+	\scshape
 }
 
-\setkomafont{title}{
-	\normalfont \bfseries \large \raggedright
-}
+% \setkomafont{title}{
+% 	\normalfont \bfseries \large \raggedright
+% }
 
 \setkomafont{subtitle}{
-	\normalfont \bfseries \normalsize \textcolor{teal}}
+	 \textcolor{teal}}
 
 \setkomafont{paragraph}{
 	\noindent \normalfont \bfseries \normalsize }
