@@ -18,8 +18,8 @@
 %      ]{scrbook}		% Koma-Script Report (nötig für paperandpencil)
 		
 
-%\usepackage{
-%	array,		% Array Paket wird für paperandpencil benötigt
+% \usepackage{
+% 	array,		% Array Paket wird für paperandpencil benötigt
 %      	paperandpencil	% Zur Erstellung von Fragebögen
 %	papi		% Für Papiergestützte Befragungen
 %}
@@ -33,6 +33,7 @@
 
 
 
+\usepackage[hyperref, table]{xcolor}
 \usepackage[utf8]{inputenc}		% Ermöglicht das Umgehen mit Unicode (Umlaute).
 \usepackage[french, english, ngerman]{babel}	% Lädt Spracheinstellungen.
 \usepackage[				% Verwaltet Anführungszeichen.
@@ -99,8 +100,6 @@
 %\usepackage[T1]{fontenc}
 \usepackage{setspace}
  \onehalfspacing
-\usepackage{color}
-\usepackage[]{xcolor}
 \usepackage[
 	pdftitle={Das Gender von Kinderbüchern},
 	pdfsubject={Forschungsdesign},
@@ -231,7 +230,7 @@
 
 
 \begin{document}
-
+\rowcolors[]{2}{}{teal!5}
 \maketitle
 \singlespacing
 \tableofcontents
