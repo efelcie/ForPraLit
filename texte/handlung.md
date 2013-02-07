@@ -27,7 +27,6 @@ Das Lesegeschlecht (w/m-Faktor) korreliert mit dem Gender-Faktor hochsignifikant
 \center
   \label{wm-gender}
   \caption[w/m-Faktor--Gender-Faktor]{w/m-Faktor zu Gender-Faktor}
-  \vspace{-1.5cm}
 \input{grafiken/wm-gender.tex}
 
 \end{figure}
@@ -36,7 +35,6 @@ Das Lesegeschlecht (w/m-Faktor) korreliert mit dem Gender-Faktor hochsignifikant
 \center
   \label{w-gender}
   \caption[Mädchen--Gender-Faktor]{Mädchen zu Gender-Faktor}
-  \vspace{-1.5cm}
 \input{grafiken/m-gender.tex}
 
 \end{figure}
@@ -45,7 +43,6 @@ Das Lesegeschlecht (w/m-Faktor) korreliert mit dem Gender-Faktor hochsignifikant
 \center
   \label{m-gender}
   \caption[Buben--Gender-Faktor]{Buben zu Gender-Faktor}
-  \vspace{-1.5cm}
 \input{grafiken/b-gender.tex}
 
 \end{figure}
