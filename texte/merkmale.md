@@ -2,6 +2,25 @@ Merkmale die das Leseverhalten erklären
 =======================================
 
 
+Mädchen und Buben lesen Bücher die anders sind.
+Doch warum?
+Welche Faktoren erklären, dass Mädchen andere Bücher lesen als Buben?
+Die Frage mag auf den ersten Blick paradox erscheinen.
+Wir haben doch bereits festgestellt, welche inhaltlichen Merkmale mit dem Leseverhalten zusammenhängen.
+Diese Merkmale entstehen ganz am Anfang, noch vor allen anderen Merkmalen.
+Jedoch mussten diese Merkmale, wie \zB der *Gender-Faktor*, erst durch uns Sichtbar gemacht werden.
+Nartürlich soll der Faktor das Verhalten der Hauptfigur wiederspiegeln.
+Doch auch dazu, muss man das Buch bereits gelesen haben.
+Zu dem Zeitpunkt, zu dem das Kind das Buch zu lesen beginnt, kann es den *Gender-Faktor* des Buchs noch nicht selbst festgestellt haben.
+Diese noch nicht fesstellbaren inhaltlichen Elemente, die im Grunde der *Text* des Buchs sind, müssen vermittelt auf die Entscheidung, ein Buch zu lesen, wirken.
+Hier beschränken wir uns auf die vermitteltend Merkmale, die nicht vom Buch zu trennen sind: die *Verpackung*, wie \zB Design und Titel des Buchs.
+
+
+
+
+
+
+
 
 Drei Merkmale eines Kinderbuchs reichen aus, um das Verhältnis von Leserinnen zu Lesern bei einem Kinderbuch bestimmen zu können: das *Geschlecht der Titelfigur*, die *Helligkeit* und die *Anzahl der Seiten*.
 Die Genauigkeit eines linearen Modells mit diesen drei Merkmalen ist mit einem korrigierten Bestimmtheitsmaß von $0{,}82$ sehr genau.
@@ -93,14 +112,14 @@ Bei diesem Oberflächenmerkmal ist für die Buben kein Zusammenhang nachweisbar.
 Aber auch die Erklärungskraft bei den Mädchen ist nicht überzubewerten, da sie zu einem sehr großen Teil aus einem sehr gewichtigen *Ausreißer* besteht.
 Der/die Autor_in von *Der Hexe Lilli*, dem Buch, das bei den Mädchen das Ranking anführt nennt sich *Knister*. Hinter dem Pseudonym steckt ein Mann, jedoch entschieden wir uns, für die Cover- Analyse nur eindeutig feststellbare Geschlechter anzuführen.
 Da es sich hier um einen Ausnahmefall handelt und *Knister* das einzige neutrale Autorengeschlecht auf den ersten Blick darstellt und dieses Buch von den Mädchen am häufigsten gelesen wurde, erklärt warum dieser Wert, wenn überhaupt, nur mit besonderer Vorsicht interpretiert werden kann.
-Vor allem da sich die Werte zwischen weiblich und männlich nicht signifikant unterscheiden. (Siehe Abbildung\ \ref{maedchen-geschlecht})
+Vor allem da sich die Werte zwischen weiblich und männlich nicht signifikant unterscheiden. (Abb. \ref{maedchen-geschlecht})
 
 \begin{figure}
 \center
-  \caption[Leserinnen--Geschlecht]{Anzahl der Leserinnen zu Geschlecht der AutorIn}
-  \label{maedchen-geschlecht}
   \vspace{-1.5cm}
 \input{grafiken/maedchen-geschlecht-a.tex}
+  \caption[Leserinnen--Geschlecht]{Anzahl der Leserinnen zu Geschlecht der AutorIn}
+  \label{maedchen-geschlecht}
 
 \end{figure}
 

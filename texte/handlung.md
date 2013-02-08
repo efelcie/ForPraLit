@@ -26,27 +26,27 @@ Das Lesegeschlecht (w/m-Faktor) korreliert mit dem Gender-Faktor hochsignifikant
 \begin{figure}
 \center
   \label{wm-gender}
-  \caption[w/m-Faktor--Gender-Faktor]{w/m-Faktor zu Gender-Faktor}
   \small
 \input{grafiken/wm-gender.tex}
+  \caption[w/m-Faktor--Gender-Faktor]{w/m-Faktor zu Gender-Faktor}
 
 \end{figure}
 
 \begin{figure}
 \center
   \label{w-gender}
-  \caption[Mädchen--Gender-Faktor]{Mädchen zu Gender-Faktor}
   \small
 \input{grafiken/m-gender.tex}
+  \caption[Mädchen--Gender-Faktor]{Mädchen zu Gender-Faktor}
 
 \end{figure}
 
 \begin{figure}
 \center
   \label{m-gender}
-  \caption[Buben--Gender-Faktor]{Buben zu Gender-Faktor}
   \small
 \input{grafiken/b-gender.tex}
+  \caption[Buben--Gender-Faktor]{Buben zu Gender-Faktor}
 
 \end{figure}
 
