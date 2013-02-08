@@ -414,12 +414,12 @@ Auch die Messung eines Wertes für Komplexe Flächen ist Sinnvoll.
 Um an Werte zu kommen haben wir uns von einem Grafikbearbeitungsprogramm  ein Histogramm für alle Kanäle ausgeben lassen und daraus einen Mittelwert berechnen lassen.\footnote{Der Wert für das Histogramm für alle Kanäle ist bei GIMP und Adobe Photoshop der selbe. Andere Histogramme, die bei der Berechnung das Bild in ein Graustufenbild umwandeln geben Programmabhängig unterschiedliche Werte aus.} (Abb. \ref{histogramm})
 Dabei sind Werte von 0 bis 255 möglich, wobei 0 ein komplett schwarzes und 255 ein komplett weißes Cover wäre.
 
-\begin{figure*}
+\begin{figure}
 \center
 \includegraphics{grafiken/hist.png}
   \caption[Helligkeitswert festlegen mit GIMP]{Helligkeitswert festlegen mit GIMP. (Verwendeter Wert: Durchschnitt: $173{,}0$}
   \label{histogramm}
-\end{figure*}
+\end{figure}
 
 #####Geschlecht der Titelfigur oder der Autorin/des Autors
 
