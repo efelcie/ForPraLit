@@ -151,22 +151,8 @@
 \SetBlockEnvironment{myquote}
 
 
-\setkomafont{subsection}{
-	\normalfont \normalsize
-}
-
-\setkomafont{subsubsection}{
-	\normalfont \normalsize
-}
 
 
-\setkomafont{chapter}{\huge \textcolor{teal}
-}
-
-
-\setkomafont{section}{
-	\normalfont \bfseries \normalsize \textcolor{teal}
-}
 
 \setkomafont{subject}{
 	\scshape
@@ -179,8 +165,33 @@
 \setkomafont{subtitle}{
 	 \textcolor{teal}}
 
-\setkomafont{paragraph}{
-	\noindent \normalfont \bfseries \normalsize }
+
+
+
+
+
+
+\setkomafont{chapter}{\huge \textcolor{teal}
+}
+
+
+\setkomafont{section}{
+	\normalfont \bfseries \normalsize \textcolor{teal}
+}
+
+\setkomafont{subsection}{
+	\normalfont \normalsize
+}
+
+\setkomafont{subsubsection}{
+	\normalfont \itshape \normalsize
+}
+
+
+\setkomafont{paragraph}{\normalfont\itshape\normalsize}
+
+
+
 
 \setkomafont{descriptionlabel}{
 	\textcolor{teal}}
@@ -260,8 +271,9 @@
 \nocite{BrezinaK}
 
 
-\printbibliography[notkeyword={kb},heading=bibliography, title={Literaturverzeichnis}]
+\printbibliography[notkeyword={kb},notkeyword={web},heading=bibliography, title={Literaturverzeichnis}]
 
+ \printbibliography[keyword={web}, heading=subbibliography, title={Websites}]
 
   
  \printbibliography[keyword={kb}, heading=subbibliography, title={Analysierte Kinderbücher}]

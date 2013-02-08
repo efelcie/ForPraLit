@@ -1,5 +1,8 @@
 #Forschungsdesign
 
+
+<!-- 
+
 ##Definitionen
 
 Geschlecht
@@ -38,6 +41,8 @@ Leserinnen und Leser
     nur die untersuchte Grundgesamtheit, das heißt Leserinnen und Leser in Österreich, die die 3. oder 4. Schulstufe besuchen.
    Wenn Leserinnen *oder* Leser *ohne* die jeweils andere Form verwendet werden, handelt es sich nur um Mädchen oder Buben.
 
+    -->
+
 
 ##Fragestellungen
 
@@ -46,7 +51,10 @@ Da wir Merkmale von Kinderbüchern mit dem Geschlecht der Lesenden in Verbindung
 Daraus ergibt sich die erste Frage, die wir in unserer Forschung beantworten wollen.
 
 \begin{frage}\label{fra:andere}
-   Wie schaut das Geschlechterverhältnis der Lesenden bei Kinderbüchern aus?
+Wie schaut das Geschlechterverhältnis\footnote{Unter Geschlechterverhältnis verstehen wir das Verhältnis von 
+weiblichen zu männlichen Personen.
+In unserem Fall das Verhältnis von Leserinnen zu Lesern.} 
+der Lesenden bei Kinderbüchern aus?
 \end{frage}
 
 Dabei geht es uns nicht um ein genaues Abbild der Bücher, die gelesen werden.
@@ -280,12 +288,12 @@ Weiters ist das Lesegeschwindigkeit und die Schreibgeschwindigkeit bei vielen Ki
 Da wir um statistisch signifikante Aussagen machen zu können pro Buch möglichst viele \emph{Treffer} benötigen, ist das Design des Fragebogens eine besondere Herausforderung.
 Auf Grund dieser Tatsachen entschieden wir uns den Kindern eine Liste von Büchern vorzulegen, bei denen sie nur noch Ankreuzen mussten.
 Die Liste der Bücher erstellten wir anhand von Bestsellerlisten, der Analyse der Vierleihdaten einer Schulbibliothek und dem Gespräch mit Volksschullehrerinnen, Bibliothekarinnen und Buchhändlerinnen.
-Ergebnis ist eine Liste von 39 Büchern (sieh Fragebogen auf Seite \pageref{frabo2}) von denen wir ausgehen, das die Trefferwahrscheinlichkeit akzeptabel ist.
+Ergebnis ist eine Liste von 39 Büchern (siehe Fragebogen auf Seite \pageref{frabo2}) von denen wir ausgehen, das die Trefferwahrscheinlichkeit akzeptabel ist.
 Zusätzlich dazu fragen wir die Lieblingsbücher der Kinder davor in einer offenen Frage ab.
 Sonst ist für die Hypothese auf dem Fragebogen nur noch das Geschlecht relevant.
 
 Alle anderen Hypothesen bauen auf die Daten, die wir mit der hier beschriebenen Methode gewinnen auf.
-Ausgenommen \thref{hyp:themen}, für die wir zusätzlich noch Lieblings-Themen, wie \emph{Prinzessinen} oder \emph{Ritter} abfragen. (Siehe Abbildung \ref{frabo4})
+Ausgenommen \thref{hyp:themen}, für die wir zusätzlich noch Lieblings-Themen, wie \emph{Prinzessinen} oder \emph{Ritter} abfragen. (Abb. \ref{frabo4})
 Die Befragungen werden wärend dem Unterricht in Volksschulen in Graz durchgeführt.
 Bei der Auswahl der Volksschulen achteten wir darauf möglichst viele verschiedenen Milieus abzudecken.
 Es sollen insgesamt 500 Kinder befragt werden.
@@ -354,7 +362,7 @@ Um gemäß \thref{h3.2} wird der Zusammenhang mit Hilfe der Dummy-Variablen des 
 
 Für die \thref{h4.1} bis \thref{h4.4} müssen wir uns genauer mit den Eigenschaften der Bücher, die hier überprüft werden sollen beschäftigen und diese operationalisieren.
 Die erste Eigenschaft ist, ob die Geschichte ein *Abenteuer* ist.
-\blockcquote[Hervorhebung P.\,F.]{wiki_abent}{Als \emph{Abenteuer} \textelp{} wird eine risikoreiche Unternehmung oder auch ein Erlebnis bezeichnet, das sich stark vom \emph{Alltag} unterscheidet -- ein Verlassen des gewohnten Umfeldes und des sozialen Netzwerkes, um etwas (Riskantes) zu unternehmen, was interessant, faszinierend zu sein verspricht und bei dem der Ausgang ungewiss ist.}
+\blockcquote[Hervorhebung P.\,F.][\texttt{\href{http://de.wikipedia.org/wiki/abenteuer}{/wiki/abenteuer}}]{de.wiki}{Als \emph{Abenteuer} \textelp{} wird eine risikoreiche Unternehmung oder auch ein Erlebnis bezeichnet, das sich stark vom \emph{Alltag} unterscheidet -- ein Verlassen des gewohnten Umfeldes und des sozialen Netzwerkes, um etwas (Riskantes) zu unternehmen, was interessant, faszinierend zu sein verspricht und bei dem der Ausgang ungewiss ist.}
 Nach der Definition, kann es nur entweder *Abenteuer* oder *Alltag* geben.
 Somit gilt es, bei der Geschichte festzustellen, ob es ein Abenteuer ist oder nicht.
 Die zweite Eigenschaft nennen wir *Quest*.
@@ -371,3 +379,76 @@ Für die Hypothesen, wird dann bei jedem Element gleich verfahren und ein, wenn 
 ###Erklärung des w/m-Faktors
 
 Um zu überprüfen welche äußeren Faktoren am meisten zu Erklärung des Geschlechterverhhältnis der Lesenden und der Anzahl der Leserinnen oder Leser beitragen stellen wir wieder lineare Multiple Modelle auf, die wir dann mit Hilfe einer ANOVA mit einander vergleichen.
+Jedoch davor müssen die *äußeren Merkmale* identifiziert und operationalisiert werden.
+Unter äußeren Merkmalen verstehen wir Merkmale, die sichtbar sind ohne das man ein Buch aufschlagen und darin lesen muss.
+
+####Merkmale
+
+#####Farbe und Helligkeit
+
+Eines der Merkmale, dass am schnellsten mit einem Geschlecht verbunden wird ist die Farbe.
+Rosa heißt *für Mädchen* und blau *für Buben*.
+Will man jedoch Farben messen, stößt man schnell auf Probleme.
+Grundsätzlich ist die Farbe physikalisch als Wellenlänge darstellbar.
+Probiert man Farben auf Grund von Wellenlänge zu Unterscheiden kommt man zu sechs Farben: Violett, Blau, Grün, Gelb, Orange und Rot. (Abb. \ref{spectrum})
+Probiert man jetzt auf dieser Skala gewisse Abschnitte einem Geschlecht zuzuordnen schaut dass schon ganz anders aus als bei *Rosa* und *Blau*.
+Violett, dass eher eine *Mädchenfarbe* ist verlauft in Blau und Rosa ist gar nict auszumachen.
+Das liegt daran, dass die von uns verwendeten Farben auch noch aus einer zweiten Komponente, der *Helligkeit*, zusammensetzen.
+Rosa ist ein helles Rot.
+Auch wenn man es mit viel Mühe schaffen könnte, den stereotyp Verwendeten Farben Wertebereiche zuzuweisen, ergibt sich als nächste Problempunt, dass Buchcovers selten einfärbig sind.
+Auch eine *durcschnittliche Wellenlänge* ergäbe unserer Meinung wegen der Näche von \zB Violett und Blau wenig Sinn.
+
+\begin{figure*}
+\center
+\includegraphics{grafiken/spectrum.png}
+  \caption[Sichtbares Lichtspektrum]{Lineare Representation des sichtbaren Lichtspektrum. Farbeinteilungen anhand \cite[3]{Bruno2006}. Quelle: \cite[][\href{http://en.wikipe/wiki/File:Linear_visible_spectrum.svg}{\texttt{/wiki/File:Linear\_visible\_spectrum.svg}}]{en.wiki}}
+  \label{spectrum}
+\end{figure*}
+
+Aus diesem Grund haben wir uns auf die Zweite Komponente, die Helligkeit genauer angeschaut.
+Die Helligkeit ist eine lineare Skala die mehr Sinn macht.
+Hell und Dunkel sind zum Unterschied von langer zu kurzer Wellenlänge auch in der Alltagssprache anzutreffen.
+Eine Aussage wie \enquote{Mädchen Lesen eher helle Bücher}, ist durch aus Verständlich.
+Auch die Messung eines Wertes für Komplexe Flächen ist Sinnvoll.
+
+Um an Werte zu kommen haben wir uns von einem Grafikbearbeitungsprogramm  ein Histogramm für alle Kanäle ausgeben lassen und daraus einen Mittelwert berechnen lassen.\footnote{Der Wert für das Histogramm für alle Kanäle ist bei GIMP und Adobe Photoshop der selbe. Andere Histogramme, die bei der Berechnung das Bild in ein Graustufenbild umwandeln geben Programmabhängig unterschiedliche Werte aus.} (Abb. \ref{histogramm})
+Dabei sind Werte von 0 bis 255 möglich, wobei 0 ein komplett schwarzes und 255 ein komplett weißes Cover wäre.
+
+\begin{figure*}
+\center
+\includegraphics{grafiken/hist.png}
+  \caption[Helligkeitswert festlegen mit GIMP]{Helligkeitswert festlegen mit GIMP. (Verwendeter Wert: Durchschnitt: $173{,}0$}
+  \label{histogramm}
+\end{figure*}
+
+#####Geschlecht der Titelfigur oder der Autorin/des Autors
+
+Im Titel von Kinderbüchern kommt oft ein Name vor.
+Wir gehen davon aus, dass das Geschlecht dieses Namen einen Einfluss auf das Geschlechterverhältnis der Lesenden hat.
+Das Geschlecht der *Titelfigur* hat drei mögliche Ausprägungen: *weiblich*, *männlich* und *neutral*/*unbestimmt*.
+Das Geschlecht der Titelfigur ist in den meisten Fällen ident mit dem Geschlecht der Hauptfigur.
+Jedoch muss es nicht das selbe sein.
+Es kommt durchaus vor, das kein Name im Titel ist jedoch die Hauptfigur eindeutig einem Geschlecht zuzuordnen ist.
+
+Auch der Name der Autorin/des Autors ist auf jedem Buch zu lesen.
+Auch hier wird das Geschlecht auf die selbe Art festgestellt.
+
+#####Seitenanzahl
+
+Manche Menschen greifen eher zu dicken Büchern manche eher zu dünnen.
+Auch die *Dicke* ist auf den ersten Blick zu erkennen.
+Operationalisiert wird sie von uns über die Anzahl der Seiten eines Buchs.
+
+#####Altersempfehlung
+
+Ein weiteres Merkmal ist die Altersempfehlung die einfach zu erheben und auf vielen Büchern angeführt ist.
+
+#####Anzahl der Figuren am Cover
+
+Das Letzte Merkmal ist die Anzahl der Figuren am Cover.
+
+####Lineare Modelle
+
+Mit hilfe der oben definierten Merkmale werden Modelle gerechnet und miteinander verglichen.
+
+
