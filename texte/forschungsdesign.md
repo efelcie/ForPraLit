@@ -416,7 +416,7 @@ Dabei sind Werte von 0 bis 255 möglich, wobei 0 ein komplett schwarzes und 255 
 
 \begin{figure}
 \center
-\includegraphics{grafiken/hist.png}
+\includegraphics[width=7cm]{grafiken/hist.png}
   \caption[Helligkeitswert festlegen mit GIMP]{Helligkeitswert festlegen mit GIMP. (Verwendeter Wert: Durchschnitt: $173{,}0$}
   \label{histogramm}
 \end{figure}
