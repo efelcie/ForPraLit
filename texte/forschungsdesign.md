@@ -88,6 +88,45 @@ Aus dieser Vermutung ergibt sich unsere letzte Frage.
 Kann man ohne über den Inhalt eines Buchs Bescheid zu wissen, auf das Geschlechtererhältnis der Lesenden schließen?
 \end{frage}
 
+Mädchen und Buben lesen Bücher die anders sind.
+Doch warum?
+Welche Faktoren erklären, dass Mädchen andere Bücher lesen als Buben?
+Die Frage mag auf den ersten Blick paradox erscheinen.
+Wir haben doch bereits festgestellt, welche inhaltlichen Merkmale mit dem Leseverhalten zusammenhängen.
+Diese Merkmale entstehen ganz am Anfang, noch vor allen anderen Merkmalen.
+Jedoch mussten diese Merkmale, wie \zB der *Gender-Faktor*, erst durch uns Sichtbar gemacht werden.
+Nartürlich soll der Faktor das Verhalten der Hauptfigur wiederspiegeln.
+Doch auch dazu, muss man das Buch bereits gelesen haben.
+Zu dem Zeitpunkt, zu dem das Kind das Buch zu lesen beginnt, kann es den *Gender-Faktor* des Buchs noch nicht selbst festgestellt haben.
+Diese noch nicht fesstellbaren inhaltlichen Elemente, die im Grunde der *Text* des Buchs sind, müssen vermittelt auf die Entscheidung, ein Buch zu lesen, wirken.
+Hier beschränken wir uns auf die vermitteltend Merkmale, die nicht vom Buch zu trennen sind: die *Verpackung*, wie \zB Design und Titel des Buchs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -123,6 +162,17 @@ Wenn das auch bei Kinderbücher zu trifft, müssten die Anzahl der Leser stärke
 \begin{subhyp}\label{hyp:anzahl}
     Die Anzahl der Leser hat einen größeren Einfluss auf das Geschlechterverhältnis der Lesenden als die Anzahl der Leserinnen.
 \end{subhyp}
+
+
+
+
+
+
+
+
+
+
+
 
 ###Unterschiede bei der Hauptfigur
 
@@ -246,6 +296,21 @@ In diesen Geschichten muss sich die Hauptfigur verändern um das Ende des Buchs 
 \end{subhyp}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ###Merkmale die das Geschlechterverhältnis beeinflussen
 
 In \thref{fra:merkmale} haben wir gefragt, ob man von äußeren Merkmalen eines Buchs, auf das Geschlechterverhältnis der Lesenden schließen kann.
@@ -262,6 +327,21 @@ Die zweite Hypothese überprüft ob die Häufigkeit von Mädchen und Buben auf d
     Die Anzahl der Leserinnen lässt sich besser durch andere Merkmale erklären als die Anzahl der Leser.
 \end{subhyp}
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -376,13 +456,31 @@ Hier liegt es im Ermessen der Coodierenden, ob ein Element wesentlich ist.
 Um die Güte dieser Messung zu steigern wird auch hier jedes Element von zwei Personen unabhängig von einander gemessen.
 Für die Hypothesen, wird dann bei jedem Element gleich verfahren und ein, wenn die Fallzahl groß genug ist, $\chi^2$-Vierfeldertest gerechnet.
 
+
+
+
+
+
+
+
+
+
+
+
 ###Erklärung des w/m-Faktors
 
 Um zu überprüfen welche äußeren Faktoren am meisten zu Erklärung des Geschlechterverhhältnis der Lesenden und der Anzahl der Leserinnen oder Leser beitragen stellen wir wieder lineare Multiple Modelle auf, die wir dann mit Hilfe einer ANOVA mit einander vergleichen.
 Jedoch davor müssen die *äußeren Merkmale* identifiziert und operationalisiert werden.
-Unter äußeren Merkmalen verstehen wir Merkmale, die sichtbar sind ohne das man ein Buch aufschlagen und darin lesen muss.
+
 
 ####Merkmale
+\label{meth.merkmale}
+
+Unter äußeren Merkmalen verstehen wir Merkmale, die sichtbar sind ohne das man ein Buch aufschlagen und darin lesen muss.
+Um das unterschiedliche Leseverhalten zwischen Mädchen und Buben zu erklären, müssen wir uns der *Leseentscheidung* zu wenden.
+Welche Merkmale haben das Potential, die Entscheidung ob ein Buch gelesen wird oder nicht zu Beeinflussen?
+Bei einer Befragung des \textcite[32-39]{Boersenverein2007} nach der Wichtigkeit der Orientierungshilfen, ist bei den 10--11 Jährigen der Umschlag am wichtigsten.
+Auf den Plätzen zwei und drei kommt die Altersangabe und dann die Autorin/der Autor. 
 
 #####Farbe und Helligkeit
 

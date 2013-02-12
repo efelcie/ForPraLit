@@ -2,18 +2,6 @@ Merkmale die das Leseverhalten erklären
 =======================================
 
 
-Mädchen und Buben lesen Bücher die anders sind.
-Doch warum?
-Welche Faktoren erklären, dass Mädchen andere Bücher lesen als Buben?
-Die Frage mag auf den ersten Blick paradox erscheinen.
-Wir haben doch bereits festgestellt, welche inhaltlichen Merkmale mit dem Leseverhalten zusammenhängen.
-Diese Merkmale entstehen ganz am Anfang, noch vor allen anderen Merkmalen.
-Jedoch mussten diese Merkmale, wie \zB der *Gender-Faktor*, erst durch uns Sichtbar gemacht werden.
-Nartürlich soll der Faktor das Verhalten der Hauptfigur wiederspiegeln.
-Doch auch dazu, muss man das Buch bereits gelesen haben.
-Zu dem Zeitpunkt, zu dem das Kind das Buch zu lesen beginnt, kann es den *Gender-Faktor* des Buchs noch nicht selbst festgestellt haben.
-Diese noch nicht fesstellbaren inhaltlichen Elemente, die im Grunde der *Text* des Buchs sind, müssen vermittelt auf die Entscheidung, ein Buch zu lesen, wirken.
-Hier beschränken wir uns auf die vermitteltend Merkmale, die nicht vom Buch zu trennen sind: die *Verpackung*, wie \zB Design und Titel des Buchs.
 
 
 
@@ -21,16 +9,39 @@ Hier beschränken wir uns auf die vermitteltend Merkmale, die nicht vom Buch zu 
 
 
 
+<!-- 
+Kinder 10--11 Jahre
+Orientierung  Bekanntn: 8,24,46,22 | 32
+Buchumschlag: 19,49,19,14 | 68
+Altersangabe: 5,46,32,16  | 51
+Autorin/Autor: 13,28,31,28  | 42
+Serie: 46,27,11,16 |  83
 
-Drei Merkmale eines Kinderbuchs reichen aus, um das Verhältnis von Leserinnen zu Lesern bei einem Kinderbuch bestimmen zu können: das *Geschlecht der Titelfigur*, die *Helligkeit* und die *Anzahl der Seiten*.
-Die Genauigkeit eines linearen Modells mit diesen drei Merkmalen ist mit einem korrigierten Bestimmtheitsmaß von $0{,}82$ sehr genau.
-Wobei das Vorhandensein einer weiblichen Namens im Titel am meisten zu dem Modell beiträgt ($\beta=-0{,}77$).
-Danach kommt die Helligkeit des Covers  ($\beta=0{,}29$).
+Umschlag
+Altersangabe
+Autrin/Autor
+Bekannte
+
+ -->
+
+
+
+ In \thref{h5} (siehe Seite \pageref{h5}) nehmen wir an, das das Verhältnis von Leserinnen zu Lesern, allein durch *oberflächliche* Merkmale zu erklären ist.
+ Obeflächliche Merkmale des Buchs sind, vor allem, Merkmale des Umschlags, wie Hellgikeit, Geschlecht der Titelfigur oder ob es sich um eine Autorin oder einen Autor handelt.\footnote{Die Merkmale werden auf Seite \pageref{meth.merkmale} genau beschrieben.} 
+ Um die Hypothese zu überprüfen, stellen wir ein lineares Modell mit den in Frage kommenden Merkmalen auf und testen so, wie gut, so wenige Merkmale wie möglich, das Geschlechterverhältnis der Lesenden erklären können.
+  Danach schauen wir uns die einzelnen Merkmale und ausgewählte Merkmalskombinationen an.
+
+
+Das für uns beste Modell (Modell 1 in Tabelle \ref{wmmodel}), setzt sich aus drei Merkmalen eines Kinderbuchs zusammen. Die drei Merkmale reichen aus, um das Verhältnis von Leserinnen zu Lesern bei einem Kinderbuch voraussagen zu können: das *Geschlecht der Titelfigur*, die *Helligkeit* und die *Anzahl der Seiten*.
+Das Modell kann mit einer Genauigkeit von rund 80% ($R_{kor.}0{,}82$) das Geschlechterverhältnis voraussagen.
+Wobei das Vorhandensein einer weiblichen Namens im Titel mit Abstand am meisten zu dem Modell beiträgt ($\beta=-0{,}77$).
+Wenn ein weiblicher Name im Titel vor kommt, lesen das Buch viel mehr Mädchen als Buben.
+Mit einigem Abstand in der Wichtigkeit, aber noch immer deutlich ausschalggebend, kommt die Helligkeit des Covers  ($\beta=0{,}29$).
+Je heller ein Buch ist um so größer ist der Anteil der Mädchen die das Buch lesen.
 Die Anzahl der Seiten dient dann nur noch zu Verfeinerung ($\beta=0{,}19$).
-Stellte man eigene Modelle für das Geschlecht der Titelfigur sowie für die Coverhelligkeit auf sieht man, dass Beide auch alleine noch einen beachtlichen Teil erklären. (Siehe Tabelle\ \ref{wmmodel})
-
+Hier viel die Wirkung für uns überraschend aus, denn je dicker ein Buch ist umso höher ist der Anteil der Buben, die das Buch lesen.
 All diese Merkmale können von Kindern ohne Probleme und ohne dass sie das Buch aufmachen müssen wahrgenommen werden.
-Unsere beiden Fragen, ob Merkmale des Buchs das Verhältnis von Leserinnen zu Lesern erklären und ob sie das ohne das Buch zu öffnen können, können wir eindeutig mit *ja* beantworten.
+Die \thref{h5}, ob Merkmale des Buchs das Verhältnis von Leserinnen zu Lesern erklären und ob sie das ohne das Buch zu öffnen können, können wir bestätigen und somit können wir auch \thref{fra:merkmale} eindeutig mit *ja* beantworten.
 Steht im Titel ein weiblicher Name, ist das Buch noch dazu sehr hell und obendrein auch noch dünn.
 Dann ist die Wahrscheinlichkeit sehr hoch, dass das Buch viel mehr Mädchen als Buben gelesen haben.
 Ist das Buch dunkel, dick und kommt auch noch ein männlicher Name im Titel vor, ist es wahrscheinlicher, dass mehr Buben als Mädchen das Buch gelesen haben.
