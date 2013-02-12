@@ -16,7 +16,7 @@ In die nähere Auswahl gelangten dann nur Bücher, die mindestens fünfzig Nennu
 
 Erst dann sahen wir uns die Verhältnisse, also Nennungen von Buben und Mädchen separat an. Die Ergebnisse sind in der Tabelle unten dargestellt, hier wird neben den absoluten Lesehäufigkeiten ein Faktor errechnet, der ausdrücken soll, ab wann es sich um ein Buben- oder Mädchenbuch handelt, ob sozusagen Leser oder Leserinnen deutlich überwiegen oder nicht. Und ob diese Unterschiede im Leseverhalten statistisch signifikant sind und  nicht zufällig sind. Für die Berechnung des „w/m-Faktors“ subtrahierten wir die Anzahl der Nennungen der Mädchen von der Anzahl der Nennungen bei den Buben und dividierten das Ergebnis durch die Anzahl der Gesamtnennungen.Die Werte gehen hier theoretisch von $1$ (alle Leser sind Buben = Bubenbuch), bis $-1$ (ausschließlich Leserinnen = Mädchenbuch). 
 
-\input{tabellen/top22.tex}
+\input{tabellen/top30.tex}
 
 Obwohl Titel, die in der offenen Frage angegeben wurden, nicht in die weitere Auswahl kamen, erwies sich die offene *Lieblingsbücher*-Frage dennoch als sinnvoll, um die Bücherauswahl zu kontrollieren. Die höchste Anzahl an Nennungen bei der offenen Frage bekamen die *Lustigen Taschenbücher* mit vierzehn, was leider  nicht als repräsentativ angesehen werden kann. Die anderen *Lieblingsbücher* zählten höchstens fünf Nennungen insgesamt. 
 
@@ -26,13 +26,15 @@ Bei den Mädchen können wir die Zahlen viel eindeutiger interpretieren, da ihre
 Kann angenommen werden, dass die beliebtesten Bücher klare Mädchen- oder Bubenbücher sind oder handelt es sich bei ihnen um ausgewogene Verhältnisse? Am beliebtesten beziehungsweise insgesamt am häufigsten gelesen wurden die *5 Freunde* mit 232 Nennungen. Dabei handelt es sich um Bände, die keine Präferenz von Seiten der Buben oder Mädchen aufweisen, das Verhältnis ist beinahe ausgeglichen. Dann folgt *Harry Potter*, wo Unterschiede nur tendenziell ( Irrtumswahrscheinlichkeit von zehn Prozent) zugunsten der Buben interpretiert werden könnten, wir es aufgrund der hohen Leserinnenanzahl aber nicht als *Bubenbuch* definieren wollen. *Pippi Langstrumpf* und *Die Hexe Lilli* zählen ebenfalls zu den beliebtesten Kinderbüchern und können aufgrund der klaren weiblichen Bevorzugung und einem Signifikanzniveau von 0,99 als eindeutige Mädchenbücher definiert werden. *Die drei ???* können mit derselben (nicht geringen) Irrtumswahrscheinlichkeit wie *Harry Potter* nur mit Vorsicht als Bubenbuch gesehen werden, bei *Tom Turbo* kann auch von keiner signifikanten Bevorzugung gesprochen werden. *Gregs Tagebuch* steht an siebenter Stelle mit 203 Nennungen und wird von Buben präferiert (signifikant).
 
 
-\input{tabellen/model.wm.bm.tex}
-
 Weitere interessante Ergebnisse lieferte die Auswertung der Frage zu Themen, die Mädchen und Buben interessieren könnten. Dabei sind wir nach demselben Schema wie bei den einzelnen Titeln vorgegangen, weshalb die folgende Tabelle gleich gelesen werden kann wie die obere. Interessant ist, dass kein einziger Bub angegeben hat, gerne etwas über Prinzessinnen zu lesen. Kinderliteratur, die sich um dieses Thema dreht, ist eindeutig weiblich konnotiert, wahrscheinlich würde sich ein Junge schämen, wenn man so ein Buch bei ihm entdecken würde. Das erweckt den Eindruck, dass Buben sehr mädchentypische Dinge stark ablehnen. Die Vermutung, dass Mädchen sich eher für Freundschaft und Liebe interessieren (und sich das auch angeben trauen), hat sich mit diesem Ergebnis bestätigt: Dabei kann eine stärkere "Beziehungsorientierung" des weiblichen Geschlechts schon im frühen Alter bestätigt werden. Auch Tiere, die im allgemeinen eher als niedlich empfunden werden, finden bei den Mädchen eine klare Bevorzugung. Buben favorisieren hingegen den technischen Bereich, auch Drachen und Ritter sind für sie interessant. Wir vermuteten ursprünglich eine stärkere Ablehnung von Mädchen im Bereich Fußball und Sport, aber auch bei diesem *Thema* konnte sich unsere Hypothese bestätigen.Die Ergebnisse sind fast durchgehend hochsignifikant. 
 
 \input{tabellen/themen.tex}
 
 Problematisch beim Fragebogen im Nachhinein war, dass die Bücherauswahl doch einen weiten Range abdeckt und Titel deshalb auch teilweise schwer miteinander zu vergleichen sind. Bei *Harry Potter* und dem *Regenbogenfisch* würde der Versuch ad absurdum führen. Außerdem stehen den Kindern neben Klassikern, die seit Jahrzehnten gelesen werden (*Fünf Freunde*, *Pippi Langstrumpf*) auch eine große Auswahl an neuen Büchern zur Verfügung (*Gregs Tagebuch*, *Die wilden Fußballkerle*). Nach einer gründlicheren Recherche und Literaturanalyse, hätte man aus dem Fragebogen etwas mehr herausholen können. Außerdem wurden Sachbücher aufgrund eines fehlenden Hauptcharakters nicht berücksichtigt, wobei anzunehmen ist, dass gerade sie in diesem Alter von Buben gerne gelesen werden. Ebenso hätten sie für die Repräsentation von Themenvorlieben passend sein können. Auch die Auswahl kann, trotz Änderungen und Verbesserungen unsererseits, Verzerrungen aufweisen, da bei diesem Umfang der Liste von vornherein Vieles ausgeschlossen werden musste.
+
+
+\input{tabellen/model.wm.bm.tex}
+
 
 
 ### Interpretation der Ergebnisse
