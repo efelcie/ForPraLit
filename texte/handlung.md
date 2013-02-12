@@ -119,7 +119,7 @@ Aus dem Wissen, dass Buben und Mädchen unterschiedliche Lesepräferenzen aufwei
   \label{tab-abenteuer}
   \small
 \input{grafiken/tab-abenteuer.tex}
-  \caption[w/m-Faktor--Gender-Faktor]{w/m-Faktor zu Gender-Faktor}
+  \caption[Unterschiede zwischen Abenteuer und Alltag]{Unterschiede zwischen Abenteuer und Alltag bei Mädchen und Buben}
 \end{figure}
 
 Alltagsgeschichten spielen in einem dem Hauptprotagonisten vertrauten Umfeld. Bei kindlichen Protagonisten handelt es sich zumeist um die familiäre und/oder schulische Umgebung. Es werden Themen und Problematiken angesprochen, die im realen Leben der Leser und Leserinnen mit großer Wahrscheinlichkeit vorkommen können. Beispiele dafür sind Beziehungsprobleme mit Freunden, Eltern oder Lehrern, aber auch Leistungsdruck in der Schule, Erlebnisse auf Klassenfahrten, Urlaube oder der Tod von Haustieren. Wir konnten feststellen dass Alltagsgeschichten deutlich häufiger von Mädchen gelesen werden. 
