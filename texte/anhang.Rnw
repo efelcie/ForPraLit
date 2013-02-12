@@ -45,6 +45,40 @@ colnames(merkmale) <- tolower(colnames(merkmale))
 
 
 
+
+<<include=FALSE, echo=FALSE>>=
+
+setwd("/home/peter/git/ForPraLit/grafiken")
+
+attach(merkmale)
+
+library(ggplot2)
+
+df <- data.frame(Geschlecht=factor(c("Buben","Mädchen","Buben", "Mädchen")),
+        Genre=factor(c("Abent.","Abent.","Alltag","Alltag")),
+        Abenteuer=c(
+            sum(subset(merkmale, abent=="Abenteuer",select=buben)),
+            sum(subset(merkmale, abent=="Abenteuer",select=maedchen)),
+            sum(subset(merkmale, abent=="Alltag",select=buben)),
+            sum(subset(merkmale, abent=="Alltag",select=maedchen))
+        ))
+
+tikz('tab-abenteuer.tex', standAlone = FALSE, width=3, height=2.5)
+
+ggplot(data=df, aes(x=Genre, y=Abenteuer,fill=Geschlecht)) + 
+    xlab("Genre") + ylab("Anzahl der Nennungen") + 
+    #scale_fill_hue(l=70,n="") +      # Set legend title
+    geom_bar(stat="identity",position=position_dodge())
+
+dev.off()
+
+@
+
+
+
+
+
+
 <<echo=FALSE,results=tex>>=
 
 library(xtable)

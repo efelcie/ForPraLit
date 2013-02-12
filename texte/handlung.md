@@ -21,6 +21,17 @@ Auch wenn die Frage nach der Intensität des Einflusses von Kinderbüchern auf d
 Das Lesegeschlecht (w/m-Faktor) korreliert mit dem Gender-Faktor hochsignifikant mit einem Wert von $r = 0{,}471$. Somit kann die bereits in der Tabelle erkennbare Tendenz, dass Mädchen vor allem mit femininen Charakteren sowie Buben vor allem mit maskulinen Charakteren konfrontiert werden, auch statistisch festgehalten werden. Besonders interessant ist jedoch dieses Ergebnis erst, wenn wir uns die Geschlechter im Einzelnen ansehen. In der Abbildung \ref{wm-gender} sehen wir um wie viel klarer diese Konfrontation bei den Jungen ausfällt als bei den Mädchen. Dies ist wie folgt zu interpretieren: Beide Geschlechter lesen vermehrt von sozialen Geschlechtern, die ihrem eigenen Geschlecht entsprechen. Während jedoch die Buben hier besonders stark mit maskulinen Protagonisten konfrontiert werden, lesen Mädchen von Charakteren beider Genderausprägungen. Dies ist wahrscheinlich einerseits in dem Tabu für Jungen in Mädchendomänen einzudringen verbunden, anderseits auch mit einem emanzipatorischen Anspruch vieler Autorinnen verknüpft die ihre Charaktere bewusst untypisch darstellen, um bestehende Geschlechterverhältnisse aufzubrechen.
 
 \input{tabellen/cortab.wm.hfigsex.tex}
+\input{tabellen/einzeleigenschaften.tex}
+\input{tabellen/protagonisten.tex}
+
+\begin{figure}
+\center
+  \label{tab-abenteuer}
+  \small
+\input{grafiken/tab-abenteuer.tex}
+  \caption[w/m-Faktor--Gender-Faktor]{w/m-Faktor zu Gender-Faktor}
+
+\end{figure}
 
 
 \begin{figure}
