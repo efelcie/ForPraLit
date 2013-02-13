@@ -1,23 +1,11 @@
-Fazit
-=====
+# Fazit
 
-Unter Gender verstehen \inparencite[126]{West1987} vom Geschlecht abhängiges Verhalten.
- Wir haben in unserer Arbeit gezeigt, dass es Gender auch bei Kinderbüchern gibt. 
- Auch Kinderbücher *verhalten* sich abhängig vom Geschlecht und zwar abhängig vom Geschlecht der Lesenden.Mädchen und Buben lesen unterschiedliche Bücher und diese Bücher unterscheiden sich in ihrem Verhalten.
- So konsumieren Mädchen und Buben unterschiedliches Verhalten.
- Eine Analyse dieses Verhaltens anhand der Hauptfiguren hat gezeigt, dass das Gender der Bücher auch mit den Geschlechterstereotypen zusammenhängt.
- Umso höher der Anteil an Leserinnen um so femininer handelt die Hauptfigur.
+Das Ziel dieser Arbeit war die Beantwortung der Frage, ob und wie sich Mädchen- und Bubenbücher inhaltlich und oberflächlich voneinander unterscheiden. Wir konnten zeigen, dass es eindeutige Unterschiede im Leseverhalten von Mädchen und Buben gibt, einige Werke können tatsächlich als Mädchen- und Bubenbücher bezeichnet werden, wobei sich Mädchenbücher hauptsächlich dadurch auszeichnen, dass Buben diese eben nicht konsumieren. Dieses Ergebnis zieht sich durch die gesamte Untersuchung und bestätigt die Vermutung, dass Mädchen und Frauen einen größeren Spielraum in ihren Handlungen und Eigenschaften haben, während  Buben und Männer weibliche und feminine Bereiche eher meiden, als das umgekehrt der Fall zu sein scheint.
 
- Das es dieses Gender geben kann, setzt voraus, dass dieser Unterschied auch bei der Entscheidung ob man ein Buch liest gemacht werden kann.
- Dass dies möglich ist, wurde durch den zweiten Teil der Untersuchung gezeigt.
+Außerdem konsumieren die kindlichen Leser häufig Bücher, in denen die Hauptfiguren dasselbe Geschlecht wie sie selbst haben. Dass Hauptfiguren oft anti- klischeehafte Verhaltensweisen und Einstellungen haben, war anzunehmen, da viele Autor_innen bemüht waren und sind, Stereotype aufzubrechen und differenzierte  Geschlechterrollenbilder zu entwerfen. Bücher werden nicht nur geschrieben, um bestehende reale Verhältnisse abzubilden, sondern auch um zu verändern. Nichtsdestotrotz fanden wir gerade in Werken, die eher von Buben konsumiert werden, eine Hauptfigur mit maskulinen Eigenschaften. In den beliebtesten Mädchenbüchern konnten wir sowohl maskuline als auch feminine Protagonisten identifizieren. 
 
- Geht man davon aus, dass konsumiertes Verhalten auf die Leserinnen und Leser abfärbt und deren Verhalten beeinflusst, könnte man vermuten, dass Kinderbücher auf diese Art und Weise geschlechtsstereotypes Verhalten bei Kindern verstärkt wird.
+Ein weiteres deutliches Ergebnis ist, dass Alltagsgeschichten hauptsächlich von Mädchen gelesen werden und Abenteuergeschichten bei Buben beliebter sind. Einblicke in die Gefühlswelt und das Selbstbild der Protagonisten, kommen in den von uns analysierten Alltags-Büchern vor, während das Lösen von Aufgaben und Rätseln ein wichtiges Element von Abenteuergeschichten bilden. 
 
- Durch das Zeigen, wie Stereotypen mit Kindern verknüpft werden, lassen sich auch neue Ansätze für Gendermainstreaming-Maßnahmen in Bezug auf Kinderbücher ableiten.
+Ebenso konnten wir zeigen, dass man von den oberflächlichen Merkmalen eines Buches, schnell auf das Geschlecht der Lesenden schließen kann. Natürlich verfolgen Verlage mit dem Design des Buchumschlags genau dieses Ziel, Marketing lebt schließlich von der Bildung von Käufergruppen. 
 
-Wir möchten noch einmal darauf hinweisen, dass wir nicht die Wirkung von Büchern auf Kinder untersucht haben sondern nur das geschlechtsabhängige *Verhalten* von den Büchern selbst: das Gender von Kinderbüchern.
-
-
-                                                              
-
-                                                                
+Fruchtbar wäre eine Studie, die eine größere Bandbreite an Büchern abdeckt und auch das Rezeptionsverhalten der Kinder zu untersuchen versucht. Diese eher psychologisch motivierte Vorgehensweise, könnte fruchtbar sein, um den Einfluss von Medien auf das Verhalten von ihren Rezipient_innen festzustellen. Bei der Vielfalt an Angeboten für Kinder in jedem Alter, wäre es vielleicht übertrieben anzunehmen, dass ein paar Bücher das Geschlechtsrollenbild von Kindern maßgeblich beeinflussen können, allerdings können bestimmte Vorbilder,die hier die Protagonisten der Bücher sind, viel über eine Gesellschaft ausagen.
