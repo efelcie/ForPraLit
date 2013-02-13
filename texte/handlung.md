@@ -109,7 +109,9 @@ Das Lesegeschlecht (w/m-Faktor) korreliert mit dem Gender-Faktor hochsignifikant
 
 Aus dem Wissen, dass Buben und Mädchen unterschiedliche Lesepräferenzen aufweisen, ergibt sich die Frage, worin sie sich unterscheiden. 
 
-% \NN  Es ist bekannt, dass Buben verstärkt auf Sachbücher – die in unserer Erhebung bewusst auf Grund der fehlenden Darstellungen von Protagonisten nicht erhoben wurden - ansprechen, Mädchen hingegen tendieren zu Büchern die eine Geschichte erzählen. In unserer Erhebung haben wir ausschließlich Bücher erhoben, die aus dieser Unterscheidung von Mädchen favorisiert werden sollten. Dennoch konnte hier kein nennenswerter Unterschied in der Menge des Gelesenen festgestellt werden, was es uns ermöglicht, die unterschiedlichen Lesepräferenzen auf eine andere Form hin zu untersuchen. 
+<!-- 
+Es ist bekannt, dass Buben verstärkt auf Sachbücher – die in unserer Erhebung bewusst auf Grund der fehlenden Darstellungen von Protagonisten nicht erhoben wurden - ansprechen, Mädchen hingegen tendieren zu Büchern die eine Geschichte erzählen. In unserer Erhebung haben wir ausschließlich Bücher erhoben, die aus dieser Unterscheidung von Mädchen favorisiert werden sollten. Dennoch konnte hier kein nennenswerter Unterschied in der Menge des Gelesenen festgestellt werden, was es uns ermöglicht, die unterschiedlichen Lesepräferenzen auf eine andere Form hin zu untersuchen. 
+--> 
 
 Hierbei wurde analysiert, ob es sich bei den Büchern um Abenteuer- oder Alltagsgeschichten handelt (siehe Tabelle \ref{genre}). Es konnte hier ein Zusammenhang zwischen dieser Einteilung und dem Geschlecht der lesenden festgehalten werden (Kor.: 0,653**), der im foldenden etwas genauer Dargestellt werden soll.
 
