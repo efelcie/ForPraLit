@@ -23,6 +23,12 @@ Obwohl Titel, die in der offenen Frage angegeben wurden, nicht in die weitere Au
 Schon auf den ersten Blick auf die Tabelle ist leicht zu erkennen, dass Mädchenbücher eindeutiger als Mädchenbücher gelten können, als das bei Bubenbüchern der Fall ist: Buben präferieren eindeutig *Die wilden Fußballkerle* mit einem Wert von über 0,4, diser Wert ist gleichzeitig hochsignifikant. Dann kommen erst mit einem Wert von 0,17 das *Tiger- Team* und *Die Knickerbockerbande*, bei denen (aufgrund des hohen Leserinnen- Anteils) die Unterschiede genau genommen auch zufällig sein können. *Gregs Tagebuch* ist mit dem Wert von 0,15 wieder signifikant und kann als Bubenbuch angesehen werden.
 Bei den Mädchen können wir die Zahlen viel eindeutiger interpretieren, da ihre Werte näher am Extremwert angesiedelt und gleichzeitig fast durchgehend hochsignifikant sind. *Conni* führt die Liste mit einem Wert von -0,62 an, es folgen , *Geschichten von Mini* (-0,57), *Die wilden Hühner* (-0,51) und *Hexe Lilli* (-0,51). Dieser w/m- Faktor ist aber immer noch höher, als der von dem eindeutigsten Bubenbuch. 
 
+
+Um auch statistisch zu überprüfen, ob die Annahme stimmt, dass Buben das Geschlechterverhältnis stärker beeinflussen als Mädchen, weil sie spezifischer lesen und *typische* Mädchenbücher meiden, wurde die lineare Regression angewandt. In der Tabelle unten kann man sehen, dass der Beta- Wert bei den Buben höher ist als bei den Mädchen. Durch die Anzahl der Leser wird das Geschlechterverhältnis beziehungsweise der w/m- Faktor, also besser erklärt als durch die Anzahl der Leserinnen.
+
+\input{tabellen/model.wm.bm.tex}
+
+
 Kann angenommen werden, dass die beliebtesten Bücher klare Mädchen- oder Bubenbücher sind oder handelt es sich bei ihnen um ausgewogene Verhältnisse? Am beliebtesten beziehungsweise insgesamt am häufigsten gelesen wurden die *5 Freunde* mit 232 Nennungen. Dabei handelt es sich um Bände, die keine Präferenz von Seiten der Buben oder Mädchen aufweisen, das Verhältnis ist beinahe ausgeglichen. Dann folgt *Harry Potter*, wo Unterschiede nur tendenziell ( Irrtumswahrscheinlichkeit von zehn Prozent) zugunsten der Buben interpretiert werden könnten, wir es aufgrund der hohen Leserinnenanzahl aber nicht als *Bubenbuch* definieren wollen. *Pippi Langstrumpf* und *Die Hexe Lilli* zählen ebenfalls zu den beliebtesten Kinderbüchern und können aufgrund der klaren weiblichen Bevorzugung und einem Signifikanzniveau von 0,99 als eindeutige Mädchenbücher definiert werden. *Die drei ???* können mit derselben (nicht geringen) Irrtumswahrscheinlichkeit wie *Harry Potter* nur mit Vorsicht als Bubenbuch gesehen werden, bei *Tom Turbo* kann auch von keiner signifikanten Bevorzugung gesprochen werden. *Gregs Tagebuch* steht an siebenter Stelle mit 203 Nennungen und wird von Buben präferiert (signifikant).
 
 
@@ -31,9 +37,6 @@ Weitere interessante Ergebnisse lieferte die Auswertung der Frage zu Themen, die
 \input{tabellen/themen.tex}
 
 Problematisch beim Fragebogen im Nachhinein war, dass die Bücherauswahl doch einen weiten Range abdeckt und Titel deshalb auch teilweise schwer miteinander zu vergleichen sind. Bei *Harry Potter* und dem *Regenbogenfisch* würde der Versuch ad absurdum führen. Außerdem stehen den Kindern neben Klassikern, die seit Jahrzehnten gelesen werden (*Fünf Freunde*, *Pippi Langstrumpf*) auch eine große Auswahl an neuen Büchern zur Verfügung (*Gregs Tagebuch*, *Die wilden Fußballkerle*). Nach einer gründlicheren Recherche und Literaturanalyse, hätte man aus dem Fragebogen etwas mehr herausholen können. Außerdem wurden Sachbücher aufgrund eines fehlenden Hauptcharakters nicht berücksichtigt, wobei anzunehmen ist, dass gerade sie in diesem Alter von Buben gerne gelesen werden. Ebenso hätten sie für die Repräsentation von Themenvorlieben passend sein können. Auch die Auswahl kann, trotz Änderungen und Verbesserungen unsererseits, Verzerrungen aufweisen, da bei diesem Umfang der Liste von vornherein Vieles ausgeschlossen werden musste.
-
-
-\input{tabellen/model.wm.bm.tex}
 
 
 
