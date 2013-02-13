@@ -26,13 +26,14 @@ Bekannte
 
 
 
- In \thref{h5} (siehe Seite \pageref{h5}) nehmen wir an, das das Verhältnis von Leserinnen zu Lesern, allein durch *oberflächliche* Merkmale zu erklären ist.
+ In \thref{h5} (siehe Seite \pageref{h5}) nehmen wir an, das das Verhältnis von Leserinnen zu Lesern (*w/m-Faktor*), allein durch *oberflächliche* Merkmale zu erklären ist.
  Obeflächliche Merkmale des Buchs sind, vor allem, Merkmale des Umschlags, wie Hellgikeit, Geschlecht der Titelfigur oder ob es sich um eine Autorin oder einen Autor handelt.\footnote{Die Merkmale werden auf Seite \pageref{meth.merkmale} genau beschrieben.} 
  Um die Hypothese zu überprüfen, stellen wir ein lineares Modell mit den in Frage kommenden Merkmalen auf und testen so, wie gut, so wenige Merkmale wie möglich, das Geschlechterverhältnis der Lesenden erklären können.
   Danach schauen wir uns die einzelnen Merkmale und ausgewählte Merkmalskombinationen an.
 
 
-Das für uns beste Modell (Modell 1 in Tabelle \ref{wmmodel}), setzt sich aus drei Merkmalen eines Kinderbuchs zusammen. Die drei Merkmale reichen aus, um das Verhältnis von Leserinnen zu Lesern bei einem Kinderbuch voraussagen zu können: das *Geschlecht der Titelfigur*, die *Helligkeit* und die *Anzahl der Seiten*.
+Das beste Modell\footnote{Unter \enquote{bestem Modell} verstehen wir das Modell mit dem höchsten korrigierten Bestimmtheitsmaß (\(R_{kor.}\))} (Modell 1 in Tabelle \ref{wmmodel}), setzt sich aus drei Merkmalen eines Kinderbuchs zusammen. 
+Die drei Merkmale reichen aus, um das Verhältnis von Leserinnen zu Lesern bei einem Kinderbuch voraussagen zu können: das *Geschlecht der Titelfigur*, die *Helligkeit* und die *Anzahl der Seiten*.
 Das Modell kann mit einer Genauigkeit von rund 80% ($R_{kor.}0{,}82$) das Geschlechterverhältnis voraussagen.
 Wobei das Vorhandensein einer weiblichen Namens im Titel mit Abstand am meisten zu dem Modell beiträgt ($\beta=-0{,}77$).
 Wenn ein weiblicher Name im Titel vor kommt, lesen das Buch viel mehr Mädchen als Buben.
@@ -48,8 +49,13 @@ Ist das Buch dunkel, dick und kommt auch noch ein männlicher Name im Titel vor,
 
 \input{tabellen/wmmodel.tex}
 
-Für Mädchen und Buben sind unterschiedliche Merkmale ausschlaggebend
----------------------------------------------------------------------
+Unterschiede zwischen Mädchen und Buben
+---------------------------------------
+
+
+
+
+
 
 Dies heißt jedoch nicht, dass die drei Merkmale auf Mädchen und Buben denselben Einfluss haben.
 Die Wahrscheinlichkeit, dass Mädchen oder Buben ein Buch lesen, hängt mit unterschiedlichen Merkmalen von Büchern zusammen.
