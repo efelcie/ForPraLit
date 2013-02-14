@@ -29,7 +29,7 @@ Die drei Merkmale reichen aus, um das Verhältnis von Leserinnen zu Lesern bei e
 Das Modell kann mit einer Genauigkeit von rund 80% ($R_{kor.}0{,}82$) das Geschlechterverhältnis voraussagen.
 Wobei das Vorhandensein einer weiblichen Namens im Titel mit Abstand am meisten zu dem Modell beiträgt ($\beta=-0{,}77$).
 Wenn ein weiblicher Name im Titel vor kommt, lesen das Buch viel mehr Mädchen als Buben.
-Mit einigem Abstand in der Wichtigkeit, aber noch immer deutlich ausschalggebend, kommt die Helligkeit des Covers  ($\beta=0{,}29$).
+Mit einigem Abstand in der Wichtigkeit, aber noch immer deutlich ausschlaggebend, kommt die Helligkeit des Covers  ($\beta=0{,}29$).
 Je heller ein Buch ist um so größer ist der Anteil der Mädchen die das Buch lesen.
 Die Anzahl der Seiten dient dann nur noch zu Verfeinerung ($\beta=0{,}19$).
 Hier viel die Wirkung für uns überraschend aus, denn je dicker ein Buch ist umso höher ist der Anteil der Buben, die das Buch lesen.
@@ -41,18 +41,22 @@ Ist das Buch dunkel, dick und kommt auch noch ein männlicher Name im Titel vor,
 
 \input{tabellen/wmmodel.tex}
 
+\input{tabellen/models2.tex}
+
+
 Unterschiede zwischen Mädchen und Buben
 ---------------------------------------
 
 Die Gefahr bei der Interpretation von Modellen die den *w/m-Faktor* erklären ist, dass man meinen könnte, die Faktoren wirken automatisch auf Mädchen und auf Buben.
 Der *w/m-Faktor* ist ein Verhältnis von Leserinnen zu Lesern.
 Das heißt, auch Faktoren die nur die Mädchen oder nur die Buben beeinflussen, schlägt sich auf das Geschlechterverhältnis nieder.
+
 Dafür, dass ein Buch hauptsächlich von Mädchen gelesen wird, ist es wichtig, dass das Buch von einer Frau geschrieben wurde , dass die Figur im Titel weiblich ist und dass wenige Figuren am Cover sichtbar sind.
 Insgesamt hat das Modell, dass das Leseverhalten der Mädchen am besten erklärt  ein korrigiertes Bestimmtheitsmaß von $0{,}33$.
 Die Helligkeit und die Anzahl der Seiten ist für die Anzahl der Mädchen die ein Buch lesen irrelevant.
 
 
-Diese Merkmale sind für die Häufigkeit bei den Buben natürlich um so wichtiger. (Helligkeit: ; Seiten: )
+Diese Merkmale sind für die Häufigkeit bei den Buben natürlich um so wichtiger.
 Das lässt auch darauf schließen, dass grundsätzlich das Leseverhalten von Buben für das Verhältnis zwischen Mädchen und Buben relevanter ist.
 Und tatsächlich ist die Korrelation zwischen der Häufigkeit der Nennungen pro Buch bei den Buben und dem Verhältnis der Nennungen zwischen Mädchen und Buben mit $0{,}70$ größer als zwischen den Mädchen und dem Verhältnis, dass nur eine Korrelation von $-0{,}41$ aufweist.
 Da die Nennungen der Buben für unser Verhältnis so wichtig sind, fangen wir hier mit einer detaillierteren Analyse der Merkmale an.
@@ -75,7 +79,7 @@ Gemeint ist *Peter Pan*, bei dem, im Original, Wendy die Protagonistin ist. Jedo
 Eine andere Möglichkeit einer Differenz zwischen den beiden Merkmalen ist, dass das Geschlecht der Hauptfigur nicht vorkommt oder nicht eindeutig bestimmbar ist.
 
 Das Geschlecht der Hauptfigur ist ein Merkmal, über das die Autorin oder der Autor die völlige Kontrolle haben.
-Das Geschlecht der Hauptfigur entsteht meist ganz am Anfang und hat insgesamt gesehen den größten Erklärungswert für das Gesamt-Modell und ist für Mädchen und Buben relevant.
+Das Geschlecht der Hauptfigur entsteht meist ganz am Anfang und hat insgesamt gesehen den größten Erklärungswert für das Gesamt-Modell und ist für die Entscheidung der Mädchen und Buben relevant.
 
 Wenn wir die Vorlesebücher von unserer Analyse ausnehmen, verändert sich am Einfluss des Geschlechts der Titelfigur kaum etwas.
 
@@ -94,12 +98,12 @@ Das nächste wichtige Merkmal ist die Cover-Helligkeit eines Buchs.
 Dieses Merkmal hat bei Buben immerhin einen gleich großen Erklärungswert wie das Geschlecht der Titelfigur.
 Die Entstehung dieses Merkmals ist jedoch schon nicht mehr direkt mit der Autorin oder dem Autor zu verbinden.
 Das Cover wird zu einem Zeitpunkt, an dem die Geschichte schon längst an einen Verlag verkauft worden ist, gestaltet.
-Es kann auch vorkommen, dass das Cover bei neueren Fassungen komplett anders gestaltet wurde.
+Es kann auch vorkommen, dass das Cover bei neueren Fassungen komplett anders gestaltet wurde als die Erstausgabe.
 Der Verlag hat die Aufgabe die Geschichte an den Endkunden zu verkaufen.
 Das heißt, es ist seine Aufgabe, Kindern, deren Eltern und weiteren potenziellen Käufern die Entscheidung zu erleichtern.
 
 Wir vermuten, dass die Verlage herausgefunden haben, dass dunkle *coole* Bücher Buben eher ansprechen als lieblich helle, rosa Bücher.
-Zusätlich muss der Verlag eine Entscheidung treffen, für wen die Geschichte gedacht ist.
+Der Verlag eine Entscheidung treffen, für wen die Geschichte gedacht ist.
 Der Verlag hat für diese Zeit mehr Ressourcen als der Endkunde.
 Hier werden Inhalte eines Buches von den dafür zuständigen Personen im Cover ausgedrückt und gewissermaßen *übersetzt*. Dabei wirkt es nicht überraschend, dass sie sich an, in der Gesellschaft verfestigten Geschlechterrollenbildern orientieren.
 Tatsächlich hat der *Gender-Faktor* auf die Helligkeit den größten Einfluss ($r=-0{,}51$). Gemeinsam mit dem Geschlecht der Hauptfigur lässt sich die Helligkeit schon recht gut voraussagen ($R^2 \scriptstyle kor.\textstyle  =0{,}24; p=0{,}02$).
@@ -124,7 +128,8 @@ Buben bevorzugen Bücher für Ältere
 Ein weiterer Einfluss auf das Leseverhalten, speziell von Buben, ist die Dicke eines Buchs beziehungsweise das eng damit zusammenhängende empfohlene Alter.
 Und zwar steigt mit der Dicke der Bücher auch die Anzahl der männlichen Leser.
 Auf den ersten Blick widerspricht dieser Fakt den Ergebnissen der Lesesozialisationsforschung, in der Buben meist als *Lesemuffel* dargestellt werden.
-Vor allem weil das Leseverhalten von Mädchen dadurch wiederum nicht nachweisbar beeinflusst wird.
+Vor allem, weil das Leseverhalten von Mädchen dadurch nicht nachweisbar beeinflusst wird.
+
 Weiters kann man hier auch nicht klar zu sagen welches Merkmal, Alter oder Dicke, eigentlich wirksam ist.
 
 Um das Wirken des Merkmalpaares haben wir zwei Vermutungen.
@@ -141,7 +146,7 @@ Mädchen bevorzugen Bücher mit wenig Figuren am Cover
 
 Somit bleibt von den bis jetzt angesprochen Merkmalen nur mehr die Anzahl der Figuren am Cover.
 Zu unserer Überraschung besteht ein negativer linearer Zusammenhang zwischen der Häufigkeit der Leserinnen und der Anzahl der Figuren am Cover.
-Das heißt, umso weniger Figuren am Cover sind umso höher ist die Wahrscheinlichkeit, dass das Buch von einem Mädchen gelesen wurde.
+Das heißt, je weniger Figuren am Cover sind umso höher ist die Wahrscheinlichkeit, dass das Buch von einem Mädchen gelesen wurde.
 In unseren ersten Überlegungen hatten wir eher damit gerechnet, dass Mädchen mehrere Figuren bevorzugen würden.
 
 Um zu verstehen, wie es zu diesem Merkmal kommt, ist es wieder sinnvoll die Entstehung dieses Merkmals genauer zu beleuchten.
