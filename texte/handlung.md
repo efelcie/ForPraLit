@@ -41,14 +41,14 @@ Zur besseren Nachvollziehbarkeit dieses Genderfaktors sollen im Folgenden drei d
 
 Unterwürfig ist eine Person besonders dann, wenn sie sich befehligen lässt. Gehorsam zu sein und ohne viel Widerstand seine eigene Position aufzugeben sind weitere Beschreibungen dieser Eigenschaft. Dominante Personen können hingegen ihren Willen gegenüber anderen durchsetzen. Andere zu befehligen ist ein guter Indikator um dominante Charaktere zu erkennen. Die Unterwerfung ist aus Sicht des Doing-Gender eine weibliche Eigenschaft, während den Männern die Dominanz zugeschrieben wird. 
 
-Der w/m-Faktor korreliert dabei mit dieser Variabel sehr stark (Kor.: 0,466*). Wir können daraus lesen, dass diese Eigenschaften unabhängig vom Geschlecht des Protagonisten besonders klischeehaft in den gelesenen Kinderbüchern bei den Hauptcharakteren verwendet wurden. 
+Der w/m-Faktor korreliert dabei mit dieser Variabel sehr stark (Kor.: 0,426*). Wir können daraus lesen, dass diese Eigenschaften unabhängig vom Geschlecht des Protagonisten besonders klischeehaft in den gelesenen Kinderbüchern bei den Hauptcharakteren verwendet wurden. 
 
 
 ####Sicherheitsbedürftig/Abenteuerlustig
 
 Sicherheitsbedürftig zu sein äußert sich zumeist daran, dass eine Persönlichkeit sehr zurückgezogen lebt und sehr überlegt handelt. Zumeist umgeben sich sicherheitsbedürftige Charektere mit Menschen ihres persönlichen Vertrauens. Abenteuerlustige Personen gehen Risiken ein und werfen sich der Gefahr entgegen. Dies tun sie meist ohne viel darüber nachzudenken. Auch hier wird jede der Eigenschaften einem Geschlecht stereotyp zugeteilt. Sicherheitsbedürftigkeit ist somit eine weibliche Eigenschaft, während Männer abenteuerlustig sind. 
 
-Der w/m-Faktor korreliert dabei mit dieser Variabel sehr hoch (Kor.: 0,643**). Wir können daraus erkennen, dass dieses Eigenschaftspaar besonders klischeehaft bei der Konstruktion von Protagonisten in Kinderbüchern verwendet wird. 
+Der w/m-Faktor korreliert dabei mit dieser Variabel sehr hoch (Kor.: 0,609**). Wir können daraus erkennen, dass dieses Eigenschaftspaar besonders klischeehaft bei der Konstruktion von Protagonisten in Kinderbüchern verwendet wird. 
 
 ####Träumerisch/Realistisch
 
@@ -56,7 +56,7 @@ Verträumte Entscheidungen sind oftmals optimistisch motiviert während realisti
 Träumerisch wird aus Sichtweise des Doing-Gender mit Femininität assozierte.
 Realistisch wird hier als maskulines Attribut geführt. 
 
-Es besteht hier ein eindeutiger Zusammenhang zwischen dem Geschlechterverhältnis der Lesenden und dieser Variable (Kor.: 0,546**). Auch hier konnte gezeigt werden, dass die LeserInnen mit diese Eigenschaften besonders stereotyp konfrontiert werden. 
+Es besteht hier ein eindeutiger Zusammenhang zwischen dem Geschlechterverhältnis der Lesenden und dieser Variable (Kor.: 0,471*). Auch hier konnte gezeigt werden, dass die LeserInnen mit diese Eigenschaften besonders stereotyp konfrontiert werden. 
 
 
 Zusätzlich sollte noch erklärt werden, dass alle anderen Eigenschaftspaare gleich gepolt sind und entweder kein Zusammenhang festgestellt werden konnte oder ebenfalls positiv korrelieren. Da das Signifikanzniveau jedoch zu niedrig ist, um eine klare Aussage zu tätigen (siehe Tabelle 4.2.), kann hier nur soweit interpretiert werden, dass keine einzige Gender-Eigenschaft eine Tendenz zu einer nicht-klischeehaft Verwendung in Mädchen- und Bubenbüchern vorweist. 
@@ -99,7 +99,7 @@ Der Franz beobachtet den Garten des Nachbarhauses in dem ein Mädchen spielt. Er
 
 #### Ergebnisse der Genderdarstellung
 Der Genderwert wird mittels Kommerzahlen zwischen -1 und 1 dargestellt. Je stärker eine Zahl zu -1 tendiert, desto femininer fiel die Darstellung des Hauptprotagonisten aus. Umso näher eine Zahl der 1 kommt, umso maskuliner die Darstellung des Hauptprotagonisten. 
-Das Lesegeschlecht (w/m-Faktor) korreliert mit dem Gender-Faktor hochsignifikant mit einem Wert von 0,551**. Wirft man einen Blick auf Tabelle \ref{top30gender} (sortiert nach wm-Faktor), erkennt man bereits die Tendenz, dass Mädchen vor allem mit femininen Charakteren und Buben vor allem mit maskulinen Charakteren konfrontiert werden. Besonders interessant wurde dieses Ergebnis, als wir uns die Geschlechter im Einzelnen ansahen.  Beide Geschlechter lesen vermehrt Bücher mit Hauptcharaktere, deren Genderausprägung ihrem eigenen Geschlecht entsprechen. Da die Tabelle nach dem w/m-Faktor sortiert wurde, erkennen wir ganz oben die fünf eindeutigsten Bubenbücher. Im Vergleich mit den fünf eindeutigsten Mädchenbücher am unteren Ende der Tabelle sehen wir einige Unterschiede. Während die Buben mit Charakteren konfrontiert werden, deren Genderwerte sich alle im positiven Bereich befinden und daher zu einer maskulinen Darstellung tendieren, lesen Mädchen Bücher mit Genderwerten beider Ausprägungen. Mädchen lesen also Bücher mit femininen und maskulinen Hauptcharakteren. Dies ist wahrscheinlich einerseits mit dem Tabu für Jungen in Mädchendomänen einzudringen verbunden, anderseits auch mit einem emanzipatorischen Anspruch vieler Autorinnen verknüpft die ihre Charaktere bewusst anti-klischeehaft darstellen, um bestehende Geschlechterverhältnisse aufzubrechen.
+Das Lesegeschlecht (w/m-Faktor) korreliert mit dem Gender-Faktor signifikant mit einem Wert von 0,461*. Wirft man einen Blick auf Tabelle \ref{top30gender} (sortiert nach wm-Faktor), erkennt man bereits die Tendenz, dass Mädchen vor allem mit femininen Charakteren und Buben vor allem mit maskulinen Charakteren konfrontiert werden. Besonders interessant wurde dieses Ergebnis, als wir uns die Geschlechter im Einzelnen ansahen.  Beide Geschlechter lesen vermehrt Bücher mit Hauptcharaktere, deren Genderausprägung ihrem eigenen Geschlecht entsprechen. Da die Tabelle nach dem w/m-Faktor sortiert wurde, erkennen wir ganz oben die fünf eindeutigsten Bubenbücher. Im Vergleich mit den fünf eindeutigsten Mädchenbücher am unteren Ende der Tabelle sehen wir einige Unterschiede. Während die Buben mit Charakteren konfrontiert werden, deren Genderwerte sich alle im positiven Bereich befinden und daher zu einer maskulinen Darstellung tendieren, lesen Mädchen Bücher mit Genderwerten beider Ausprägungen. Mädchen lesen also Bücher mit femininen und maskulinen Hauptcharakteren. Dies ist wahrscheinlich einerseits mit dem Tabu für Jungen in Mädchendomänen einzudringen verbunden, anderseits auch mit einem emanzipatorischen Anspruch vieler Autorinnen verknüpft die ihre Charaktere bewusst anti-klischeehaft darstellen, um bestehende Geschlechterverhältnisse aufzubrechen.
 
 
 \input{tabellen/top30gender.tex}
