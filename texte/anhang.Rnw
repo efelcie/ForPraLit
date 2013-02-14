@@ -184,10 +184,10 @@ require(ggplot2)
 df <- data.frame(Geschlecht=factor(c("Buben","Mädchen","Buben", "Mädchen")),
     Genre=factor(c("Abenteuer","Abenteuer","Alltag","Alltag")),
     Abenteuer=c(
-      sum(subset(merkmale6, abent=="Abenteuer",select=buben)),
-      sum(subset(merkmale6, abent=="Abenteuer",select=maedchen)),
-      sum(subset(merkmale6, abent=="Alltag",select=buben)),
-      sum(subset(merkmale6, abent=="Alltag",select=maedchen))
+      mean(subset(merkmale6, abent=="Abenteuer",select=buben)),
+      mean(subset(merkmale6, abent=="Abenteuer",select=maedchen)),
+      mean(subset(merkmale6, abent=="Alltag",select=buben)),
+      mean(subset(merkmale6, abent=="Alltag",select=maedchen))
     ))
 
 df
@@ -195,7 +195,7 @@ df
 tikz('grafiken/tab-abenteuer.tex', standAlone = FALSE, width=3, height=2.5)
 
 ggplot(data=df, aes(x=Genre, y=Abenteuer,fill=Geschlecht)) + 
-  xlab("Genre") + ylab("Anzahl der Nennungen") + 
+  xlab("Genre") + ylab("Durchschnittliche Nennungen") + 
   theme_gray(base_size=9) +
     #scale_fill_hue(l=70,n="") +      # Set legend title
   geom_bar(stat="identity",position=position_dodge())
@@ -209,12 +209,12 @@ dev.off()
 df <- data.frame(Geschlecht=factor(c("Buben","Mädchen","Buben", "Mädchen", "Buben", "Mädchen")),
     Titelfigur=factor(c("männl.","männl.","weiblich","weiblich", "unbest.", "unbest.")),
     tfg=c(
-      sum(subset(merkmale, tfsexm=="1",select=buben)),
-      sum(subset(merkmale, tfsexm=="1",select=maedchen)),
-      sum(subset(merkmale, tfsexw=="1",select=buben)),
-      sum(subset(merkmale, tfsexw=="1",select=maedchen)),
-      sum(subset(merkmale, tfsexu=="1",select=buben)),
-      sum(subset(merkmale, tfsexu=="1",select=maedchen))
+      mean(subset(merkmale, tfsexm=="1",select=buben)),
+      mean(subset(merkmale, tfsexm=="1",select=maedchen)),
+      mean(subset(merkmale, tfsexw=="1",select=buben)),
+      mean(subset(merkmale, tfsexw=="1",select=maedchen)),
+      mean(subset(merkmale, tfsexu=="1",select=buben)),
+      mean(subset(merkmale, tfsexu=="1",select=maedchen))
     ))
 
 df
@@ -222,7 +222,7 @@ df
 tikz('grafiken/titelfig.tex', standAlone = FALSE, width=3, height=2.5)
 
 ggplot(data=df, aes(x=Titelfigur, y=tfg,fill=Geschlecht)) + 
-  xlab("Titelfigur") + ylab("Anzahl der Nennungen") + 
+  xlab("Titelfigur") + ylab("Durchschnittliche Nennungen") + 
   theme_gray(base_size=9) +
     #scale_fill_hue(l=70,n="") +      # Set legend title
   geom_bar(stat="identity",position=position_dodge())
@@ -236,10 +236,10 @@ dev.off()
 df <- data.frame(Geschlecht=factor(c("Buben","Mädchen","Buben", "Mädchen")),
     Titelfigur=factor(c("bis 6","bis 6","über 6","über 6")),
     tfg=c(
-      sum(subset(merkmale, alter<="6",select=buben)),
-      sum(subset(merkmale, alter<="6",select=maedchen)),
-      sum(subset(merkmale, alter>"6",select=buben)),
-      sum(subset(merkmale, alter>"6",select=maedchen))
+      mean(subset(merkmale, alter<="6",select=buben)),
+      mean(subset(merkmale, alter<="6",select=maedchen)),
+      mean(subset(merkmale, alter>"6",select=buben)),
+      mean(subset(merkmale, alter>"6",select=maedchen))
     ))
 
 df
@@ -247,7 +247,7 @@ df
 tikz('grafiken/alter.tex', standAlone = FALSE, width=3, height=2.5)
 
 ggplot(data=df, aes(x=Titelfigur, y=tfg,fill=Geschlecht)) + 
-  xlab("Altersempfehlung") + ylab("Anzahl der Nennungen") + 
+  xlab("Altersempfehlung") + ylab("Durchschnittliche Nennungen") + 
   theme_gray(base_size=9) +
     #scale_fill_hue(l=70,n="") +      # Set legend title
   geom_bar(stat="identity",position=position_dodge())
