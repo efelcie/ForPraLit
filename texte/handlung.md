@@ -89,13 +89,13 @@ Das sahen der Papa und die Mama ein.
 "Dann kommen wir aber zu spät ins Büro", sagten der Papa und die Mama. 
 "Gehtst du mit mir", piepste der Franz und schaute den Josef an.
 "Der Josef rief: "Jetzt spinnn nicht, Borstenvieh! Ich muß doch selber in die Schule!"
-"Und die Lilli?" piepste der Franz. 
+"Und die Lilli?" piepste der Franz. \parencite[][25]{Noestlinger1996}
 
 ######Situationsbeschreibung - träumerisch:
 
 Der Franz beobachtet den Garten des Nachbarhauses in dem ein Mädchen spielt. Er beobachtet sie und verliebt sich abrupt. Nur wie kann er sich diesem Wunderwesen nur nähern?
 
-> Und im Nachbargarten gab es ein Mädchen. Elfe hieß es und sah auch genauso aus. Himmelblaue Sternenaugen hatte die Elfe und goldblonde lange Haare, ein winziges Näschen und allerliebste Lachgrübchen in den Wangen. [...] Es knallte in ihm, als er sie zum ersten Mal im Nachbargarten sah. [...] Er beobachtet sie bloß. Aus der Krone des Kirschbaumes, vom Mansardenfenster der Schneiderei und vom Klofenster des Frisiersalons. 
+> Und im Nachbargarten gab es ein Mädchen. Elfe hieß es und sah auch genauso aus. Himmelblaue Sternenaugen hatte die Elfe und goldblonde lange Haare, ein winziges Näschen und allerliebste Lachgrübchen in den Wangen. [...] Es knallte in ihm, als er sie zum ersten Mal im Nachbargarten sah. [...] Er beobachtet sie bloß. Aus der Krone des Kirschbaumes, vom Mansardenfenster der Schneiderei und vom Klofenster des Frisiersalons. \parencite[][46]{Noestlinger1991}
 
 #### Ergebnisse der Genderdarstellung
 Der Genderwert wird mittels Kommerzahlen zwischen -1 und 1 dargestellt. Je stärker eine Zahl zu -1 tendiert, desto femininer fiel die Darstellung des Hauptprotagonisten aus. Umso näher eine Zahl der 1 kommt, umso maskuliner die Darstellung des Hauptprotagonisten. 
