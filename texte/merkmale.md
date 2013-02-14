@@ -58,8 +58,11 @@ Die Helligkeit und die Anzahl der Seiten ist für die Anzahl der Mädchen, die e
 Diese Merkmale sind für die Häufigkeit bei den Buben natürlich umso wichtiger.
 
 >!--
+
 Das lässt auch darauf schließen, dass das Leseverhalten grundsätzlich von Buben für das Verhältnis zwischen Mädchen und Buben relevanter ist.
+
 -->
+
 
 Und tatsächlich ist die Korrelation zwischen der Häufigkeit der Nennungen pro Buch bei den Buben und dem Verhältnis der Nennungen zwischen Mädchen und Buben mit $0{,}70$ größer als zwischen den Mädchen und dem Verhältnis, dass nur eine Korrelation von $-0{,}41$ aufweist.
 Da die Nennungen der Buben für unser Verhältnis so wichtig sind, fangen wir hier mit einer detaillierteren Analyse der Merkmale an.
