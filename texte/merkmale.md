@@ -1,4 +1,4 @@
-Merkmale die das Leseverhalten erklären
+Äußere Merkmale, die das Leseverhalten erklären
 =======================================
 
 <!-- 
@@ -56,7 +56,10 @@ Die Helligkeit und die Anzahl der Seiten ist für die Anzahl der Mädchen, die e
 
 
 Diese Merkmale sind für die Häufigkeit bei den Buben natürlich umso wichtiger.
->!--Das lässt auch darauf schließen, dass das Leseverhalten grundsätzlich von Buben für das Verhältnis zwischen Mädchen und Buben relevanter ist.-->
+
+>!--Das lässt auch darauf schließen, dass das Leseverhalten grundsätzlich von Buben für das Verhältnis zwischen Mädchen und Buben relevanter ist.
+-->
+
 Und tatsächlich ist die Korrelation zwischen der Häufigkeit der Nennungen pro Buch bei den Buben und dem Verhältnis der Nennungen zwischen Mädchen und Buben mit $0{,}70$ größer als zwischen den Mädchen und dem Verhältnis, dass nur eine Korrelation von $-0{,}41$ aufweist.
 Da die Nennungen der Buben für unser Verhältnis so wichtig sind, fangen wir hier mit einer detaillierteren Analyse der Merkmale an.
 
@@ -72,7 +75,12 @@ Das Geschlecht der Titelfigur
 \end{figure}
 
 Der erste Einflussfaktor ist das Geschlecht der Figur, die im Titel genannt wird. Das ist in den meisten Fällen auch die Hauptfigur, also die Figur mit der sich die Leserin oder der Leser am wahrscheinlichsten identifiziert.
-Nur bei wenigen Geschichten ist die Figur, die am Titel erwähnt oder dargestellt wird, nicht die eigentliche Protagonistin bzw. der eigentliche Protagonist. Auch wenn die Hauptfigur eine andere ist, heißt das noch immer nicht, dass sich auch das Geschlecht unterscheidet. <!-- Zum Beispiel ist in *der Räuber Hotzenplotz* die Hauptfigur der Kasperl, aber beide sind männlich. In *Grüffelo* ist die Hauptfigur eine Maus und beide sind *neutral*. -->
+Nur bei wenigen Geschichten ist die Figur, die am Titel erwähnt oder dargestellt wird, nicht die eigentliche Protagonistin bzw. der eigentliche Protagonist. Auch wenn die Hauptfigur eine andere ist, heißt das noch immer nicht, dass sich auch das Geschlecht unterscheidet. 
+
+<!-- 
+Zum Beispiel ist in *der Räuber Hotzenplotz* die Hauptfigur der Kasperl, aber beide sind männlich. In *Grüffelo* ist die Hauptfigur eine Maus und beide sind *neutral*. 
+-->
+
 In unseren 30 meist genannten Büchern bleibt nur ein Buch übrig, bei denen sich das Geschlecht der Titelfigur und der Hauptfigur unterscheiden und hier handelt es sich um einen Streitfall.
 Gemeint ist *Peter Pan*, bei dem, im Original, Wendy die Protagonistin ist. Jedoch ist bei vielen Adaptionen der Fokus ganz zu Peter gewandert.
 Eine andere Möglichkeit einer Differenz zwischen den beiden Merkmalen ist, dass das Geschlecht der Hauptfigur nicht vorkommt oder nicht eindeutig bestimmbar ist.
@@ -102,7 +110,11 @@ Der Verlag hat schließlich die Aufgabe, die Geschichte an den Endkunden zu verk
 
 Wir vermuten, dass die Verlage herausgefunden haben, dass dunkle *coole* Bücher Buben eher ansprechen als lieblich helle oder gar rosa oder pastellfarbene Bücher.
 Der Verlag muss eine Entscheidung treffen, für wen die Geschichte gedacht ist.
-<!-- Der Verlag hat für diese Zeit mehr Ressourcen als der Endkunde. -->
+
+<!-- 
+Der Verlag hat für diese Zeit mehr Ressourcen als der Endkunde.
+-->
+
 Hier werden Inhalte eines Buches von den dafür zuständigen Personen im Cover ausgedrückt und gewissermaßen *übersetzt*. Dabei wirkt es nicht überraschend, dass sie sich an, in der Gesellschaft verfestigten Geschlechterrollenbildern orientieren.
 Tatsächlich hat der *Gender-Faktor* auf die Helligkeit den größten Einfluss ($r=-0{,}51$). Gemeinsam mit dem Geschlecht der Hauptfigur lässt sich die Helligkeit schon recht gut voraussagen ($R^2 \scriptstyle kor.\textstyle  =0{,}24; p=0{,}02$).
 So ist die Helligkeit ein gutes *Transportmittel* um den Gender-Faktor ankommen zu lassen.\footnote{Wir gehen davon aus, dass weitere Merkmale des Covers, die wir nicht operationalisiert haben, wie die Form der Darstellung oder die Komplexität des Bildes noch einen wesentlichen Anteil zur Übersetzung des Genderfaktor beitragen.}
