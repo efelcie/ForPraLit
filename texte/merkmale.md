@@ -1,14 +1,6 @@
 Merkmale die das Leseverhalten erklären
 =======================================
 
-
-
-
-
-
-
-
-
 <!-- 
 Kinder 10--11 Jahre
 Orientierung  Bekanntn: 8,24,46,22 | 32
@@ -52,24 +44,29 @@ Ist das Buch dunkel, dick und kommt auch noch ein männlicher Name im Titel vor,
 Unterschiede zwischen Mädchen und Buben
 ---------------------------------------
 
-
-
-
-
-
-Dies heißt jedoch nicht, dass die drei Merkmale auf Mädchen und Buben denselben Einfluss haben.
-Die Wahrscheinlichkeit, dass Mädchen oder Buben ein Buch lesen, hängt mit unterschiedlichen Merkmalen von Büchern zusammen.
-Dafür, dass ein Buch hauptsächlich von Mädchen gelesen wird, ist es wichtig, dass das Buch von einer Frau geschrieben wurde ($R^2  \scriptstyle kor.\textstyle =0{,}19; p=0{,}04$), wiederum, dass die Figur im Titel weiblich ist ($R^{2}\scriptstyle kor.\textstyle  =0{,}18; p=0{,}03$) und dass wenige Figuren am Cover ($r=-0{,}37; p=0{,}4$) sichtbar sind.
-Insgesamt hat das Modell mit diesen drei Merkmalen ein korrigiertes Bestimmtheitsmaß von $0{,}33$ ($p=0{,}02$).
+Die Gefahr bei der Interpretation von Modellen die den *w/m-Faktor* erklären ist, dass man meinen könnte, die Faktoren wirken automatisch auf Mädchen und auf Buben.
+Der *w/m-Faktor* ist ein Verhältnis von Leserinnen zu Lesern.
+Das heißt, auch Faktoren die nur die Mädchen oder nur die Buben beeinflussen, schlägt sich auf das Geschlechterverhältnis nieder.
+Dafür, dass ein Buch hauptsächlich von Mädchen gelesen wird, ist es wichtig, dass das Buch von einer Frau geschrieben wurde , dass die Figur im Titel weiblich ist und dass wenige Figuren am Cover sichtbar sind.
+Insgesamt hat das Modell, dass das Leseverhalten der Mädchen am besten erklärt  ein korrigiertes Bestimmtheitsmaß von $0{,}33$.
 Die Helligkeit und die Anzahl der Seiten ist für die Anzahl der Mädchen die ein Buch lesen irrelevant.
 
-Diese Merkmale sind für die Häufigkeit bei den Buben natürlich um so wichtiger. (Helligkeit: $R^2 \scriptstyle kor.\textstyle  =0{,}25$; Seiten: $R^2 \scriptstyle kor.\textstyle  =0{,}16$; $p=0{,}01$)
+
+Diese Merkmale sind für die Häufigkeit bei den Buben natürlich um so wichtiger. (Helligkeit: ; Seiten: )
 Das lässt auch darauf schließen, dass grundsätzlich das Leseverhalten von Buben für das Verhältnis zwischen Mädchen und Buben relevanter ist.
 Und tatsächlich ist die Korrelation zwischen der Häufigkeit der Nennungen pro Buch bei den Buben und dem Verhältnis der Nennungen zwischen Mädchen und Buben mit $0{,}70$ größer als zwischen den Mädchen und dem Verhältnis, dass nur eine Korrelation von $-0{,}41$ aufweist.
 Da die Nennungen der Buben für unser Verhältnis so wichtig sind, fangen wir hier mit einer detaillierteren Analyse der Merkmale an.
 
 Das Geschlecht der Titelfigur
 ----------------------------
+
+\begin{figure}
+\center
+  \label{titelfig}
+  \small
+\input{grafiken/titelfig.tex}
+  \caption[Einfluss des Geschlechts der Titelfigur]{Einfluss des Geschlechts der Titelfigur auf Leserinnen und Leser}
+\end{figure}
 
 Der erste Einflussfaktor ist das Geschlecht der Figur, die im Titel genannt wird. Das ist in den meisten Fällen auch die Hauptfigur, also die Figur mit der sich die Leserin oder der Leser am wahrscheinlichsten identifiziert.
 Nur bei wenigen Geschichten ist die Figur, die am Titel erwähnt wird, nicht die eigentliche Protagonistin bzw. der eigentliche Protagonist. Auch wenn die Hauptfigur eine andere ist, heißt  das noch immer nicht, dass sich auch das Geschlecht unterscheidet. Zum Beispiel ist in *der Räuber Hotzenplotz* die Hauptfigur der Kasperl, aber beide sind männlich. In *Grüffelo* ist die Hauptfigur eine Maus und beide sind *neutral*.
@@ -80,8 +77,18 @@ Eine andere Möglichkeit einer Differenz zwischen den beiden Merkmalen ist, dass
 Das Geschlecht der Hauptfigur ist ein Merkmal, über das die Autorin oder der Autor die völlige Kontrolle haben.
 Das Geschlecht der Hauptfigur entsteht meist ganz am Anfang und hat insgesamt gesehen den größten Erklärungswert für das Gesamt-Modell und ist für Mädchen und Buben relevant.
 
+Wenn wir die Vorlesebücher von unserer Analyse ausnehmen, verändert sich am Einfluss des Geschlechts der Titelfigur kaum etwas.
+
 Buben lesen keine hellen Bücher
 -------------------------------
+
+\begin{figure}
+\center
+  \label{helligkeit}
+  \small
+\input{grafiken/helligkeit.tex}
+  \caption[Einfluss der Helligkeit auf Leser]{Einfluss der Helligkeit auf Leser}
+\end{figure}
 
 Das nächste wichtige Merkmal ist die Cover-Helligkeit eines Buchs.
 Dieses Merkmal hat bei Buben immerhin einen gleich großen Erklärungswert wie das Geschlecht der Titelfigur.
@@ -106,6 +113,14 @@ Das zeigt, dass Buben es eher vermeiden mädchenhafte Literatur zu konsumieren, 
 Buben bevorzugen Bücher für Ältere
 ----------------------------------
 
+\begin{figure}
+\center
+  \label{alter}
+  \small
+\input{grafiken/alter.tex}
+  \caption[Einfluss von Altersempfehlung]{Einfluss von Altersempfehlung auf Leserinnen und Leser}
+\end{figure}
+
 Ein weiterer Einfluss auf das Leseverhalten, speziell von Buben, ist die Dicke eines Buchs beziehungsweise das eng damit zusammenhängende empfohlene Alter.
 Und zwar steigt mit der Dicke der Bücher auch die Anzahl der männlichen Leser.
 Auf den ersten Blick widerspricht dieser Fakt den Ergebnissen der Lesesozialisationsforschung, in der Buben meist als *Lesemuffel* dargestellt werden.
@@ -118,27 +133,8 @@ Die zweite Vermutung bezieht sich auf den *Coolness-Faktor*.
 Das heißt, das es für Buben wichtiger ist *cool* zu sein.
 So kann sich von unserer Forschungsgruppe ein männliches Mitglied noch sehr gut erinnern, dass das empfohlene Alter hinten auf den Büchern, für ihn, gerade im Alter der Untersuchten, sehr wichtig war.
 
-Der Einfluss des Geschlechts der Autorin/des Autors ist zu vernachlässigen
-----------------------------------------------------------------
 
-Wenden wir uns wieder dem Modell, dass die Häufigkeiten der Mädchen erklären soll, zu.
-Davon haben wir das für die Mädchen zweitwichtigste Merkmal, das Geschlecht der Titelfigur, schon analysiert.
-Jedoch kommt bei den Mädchen ein weiteres *Geschlechts-Merkmal* hinzu. Das Geschlecht der Autorin/des Autors.
-Bei diesem Oberflächenmerkmal ist für die Buben kein Zusammenhang nachweisbar.
 
-Aber auch die Erklärungskraft bei den Mädchen ist nicht überzubewerten, da sie zu einem sehr großen Teil aus einem sehr gewichtigen *Ausreißer* besteht.
-Der/die Autor_in von *Der Hexe Lilli*, dem Buch, das bei den Mädchen das Ranking anführt nennt sich *Knister*. Hinter dem Pseudonym steckt ein Mann, jedoch entschieden wir uns, für die Cover- Analyse nur eindeutig feststellbare Geschlechter anzuführen.
-Da es sich hier um einen Ausnahmefall handelt und *Knister* das einzige neutrale Autorengeschlecht auf den ersten Blick darstellt und dieses Buch von den Mädchen am häufigsten gelesen wurde, erklärt warum dieser Wert, wenn überhaupt, nur mit besonderer Vorsicht interpretiert werden kann.
-Vor allem da sich die Werte zwischen weiblich und männlich nicht signifikant unterscheiden. (Abb. \ref{maedchen-geschlecht})
-
-\begin{figure}
-\center
-  \vspace{-1.5cm}
-\input{grafiken/maedchen-geschlecht-a.tex}
-  \caption[Leserinnen--Geschlecht]{Anzahl der Leserinnen zu Geschlecht der AutorIn}
-  \label{maedchen-geschlecht}
-
-\end{figure}
 
 Mädchen bevorzugen Bücher mit wenig Figuren am Cover
 ----------------------------------------------------
@@ -154,7 +150,7 @@ Die Grafikabteilung des Verlags, übersetzt hier wieder Inhalt in Design.
 Wobei wir vermuten, dass zwei Aspekte der Geschichte für die Anzahl der Figuren wichtig ist.
 Einerseits halten wir es für entscheidend, ob es sich um einen Multiprotagonisten handelt, wie z.B bei der *Knickerbockerbande* oder den *Wilden Hühnern*.
 Andererseits glauben wir, dass die Ebene auf der die Geschichte stattfindet, ob es viel *psychologisches* also z.B. *Inneren Monolog* gibt, oder ob sich die meisten Probleme auf soziales Handeln beziehen.
-Diese These wird auch davon gestützt, dass die stärkste Korrelation der Anzahl der Figuren von dem Merkmal *Innerer Monolog* ausgeht ($r=0{,}36; p=0{,}06$).
+Diese These wird auch davon gestützt, dass die stärkste Korrelation der Anzahl der Figuren von dem Merkmal *Innerer Monolog* ausgeht ($r=0{,}36^\circ$).
 
 
 
