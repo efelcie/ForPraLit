@@ -38,13 +38,13 @@
 #   --bibliography=literatur/sekundaer.bib\
 #   --biblatex;
 
+ R  --vanilla --slave  < syntax/script.R
 
+  # cd texte
 
-  cd texte
+  # R CMD Sweave anhang.Rnw
 
-  R CMD Sweave anhang.Rnw
-
-  cd ..
+  # cd ..
 
 
 

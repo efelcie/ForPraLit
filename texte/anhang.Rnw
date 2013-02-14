@@ -2,7 +2,298 @@
 \appendix
 \chapter{Anhang}
 
-% \section{Fragebogen}
+
+
+<<include=FALSE, echo=FALSE>>=
+
+
+setwd("/home/peter/git/ForPraLit")
+
+
+
+library(foreign, pos=4)
+# library(relimp, pos=4)
+library(Hmisc)
+# library(Rcmdr)
+# library(tcltk)
+# library(car)
+# library(MASS)
+# library(nnet)
+
+
+merkmale <- read.spss("/home/peter/git/ForPraLit/daten/merkmalebuecher.por", use.value.labels=TRUE, max.value.labels=Inf, 
+  to.data.frame=TRUE)
+colnames(merkmale) <- tolower(colnames(merkmale))
+# showData(merkmale, placement='-20+200', font=getRcmdr('logFont'), maxwidth=80, maxheight=30, suppress.X11.warnings=FALSE)
+
+merkmale6 <- read.spss("/home/peter/git/ForPraLit/daten/merkmale6.por", use.value.labels=TRUE, max.value.labels=Inf, 
+  to.data.frame=TRUE)
+colnames(merkmale6) <- tolower(colnames(merkmale6))
+
+
+
+
+
+
+@
+
+
+
+
+
+\scriptsize
+
+
+\section{Statistische Berechnungen in GNU R}
+
+<<include=TRUE, echo=TRUE>>=
+
+
+
+# Bestes Modell für w/m-Faktor
+
+lm.Master <- lm(formula = wm ~ tfsexw + tfsexm + hell +  seiten  , 
+  data = merkmale, x=TRUE)
+summary(lm.Master)
+# Beta-Werte
+round(lm.Master$coef[-1] * apply(lm.Master$x,2,sd)[-1] /sd(merkmale$wm),2)
+
+
+
+
+# Modellvergleich aller Bücher
+
+
+# w/m-Faktor
+lm.Master <- lm(formula = wm ~ tfsexw + tfsexm + hell +  figanz  +  seiten  , 
+  data = merkmale, x=TRUE)
+summary(lm.Master)
+# Beta-Werte
+round(lm.Master$coef[-1] * apply(lm.Master$x,2,sd)[-1] /sd(merkmale$wm),2)
+
+# Mädchen
+lm.Maedchen <- lm(formula = maedchen ~ tfsexw + tfsexm + hell +  figanz  +  seiten  , 
+  data = merkmale, x=TRUE)
+summary(lm.Maedchen)
+# Beta-Werte
+round(lm.Maedchen$coef[-1] * apply(lm.Maedchen$x,2,sd)[-1] /sd(merkmale$maedchen),2)
+
+# Buben
+lm.Buben <- lm(formula = buben ~ tfsexw + tfsexm + hell +  figanz  +  seiten  , 
+  data = merkmale, x=TRUE)
+summary(lm.Buben)
+# Beta-Werte
+round(lm.Buben$coef[-1] * apply(lm.Buben$x,2,sd)[-1] /sd(merkmale$buben),2)
+
+
+
+# Modellvergleich mit Bücher ab 7 Jahre
+
+# w/m-Faktor
+lm.Master <- lm(formula = wm ~ tfsexw + tfsexm + hell +  figanz  +  seiten  , 
+  data = merkmale6, x=TRUE)
+summary(lm.Master)
+# Beta-Werte
+round(lm.Master$coef[-1] * apply(lm.Master$x,2,sd)[-1] /sd(merkmale6$wm),2)
+
+# Mädchen
+lm.Maedchen <- lm(formula = maedchen ~ tfsexw + tfsexm + hell +  figanz  +  seiten  , 
+  data = merkmale6, x=TRUE)
+summary(lm.Maedchen)
+# Beta-Werte
+round(lm.Maedchen$coef[-1] * apply(lm.Maedchen$x,2,sd)[-1] /sd(merkmale6$maedchen),2)
+
+# Buben
+lm.Buben <- lm(formula = buben ~ tfsexw + tfsexm + hell +  figanz  +  seiten  , 
+  data = merkmale6, x=TRUE)
+summary(lm.Buben)
+# Beta-Werte
+round(lm.Buben$coef[-1] * apply(lm.Buben$x,2,sd)[-1] /sd(merkmale6$buben),2)
+
+
+
+# Korrelationen
+
+
+# Unterschied Mädchen -- Buben auf w/m
+rcorr(cbind(merkmale$wm,merkmale$maedchen,merkmale$buben), type="pearson")
+
+
+
+# 
+rcorr(cbind(merkmale$gender,merkmale$hell), type="pearson")
+
+
+#Modell Helligkeit
+
+# w/m-Faktor
+lm.Hell <- lm(formula = hell ~ gender + hfigsex  , 
+  data = merkmale, x=TRUE)
+summary(lm.Hell)
+# Beta-Werte
+round(lm.Hell$coef[-1] * apply(lm.Hell$x,2,sd)[-1] /sd(merkmale$hell),2)
+
+
+# exclude Fünf Freunde
+merkmale22 <- merkmale6[-13,]
+attach(merkmale22)
+rcorr(cbind(wm,unterw,abh,konk,akt,sicher,aggr), type="pearson")
+rcorr(cbind(wm,mut,stark,rational,streng,ego,emo,unlog), type="pearson")
+rcorr(cbind(wm,phant,abent,grup,imon,quest,gender), type="pearson")
+detach(merkmale22)
+
+
+@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<<include=FALSE, echo=FALSE>>=
+
+
+#####################################################
+#####################################################
+### Grafiken ########################################
+
+#Load the tikzDevice package, if you dont have it, install with:
+#  install.packages("tikzDevice", repos="http://R-Forge.R-project.org")
+require(tikzDevice)
+require(ggplot2)
+
+
+
+
+
+
+
+################################
+df <- data.frame(Geschlecht=factor(c("Buben","Mädchen","Buben", "Mädchen")),
+    Genre=factor(c("Abenteuer","Abenteuer","Alltag","Alltag")),
+    Abenteuer=c(
+      sum(subset(merkmale6, abent=="Abenteuer",select=buben)),
+      sum(subset(merkmale6, abent=="Abenteuer",select=maedchen)),
+      sum(subset(merkmale6, abent=="Alltag",select=buben)),
+      sum(subset(merkmale6, abent=="Alltag",select=maedchen))
+    ))
+
+df
+
+tikz('grafiken/tab-abenteuer.tex', standAlone = FALSE, width=3, height=2.5)
+
+ggplot(data=df, aes(x=Genre, y=Abenteuer,fill=Geschlecht)) + 
+  xlab("Genre") + ylab("Anzahl der Nennungen") + 
+  theme_gray(base_size=9) +
+    #scale_fill_hue(l=70,n="") +      # Set legend title
+  geom_bar(stat="identity",position=position_dodge())
+
+dev.off()
+#############################################
+
+
+
+#############################################
+df <- data.frame(Geschlecht=factor(c("Buben","Mädchen","Buben", "Mädchen", "Buben", "Mädchen")),
+    Titelfigur=factor(c("männl.","männl.","weiblich","weiblich", "unbest.", "unbest.")),
+    tfg=c(
+      sum(subset(merkmale, tfsexm=="1",select=buben)),
+      sum(subset(merkmale, tfsexm=="1",select=maedchen)),
+      sum(subset(merkmale, tfsexw=="1",select=buben)),
+      sum(subset(merkmale, tfsexw=="1",select=maedchen)),
+      sum(subset(merkmale, tfsexu=="1",select=buben)),
+      sum(subset(merkmale, tfsexu=="1",select=maedchen))
+    ))
+
+df
+
+tikz('grafiken/titelfig.tex', standAlone = FALSE, width=3, height=2.5)
+
+ggplot(data=df, aes(x=Titelfigur, y=tfg,fill=Geschlecht)) + 
+  xlab("Titelfigur") + ylab("Anzahl der Nennungen") + 
+  theme_gray(base_size=9) +
+    #scale_fill_hue(l=70,n="") +      # Set legend title
+  geom_bar(stat="identity",position=position_dodge())
+
+dev.off()
+#################################################
+
+
+
+#################################################
+df <- data.frame(Geschlecht=factor(c("Buben","Mädchen","Buben", "Mädchen")),
+    Titelfigur=factor(c("bis 6","bis 6","über 6","über 6")),
+    tfg=c(
+      sum(subset(merkmale, alter<="6",select=buben)),
+      sum(subset(merkmale, alter<="6",select=maedchen)),
+      sum(subset(merkmale, alter>"6",select=buben)),
+      sum(subset(merkmale, alter>"6",select=maedchen))
+    ))
+
+df
+
+tikz('grafiken/alter.tex', standAlone = FALSE, width=3, height=2.5)
+
+ggplot(data=df, aes(x=Titelfigur, y=tfg,fill=Geschlecht)) + 
+  xlab("Altersempfehlung") + ylab("Anzahl der Nennungen") + 
+  theme_gray(base_size=9) +
+    #scale_fill_hue(l=70,n="") +      # Set legend title
+  geom_bar(stat="identity",position=position_dodge())
+
+dev.off()
+########################################################
+
+
+
+#########################################################
+tikz('grafiken/helligkeit.tex', standAlone = FALSE, width=3, height=2.5)
+
+ggplot(merkmale, aes(x=hell, y=buben)) +
+    geom_point(shape=1) +    # Use hollow circles
+    geom_smooth(method=lm) +  # Add linear regression line 
+                             #  (by default includes 95% confidence region)
+    #xlim(0,255) + 
+   # ylim(-1,1) +
+    xlab("Helligkeit") + ylab("Anzahl der Leser") 
+
+dev.off()
+#####################################################################
+
+
+
+#################################################################
+tikz('grafiken/seiten.tex', standAlone = FALSE, width=3, height=2.5)
+
+ggplot(merkmale6, aes(x=seiten, y=wm)) +
+    geom_point(shape=1) +    # Use hollow circles
+    geom_smooth(method=lm) +  # Add linear regression line 
+                             #  (by default includes 95% confidence region)
+  #  xlim(0,255) + 
+    ylim(-1,1) +
+    xlab("Seiten") + ylab("w/m-Faktor")
+
+dev.off()
+##########################################################################
+
+
+@
+
+
+
+
+
 
 \begin{figure}
     \centering
@@ -33,46 +324,6 @@
 \end{figure}
 
 
-<<include=FALSE, echo=FALSE>>=
-
-library(foreign)
-
-merkmale <- read.spss("/home/peter/git/ForPraLit/daten/merkmale6.por", use.value.labels=TRUE, 
-  max.value.labels=Inf, to.data.frame=TRUE)
-colnames(merkmale) <- tolower(colnames(merkmale))
-
-@
-
-
-
-
-<<include=FALSE, echo=FALSE>>=
-
-setwd("/home/peter/git/ForPraLit/grafiken")
-
-attach(merkmale)
-
-library(ggplot2)
-
-df <- data.frame(Geschlecht=factor(c("Buben","Mädchen","Buben", "Mädchen")),
-        Genre=factor(c("Abent.","Abent.","Alltag","Alltag")),
-        Abenteuer=c(
-            sum(subset(merkmale, abent=="Abenteuer",select=buben)),
-            sum(subset(merkmale, abent=="Abenteuer",select=maedchen)),
-            sum(subset(merkmale, abent=="Alltag",select=buben)),
-            sum(subset(merkmale, abent=="Alltag",select=maedchen))
-        ))
-
-tikz('tab-abenteuer.tex', standAlone = FALSE, width=3, height=2.5)
-
-ggplot(data=df, aes(x=Genre, y=Abenteuer,fill=Geschlecht)) + 
-    xlab("Genre") + ylab("Anzahl der Nennungen") + 
-    #scale_fill_hue(l=70,n="") +      # Set legend title
-    geom_bar(stat="identity",position=position_dodge())
-
-dev.off()
-
-@
 
 
 
@@ -89,104 +340,10 @@ print(alles,scalebox=0.6,floating.environment='sidewaystable')
 alles2 <- xtable(merkmale[,c(13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30)],label='merkmale',caption='Datentabelle (Fortsetzung)')
 print(alles2,scalebox=0.6,floating.environment='sidewaystable')
 
-alles3 <- xtable(merkmale[,c(31,32,33,34,35,36,37,38,39,40,41,42,43,44,45)],label='merkmale',caption='Datentabelle (Fortsetzung)')
-print(alles3,scalebox=0.6,floating.environment='sidewaystable')
+ alles3 <- xtable(merkmale[,c(31,32,33,34,35,36,37,38,39#,40,41,42,43,44,45
+    )],label='merkmale',caption='Datentabelle (Fortsetzung)')
+ print(alles3,scalebox=0.6,floating.environment='sidewaystable')
 
 @
 
 
-
-
-
-<<echo=FALSE,results=tex>>=
-
-# kormatrix <- xtable(cor(merkmale[,c("v05","v06","v08","v09","v10","v11","v12","v19","v21")], use="complete.obs"), caption='Korrelationsmatrix (Daten, gesamt)')
-# print(kormatrix,table.placement="h!")
-
-# attach(merkmale)
-
-
-
-@
-
-
-
-
-
-
-
-
-\section{Zusammenfassungen der Linearen Modelle (wm)}
-
-<<echo=FALSE>>=
-
-# LinearModel.WM <- lm(v12~v07+v08+v10)
-
-# summary(LinearModel.WM)
-
-# LinearModel.WM.GTF <- lm(v12~v07)
-# LinearModel.WM.Hell <- lm(v12~v07+v08+v10)
-# LinearModel.WM.Seiten <- lm(v12~v07+v08+v10)
-
-# summary(LinearModel.WM.GTF)
-# summary(LinearModel.WM.Hell)
-# summary(LinearModel.WM.Seiten)
-
-@
-
-
-
-
-\section{Zusammenfassungen der Linearen Modelle (M"adchen)}
-
-<<echo=FALSE>>=
-
-# LinearModel.Maedchen <- lm(v05 ~ v11 +v04+v07, data=merkmale)
-# summary(LinearModel.Maedchen)
-
-
-
-# LinearModel.Maedchen.Figuren <- lm(v05 ~ v11, data=merkmale)
-# summary(LinearModel.Maedchen.Figuren)
-# cor.test(v05, v11, alternative="two.sided", method="pearson")
-
-# LinearModel.Maedchen.GA <- lm(v05 ~ v04, data=merkmale)
-# summary(LinearModel.Maedchen.GA)
-# LinearModel.Maedchen.GTF <- lm(v05 ~ v07, data=merkmale)
-# summary(LinearModel.Maedchen.GTF)
-
-@
-
-
-
-
-\section{Zusammenfassungen der Linearen Modelle (Buben)}
-
-<<echo=FALSE>>=
-
-# LinearModel.Buben <- lm(v06 ~ v07 + v08 + v10 , data=merkmale)
-# summary(LinearModel.Buben)
-
-# # v06: Anzahl Buben
-
-# LinearModel.Buben.GTF <- lm(v06 ~ v07 , data=merkmale)
-# summary(LinearModel.Buben.GTF)
-
-# LinearModel.Buben.Hell <- lm(v06 ~ v08 , data=merkmale)
-# summary(LinearModel.Buben.Hell)
-
-# LinearModel.Buben.Seiten <- lm(v06 ~ v10 , data=merkmale)
-# summary(LinearModel.Buben.Seiten)
-
-@\section{Zusammenfassungen der Linearen Modelle (Buben)}
-
-
-
-\section{Zusammenfassungen der Linearen Modelle (Innerer Monolog)}
-
-<<echo=FALSE>>=
-
-# LinearModel.Figuren.IM <- lm(v11 ~ v16, data=merkmale)
-# summary(LinearModel.Figuren.IM)
-
-@

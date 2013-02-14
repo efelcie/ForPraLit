@@ -1,0 +1,710 @@
+
+\appendix
+\chapter{Anhang}
+
+
+
+
+
+
+
+
+\scriptsize
+
+
+\section{Statistische Berechnungen in GNU R}
+
+\begin{Schunk}
+\begin{Sinput}
+> # Bestes Modell für w/m-Faktor
+> 
+> lm.Master <- lm(formula = wm ~ tfsexw + tfsexm + hell +  seiten  , 
++   data = merkmale, x=TRUE)
+> summary(lm.Master)
+\end{Sinput}
+\begin{Soutput}
+Call:
+lm(formula = wm ~ tfsexw + tfsexm + hell + seiten, data = merkmale, 
+    x = TRUE)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.33912 -0.04556 -0.00486  0.07245  0.25288 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.2129145  0.0947974   2.246  0.03379 *  
+tfsexw      -0.5281221  0.0592022  -8.921 3.05e-09 ***
+tfsexm      -0.0320947  0.0513318  -0.625  0.53748    
+hell        -0.0019729  0.0005711  -3.454  0.00198 ** 
+seiten       0.0006367  0.0002785   2.286  0.03098 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 0.1174 on 25 degrees of freedom
+Multiple R-squared: 0.8471,	Adjusted R-squared: 0.8227 
+F-statistic: 34.64 on 4 and 25 DF,  p-value: 7.371e-10 
+\end{Soutput}
+\begin{Sinput}
+> # Beta-Werte
+> round(lm.Master$coef[-1] * apply(lm.Master$x,2,sd)[-1] /sd(merkmale$wm),2)
+\end{Sinput}
+\begin{Soutput}
+tfsexw tfsexm   hell seiten 
+ -0.81  -0.06  -0.29   0.19 
+\end{Soutput}
+\begin{Sinput}
+> # Modellvergleich aller Bücher
+> 
+> 
+> # w/m-Faktor
+> lm.Master <- lm(formula = wm ~ tfsexw + tfsexm + hell +  figanz  +  seiten  , 
++   data = merkmale, x=TRUE)
+> summary(lm.Master)
+\end{Sinput}
+\begin{Soutput}
+Call:
+lm(formula = wm ~ tfsexw + tfsexm + hell + figanz + seiten, data = merkmale, 
+    x = TRUE)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.33913 -0.04313 -0.00406  0.07327  0.20056 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.1909443  0.1010356   1.890  0.07091 .  
+tfsexw      -0.5237002  0.0601865  -8.701 6.91e-09 ***
+tfsexm      -0.0231507  0.0534997  -0.433  0.66908    
+hell        -0.0019632  0.0005774  -3.400  0.00236 ** 
+figanz       0.0059484  0.0086767   0.686  0.49956    
+seiten       0.0005960  0.0002877   2.072  0.04919 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 0.1187 on 24 degrees of freedom
+Multiple R-squared: 0.8501,	Adjusted R-squared: 0.8188 
+F-statistic: 27.22 on 5 and 24 DF,  p-value: 3.739e-09 
+\end{Soutput}
+\begin{Sinput}
+> # Beta-Werte
+> round(lm.Master$coef[-1] * apply(lm.Master$x,2,sd)[-1] /sd(merkmale$wm),2)
+\end{Sinput}
+\begin{Soutput}
+tfsexw tfsexm   hell figanz seiten 
+ -0.81  -0.04  -0.29   0.06   0.18 
+\end{Soutput}
+\begin{Sinput}
+> # Mädchen
+> lm.Maedchen <- lm(formula = maedchen ~ tfsexw + tfsexm + hell +  figanz  +  seiten  , 
++   data = merkmale, x=TRUE)
+> summary(lm.Maedchen)
+\end{Sinput}
+\begin{Soutput}
+Call:
+lm(formula = maedchen ~ tfsexw + tfsexm + hell + figanz + seiten, 
+    data = merkmale, x = TRUE)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-49.88 -19.89   6.05  16.17  47.75 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 77.920756  23.481135   3.318  0.00288 **
+tfsexw      36.109115  13.987623   2.582  0.01637 * 
+tfsexm      -1.535552  12.433589  -0.124  0.90274   
+hell         0.002314   0.134199   0.017  0.98639   
+figanz      -5.177499   2.016506  -2.568  0.01690 * 
+seiten       0.091094   0.066853   1.363  0.18566   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 27.59 on 24 degrees of freedom
+Multiple R-squared: 0.4179,	Adjusted R-squared: 0.2966 
+F-statistic: 3.446 on 5 and 24 DF,  p-value: 0.01733 
+\end{Soutput}
+\begin{Sinput}
+> # Beta-Werte
+> round(lm.Maedchen$coef[-1] * apply(lm.Maedchen$x,2,sd)[-1] /sd(merkmale$maedchen),2)
+\end{Sinput}
+\begin{Soutput}
+tfsexw tfsexm   hell figanz seiten 
+  0.47  -0.02   0.00  -0.42   0.24 
+\end{Soutput}
+\begin{Sinput}
+> # Buben
+> lm.Buben <- lm(formula = buben ~ tfsexw + tfsexm + hell +  figanz  +  seiten  , 
++   data = merkmale, x=TRUE)
+> summary(lm.Buben)
+\end{Sinput}
+\begin{Soutput}
+Call:
+lm(formula = buben ~ tfsexw + tfsexm + hell + figanz + seiten, 
+    data = merkmale, x = TRUE)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-46.327 -14.524   0.222  19.701  36.407 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  98.64727   22.12131   4.459 0.000164 ***
+tfsexw      -33.27119   13.17758  -2.525 0.018595 *  
+tfsexm        2.87046   11.71354   0.245 0.808497    
+hell         -0.26279    0.12643  -2.079 0.048514 *  
+figanz       -2.50199    1.89973  -1.317 0.200267    
+seiten        0.14550    0.06298   2.310 0.029786 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 25.99 on 24 degrees of freedom
+Multiple R-squared: 0.5365,	Adjusted R-squared: 0.4399 
+F-statistic: 5.556 on 5 and 24 DF,  p-value: 0.001545 
+\end{Soutput}
+\begin{Sinput}
+> # Beta-Werte
+> round(lm.Buben$coef[-1] * apply(lm.Buben$x,2,sd)[-1] /sd(merkmale$buben),2)
+\end{Sinput}
+\begin{Soutput}
+tfsexw tfsexm   hell figanz seiten 
+ -0.41   0.04  -0.31  -0.19   0.36 
+\end{Soutput}
+\begin{Sinput}
+> # Modellvergleich mit Bücher ab 7 Jahre
+> 
+> # w/m-Faktor
+> lm.Master <- lm(formula = wm ~ tfsexw + tfsexm + hell +  figanz  +  seiten  , 
++   data = merkmale6, x=TRUE)
+> summary(lm.Master)
+\end{Sinput}
+\begin{Soutput}
+Call:
+lm(formula = wm ~ tfsexw + tfsexm + hell + figanz + seiten, data = merkmale6, 
+    x = TRUE)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.30827 -0.05508  0.00524  0.06961  0.17628 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.2661188  0.1316598   2.021   0.0593 .  
+tfsexw      -0.5290809  0.0683094  -7.745 5.65e-07 ***
+tfsexm      -0.0283881  0.0638075  -0.445   0.6620    
+hell        -0.0019169  0.0006931  -2.766   0.0132 *  
+figanz       0.0070326  0.0093818   0.750   0.4637    
+seiten       0.0002150  0.0003578   0.601   0.5558    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 0.1194 on 17 degrees of freedom
+Multiple R-squared: 0.8614,	Adjusted R-squared: 0.8207 
+F-statistic: 21.13 on 5 and 17 DF,  p-value: 9.501e-07 
+\end{Soutput}
+\begin{Sinput}
+> # Beta-Werte
+> round(lm.Master$coef[-1] * apply(lm.Master$x,2,sd)[-1] /sd(merkmale6$wm),2)
+\end{Sinput}
+\begin{Soutput}
+tfsexw tfsexm   hell figanz seiten 
+ -0.84  -0.05  -0.26   0.07   0.06 
+\end{Soutput}
+\begin{Sinput}
+> # Mädchen
+> lm.Maedchen <- lm(formula = maedchen ~ tfsexw + tfsexm + hell +  figanz  +  seiten  , 
++   data = merkmale6, x=TRUE)
+> summary(lm.Maedchen)
+\end{Sinput}
+\begin{Soutput}
+Call:
+lm(formula = maedchen ~ tfsexw + tfsexm + hell + figanz + seiten, 
+    data = merkmale6, x = TRUE)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-50.198 -12.051   3.848   9.383  48.019 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept) 77.04225   29.16411   2.642   0.0171 *
+tfsexw      35.25153   15.13128   2.330   0.0324 *
+tfsexm       6.80155   14.13406   0.481   0.6365  
+hell         0.01317    0.15352   0.086   0.9326  
+figanz      -4.51339    2.07818  -2.172   0.0443 *
+seiten       0.05510    0.07925   0.695   0.4962  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 26.46 on 17 degrees of freedom
+Multiple R-squared: 0.4422,	Adjusted R-squared: 0.2781 
+F-statistic: 2.695 on 5 and 17 DF,  p-value: 0.05703 
+\end{Soutput}
+\begin{Sinput}
+> # Beta-Werte
+> round(lm.Maedchen$coef[-1] * apply(lm.Maedchen$x,2,sd)[-1] /sd(merkmale6$maedchen),2)
+\end{Sinput}
+\begin{Soutput}
+tfsexw tfsexm   hell figanz seiten 
+  0.51   0.11   0.02  -0.42   0.14 
+\end{Soutput}
+\begin{Sinput}
+> # Buben
+> lm.Buben <- lm(formula = buben ~ tfsexw + tfsexm + hell +  figanz  +  seiten  , 
++   data = merkmale6, x=TRUE)
+> summary(lm.Buben)
+\end{Sinput}
+\begin{Soutput}
+Call:
+lm(formula = buben ~ tfsexw + tfsexm + hell + figanz + seiten, 
+    data = merkmale6, x = TRUE)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-43.479 -16.097  -5.819  18.175  34.797 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 108.79137   27.77353   3.917  0.00111 **
+tfsexw      -35.29574   14.40980  -2.449  0.02544 * 
+tfsexm       10.53283   13.46013   0.783  0.44467   
+hell         -0.25150    0.14620  -1.720  0.10355   
+figanz       -1.95392    1.97909  -0.987  0.33735   
+seiten        0.06185    0.07547   0.820  0.42384   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 25.2 on 17 degrees of freedom
+Multiple R-squared: 0.5611,	Adjusted R-squared: 0.432 
+F-statistic: 4.346 on 5 and 17 DF,  p-value: 0.009904 
+\end{Soutput}
+\begin{Sinput}
+> # Beta-Werte
+> round(lm.Buben$coef[-1] * apply(lm.Buben$x,2,sd)[-1] /sd(merkmale6$buben),2)
+\end{Sinput}
+\begin{Soutput}
+tfsexw tfsexm   hell figanz seiten 
+ -0.47   0.16  -0.29  -0.17   0.14 
+\end{Soutput}
+\begin{Sinput}
+> # Korrelationen
+> 
+> 
+> # Unterschied Mädchen -- Buben auf w/m
+> rcorr(cbind(merkmale$wm,merkmale$maedchen,merkmale$buben), type="pearson")
+\end{Sinput}
+\begin{Soutput}
+      [,1]  [,2] [,3]
+[1,]  1.00 -0.41  0.7
+[2,] -0.41  1.00  0.3
+[3,]  0.70  0.30  1.0
+
+n= 30 
+
+
+P
+     [,1]   [,2]   [,3]  
+[1,]        0.0259 0.0000
+[2,] 0.0259        0.1043
+[3,] 0.0000 0.1043       
+\end{Soutput}
+\begin{Sinput}
+> # 
+> rcorr(cbind(merkmale$gender,merkmale$hell), type="pearson")
+\end{Sinput}
+\begin{Soutput}
+      [,1]  [,2]
+[1,]  1.00 -0.51
+[2,] -0.51  1.00
+
+n= 30 
+
+
+P
+     [,1]   [,2]  
+[1,]        0.0038
+[2,] 0.0038       
+\end{Soutput}
+\begin{Sinput}
+> #Modell Helligkeit
+> 
+> # w/m-Faktor
+> lm.Hell <- lm(formula = hell ~ gender + hfigsex  , 
++   data = merkmale, x=TRUE)
+> summary(lm.Hell)
+\end{Sinput}
+\begin{Soutput}
+Call:
+lm(formula = hell ~ gender + hfigsex, data = merkmale, x = TRUE)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-59.936 -16.672   0.517  18.549 100.762 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       133.032     15.150   8.781 4.13e-09 ***
+gender            -63.357     19.800  -3.200  0.00372 ** 
+hfigsexweiblich     6.306     20.182   0.312  0.75728    
+hfigsexmaennlich    1.776     18.327   0.097  0.92359    
+hfigsexneutral     29.713     24.168   1.229  0.23036    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 36.53 on 25 degrees of freedom
+Multiple R-squared: 0.3132,	Adjusted R-squared: 0.2033 
+F-statistic: 2.851 on 4 and 25 DF,  p-value: 0.04484 
+\end{Soutput}
+\begin{Sinput}
+> # Beta-Werte
+> round(lm.Hell$coef[-1] * apply(lm.Hell$x,2,sd)[-1] /sd(merkmale$hell),2)
+\end{Sinput}
+\begin{Soutput}
+          gender  hfigsexweiblich hfigsexmaennlich   hfigsexneutral 
+           -0.58             0.07             0.02             0.25 
+\end{Soutput}
+\begin{Sinput}
+> # exclude Fünf Freunde
+> merkmale22 <- merkmale6[-13,]
+> attach(merkmale22)
+> rcorr(cbind(wm,unterw,abh,konk,akt,sicher,aggr), type="pearson")
+\end{Sinput}
+\begin{Soutput}
+          wm unterw   abh  konk  akt sicher aggr
+wm      1.00   0.43 -0.05  0.24 0.09   0.61 0.17
+unterw  0.43   1.00  0.39  0.15 0.25   0.69 0.42
+abh    -0.05   0.39  1.00 -0.38 0.18   0.20 0.00
+konk    0.24   0.15 -0.38  1.00 0.11   0.32 0.45
+akt     0.09   0.25  0.18  0.11 1.00   0.28 0.41
+sicher  0.61   0.69  0.20  0.32 0.28   1.00 0.23
+aggr    0.17   0.42  0.00  0.45 0.41   0.23 1.00
+
+n= 22 
+
+
+P
+       wm     unterw abh    konk   akt    sicher aggr  
+wm            0.0483 0.8135 0.2762 0.6800 0.0026 0.4609
+unterw 0.0483        0.0696 0.5139 0.2641 0.0004 0.0538
+abh    0.8135 0.0696        0.0787 0.4108 0.3736 0.9827
+konk   0.2762 0.5139 0.0787        0.6364 0.1420 0.0374
+akt    0.6800 0.2641 0.4108 0.6364        0.2072 0.0582
+sicher 0.0026 0.0004 0.3736 0.1420 0.2072        0.2935
+aggr   0.4609 0.0538 0.9827 0.0374 0.0582 0.2935       
+\end{Soutput}
+\begin{Sinput}
+> rcorr(cbind(wm,mut,stark,rational,streng,ego,emo,unlog), type="pearson")
+\end{Sinput}
+\begin{Soutput}
+           wm   mut stark rational streng   ego   emo unlog
+wm       1.00  0.23  0.15     0.47   0.01  0.26  0.25  0.09
+mut      0.23  1.00  0.38     0.42  -0.35 -0.37  0.29 -0.11
+stark    0.15  0.38  1.00     0.47  -0.20 -0.24  0.32  0.35
+rational 0.47  0.42  0.47     1.00  -0.23 -0.38  0.34  0.53
+streng   0.01 -0.35 -0.20    -0.23   1.00  0.41 -0.12  0.16
+ego      0.26 -0.37 -0.24    -0.38   0.41  1.00 -0.24 -0.24
+emo      0.25  0.29  0.32     0.34  -0.12 -0.24  1.00  0.11
+unlog    0.09 -0.11  0.35     0.53   0.16 -0.24  0.11  1.00
+
+n
+         wm mut stark rational streng ego emo unlog
+wm       22  22    22       22     22  22  21    22
+mut      22  22    22       22     22  22  21    22
+stark    22  22    22       22     22  22  21    22
+rational 22  22    22       22     22  22  21    22
+streng   22  22    22       22     22  22  21    22
+ego      22  22    22       22     22  22  21    22
+emo      21  21    21       21     21  21  22    21
+unlog    22  22    22       22     22  22  21    22
+
+P
+         wm     mut    stark  rational streng ego    emo    unlog 
+wm              0.3079 0.4976 0.0268   0.9759 0.2487 0.2800 0.7010
+mut      0.3079        0.0770 0.0491   0.1115 0.0914 0.1987 0.6119
+stark    0.4976 0.0770        0.0281   0.3770 0.2881 0.1532 0.1116
+rational 0.0268 0.0491 0.0281          0.3053 0.0818 0.1348 0.0113
+streng   0.9759 0.1115 0.3770 0.3053          0.0548 0.6058 0.4855
+ego      0.2487 0.0914 0.2881 0.0818   0.0548        0.2945 0.2746
+emo      0.2800 0.1987 0.1532 0.1348   0.6058 0.2945        0.6264
+unlog    0.7010 0.6119 0.1116 0.0113   0.4855 0.2746 0.6264       
+\end{Soutput}
+\begin{Sinput}
+> rcorr(cbind(wm,phant,abent,grup,imon,quest,gender), type="pearson")
+\end{Sinput}
+\begin{Soutput}
+          wm phant abent  grup  imon quest gender
+wm      1.00 -0.04  0.51  0.38  0.24 -0.16   0.46
+phant  -0.04  1.00 -0.28 -0.11 -0.19  0.14  -0.05
+abent   0.51 -0.28  1.00  0.00  0.31 -0.53   0.25
+grup    0.38 -0.11  0.00  1.00  0.39 -0.45   0.70
+imon    0.24 -0.19  0.31  0.39  1.00 -0.36   0.26
+quest  -0.16  0.14 -0.53 -0.45 -0.36  1.00  -0.62
+gender  0.46 -0.05  0.25  0.70  0.26 -0.62   1.00
+
+n
+       wm phant abent grup imon quest gender
+wm     22    22    22   22   21    21     22
+phant  22    22    22   22   21    21     22
+abent  22    22    22   22   21    21     22
+grup   22    22    22   22   21    21     22
+imon   21    21    21   21   22    21     21
+quest  21    21    21   21   21    22     21
+gender 22    22    22   22   21    21     22
+
+P
+       wm     phant  abent  grup   imon   quest  gender
+wm            0.8466 0.0153 0.0816 0.2859 0.4967 0.0315
+phant  0.8466        0.2114 0.6159 0.4003 0.5519 0.8177
+abent  0.0153 0.2114        1.0000 0.1727 0.0140 0.2574
+grup   0.0816 0.6159 1.0000        0.0814 0.0395 0.0003
+imon   0.2859 0.4003 0.1727 0.0814        0.1064 0.2495
+quest  0.4967 0.5519 0.0140 0.0395 0.1064        0.0026
+gender 0.0315 0.8177 0.2574 0.0003 0.2495 0.0026       
+\end{Soutput}
+\begin{Sinput}
+> detach(merkmale22)
+> 
+> 
+\end{Sinput}
+\end{Schunk}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{Schunk}
+\begin{Soutput}
+  Geschlecht     Genre Abenteuer
+1      Buben Abenteuer      1065
+2    Mädchen Abenteuer       941
+3      Buben    Alltag       645
+4    Mädchen    Alltag       964
+\end{Soutput}
+\begin{Soutput}
+null device 
+          1 
+\end{Soutput}
+\begin{Soutput}
+  Geschlecht Titelfigur  tfg
+1      Buben     männl. 1051
+2    Mädchen     männl.  973
+3      Buben   weiblich  257
+4    Mädchen   weiblich  751
+5      Buben    unbest.  697
+6    Mädchen    unbest.  660
+\end{Soutput}
+\begin{Soutput}
+null device 
+          1 
+\end{Soutput}
+\begin{Soutput}
+  Geschlecht Titelfigur  tfg
+1      Buben      bis 6 1147
+2    Mädchen      bis 6 1412
+3      Buben     über 6  858
+4    Mädchen     über 6  972
+\end{Soutput}
+\begin{Soutput}
+null device 
+          1 
+\end{Soutput}
+\begin{Soutput}
+null device 
+          1 
+\end{Soutput}
+\begin{Soutput}
+null device 
+          1 
+\end{Soutput}
+\end{Schunk}
+
+
+
+
+
+
+\begin{figure}
+    \centering
+    \fbox{\includegraphics[page={1}]{grafiken/fragebogen.pdf}}
+    \caption{Fragebogen Seite 1}
+    \label{frabo1}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \fbox{\includegraphics[page={2}]{grafiken/fragebogen.pdf}}
+    \caption{Fragebogen Seite 2}
+    \label{frabo2}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \fbox{\includegraphics[page={3}]{grafiken/fragebogen.pdf}}
+    \caption{Fragebogen Seite 3}
+    \label{frabo3}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \fbox{\includegraphics[page={4}]{grafiken/fragebogen.pdf}}
+    \caption{Fragebogen Seite 4}
+    \label{frabo4}
+\end{figure}
+
+
+
+
+
+
+
+
+% latex table generated in R 2.15.2 by xtable 1.7-0 package
+% Thu Feb 14 17:55:08 2013
+\begin{sidewaystable}[ht]
+\begin{center}
+\scalebox{0.6}{
+\begin{tabular}{rllllrrlrrrr}
+  \hline
+ & buchtite & buchtyp & autorin & autsex & maedchen & buben & hfignam & hell & buchst & seiten & figanz \\ 
+  \hline
+1 & Franz                                                                                                                                                                                                                                                           & Reihe & Christine Noestlinger                                                                                                                                                                                                                                           & weiblich & 83.00 & 60.00 & Franz                                                                                                                                                                                                                                                           & 168.90 &  & 55.00 & 2.00 \\ 
+  2 & Conni                                                                                                                                                                                                                                                           & Reihe & Julia Boehmerz                                                                                                                                                                                                                                                  & weiblich & 94.00 & 22.00 & Conni                                                                                                                                                                                                                                                           & 186.59 &  & 115.00 & 3.00 \\ 
+  3 & Pinocchio                                                                                                                                                                                                                                                       & Buch & Carlo Collodi                                                                                                                                                                                                                                                   & maennlich & 96.00 & 68.00 & Pinocchio                                                                                                                                                                                                                                                       & 99.24 & 21.00 & 288.00 & 4.00 \\ 
+  4 & Peter Pan                                                                                                                                                                                                                                                       & Buch & James M. Barrie                                                                                                                                                                                                                                                 & maennlich & 90.00 & 73.00 & Wendy (Peter)                                                                                                                                                                                                                                                   & 144.30 & 14.00 & 72.00 & 2.00 \\ 
+  5 & Prinzessing Lillifee                                                                                                                                                                                                                                            & Reihe & Monika Finsterbusch                                                                                                                                                                                                                                             & weiblich & 109.00 & 14.00 & Lillifee                                                                                                                                                                                                                                                        & 179.40 & 46.00 & 96.00 & 6.00 \\ 
+  6 & Mini                                                                                                                                                                                                                                                            & Reihe & Christine Noestlinger                                                                                                                                                                                                                                           & weiblich & 59.00 & 16.00 & Mini                                                                                                                                                                                                                                                            & 150.23 &  & 64.00 & 4.00 \\ 
+  7 & Das Wutmonster                                                                                                                                                                                                                                                  & Buch & Britta Schwarz                                                                                                                                                                                                                                                  & weiblich & 34.00 & 23.00 & Marvin                                                                                                                                                                                                                                                          & 182.93 &  & 32.00 & 3.00 \\ 
+  8 & Sams                                                                                                                                                                                                                                                            & Kleinserie & Paul Maar                                                                                                                                                                                                                                                       & maennlich & 63.00 & 67.00 & Sams                                                                                                                                                                                                                                                            & 161.61 & 27.00 & 208.00 & 8.00 \\ 
+  9 & Baumhausgeschichten                                                                                                                                                                                                                                             & Buch & Martin Kleinhichte                                                                                                                                                                                                                                              & maennlich & 29.00 & 22.00 &                                                                                                                                                                                                                                                                 & 146.23 &  & 43.00 & 5.00 \\ 
+  10 & Die Olchis                                                                                                                                                                                                                                                      & Reihe & Erhard Dietl                                                                                                                                                                                                                                                    & maennlich & 47.00 & 48.00 &                                                                                                                                                                                                                                                                 & 165.97 &  & 57.00 & 8.00 \\ 
+  11 & Der Raeuber Hotzenplotz                                                                                                                                                                                                                                         & Kleinserie & Ottfried Preuszler                                                                                                                                                                                                                                              & maennlich & 92.00 & 101.00 & Kasperl                                                                                                                                                                                                                                                         & 141.31 & 46.00 & 124.00 & 1.00 \\ 
+  12 & Die Geggis                                                                                                                                                                                                                                                      & Buch & Mira Lobe                                                                                                                                                                                                                                                       & weiblich & 36.00 & 31.00 & Rokko und Gil                                                                                                                                                                                                                                                   & 114.90 & 29.00 & 32.00 & 2.00 \\ 
+  13 & Der kleine Drache Kokosnuss                                                                                                                                                                                                                                     & Reihe & Ingo Siegner                                                                                                                                                                                                                                                    & maennlich & 46.00 & 52.00 & Kokosnuss                                                                                                                                                                                                                                                       & 147.30 & 61.00 & 80.00 & 2.00 \\ 
+  14 & Hexe Lilli                                                                                                                                                                                                                                                      & Reihe & Knister Ludger Jochmann                                                                                                                                                                                                                                         & neutral & 162.00 & 53.00 & Lilli                                                                                                                                                                                                                                                           & 173.04 & 68.00 & 92.00 & 1.00 \\ 
+  15 & Pippi Langstrumpf                                                                                                                                                                                                                                               & Kleinreihe & Astrid Lindgren                                                                                                                                                                                                                                                 & weiblich & 141.00 & 75.00 & Pippi Langstrumpf                                                                                                                                                                                                                                               & 133.87 & 17.00 & 208.00 & 2.00 \\ 
+  16 & 5 Freunde                                                                                                                                                                                                                                                       & Reihe & Enid Blyton                                                                                                                                                                                                                                                     & weiblich & 114.00 & 118.00 & Anne, Georg, Julius, Richard                                                                                                                                                                                                                                    & 107.90 &  & 183.00 & 5.00 \\ 
+  17 & Das Tiger- Team                                                                                                                                                                                                                                                 & Reihe & Thomas Brezina                                                                                                                                                                                                                                                  & maennlich & 49.00 & 69.00 & Biggy, Patrick, Luk                                                                                                                                                                                                                                             & 85.76 &  & 160.00 & 4.00 \\ 
+  18 & Der kleine Eisbaer                                                                                                                                                                                                                                              & Kleinreihe & Hans de Beer                                                                                                                                                                                                                                                    & maennlich & 91.00 & 56.00 & Lars                                                                                                                                                                                                                                                            & 225.01 & 66.00 & 32.00 & 2.00 \\ 
+  19 & Der kleine Ritter Trenk                                                                                                                                                                                                                                         & Kleinreihe & Kirsten Boie                                                                                                                                                                                                                                                    & weiblich & 42.00 & 52.00 & Trenk von Tausendschlag                                                                                                                                                                                                                                         & 148.13 & 39.00 & 280.00 & 2.00 \\ 
+  20 & Harry Potter                                                                                                                                                                                                                                                    & Kleinserie & Joanne K. Rowling                                                                                                                                                                                                                                               & weiblich & 95.00 & 125.00 & Harry Potter                                                                                                                                                                                                                                                    & 113.93 & 52.00 & 336.00 & 3.00 \\ 
+  21 & Gregs Tagebuch                                                                                                                                                                                                                                                  & Kleinreihe & Jeff Kinney                                                                                                                                                                                                                                                     & maennlich & 86.00 & 117.00 & Greg                                                                                                                                                                                                                                                            & 124.40 & 71.00 & 224.00 & 1.00 \\ 
+  22 & Die Knickerbockerbande                                                                                                                                                                                                                                          & Reihe & Thomas Brezina                                                                                                                                                                                                                                                  & maennlich & 48.00 & 67.00 & Poppi, Dominik, Axel, Lilo                                                                                                                                                                                                                                      & 96.56 &  & 188.00 & 5.00 \\ 
+  23 & Die wilden Huehner                                                                                                                                                                                                                                              & Kleinserie & Cornelia Funkenerxe                                                                                                                                                                                                                                             & weiblich & 77.00 & 25.00 & Sprotte, Melanie, Frieda, Trude                                                                                                                                                                                                                                 & 130.89 &  & 175.00 & 8.00 \\ 
+  24 & Der Regenbogenfisch                                                                                                                                                                                                                                             & Kleinreihe & Marcus Pfister                                                                                                                                                                                                                                                  & maennlich & 122.00 & 95.00 & Regenbogenfisch                                                                                                                                                                                                                                                 & 99.63 & 45.00 & 14.00 & 1.00 \\ 
+  25 & Das magische Baumhaus                                                                                                                                                                                                                                           & Reihe & Mary P. Osborn                                                                                                                                                                                                                                                  & weiblich & 84.00 & 105.00 &                                                                                                                                                                                                                                                                 & 144.60 & 58.00 & 89.00 & 2.00 \\ 
+  26 & Die Wilden Fuszballkerle                                                                                                                                                                                                                                        & Serie & Joachim Masannek                                                                                                                                                                                                                                                & maennlich & 43.00 & 110.00 & Leon                                                                                                                                                                                                                                                            & 49.50 & 88.00 & 160.00 & 12.00 \\ 
+  27 & Die drei ???                                                                                                                                                                                                                                                    & Reihe & Christoph Dittert                                                                                                                                                                                                                                               & maennlich & 93.00 & 122.00 & Justus Jonas,Peter Shaw, Bob Andrews                                                                                                                                                                                                                            & 57.47 & 40.00 & 126.00 & 1.00 \\ 
+  28 & Die kleine Hexe                                                                                                                                                                                                                                                 & Buch & Ottfried Preuszler                                                                                                                                                                                                                                              & maennlich & 109.00 & 52.00 & kleine Hexe                                                                                                                                                                                                                                                     & 57.00 & 22.00 & 127.00 & 1.00 \\ 
+  29 & Grueffelo                                                                                                                                                                                                                                                       & Kleinreihe & Axel Scheffler                                                                                                                                                                                                                                                  & maennlich & 58.00 & 54.00 & Maus                                                                                                                                                                                                                                                            & 125.24 & 41.00 & 24.00 & 2.00 \\ 
+  30 & Tom Turbo                                                                                                                                                                                                                                                       & Reihe & Thomas Brezina                                                                                                                                                                                                                                                  & maennlich & 92.00 & 113.00 & Tom Turbo, Karo, Klaro                                                                                                                                                                                                                                          & 162.60 & 69.00 & 192.00 & 4.00 \\ 
+   \hline
+\end{tabular}
+}
+\caption{Datentabelle}
+\label{merkmale}
+\end{center}
+\end{sidewaystable}% latex table generated in R 2.15.2 by xtable 1.7-0 package
+% Thu Feb 14 17:55:08 2013
+\begin{sidewaystable}[ht]
+\begin{center}
+\scalebox{0.6}{
+\begin{tabular}{rrrrrrrrrrrrrrrllll}
+  \hline
+ & wm & unterw & abh & konk & akt & sicher & aggr & mut & stark & rational & streng & ego & emo & unlog & phant & abent & grup & imon \\ 
+  \hline
+1 & -0.16 & 1.00 & 1.00 & 1.00 & 1.50 & 1.50 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 2.00 & nicht vorhanden & Alltag & vorhanden & vorhanden \\ 
+  2 & -0.62 & 1.00 & 1.50 & 1.00 & 1.50 & 1.00 & 1.00 & 1.00 & 1.00 & 1.50 & 1.00 & 1.00 & 1.00 & 2.00 & nicht vorhanden & Alltag & vorhanden & nicht vorhanden \\ 
+  3 & -0.17 & 1.00 & 1.00 & 2.00 & 2.00 & 2.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 2.00 & 1.00 & 1.00 & vorhanden & Abenteuer & vorhanden & nicht vorhanden \\ 
+  4 & -0.10 & 2.00 & 1.00 & 2.00 & 1.00 & 2.00 & 1.00 & 2.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & vorhanden & Abenteuer & vorhanden & vorhanden \\ 
+  5 & -0.77 &  & 2.00 & 1.00 &  & 2.00 & 1.00 & 2.00 &  & 1.00 & 1.00 & 1.00 & 1.00 &  & vorhanden & Abenteuer & nicht vorhanden &  \\ 
+  6 & -0.57 & 1.50 & 1.50 & 1.00 & 2.00 & 1.50 & 1.00 & 1.50 & 1.50 & 1.00 & 1.00 & 1.00 & 1.00 & 2.00 & nicht vorhanden & Alltag & vorhanden & vorhanden \\ 
+  7 & -0.19 & 1.00 & 1.00 & 1.00 & 1.50 & 1.00 & 2.00 & 1.50 & 1.50 & 1.50 & 1.50 & 2.00 & 1.00 & 1.50 & vorhanden & Alltag & vorhanden & nicht vorhanden \\ 
+  8 & 0.03 & 2.00 & 1.00 & 1.00 & 2.00 & 2.00 & 1.00 & 2.00 & 1.00 & 1.00 & 1.00 & 2.00 & 1.00 & 1.00 & vorhanden & Alltag & nicht vorhanden & nicht vorhanden \\ 
+  9 & -0.14 & 1.50 & 1.50 & 1.00 & 2.00 & 1.50 & 1.00 & 1.50 & 1.50 & 1.50 & 1.00 & 1.50 & 1.00 & 2.00 & nicht vorhanden & Alltag & nicht vorhanden & nicht vorhanden \\ 
+  10 & 0.01 & 1.50 & 1.50 & 1.00 & 1.50 & 1.50 & 1.00 & 2.00 & 2.00 & 1.50 & 1.00 & 1.00 & 1.50 & 1.50 & vorhanden & Alltag & nicht vorhanden & nicht vorhanden \\ 
+  11 & 0.05 & 2.00 & 2.00 & 1.00 & 1.00 & 2.00 & 1.00 & 2.00 & 1.00 & 2.00 & 1.00 & 1.00 & 1.00 & 2.00 & vorhanden & Abenteuer & nicht vorhanden & nicht vorhanden \\ 
+  12 & -0.07 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & vorhanden & Abenteuer & vorhanden & vorhanden \\ 
+  13 & 0.06 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 1.00 & 1.00 & 2.00 & 1.00 & 1.00 & 2.00 & 1.00 & 2.00 & vorhanden & Abenteuer & nicht vorhanden & nicht vorhanden \\ 
+  14 & -0.51 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 1.00 & 1.00 & 1.00 & 1.00 & 2.00 & vorhanden & Alltag & nicht vorhanden & nicht vorhanden \\ 
+  15 & -0.31 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & vorhanden & Alltag & nicht vorhanden & nicht vorhanden \\ 
+  16 & 0.02 & 1.50 & 2.00 & 1.00 & 2.00 & 2.00 & 1.50 & 1.50 & 1.50 & 2.00 & 1.00 & 1.50 & 1.00 & 2.00 & nicht vorhanden & Abenteuer & nicht vorhanden & nicht vorhanden \\ 
+  17 & 0.17 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 1.00 & 2.00 & 1.50 & 2.00 & 1.00 & 1.00 & 1.00 & 2.00 & nicht vorhanden & Abenteuer & nicht vorhanden & nicht vorhanden \\ 
+  18 & -0.24 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 &  & 1.00 & 1.00 & 1.00 & 2.00 & vorhanden & Abenteuer & vorhanden & nicht vorhanden \\ 
+  19 & 0.11 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 2.00 & 1.00 & 1.00 & 1.00 & 2.00 & vorhanden & Abenteuer & nicht vorhanden & nicht vorhanden \\ 
+  20 & 0.14 & 2.00 & 1.00 & 2.00 & 2.00 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 1.00 & 1.00 & 1.00 & 2.00 & vorhanden & Abenteuer & vorhanden & nicht vorhanden \\ 
+  21 & 0.15 & 2.00 & 1.00 & 2.00 & 2.00 & 2.00 & 2.00 & 1.00 & 1.00 & 1.00 & 2.00 & 2.00 & 1.00 & 2.00 & nicht vorhanden & Alltag & nicht vorhanden & vorhanden \\ 
+  22 & 0.17 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 1.50 & 2.00 & 2.00 & 2.00 & 1.00 & 1.00 & 1.00 & 2.00 & nicht vorhanden & Abenteuer & nicht vorhanden & nicht vorhanden \\ 
+  23 & -0.51 & 2.00 & 1.50 & 1.50 & 2.00 & 1.50 & 2.00 & 1.50 & 2.00 & 1.50 & 1.50 & 1.50 & 1.00 & 2.00 & nicht vorhanden & Alltag & nicht vorhanden & nicht vorhanden \\ 
+  24 & -0.12 & 2.00 & 2.00 & 2.00 & 2.00 & 1.00 & 1.00 & 1.00 &  &  & 2.00 & 2.00 & 2.00 & 2.00 & vorhanden & Alltag & vorhanden & vorhanden \\ 
+  25 & 0.11 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 1.00 & 1.00 &  & 2.00 & vorhanden & Abenteuer & nicht vorhanden &  \\ 
+  26 & 0.44 & 2.00 & 1.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 1.00 & 2.00 & 1.00 & 2.00 & nicht vorhanden & Alltag & nicht vorhanden & nicht vorhanden \\ 
+  27 & 0.13 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 1.00 & 2.00 & 2.00 & 2.00 & 1.00 & 1.00 & 2.00 & 2.00 & nicht vorhanden & Abenteuer & nicht vorhanden & nicht vorhanden \\ 
+  28 & -0.35 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 1.00 & 1.00 & 1.00 & 2.00 & vorhanden & Alltag & nicht vorhanden & vorhanden \\ 
+  29 & -0.04 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 1.00 & 1.00 & 2.00 & 2.00 & 2.00 & 2.00 & vorhanden & Alltag & nicht vorhanden & nicht vorhanden \\ 
+  30 & 0.10 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 2.00 & 1.00 & 1.00 & 2.00 & 2.00 & vorhanden & Abenteuer & nicht vorhanden & nicht vorhanden \\ 
+   \hline
+\end{tabular}
+}
+\caption{Datentabelle (Fortsetzung)}
+\label{merkmale}
+\end{center}
+\end{sidewaystable}% latex table generated in R 2.15.2 by xtable 1.7-0 package
+% Thu Feb 14 17:55:08 2013
+\begin{sidewaystable}[ht]
+\begin{center}
+\scalebox{0.6}{
+\begin{tabular}{rllrrrrrrr}
+  \hline
+ & quest & hfigsex & alter & gender & autsexw & autsexm & tfsexm & tfsexw & tfsexu \\ 
+  \hline
+1 & nicht vorhanden & maennlich & 8.00 & -0.69 & 1.00 & 0.00 & 1.00 & 0.00 & 0.00 \\ 
+  2 & nicht vorhanden & weiblich & 7.00 & -0.62 & 1.00 & 0.00 & 0.00 & 1.00 & 0.00 \\ 
+  3 & nicht vorhanden & maennlich & 7.00 & -0.38 & 0.00 & 1.00 & 1.00 & 0.00 & 0.00 \\ 
+  4 & nicht vorhanden & weiblich & 7.00 & -0.38 & 0.00 & 1.00 & 1.00 & 0.00 & 0.00 \\ 
+  5 & vorhanden & weiblich & 4.00 & -0.33 & 1.00 & 0.00 & 0.00 & 1.00 & 0.00 \\ 
+  6 & nicht vorhanden & weiblich & 8.00 & -0.31 & 1.00 & 0.00 & 0.00 & 1.00 & 0.00 \\ 
+  7 & nicht vorhanden & maennlich & 4.00 & -0.23 & 1.00 & 0.00 & 1.00 & 0.00 & 0.00 \\ 
+  8 & nicht vorhanden & neutral & 8.00 & -0.23 & 0.00 & 1.00 & 0.00 & 0.00 & 1.00 \\ 
+  9 & nicht vorhanden & unbestimmbar & 6.00 & -0.15 & 0.00 & 1.00 & 0.00 & 0.00 & 1.00 \\ 
+  10 & nicht vorhanden & unbestimmbar & 6.00 & -0.15 & 0.00 & 1.00 & 0.00 & 0.00 & 1.00 \\ 
+  11 & vorhanden & maennlich & 6.00 & -0.08 & 0.00 & 1.00 & 1.00 & 0.00 & 0.00 \\ 
+  12 & nicht vorhanden & maennlich & 5.00 & 0.08 & 1.00 & 0.00 & 1.00 & 0.00 & 0.00 \\ 
+  13 & vorhanden & maennlich & 6.00 & 0.08 & 0.00 & 1.00 & 0.00 & 0.00 & 1.00 \\ 
+  14 & vorhanden & weiblich & 6.00 & 0.08 & 0.00 & 0.00 & 0.00 & 1.00 & 0.00 \\ 
+  15 & nicht vorhanden & weiblich & 8.00 & 0.08 & 1.00 & 0.00 & 0.00 & 1.00 & 0.00 \\ 
+  16 & vorhanden & unbestimmbar & 8.00 & 0.15 & 1.00 & 0.00 & 0.00 & 0.00 & 1.00 \\ 
+  17 & vorhanden & unbestimmbar & 8.00 & 0.15 & 0.00 & 1.00 & 0.00 & 0.00 & 1.00 \\ 
+  18 & nicht vorhanden & maennlich & 3.00 & 0.17 & 0.00 & 1.00 & 1.00 & 0.00 & 0.00 \\ 
+  19 & vorhanden & maennlich & 6.00 & 0.23 & 1.00 & 0.00 & 1.00 & 0.00 & 0.00 \\ 
+  20 & vorhanden & maennlich & 10.00 & 0.23 & 1.00 & 0.00 & 1.00 & 0.00 & 0.00 \\ 
+  21 & nicht vorhanden & maennlich & 10.00 & 0.23 & 0.00 & 1.00 & 1.00 & 0.00 & 0.00 \\ 
+  22 & vorhanden & unbestimmbar & 9.00 & 0.31 & 0.00 & 1.00 & 0.00 & 0.00 & 1.00 \\ 
+  23 & vorhanden & weiblich & 10.00 & 0.31 & 1.00 & 0.00 & 0.00 & 1.00 & 0.00 \\ 
+  24 & nicht vorhanden & neutral & 4.00 & 0.45 & 0.00 & 1.00 & 0.00 & 0.00 & 1.00 \\ 
+  25 &  & unbestimmbar & 10.00 & 0.50 & 1.00 & 0.00 & 0.00 & 0.00 & 1.00 \\ 
+  26 & nicht vorhanden & maennlich & 8.00 & 0.54 & 0.00 & 1.00 & 1.00 & 0.00 & 0.00 \\ 
+  27 & vorhanden & maennlich & 10.00 & 0.54 & 0.00 & 1.00 & 1.00 & 0.00 & 0.00 \\ 
+  28 & vorhanden & weiblich & 6.00 & 0.54 & 0.00 & 1.00 & 0.00 & 1.00 & 0.00 \\ 
+  29 & nicht vorhanden & neutral & 3.00 & 0.69 & 0.00 & 1.00 & 0.00 & 0.00 & 1.00 \\ 
+  30 & vorhanden & neutral & 7.00 & 0.69 & 0.00 & 1.00 & 1.00 & 0.00 & 0.00 \\ 
+   \hline
+\end{tabular}
+}
+\caption{Datentabelle (Fortsetzung)}
+\label{merkmale}
+\end{center}
+\end{sidewaystable}
+

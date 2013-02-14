@@ -1,0 +1,33 @@
+      
+      \ctable[
+      %  cap    = ,
+        caption = {Lineare Modelle die den w/m-Faktor erklären},
+        label   = wmmodel ,
+        star,
+        pos   = htp,
+      %  width    = \textwidth
+      ]{lD{,}{,}{2}D{,}{,}{2}D{,}{,}{2}}{
+        % \tnote[.]{< 0,1}
+        % \tnote[*]{< 0,05}
+        % \tnote[**]{< 0,01}
+        % \tnote[***]{< 0,001}
+      }{                  
+      \FL 
+      \small   &  
+      \multicolumn{1}{c}{\small Modell 1} & 
+      \multicolumn{1}{c}{\small Modell 2} & 
+      \multicolumn{1}{c}{\small Modell 3}
+      \NN 
+      \small erklärte Variable  &  
+      \multicolumn{1}{c}{\small \emph{w/m-Faktor}} & 
+      \multicolumn{1}{c}{\small Mädchen} & 
+      \multicolumn{1}{c}{\small Buben}
+      \ML Geschlecht Titelfigur (unbestimmt)    & 0,06      & 0,02      &
+      \NN Geschlecht Titelfigur (weiblich)      & -0,77\tmark[***]     & -0,82\tmark[***]     & 
+      \NN Geschlecht Titelfigur (männlich)      & \multicolumn{1}{c}{ref.}      & \multicolumn{1}{c}{ref.}      & 
+      \NN Coverhelligkeit                       & -0,29\tmark[**]     &           & -0,46\tmark[**]
+      \NN Seitenanzahl                          & 0,19\tmark[*]      &           & 
+      \ML Korrigiertes $R^2$                    & 0,82\tmark[***]      & 0,69\tmark[***]      & 0,18\tmark[**]  
+      \LL \multicolumn{4}{l}{\footnotesize  $^*p<0{,}05, ^{**}p<0{,}01, ^{***}p<0{,}001$}
+      }
+      
