@@ -132,8 +132,8 @@ Die zweite Vermutung bezieht sich auf den *Coolness-Faktor*.
 Das heißt, dass es für Buben wichtiger ist, *cool* zu sein.
 So kann sich von unserer Forschungsgruppe ein männliches Mitglied noch sehr gut erinnern, dass das empfohlene Alter auf den Büchern, für ihn, gerade im Alter der Untersuchten, sehr wichtig war.
 
-Wie man an Abb. \ref{alter} sieht, gibt es bei der durchschnittlichen Anzahl an Lesern einen Unterschied zwischen Vorlesebücher und dem Rest, bei der Anzahl der Leserinnen nicht.
-Ohne die Vorlesebücher hat die Dicke im Modell keinen Einfluss mehr auf das Leseverhalten.
+Es gibt bei der durchschnittlichen Anzahl an Lesern einen Unterschied zwischen Vorlesebücher und dem Rest, bei der Anzahl der Leserinnen nicht.
+Ohne die Vorlesebüchern hat die Dicke im Modell keinen Einfluss mehr auf das Leseverhalten.
 
 
 
