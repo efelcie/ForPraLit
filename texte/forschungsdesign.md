@@ -10,9 +10,9 @@ Dabei geht es uns nicht um ein genaues Abbild der Bücher, die gelesen werden. V
 
 \begin{frage}\label{fra:unterschiede} Welche inhaltlichen Merkmale von Kinderbüchern hängen mit dem Geschlechterverhältnis zusammen? \end{frage}
 
-Faktoren, die die Leseentscheidung eines Kindes beeinflussen können vielfältig sein. Es gibt Faktoren, die keine direkten Merkmale eines Buchs sind, wie \zB die Beeinflussung durch Gleichaltrige, Geschwister oder Eltern, Werbung oder Pflichtliteratur in der Schule. Aber es gibt auch Faktoren, die zu den direkte Merkmalen eines Buchs gehören. Diese wirken in Situationen, in denen jemand alleine vor einem großen Bücherregal in einem Bücherei oder einer Bibliothek steht und sich ein Buch aussucht. Welche Besonderheiten eines Buchumschlages können die Leseentscheidung beeinflussen? Wir gehen davon aus, dass hier der Inhalt eine untergeordnete Rolle spielt. Aus dieser Vermutung ergibt sich unsere dritte Frage.
+Faktoren, die die Leseentscheidung eines Kindes beeinflussen, können vielfältig sein. Es gibt Faktoren, die keine direkten Merkmale eines Buchs sind, wie \zB die Beeinflussung durch Gleichaltrige, Geschwister oder Eltern, Werbung oder Pflichtliteratur in der Schule. Aber es gibt auch Faktoren, die zu den direkten Merkmalen eines Buchs gehören. Diese wirken in Situationen, in denen jemand alleine vor einem großen Bücherregal in einem Bücherei oder einer Bibliothek steht und sich ein Buch aussucht. Welche Besonderheiten eines Buchumschlages können die Leseentscheidung beeinflussen? Wir gehen davon aus, dass hier der Inhalt eine untergeordnete Rolle spielt. Aus dieser Vermutung ergibt sich unsere dritte Frage.
 
-\begin{frage}\label{fra:merkmale} Kann man ohne über den Inhalt eines Buchs Bescheid zu wissen, auf das Geschlechterverhältnis der Lesenden schließen? \end{frage}
+\begin{frage}\label{fra:merkmale} Kann man, ohne über den Inhalt eines Buchs Bescheid zu wissen, auf das Geschlechterverhältnis der Lesenden schließen? \end{frage}
 
 ##Hypothesen
 
@@ -52,11 +52,11 @@ In einem zweiten Schritt untersuchen wir wesentliche Aspekte der Geschichten. Zu
 
 \begin{subhyp}\label{h4.1} Abenteuergeschichten werden eher von Buben als von Mädchen gelesen. \end{subhyp}
 
-In vielen Abenteuergeschichten geht es darum, bestimmte Fälle zu lösen. Doch es gibt auch Alltagsgeschichten, in denen es um das Lösen bestimmter Aufgaben geht. Aus diesem Grund überprüfen wir separat, ob es in Geschichten um das Lösen von Quests geht. Wir gehen davon aus, dass solche zielgerichteten Geschichten eher von Buben gelesen werden.
+In vielen Abenteuergeschichten geht es darum, bestimmte Fälle zu lösen. Doch es gibt auch Alltagsgeschichten, in denen bestimmte Aufgaben gelöst werden müssen. Aus diesem Grund überprüfen wir separat, ob es in Geschichten um das Lösen von Quests geht. Wir gehen davon aus, dass solche zielgerichteten Geschichten eher von Buben gelesen werden.
 
 \begin{subhyp}\label{h4.2} Geschichten in denen \emph{Quests} vorkommen werden eher von Buben als von Mädchen gelesen. \end{subhyp}
 
-Der nächste Aspekt, dem wir uns zuwenden, ist der Innere Monolog. Können wir im Buch etwas von den Gedanken, Gefühlen, also der psychischen Innenwelt der Hauptfigur erfahren? Wir wollen überprüfen ob Geschichten, in denen diese Elemente charakteristisch sind, bei Mädchen beliebter sind.
+Der nächste Aspekt, dem wir uns zuwenden, ist der Innere Monolog. Können wir im Buch etwas über die Gedanken, Gefühle, die psychischen Innenwelt der Hauptfigur erfahren? Wir wollen überprüfen ob Geschichten, in denen diese Elemente charakteristisch sind, bei Mädchen beliebter sind.
 
 \begin{subhyp}\label{h4.3} Geschichten, in denen ein \emph{Innerer Monolog} vorkommt, werden eher von Mädchen gelesen als von Buben. \end{subhyp}
 
@@ -91,24 +91,24 @@ In der Literatur wird immer wieder darauf hingewiesen, dass Buben weniger lesen 
 
 ###Fragebogenerhebung
 
-Um \thref{hyp:andere} zu testen, müssen wir zuerst herausfinden, welche Bücher von welchem Geschlecht gelesen werden. Dafür möchten wir Kinder der 3. und 4. Schulstufe (8-10 Jahre) befragen, welche Bücher sie bereits gelesen haben. Wir entschieden uns den Kindern eine Liste von Büchern vorzulegen, bei denen sie nur noch Ankreuzen müssen. Die Liste der Bücher erstellen wir anhand von Bestsellerlisten, der Analyse der Verleihdaten einer Schulbibliothek und dem Gespräch mit Volksschullehrerinnen und einer Büchereimitarbeiterin. Zusätzlich bieten wir eine, der Liste vorangestellte, offene Frage an, die nach den Lieblingsbüchern der Kinder fragt. Außerdem gibt es noch eine Liste von Themen, die angekreuzt werden können. Bei der Auswahl der Volksschulen achten wir darauf, möglichst viele verschiedenen Milieus abzudecken. Es sollen insgesamt 500 Kinder befragt werden.
+Um \thref{hyp:andere} zu testen, müssen wir zuerst herausfinden, welche Bücher von welchem Geschlecht gelesen werden. Dafür möchten wir Kinder der 3. und 4. Schulstufe (8-10 Jahre) befragen, welche Bücher sie bereits gelesen haben. Wir haben uns entschieden, den Kindern eine Liste von Büchern vorzulegen, bei denen sie nur noch Ankreuzen müssen. Die Liste der Bücher erstellen wir anhand von Bestsellerlisten, der Analyse von Verleihdaten einer Schulbibliothek und dem Gespräch mit Volksschullehrerinnen und einer Büchereimitarbeiterin. Zusätzlich bieten wir eine, der Liste vorangestellte, offene Frage an, die nach den Lieblingsbüchern der Kinder fragt. Außerdem gibt es noch eine Liste von Themen, die angekreuzt werden können. Bei der Auswahl der Volksschulen achten wir darauf, möglichst viele verschiedenen Milieus abzudecken. Es sollen insgesamt 500 Kinder befragt werden.
 Mit einem $\chi^2$-Vierfeldertest stellen wir für jedes Buch, das insgesamt mehr als 50 Nennungen hat, fest ob ein signifikanter Unterschied zwischen der Anzahl der Leserinnen und der Anzahl der Leser besteht. Danach können wir \thref{hyp:andere} beantworten. Für \thref{hyp:themen} gehen wir gleich vor und testen, ob das Geschlecht das Interesse für bestimmte Themen beeinflusst. Um \thref{hyp:anzahl} zu überprüfen, benötigen wir einen Wert, der das Geschlechterverhältnis der Lesenden angibt. Wir bilden dafür eine Skala die von $-1$ bis $1$ geht. $-1$ heißt, dass ein Buch nur von Mädchen gelesen wird. $1$ heißt, dass ein Buch nur von Buben gelesen wird. Mit Hilfe dieser Skala wird ein Faktor, der w/m-Faktor, wie folgt gebildet.
 
 \begin{equation} w/m=\frac{Buben-Mädchen}{Mädchen+Buben} \end{equation}
 
 ###Inhaltsanalyse
 
-Die nächsten Hypothesen beschäftigen sich mit der Hauptfigur. Wie bereits im Literaturteil erwähnt, gehen wir davon aus, dass jede Geschichte eine Hauptfigur hat. Es kann sich dabei auch um einen Multiprotagonisten, wie \zB eine Bande handeln. Das Geschlecht des Protagonisten kann entweder eindeutig weiblich, männlich oder unbestimmt sein. Für \thref{h2} modellieren wir wieder eine lineare Multiple Regression, wobei das Geschlecht der Hauptfigur in Dummy-Variablen umkodiert werden muss. Für \thref{h2.1} bis \thref{h2.3} berechnen wir eine Korrelation aus der jeweiligen Dummy-Variable des Geschlechts der Hauptfigur und dem w/m-Faktor. Für \thref{h2.4} benötigen wir zwei Modelle, die wir miteinander vergleichen. Die Modelle erklären mithilfe des Geschlechts der Hauptfigur (Dummy-Variablen) die Häufigkeit mit welcher Mädchen/Buben ein Buch lesen. Danach vergleichen wir die beiden Modelle mit einer ANOVA.
+Die nächsten Hypothesen beschäftigen sich mit der Hauptfigur. Wie bereits im Literaturteil erwähnt, gehen wir davon aus, dass jede Geschichte eine Hauptfigur hat. Es kann sich dabei auch um einen Pluralprotagonisten, wie \zB eine Bande handeln. Das Geschlecht des Protagonisten kann entweder eindeutig weiblich, männlich oder unbestimmt sein. Für \thref{h2} modellieren wir wieder eine lineare Multiple Regression, wobei das Geschlecht der Hauptfigur in Dummy-Variablen umkodiert werden muss. Für \thref{h2.1} bis \thref{h2.3} berechnen wir eine Korrelation aus der jeweiligen Dummy-Variable des Geschlechts der Hauptfigur und dem w/m-Faktor. Für \thref{h2.4} benötigen wir zwei Modelle, die wir miteinander vergleichen. Die Modelle erklären mithilfe des Geschlechts der Hauptfigur (Dummy-Variablen) die Häufigkeit mit welcher Mädchen/Buben ein Buch lesen. Danach vergleichen wir die beiden Modelle mit einer ANOVA.
 Für \thref{h3} benötigen wir ein Merkmal, dass das Verhalten der Hauptfigur beschreibt, und zwar im Hinblick auf feminine oder maskuline Verhaltenseigenschaften. Um das Verhalten der Hauptfigur zu messen, bilden wir anhand einer Tabelle von geschlechterstereotypen Gegensatzpaaren ein semantisches Differenzial. \parencites[174\psq]{feldmann2006}[93\psqq]{Spillner1974} Jeder Hauptfigur sollen Extremwerte zugeordnet werden. Um die Güte der Codierung zu überprüfen, wird jede Hauptfigur von zwei Personen codiert und die Ergebnisse gegenseitig kontrolliert.
 
 \input{tabellen/stereotype.tex}
 
-Aus den Werten wird dann, analog zum w/m-Faktor ein Gender-Faktor gebildet. Die Skala geht hier wieder von $-1$ (feminin) bis $1$ (maskulin). Die Gender-Faktor wird wie folgt berechnet. Wobei $m_i$ den einzelnen Werten ($1=$ feminin, $2=$ maskulin) den 13 Gegensatzpaaren entspricht.
+Aus den Werten wird dann, analog zum w/m-Faktor ein Gender-Faktor gebildet. Die Skala geht hier wieder von $-1$ (feminin) bis $1$ (maskulin). Der Gender-Faktor wird wie folgt berechnet. Wobei $m_i$ den einzelnen Werten ($1=$ feminin, $2=$ maskulin) den 13 Gegensatzpaaren entspricht.
 
 \begin{equation} gender=\Bigg(\frac{1}{13}\sum_{i=1}^{13}m_i-1{,}5\Bigg)\cdot 2 \end{equation}
 
 Danach wird die Korrelation zwischen dem w/m-Faktor und dem Gender-Faktor berechnet. Bei \thref{h3.1} wird eine Korrelation zwischen der Häufigkeit der Leserinnen und dem Gender-Faktor gerechnet. Um gemäß \thref{h3.2} wird der Zusammenhang mit Hilfe der Dummy-Variablen des Geschlechts der Hauptfigur mit einer Partialkorrelation kontrolliert.
-Für die \thref{h4.1} bis \thref{h4.4} müssen wir uns genauer mit den Eigenschaften der Bücher, die hier überprüft werden sollen, beschäftigen und diese operationalisieren.
+Für die \thref{h4.1} bis \thref{h4.5} müssen wir uns genauer mit den Eigenschaften der Bücher, die hier überprüft werden sollen, beschäftigen und diese operationalisieren.
 
 \blockcquote[Hervorhebung P.\,F.][\texttt{\href{http://de.wikipedia.org/wiki/abenteuer}{/wiki/abenteuer}}]{de.wiki}{Als \emph{Abenteuer} \textelp{} wird eine risikoreiche Unternehmung oder auch ein Erlebnis bezeichnet, das sich stark vom \emph{Alltag} unterscheidet -- ein Verlassen des gewohnten Umfeldes und des sozialen Netzwerkes, um etwas (Riskantes) zu unternehmen, was interessant, faszinierend zu sein verspricht und bei dem der Ausgang ungewiss ist.}
 
