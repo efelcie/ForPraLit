@@ -33,7 +33,7 @@ Geschichten erzählen die Handlungen einer Hauptfigur auf eine spezielle Art und
 
 \begin{subhyp}\label{h2.2} Ist die Hauptfigur männlich, wird ein Buch bevorzugt von Buben gelsen. \end{subhyp}
 
-Bis jetzt haben wir uns am Geschlecht der Hauptfigur orientiert, aber wir möchten ebenso etwas über ihr Gender erfahren, weil wir vermuten, dass Mädchen eher über feminine und Buben über maskuline Protagonisten lesen, unabhängig davon, ob diese weiblich oder männlich sind. \footnote{Wenn die Begriffe weiblich und männlich in dieser Arbeit verwendet werden, weisen sie auf das biologische Geschlecht hin, die Begriffe feminin und maskulin stehen für Gendereigenschaften.}
+Bis jetzt haben wir uns am Geschlecht der Hauptfigur orientiert, aber wir möchten ebenso etwas über ihr Gender erfahren, weil wir vermuten, dass Mädchen eher über feminine und Buben über maskuline Protagonisten lesen, unabhängig davon, ob diese weiblich oder männlich sind.\footnote{Wenn die Begriffe weiblich und männlich in dieser Arbeit verwendet werden, weisen sie auf das Geschlecht hin, die Begriffe feminin und maskulin stehen für Gendereigenschaften.}
 
 \begin{hyp}\label{h3} Es gibt einen Zusammenhang zwischen dem Geschlechterverhältnis der Lesenden und dem Verhältnis von femininen und maskulinen Verhaltenseigenschaften der Hauptfigur. \end{hyp}
 
@@ -42,7 +42,7 @@ Bis jetzt haben wir uns am Geschlecht der Hauptfigur orientiert, aber wir möcht
 
 \begin{subhyp}\label{h3.2} Je maskuliner Protagonisten dargestellt werden, desto eher handelt es sich um eine vorwiegend männliche Leserschaft.\end{subhyp}
 
-##Inhaltliche Merkmale von Geschichten
+###Inhaltliche Merkmale von Geschichten
 
 Wir haben uns in einem ersten Schritt auf Themen konzentriert und vermuten, dass Geschichten, die sich um Pferde, Prinzessinnen oder Hexen drehen, hauptsächlich von Mädchen bevorzugt werden. Geschichten über Fußball, Bösewichte, Drachen oder Indianer sprechen Buben stärker an als Mädchen.
 
