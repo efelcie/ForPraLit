@@ -3,7 +3,7 @@
 
 
  In \thref{h5} (siehe Seite \pageref{h5}) nehmen wir an, dass das Verhältnis von Leserinnen zu Lesern (*w/m-Faktor*), allein durch *oberflächliche* Merkmale zu erklären ist.
- Obeflächliche Merkmale des Buchs sind, vor allem, Merkmale des Umschlags, wie Hellgikeit, Geschlecht der Titelfigur oder ob es sich um eine Autorin oder einen Autor handelt.\footnote{Die Merkmale werden auf Seite \pageref{meth.merkmale} genau beschrieben.} 
+ Obeflächliche Merkmale des Buchs sind vor allem Merkmale des Umschlags, wie Hellgikeit, Geschlecht der Titelfigur oder ob es sich um eine Autorin oder einen Autor handelt.\footnote{Die Merkmale werden auf Seite \pageref{meth.merkmale} genau beschrieben.} 
  Um die Hypothese zu überprüfen, stellen wir ein lineares Modell mit den in Frage kommenden Merkmalen auf und testen so, wie gut sie das Geschlechterverhältnis der Lesenden erklären können.
   Danach schauen wir uns die einzelnen Merkmale und ausgewählten Merkmalskombinationen an.
 
@@ -17,7 +17,7 @@ Je heller ein Buch ist, umso größer ist der Anteil der Mädchen, die das Buch 
 Die Anzahl der Seiten dient dann nur noch zur Verfeinerung ($\beta=0{,}19$).
 Hier fiel das Ergebnis, auf den ersten Blick, für uns überraschend aus, denn je dicker ein Buch ist, umso höher ist der Anteil der Buben, die das Buch lesen.
 All diese Merkmale können von Kindern ohne Probleme und ohne, dass sie das Buch aufmachen müssen wahrgenommen werden.
-Die \thref{h5}, dass Merkmale eines Buches das Verhältnis von Leserinnen zu Lesern erklären ohne das Buch zu öffnen, können wir bestätigen und somit können wir auch \thref{fra:merkmale} eindeutig mit *ja* beantworten.
+Die \thref{h5} können wir somit auch \thref{fra:merkmale} eindeutig mit *ja* beantworten.
 Steht im Titel ein weiblicher Name, ist das Buch noch dazu sehr hell und obendrein auch noch dünn.
 Dann ist die Wahrscheinlichkeit sehr hoch, dass das Buch viel mehr Mädchen als Buben gelesen haben.
 Ist das Buch dunkel, dick und kommt kein weiblicher Name im Titel vor, ist es wahrscheinlicher, dass der Anteil der Leser höher ist.
@@ -31,15 +31,15 @@ Ist das Buch dunkel, dick und kommt kein weiblicher Name im Titel vor, ist es wa
 Unterschiede zwischen Mädchen und Buben
 ---------------------------------------
 
-Die Gefahr bei der Interpretation von Modellen, die den *w/m-Faktor* erklären, ist, dass man meinen könnte, die Faktoren wirken automatisch auf die Anzahl der Mädchen und auf Buben die ein Buch gelesen haben.
+Die Gefahr bei der Interpretation von Modellen, die den *w/m-Faktor* erklären, ist, dass man meinen könnte, die Faktoren wirken automatisch auf die Anzahl der Mädchen und Buben, die ein Buch gelesen haben.
 Der *w/m-Faktor* ist das Verhältnis von Leserinnen zu Lesern.
 Das heißt, auch Faktoren, die nur die Mädchen oder nur die Buben beeinflussen, schlagen sich auf das Geschlechterverhältnis nieder.
 
-Dafür, dass ein Buch von vielen Mädchen gelesen wird, ist es wichtig, dass es sich um eine weiblicher Name im Titel vorkommt und das möglichst wenig Figuren am Cover sichtbar sind. (Siehe Modell 5 in Tabelle \ref{models2})
+Dafür, dass ein Buch von vielen Mädchen gelesen wird, ist es wichtig, dass ein weiblicher Name im Titel vorkommt und dass möglichst wenig Figuren am Cover sichtbar sind. (Siehe Modell 5 in Tabelle \ref{models2})
 Die Dicke eines Buchs ist für die Anzahl der Leserinnen wenig ausschlaggebend und von der Helligkeit kann gar kein Einfluss nachgewiesen werden.
 
 Diese Merkmale sind für die Häufigkeit mit der Buben ein Buch lesen natürlich umso wichtiger.
-Das für die Anzahl der Buben die ein Buch lesen, die selben Faktoren, wie für den *w/m-Faktor*, wichtig sind, lässt darauf schließen, dass der *w/m-Faktor* zu einem größeren Teil vom Leseverhalten der Buben, als dem der Mädchen erklärt wird.
+Das für die Anzahl der Buben, die ein Buch lesen, dieselben Faktoren, wie für den *w/m-Faktor*, wichtig sind, lässt darauf schließen, dass der *w/m-Faktor* zu einem größeren Teil vom Leseverhalten der Buben, als dem der Mädchen erklärt wird.
 Und tatsächlich ist die Korrelation zwischen der Häufigkeit der Nennungen pro Buch bei den Buben und dem Verhältnis der Nennungen zwischen Mädchen und Buben mit $0{,}70$ größer als zwischen den Mädchen und dem Verhältnis, dass nur eine Korrelation von $-0{,}41$ aufweist.
 
 
@@ -54,9 +54,9 @@ Das Geschlecht der Titelfigur
   \caption[Einfluss des Geschlechts der Titelfigur]{Einfluss des Geschlechts der Titelfigur auf Leserinnen und Leser}
 \end{figure}
 
-Der stärkste Einfluss geht vom Geschlecht der Figur, die im Titel genannt wird aus. Das ist in den meisten Fällen auch die Hauptfigur, also die Figur mit der sich die Leserin oder der Leser am wahrscheinlichsten identifiziert.
+Der stärkste Einfluss geht vom Geschlecht der Figur, die im Titel genannt wird, aus. Das ist in den meisten Fällen auch die Hauptfigur, also die Figur mit der sich die Leserin oder der Leser am wahrscheinlichsten identifiziert.
 Nur bei wenigen Geschichten ist die Figur, die am Titel erwähnt oder dargestellt wird, nicht die eigentliche Protagonistin bzw. der eigentliche Protagonist.
-Jedoch auch wenn die Hauptfigur eine andere ist, heißt das noch nicht, dass sich auch das Geschlecht unterscheidet.
+Aber auch wenn die Hauptfigur eine andere ist, heißt das noch nicht, dass sich auch das Geschlecht unterscheidet.
 Zum Beispiel ist in *der Räuber Hotzenplotz* die Hauptfigur der Kasperl, aber beide sind männlich. In *Grüffelo* ist die Hauptfigur eine Maus und beide sind *neutral*. 
 In unseren 30 meist genannten Büchern bleibt nur ein Buch übrig, bei denen sich das Geschlecht der Titelfigur und der Hauptfigur unterscheiden und hier handelt es sich um einen Streitfall.
 Gemeint ist *Peter Pan*, bei dem, im Original, Wendy die Protagonistin ist. Jedoch ist bei vielen Adaptionen der Fokus ganz zu Peter gewandert.
@@ -65,8 +65,8 @@ Eine andere Möglichkeit einer Differenz zwischen den beiden Merkmalen ist, dass
 Das Geschlecht der Hauptfigur ist ein Merkmal, über das die Autorin oder der Autor die völlige Kontrolle hat.
 Es entsteht meist ganz am Anfang und hat insgesamt den größten Erklärungswert für das Gesamt-Modell und ist für die Entscheidung der Mädchen und Buben relevant.
 
-Da Bücher wie *Harry Potter* und Vorlesebücher wie der *Grüffelo* inhaltlich, nicht miteinander vergleichbar sind, ist für uns interessant, ob trotzdem die selben obeflächlichen Merkmale das Leseverhalten erklären.
-Dafür wird zum Vergleich jeweils ein Modell mit der selben Stichprobe, wie bei der Analyse des *Gender-Faktor* gerechnet.
+Da Bücher wie *Harry Potter* und Vorlesebücher wie der *Grüffelo* inhaltlich nicht miteinander vergleichbar sind, ist für uns interessant, ob trotzdem dieselben oberflächlichen Merkmale das Leseverhalten erklären.
+Dafür wird zum Vergleich jeweils ein Modell mit derselben Stichprobe, wie bei der Analyse des *Gender-Faktors* gerechnet.
 Das heißt hier werden nur Bücher die eine Altersempfehlung ab 7 Jahren oder höher haben berücksichtigt.
 Beim Einfluss des Geschlechts der Titelfigur ist hier kein Unterschied nachweisbar.
 
@@ -132,8 +132,8 @@ Die zweite Vermutung bezieht sich auf den *Coolness-Faktor*.
 Das heißt, dass es für Buben wichtiger ist, *cool* zu sein.
 So kann sich von unserer Forschungsgruppe ein männliches Mitglied noch sehr gut erinnern, dass das empfohlene Alter auf den Büchern, für ihn, gerade im Alter der Untersuchten, sehr wichtig war.
 
-Wie man an Abb. \ref{alter} sieht, gibt es bei der Durchschnittlichen Anzahl an Lesern einen Unterschied zwischen Vorlesebücher und dem Rest, bei der Anzahl der Leserinnen nicht.
-Ohne die Vorlesebücher hat die die Dicke im Modell keinen Einfluss mehr auf das Leseverhalten.
+Wie man an Abb. \ref{alter} sieht, gibt es bei der durchschnittlichen Anzahl an Lesern einen Unterschied zwischen Vorlesebücher und dem Rest, bei der Anzahl der Leserinnen nicht.
+Ohne die Vorlesebücher hat die Dicke im Modell keinen Einfluss mehr auf das Leseverhalten.
 
 
 
@@ -164,15 +164,14 @@ Der Einfluss der Anzahl der Figuren am Cover verändert sich nicht, wenn die Vor
 Merkmale Zusammenfassung
 ------------------------
 
-Abschließend lässt sich sagen, dass egal ob es ein Vorlesebuch oder ein Buch für junge Erwachsene ist, wenn im Titel ein weiblicher Name vorkommt wird dass Buch eindeutig von mehr Mädchen als Buben gelesen.
+Abschließend lässt sich sagen, dass, egal ob es ein Vorlesebuch oder ein Buch für junge Erwachsene ist, wenn im Titel ein weiblicher Name vorkommt, das Buch eindeutig von mehr Mädchen als Buben gelesen wird.
 Dieser Faktor motiviert Mädchen ein Buch zu kaufen und schreckt Buben ab.
-Wein weiterer Punkt ist die Helligkeit. Helle Farben schrecken Buben ab.
+Ein weiterer Punkt ist die Helligkeit. Helle Farben schrecken Buben ab.
 Auf Mädchen hat die Helligkeit keinen Einfluss.
 Dafür lassen sich Mädchen von der Anzahl der Figuren am Cover stark beeinflussen.
 Je mehr Figuren am Cover sichtbar sind, desto eher lassen sie das Lesen des Buchs bleiben.
-Des weiteren konnten wir bestätigen, dass Buben bei Geschichtenbüchern eher zu Bücher für ältere tendieren.
-Wobei Mädchen hier keinen Unterschied machen.
-Unsere Vermutung, dass man ein Buch nicht aufmachen zu braucht um heraus zu finden, ob es eher Mädchen oder Buben lesen, hat sich bestätigt.
+Des weiteren konnten wir bestätigen, dass Buben bei Geschichtenbüchern eher zu Bücher für Ältere tendieren, wobei Mädchen hier keinen Unterschied machen.
+Unsere Vermutung, dass man ein Buch nicht aufzumachen braucht um herauszufinden, ob es eher Mädchen oder Buben lesen, hat sich bestätigt.
 
 
 
