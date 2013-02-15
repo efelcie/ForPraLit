@@ -291,6 +291,210 @@ dev.off()
 @
 
 
+\begin{figure}
+    \centering
+    \fbox{\includegraphics[page={1}]{grafiken/outputvariablen.pdf}}
+    \caption{w/m-Faktor und Genderfaktor erstellen (SPSS)}
+    \label{out1}
+\end{figure}
+
+
+
+
+\begin{figure}
+    \centering
+    \fbox{\includegraphics[page={1}]{grafiken/outputkreuz.pdf}}
+    \caption{$\chi^2$-Test (SPSS) Seite 1}
+    \label{out2}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \fbox{\includegraphics[page={2}]{grafiken/outputkreuz.pdf}}
+    \caption{$\chi^2$-Tes (SPSS) Seite 2}
+    \label{out2}
+\end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={3}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={4}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={5}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={6}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={7}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={8}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={9}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={10}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={11}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={12}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={13}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={14}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={15}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={16}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={17}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={18}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={19}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={20}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={21}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={22}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={23}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={24}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={25}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={26}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[page={27}]{grafiken/outputkreuz.pdf}}
+%     \caption{Fragebogen Seite 1}
+%     \label{out2}
+% \end{figure}
+\begin{figure}
+    \centering
+    \fbox{\includegraphics[page={28}]{grafiken/outputkreuz.pdf}}
+    \caption{$\chi^2$-Tes (SPSS) Seite 28}
+    \label{out2}
+\end{figure}
+
+
+
+
+
+\begin{figure}
+    \centering
+    \fbox{\includegraphics[page={1}]{grafiken/outputhc.pdf}}
+    \caption{Korrelationen Hauptfigur (SPSS) Seite 1}
+    \label{out3}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \fbox{\includegraphics[page={2}]{grafiken/outputhc.pdf}}
+    \caption{Korrelationen Hauptfigur (SPSS) Seite 2}
+    \label{out3}
+\end{figure}
+
+
+
+
+
 
 
 
