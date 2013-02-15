@@ -1,22 +1,6 @@
 Äußere Merkmale, die das Leseverhalten erklären
 =======================================
 
-<!-- 
-Kinder 10--11 Jahre
-Orientierung  Bekanntn: 8,24,46,22 | 32
-Buchumschlag: 19,49,19,14 | 68
-Altersangabe: 5,46,32,16  | 51
-Autorin/Autor: 13,28,31,28  | 42
-Serie: 46,27,11,16 |  83
-
-Umschlag
-Altersangabe
-Autrin/Autor
-Bekannte
-
- -->
-
-
 
  In \thref{h5} (siehe Seite \pageref{h5}) nehmen wir an, dass das Verhältnis von Leserinnen zu Lesern (*w/m-Faktor*), allein durch *oberflächliche* Merkmale zu erklären ist.
  Obeflächliche Merkmale des Buchs sind, vor allem, Merkmale des Umschlags, wie Hellgikeit, Geschlecht der Titelfigur oder ob es sich um eine Autorin oder einen Autor handelt.\footnote{Die Merkmale werden auf Seite \pageref{meth.merkmale} genau beschrieben.} 
@@ -42,6 +26,7 @@ Ist das Buch dunkel, dick und kommt kein weiblicher Name im Titel vor, ist es wa
 
 \input{tabellen/models2.tex}
 
+\input{tabellen/models26.tex}
 
 Unterschiede zwischen Mädchen und Buben
 ---------------------------------------
@@ -133,6 +118,8 @@ Buben bevorzugen Bücher für Ältere
   \caption[Einfluss von Altersempfehlung]{Einfluss von Altersempfehlung auf Leserinnen und Leser}
 \end{figure}
 
+
+
 Ein weiterer Einfluss auf das Leseverhalten, speziell von Buben, ist die Dicke eines Buchs, beziehungsweise das eng damit zusammenhängende empfohlene Alter.
 Und zwar steigt mit der Dicke der Bücher auch die Anzahl der männlichen Leser.
 Auf den ersten Blick widerspricht dieser Fakt den Ergebnissen der Lesesozialisationsforschung, in der Buben meist als *Lesemuffel* dargestellt werden.
@@ -146,7 +133,7 @@ Das heißt, dass es für Buben wichtiger ist, *cool* zu sein.
 So kann sich von unserer Forschungsgruppe ein männliches Mitglied noch sehr gut erinnern, dass das empfohlene Alter auf den Büchern, für ihn, gerade im Alter der Untersuchten, sehr wichtig war.
 
 Wie man an Abb. \ref{alter} sieht, gibt es bei der Durchschnittlichen Anzahl an Lesern einen Unterschied zwischen Vorlesebücher und dem Rest, bei der Anzahl der Leserinnen nicht.
-Ohne die Vorlesebücher hat die die Dicke keinen Einfluss mehr auf das Leseverhalten.
+Ohne die Vorlesebücher hat die die Dicke im Modell keinen Einfluss mehr auf das Leseverhalten.
 
 
 
@@ -159,7 +146,7 @@ Mädchen bevorzugen Bücher mit wenig Figuren am Cover
 ----------------------------------------------------
 
 Somit bleibt von den bis jetzt angesprochen Merkmalen nur mehr die Anzahl der Figuren am Cover.
-Genau wie wir vermutet haben, besteht ein negativer linearer Zusammenhang zwischen der Häufigkeit der Leserinnen und der Anzahl der Figuren am Cover.
+Es besteht ein negativer linearer Zusammenhang zwischen der Häufigkeit der Leserinnen und der Anzahl der Figuren am Cover.
 Das heißt, je weniger Figuren am Cover sind, umso höher ist die Wahrscheinlichkeit, dass das Buch von einem Mädchen gelesen wurde. 
 
 
@@ -170,6 +157,24 @@ Wobei wir vermuten, dass zwei Aspekte der Geschichte für die Anzahl der Figuren
 Einerseits halten wir es für entscheidend, ob es sich um einen Multiprotagonisten handelt, wie z.B bei der *Knickerbockerbande* oder den *Wilden Hühnern*.
 Andererseits glauben wir, dass die Ebene auf der die Geschichte stattfindet, ob es viel *Psychologisches* also z.B. einen *Inneren Monolog* gibt, oder ob sich die meisten Probleme auf soziales Handeln beziehen.
 Diese These wird auch davon gestützt, dass die stärkste Korrelation der Anzahl der Figuren von dem Merkmal *Innerer Monolog* ausgeht ($r=0{,}36^\circ$).
+
+Der Einfluss der Anzahl der Figuren am Cover verändert sich nicht, wenn die Vorlesebücher ausgeschlossen werden.
+
+
+Merkmale Zusammenfassung
+------------------------
+
+Abschließend lässt sich sagen, dass egal ob es ein Vorlesebuch oder ein Buch für junge Erwachsene ist, wenn im Titel ein weiblicher Name vorkommt wird dass Buch eindeutig von mehr Mädchen als Buben gelesen.
+Dieser Faktor motiviert Mädchen ein Buch zu kaufen und schreckt Buben ab.
+Wein weiterer Punkt ist die Helligkeit. Helle Farben schrecken Buben ab.
+Auf Mädchen hat die Helligkeit keinen Einfluss.
+Dafür lassen sich Mädchen von der Anzahl der Figuren am Cover stark beeinflussen.
+Je mehr Figuren am Cover sichtbar sind, desto eher lassen sie das Lesen des Buchs bleiben.
+Des weiteren konnten wir bestätigen, dass Buben bei Geschichtenbüchern eher zu Bücher für ältere tendieren.
+Wobei Mädchen hier keinen Unterschied machen.
+Unsere Vermutung, dass man ein Buch nicht aufmachen zu braucht um heraus zu finden, ob es eher Mädchen oder Buben lesen, hat sich bestätigt.
+
+
 
 
 
