@@ -161,7 +161,7 @@ Diese These wird auch davon gestützt, dass die stärkste Korrelation der Anzahl
 Der Einfluss der Anzahl der Figuren am Cover verändert sich nicht, wenn die Vorlesebücher ausgeschlossen werden.
 
 
-Merkmale Zusammenfassung
+Zusammenfassung
 ------------------------
 
 Abschließend lässt sich sagen, dass, egal ob es ein Vorlesebuch oder ein Buch für junge Erwachsene ist, wenn im Titel ein weiblicher Name vorkommt, das Buch eindeutig von mehr Mädchen als Buben gelesen wird.
